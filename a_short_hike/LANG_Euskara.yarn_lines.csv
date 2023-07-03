@@ -2,13 +2,13 @@ LineCode,LineText,OriginalText,Comment,Speaker,StoryNode
 line:e1d917,"<sprite tint=1 name=""LeftArrow""> Kosta Zuri Bidea","<sprite tint=1 name=""LeftArrow""> White Coast Trail",,Original,HomeSignStart
 line:8e78cb,"Basozainaren Txabola <sprite name=""RightArrow"" tint=1>","Rangers Cabin <sprite name=""RightArrow"" tint=1>",,Original,HomeSignStart
 line:2a55e5,"barkatu, badakizu zer ordu den?",excuse me do you have the time?,,Original,GoatStart
-line:b03acc,"hm ia, utzi ikusten...","um yeah, let me chec-",,Player,GoatStart
+line:b03acc,"hm ia, utzi ikust-","um yeah, let me chec-",,Player,GoatStart
 line:445422,begira... jakin beharko nuke,see... normally i would know the time,,Original,GoatStart
 line:e86981,baino erlojua galdu dut,i just lost my watch,,Original,GoatStart
 line:b74c71,"oh, hm","oh, um",,Player,GoatStart
 line:78b6fa,sentitzen dut,sorry,,Player,GoatStart
 line:a60085,oso garestia zen,it was very expensive,,Original,GoatStart
-line:ba52fa,eta preziorik gabea balio\nsentimentala kontuan hartzen denean,and priceless when you\nconsider the sentimental value,,Original,GoatStart
+line:ba52fa,eta preziorik gabea balio\nsentimentala kontuan hartuz gero,and priceless when you\nconsider the sentimental value,,Original,GoatStart
 line:3407a1,aham,i see,,Player,GoatStart
 line:0d0268,"aurkitzen baduzu,\nitzuliko didazu?","if you find it, can you\nbring it back to me?",,Original,GoatStart
 line:aa6cf0,noski,sure,,Player,GoatStart
