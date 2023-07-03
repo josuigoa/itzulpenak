@@ -1,7 +1,7 @@
 LineCode,LineText,OriginalText,Comment,Speaker,StoryNode
 line:e1d917,"<sprite tint=1 name=""LeftArrow""> Kosta Zuri Bidea","<sprite tint=1 name=""LeftArrow""> White Coast Trail",,Original,HomeSignStart
 line:8e78cb,"Basozainaren Txabola <sprite name=""RightArrow"" tint=1>","Rangers Cabin <sprite name=""RightArrow"" tint=1>",,Original,HomeSignStart
-line:2a55e5,"barkatu, badakizu ze ordu den?",excuse me do you have the time?,,Original,GoatStart
+line:2a55e5,"barkatu, badakizu zer ordu den?",excuse me do you have the time?,,Original,GoatStart
 line:b03acc,"hm ia, utzi ikusten...","um yeah, let me chec-",,Player,GoatStart
 line:445422,begira... jakin beharko nuke,see... normally i would know the time,,Original,GoatStart
 line:e86981,baino erlojua galdu dut,i just lost my watch,,Original,GoatStart
