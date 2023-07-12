@@ -3,7 +3,7 @@ line:e1d917,"<sprite tint=1 name=""LeftArrow""> Kosta Zuri Bidea","<sprite tint=
 line:8e78cb,"Basozainaren Txabola <sprite name=""RightArrow"" tint=1>","Rangers Cabin <sprite name=""RightArrow"" tint=1>",,Original,HomeSignStart
 line:2a55e5,"barkatu, badakizu zer ordu den?",excuse me do you have the time?,,Original,GoatStart
 line:b03acc,"hm ia, utzi ikust-","um yeah, let me chec-",,Player,GoatStart
-line:445422,begira... jakin beharko nuke,see... normally i would know the time,,Original,GoatStart
+line:445422,zera... neronek jakin beharko nuke,see... normally i would know the time,,Original,GoatStart
 line:e86981,baino erlojua galdu dut,i just lost my watch,,Original,GoatStart
 line:b74c71,"oh, hm","oh, um",,Player,GoatStart
 line:78b6fa,sentitzen dut,sorry,,Player,GoatStart
@@ -15,7 +15,7 @@ line:aa6cf0,noski,sure,,Player,GoatStart
 line:e4e4ee,"mesedez, ez saldu\ninterneten-edo",please don't sell it on\nthe internet or whatever,,Original,GoatStart
 line:b427c9,niretzat oso baliotsua da,it's very valuable to me,,Original,GoatStart
 line:deb271,"ez, ez kezkatu","no, don't worry",,Player,GoatStart
-line:6a5e2f,berehala ekarriko dut,i'll bring it right back,,Player,GoatStart
+line:6a5e2f,bueltan ekarriko dut,i'll bring it right back,,Player,GoatStart
 line:0c1b44,ok,ok,,Original,GoatStart
 line:55e682,eskerrik asko,thanks,,Original,GoatStart
 line:1cf998,"<sprite tint=1 name=""UpArrow""> Basozainaren Txabola","<sprite tint=1 name=""UpArrow""> Rangers Cabin",,Original,BeachHutSign
@@ -231,7 +231,7 @@ line:65be46,40 txanponen truke\neros dezakezu bat.,you can buy one\nfor 40 coins
 line:bc4372,hartu egingo dut!,i'll take it!,Dialogue choice.,Player,VisitorCenterStart
 line:893486,zer gehiago saltzen duzu?,what else do you sell?,Dialogue choice.,Player,VisitorCenterStart
 line:5274f3,oraingoz ongi nago,i'm good for now,Dialogue choice.,Player,VisitorCenterStart
-line:505bd5,probintziako parkeko\nproduktuak ere saltzen ditugu.,we also sell provincial\npark merchandise,In response to the player saying bye.,Original,VisitorCenterStart
+line:505bd5,probintzia parkeko\nproduktuak ere saltzen ditugu.,we also sell provincial\npark merchandise,In response to the player saying bye.,Original,VisitorCenterStart
 line:d739f6,"ados, zaindu","alrighty, take care",,Original,VisitorCenterStart
 line:bc241f,"hm,","um,","The first time the player talks to the Goat Ranger, NOT having heard of Golden Feathers.",Original,VisitorCenterStart
 line:27d375,eztakit,i dunno,,Original,VisitorCenterStart
@@ -239,7 +239,7 @@ line:6295ae,ongi nago,i guess i'm fine,,Original,VisitorCenterStart
 line:f627f3,ados!,alrighty!,,Original,VisitorCenterStart
 line:9149a2,abisatu jarraibiderik behar duzun\nedo zerbait erosi nahi baduzu,let me know if you need directions\nor want to buy anything,,Original,VisitorCenterStart
 line:8051f6,"oh, zer salgai dituzu?","oh, what are you selling?",,Player,VisitorCenterStart
-line:f74cad,"bueno, probintziako parkeko\nproduktuak ditugu","well, we have provincial\npark merch",,Original,VisitorCenterStart
+line:f74cad,"bueno, probintzia parkeko\nproduktuak ditugu","well, we have provincial\npark merch",,Original,VisitorCenterStart
 line:03b0f8,eta ibilaldietarako gauzak\nadibidez <color=red>urrezko lumak</color>,and some hiking supplies\nlike <color=red>golden feathers</color>,,Original,VisitorCenterStart
 line:4996e6,zer dira horiek?,what are those?,,Player,VisitorCenterStart
 line:da421d,apartekoa dirudi,they sound cool,,Player,VisitorCenterStart
@@ -288,13 +288,13 @@ line:369fc3,"<sprite name=""LeftArrow"" tint=1> Meteoro Laku Begiralekua <sprite
 line:e9e473,"<sprite name=""LeftArrow"" tint=1> Meteoro Laku Begiralekua <sprite name=""RightArrow"" tint=1>\n<sprite name=""DownArrow"" tint=1> Belatz Tontor Bidea","<sprite name=""LeftArrow"" tint=1> Meteor Lake Overlook <sprite name=""RightArrow"" tint=1>\n<sprite name=""DownArrow"" tint=1> Hawk Peak Trail",,Original,MeteorLakeLeftSignStart
 line:8e47b8,aizu claire!,hey claire!,This is a fox that's walking along the bridges on the east side of the island.,Original,BeachFoxStart
 line:7e2d19,zer moduz doa zure eguna?,how's the day treatin' ya?,,Original,BeachFoxStart
-line:3b05a7,tira ba,well,,Player,BeachFoxStart
+line:3b05a7,tira,well,,Player,BeachFoxStart
 line:81a9fb,oraintxe etxetik\natera berri naiz,i'm just getting out\nof the house now,,Player,BeachFoxStart
 line:d5b624,ah,ah,,Original,BeachFoxStart
 line:ef8af4,egun horietako bat da,it's one of those kinds of days,,Original,BeachFoxStart
 line:42c449,bai...,yeah...,,Player,BeachFoxStart
-line:a6f8f9,ni goiz osoan,i've been kinda,,Player,BeachFoxStart
-line:977278,ibili naiz nire buruari bueltaka,caught up in my head all morning,,Player,BeachFoxStart
+line:a6f8f9,goiz osoa eman dut,i've been kinda,,Player,BeachFoxStart
+line:977278,nire pentsamenduetan harrapatuta,caught up in my head all morning,,Player,BeachFoxStart
 line:b18566,hmm,hmm,,Original,BeachFoxStart
 line:8a30c4,esango zenuke sentitzen zarela...,would you say you feel...,,Original,BeachFoxStart
 line:f10c07,...galduta eta norabiderik gabe?,...lost and directionless?,,Original,BeachFoxStart
@@ -304,14 +304,14 @@ line:a5d39a,ederki!,welp!,,Original,BeachFoxStart
 line:f293a6,behar duzun gauza bat dut zuretzat!,i've got just the thing for you!,,Original,BeachFoxStart
 line:1c70ff,hartu hau,take this,,Original,BeachFoxStart
 line:0dc524,erabiltzeko,to use it,,Original,BeachFoxStart
-line:344cd9,inbentarioa irekitzeko\n<color=red>sakatu {{MenuButton}}</color>,<color=red>press {{MenuButton}}</color> to open\nyour inventory,,Original,BeachFoxStart
+line:344cd9,<color=red>sakatu {{MenuButton}}</color>\ninbentarioa irekitzeko,<color=red>press {{MenuButton}}</color> to open\nyour inventory,,Original,BeachFoxStart
 line:671a7f,gero aukeratu <color=red>menuko itemen</color> artetik,then select it from the <color=red>items menu</color>,,Original,BeachFoxStart
 line:586ba8,"oh, eh","oh, uh",,Player,BeachFoxStart
 line:78bc2f,eskerrik asko,thanks,,Player,BeachFoxStart
 line:f67f9f,oso ongi datorkit,this should come in handy,,Player,BeachFoxStart
 line:4eb391,txango ona izan!,happy hiking!,,Original,BeachFoxStart
 line:b848c9,berriro: nola erabiliko dut iparrorratza?,how do i use my compass again?,If the player talks to them again without the compass equipped.,Player,BeachFoxStart
-line:da694d,bakarrik  <color=red>sakatu {{MenuButton}}</color>\n<color=red>zure inbentarioa irekitzeko</color>,just <color=red>press {{MenuButton}}</color> to\n<color=red>open your inventory</color>,,Original,BeachFoxStart
+line:da694d,bakarrik <color=red>sakatu {{MenuButton}}</color>\n<color=red>zure inbentarioa irekitzeko</color>,just <color=red>press {{MenuButton}}</color> to\n<color=red>open your inventory</color>,,Original,BeachFoxStart
 line:1cf7a2,gero aukeratu\n<color=red>itemen menutik</color>,then select it from\nthe <color=red>items menu</color>,,Original,BeachFoxStart
 line:00e277,ah ongi,ah right,,Player,BeachFoxStart
 line:c6adcc,eskerrik asko!,thanks!,,Player,BeachFoxStart
@@ -326,7 +326,7 @@ line:e1b0be,hori diote?,do they say that?,,Player,BeachFoxStart
 line:0b1c04,"egia esan, ez nago ziur","actually, i'm not sure",,Original,BeachFoxStart
 line:40ba46,baina,but,,Original,BeachFoxStart
 line:918947,ziur ez dela zorte txarra!,it certainly can't be bad luck!,,Original,BeachFoxStart
-line:a8b5f9,Ongi Etorri Belatz Tontor Probintiza Parkera!,Welcome to Hawk Peak Provincial Park!,,Original,VisitorsCenterSignStart
+line:a8b5f9,Ongi Etorri Belatz Tontor Probintzia Parkera!,Welcome to Hawk Peak Provincial Park!,,Original,VisitorsCenterSignStart
 line:692bdd,Gozatu Panorama Lurmuturrerako bide\nikusgarria edo jarraitu <color=yellow>Belatz Tontor Bidea</color>\nprobintziako puntua altuenera!,Enjoy a scenic trek to Outlook Point\nor follow <color=yellow>Hawk Peak Trail</color> up to the\nhighest point in the province!,,Original,VisitorsCenterSignStart
 line:b1e575,"Uharte hau mendi tontorrengatik\nezaguna den arren,","Although this island is known for\nits titular mountain peak,",,Original,VisitorsCenterSignStart
 line:b107d7,Hainbat hondartza eta baso\nederren egoitza ere bada!,It is also home to a number of\nbeautiful beaches and forests!,,Original,VisitorsCenterSignStart
@@ -336,7 +336,7 @@ line:ad24ec,"mesedez, zatoz arratsaldeko\n5etan plater historiko\nhonen anoatxo 
 line:e688e0,ia ez zaigu salgairik geratzen,we're kinda low on stock,If the player tries to buy merch from the Goat Ranger.,Original,BuyMerchStart
 line:a7cf46,"baina hori ona da, egia esan","but that's good, actually",,Original,BuyMerchStart
 line:20178a,lanpetuta ibili gara denboraldi honetan!,it's been a busy season!,,Original,BuyMerchStart
-line:66f7eb,probintziako parkeak\nmodan daudela dirudi,provincial parks must be\ntrending or something,,Original,BuyMerchStart
+line:66f7eb,probintzia parkeak\nmodan daudela dirudi,provincial parks must be\ntrending or something,,Original,BuyMerchStart
 line:33c393,baliteke!,it's possible!,,Player,BuyMerchStart
 line:d29584,nolanahi ere,anyway,,Original,BuyMerchStart
 line:cf8544,txapel bakarra geratzen zaigu,we only have one hat left,,Original,BuyMerchStart
@@ -879,7 +879,7 @@ line:de12bd,gogoberotuta nago!,i'm so pumped!,,Original,GiveRabbitHeadband
 line:b2cecd,hartu korrika egiteko zapatila hauek,take these running shoes,,Original,GiveRabbitHeadband
 line:d25506,beraiekin korri egiteko <color=red>{{RunButton}}</color> eutsi dezakezu!,you can hold <color=red>{{RunButton}}</color> to run with them!,,Original,GiveRabbitHeadband
 line:7e631b,hala ere,however,,Original,GiveRabbitHeadband
-line:0ce32d,gogoratu korri egiteko  <color=red>urrezko lumak</color>\nbeharrezkoak direla,just keep in mind that running\nrequires <color=red>golden feathers</color>,,Original,GiveRabbitHeadband
+line:0ce32d,gogoratu korri egiteko <color=red>urrezko lumak</color>\nbeharrezkoak direla,just keep in mind that running\nrequires <color=red>golden feathers</color>,,Original,GiveRabbitHeadband
 line:489295,"<sprite tint=1 name=""UpArrow""> Panorama Lurmuturra","<sprite tint=1 name=""UpArrow""> Outlook Point",,Original,OutlookPointSignStart
 line:32213c,oraindik marrubirik gabe?,still out of strawberries?,"If the player talks to the Ranger Goat at 5PM, after discovering they're out of strawberries.",Player,Strawberries
 line:2edee7,baiba,yup,,Original,Strawberries
@@ -3011,12 +3011,12 @@ ISBait,Beita,Bait,Item name plural.,,
 IDBait,"Arrain gehiago erakartzeko
 jarri beita zure kainaberan.","Attach bait to your rod
 to attract more fish.",Item description.,,
-IBucket,Kubo,Bucket,Item name singular.,,
+IBucket,Kuboa,Bucket,Item name singular.,,
 ISBucket,Kubo,Buckets,Item name plural.,,
 IDBucket,"Likidoak gordetzeko kubo egokia.
 Sakatu <color=red>{{UseItemButton}}</color> hartu edo isurtzeko.","A perfect bucket for holding liquids.
 Press <color=red>{{UseItemButton}}</color> to scoop or pour.",Item description.,,
-ICampingPermit,Kanpatzeko Baimen,Camping Permit,Item name singular.,,
+ICampingPermit,Kanpatzeko Baimena,Camping Permit,Item name singular.,,
 ISCampingPermit,Kanpatzeko Baimen,Camping Permits,Item name plural.,,
 IDCampingPermit,"""Parkean gauez kanpatzea ahalbidetzen du.
 """"IZAN ESKURA UNE ORO!"""" jartzen du.""","It allows you to camp overnight at the park.
@@ -3026,22 +3026,22 @@ ISCellphone,Mugikor,Cellphones,Item name plural.,,
 IDCellphone,"""Estaldurarik gabe ez du ezertarako balio.
 Jokuek ere ez dute offline funtzionatzen.""","It's useless without reception.
 Not even the games work offline.",Item description.,,
-ICoin,Txanpon,Coin,Item name singular.,,
+ICoin,Txanpona,Coin,Item name singular.,,
 ISCoin,Txanpon,Coins,Item name plural.,,
 IDCoin,"Dirua da!
 Gauzak erosi eta seguru sentitzeko egokia.","It's money!
 Great for buying stuff and feeling secure.",Item description.,,
-ICompass,Iparrorratz,Compass,Item name singular.,,
+ICompass,Iparrorratza,Compass,Item name singular.,,
 ISCompass,Iparrorratz,Compasses,Item name plural.,,
 IDCompass,"Iparra non dagoen dio.
 Piztu edo itzaltzeko aukeratu.","Tells you which way is north.
 Select to toggle on or off.",Item description.,,
-IFish,Arrain,Fish,Item name singular.,,
+IFish,Arraina,Fish,Item name singular.,,
 ISFish,Arrain,Fish,Item name plural.,,
 IDFish,"Neronek hartu ditut!
 Zer egingo dut orain beraiekin?","I caught 'em myself!
 Now what do I do with them?",Item description.,,
-IFishEncyclopedia,Arrain eguneroko,Fish Journal,Item name singular.,,
+IFishEncyclopedia,Arrain egunerokoa,Fish Journal,Item name singular.,,
 ISFishEncyclopedia,Arrain eguneroko,Fish Journals,Item name plural.,,
 IDFishEncyclopedia,"Arrantzatu ditudan eta oraindik
 arrantzatzeke ditudanen egunerokoa.","A journal of the fish I have
@@ -3066,7 +3066,7 @@ ISHeadband,Buruko zinta,Headbands,Item name plural.,,
 IDHeadband,"Dordokaren buruko zinta da.
 Kirolerako dirudi.","It's the turtle's headband.
 Looks sporty.",Item description.,,
-IHighRes,Mugikor,Cellphone,Item name singular.,,
+IHighRes,Mugikorra,Cellphone,Item name singular.,,
 ISHighRes,Mugikor,Cellphones,Item name plural.,,
 IDHighRes,"Estaldurarik gabe ez du ezertarako balio.
 Jokuek offline ere ez dute funtzionatzen.","It's useless without reception.
@@ -3084,25 +3084,25 @@ Awarded for winning an intense parkour race.",Item description.,,
 IParkHat,Probintzia Parkeko Txapela,Provincial Park Hat,Item name singular.,,
 ISParkHat,Probintzia Parkeko Txapela,Provincial Park Hats,Item name plural.,,
 IDParkHat,"Itxuroso eta erabilgarria!
-""Zaindu gure Probintziako Parkeak!"" dio.","Stylish and practical!
+""Zaindu gure Probintzia Parkeak!"" dio.","Stylish and practical!
 It says ""Support Our Provincial Parks!"" on it.",Item description.,,
-IPickaxe,Pikotz,Pickaxe,Item name singular.,,
+IPickaxe,Pikotza,Pickaxe,Item name singular.,,
 ISPickaxe,Pikotz,Pickaxes,Item name plural.,,
 IDPickaxe,"Pikotz sendoa.
 Gauza puskatzeko balio dezake.","A sturdy pickaxe.
 It might be able to break things.",Item description.,,
-IRunningShoes,Lasterketarako Zapatilak,Running Shoes,Item name singular.,,
-ISRunningShoes,Lasterketarako Zapatila parea,Pairs of Running Shoes,Item name plural.,,
+IRunningShoes,Lasterketarako Zapatila parea,Running Shoes,Item name singular.,,
+ISRunningShoes,Lasterketarako Zapatila pareak,Pairs of Running Shoes,Item name plural.,,
 IDRunningShoes,"Askatu zure barne korrikalaria!
 Sakatu <color=red>{{RunButton}}</color> korri egiteko.","Unleash your inner speed!
 Hold <color=red>{{RunButton}}</color> to run.",Item description.,,
-IShell,Maskor,Shell,Item name singular.,,
+IShell,Maskorra,Shell,Item name singular.,,
 ISShell,Maskor,Shells,Item name plural.,,
 IDShell,"Eguzkitan dirdira egiten du,
 gainontzekoan nahiko aspergarria da.","It sparkles in the sun,
 but is otherwise pretty boring.",Item description.,,
 IShellNecklace,Maskor Lepoko,Shell Necklace,Item name singular.,,
-ISShellNecklace,Maskor Lepoko,Shell Necklaces,Item name plural.,,
+ISShellNecklace,Maskor Lepokoa,Shell Necklaces,Item name plural.,,
 IDShellNecklace,"Maskor Lepoko polita da. Izeba
 May-ri eramango diodala uste dut.","It's a pretty shell necklace. I'm
 supposed to deliver this to Aunt May.",Item description.,,
@@ -3126,7 +3126,7 @@ ISSunhat,Eguzki-txapela,Sunhats,Item name plural.,,
 IDSunhat,"Eguzki-txapel handi eta malgua. Sinetsiko 
 ez zenukeen elegantziarekin babestuko nau berotik.","A big floppy sunhat. It protects against the
 heat and is stylish like you wouldn't believe.",Item description.,,
-IToast,Xigorki,Toast,Item name singular.,,
+IToast,Xigorkia,Toast,Item name singular.,,
 ISToast,Xigorki,Toasts,Item name plural.,,
 IDToast,"Bai, xigorkia!
 Gainera gurin pixka bat du.","Yeah, toast!
@@ -3136,7 +3136,7 @@ ISToyShovel,Jostailuzko Pala,Toy Shovels,Item name plural.,,
 IDToyShovel,"Jostailuzko pala moñoñoa!
 Erabilgarria izateko txikiegia da.","A cute little toy shovel!
 It's too small to be useful to me.",Item description.,,
-ITrash,Zabor Zati,Piece of Trash,Item name singular.,,
+ITrash,Zabor Zatia,Piece of Trash,Item name singular.,,
 ISTrash,Zabor Zati,Pieces of Trash,Item name plural.,,
 IDTrash,Arduragabeki botatako zaborra...,A piece of garbage carelessly left behind...,Item description.,,
 ITreasureMap,Altxorraren Mapa,Treasure Map,Item name singular.,,
@@ -3144,12 +3144,12 @@ ISTreasureMap,Altxorraren Mapa,Treasure Maps,Item name plural.,,
 IDTreasureMap,"Mapa bat baino gehiago
 asmakizun multzo bat da...","It's less of a map and more of
 a bunch of riddles...",Item description.,,
-IWalkieTalkie,Walkie Talki,Walkie Talkie,Item name singular.,,
+IWalkieTalkie,Walkie Talkia,Walkie Talkie,Item name singular.,,
 ISWalkieTalkie,Walkie Talki,Walkie Talkies,Item name plural.,,
 IDWalkieTalkie,"Mugikorren antzinako inkarnazioa.
 Avery-rekin aritzeko erabili!","An ancient incarnation of the cellphone.
 Use this to contact Avery!",Item description.,,
-IWatch,Eskumuturreko erloju,Wristwatch,Item name singular.,,
+IWatch,Eskumuturreko erlojua,Wristwatch,Item name singular.,,
 ISWatch,Eskumuturreko erloju,Wristwatches,Item name plural.,,
 IDWatch,"Pantaila digital eta analogia ditu, eta
 atzealdean telefono zenbaki bat du.","It's got a digital and analog display, and
@@ -3390,7 +3390,7 @@ open3,"<color=#A9A998>musika</color>
 mark sparling","<color=#A9A998>with music by</color>
 mark sparling",,,
 foundItemBefore,,You found a,,,
-foundItemAfter,bat aurkitu duzu,,"Optional text after ""You found a""",,
+foundItemAfter,aurkitu duzu,,"Optional text after ""You found a""",,
 fishCatchBefore,,you caught a,,,
 fishCatchAfter,bat harrapatu duzu,,"Optional text after ""You caught a""",,
 crustacean,krustazeo,crustacean,,,
@@ -3999,7 +3999,7 @@ line:052f51,"brat, ez nahikoa azkar!","drat, not fast enough!",,Player,BoatRaceL
 line:4b6c1f,halere dibertigarria izan da!,it was still fun tho!,,Original,BoatRaceLost
 line:0c786a,jakinarazi iezadazu beste\nsaiakera bat nahi baduzu,lemme know if you wanna\ngive it another shot,,Original,BoatRaceLost
 line:d977ac,marka polita!,nice score!,,Original,BoatRaceLost
-line:292d27,ez da zure aurreko  {{BoatRaceBestTimeText}} segundoko puntuazioa bezain ona,not as good as your previous score of {{BoatRaceBestTimeText}} seconds,,Original,BoatRaceLost
+line:292d27,ez da zure aurreko {{BoatRaceBestTimeText}} segundoko puntuazioa bezain ona,not as good as your previous score of {{BoatRaceBestTimeText}} seconds,,Original,BoatRaceLost
 line:4614f5,baina hala ere ongi!,but still good!,,Original,BoatRaceLost
 line:08d0a6,hm,um,,Original,BoatKidThanks
 line:df481d,zera esan nahi nuen,i just wanted to say,,Original,BoatKidThanks
