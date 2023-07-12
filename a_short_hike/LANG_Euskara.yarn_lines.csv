@@ -24,11 +24,11 @@ line:6794ce,"<sprite tint=1 name=""UpArrow""> Belatz Tontor Bidea\nKosta Zuri bi
 line:24d728,"<sprite tint=1 name=""DownArrow""> Sid Hondartza\n<sprite tint=1 name=""DownArrow""> Bisitarien Zentroa","<sprite tint=1 name=""DownArrow""> Sid Beach\n<sprite tint=1 name=""DownArrow""> Visitor Center",,Original,WhiteCoastSign
 line:c3feb2,nora zoazela uste duzu?,hey! where do you think you're going?,Only if the player runs off without talking to the Aunt first.,Original,AuntRunOffStart
 line:660020,"oh, hm...","oh, um...",,Player,AuntRunOffStart
-line:94ad70,"izeba may, ez zara agureak agurtu\ngabe joango, ezta?","you're not going to just wander\noff without saying hi to old\nAunt May, are you?",,Original,AuntRunOffStart
+line:94ad70,"ez duzu zure izeba May zaharra\nagurtu ere egin gabe hemendik\nalde egingo, ezta?","you're not going to just wander\noff without saying hi to old\nAunt May, are you?",,Original,AuntRunOffStart
 line:0377ea,ez zaitut egun osoan ikusi!,i haven't seen you all day!,,Original,AuntRunOffStart
 line:2ee5c6,barkatu...,sorry...,,Player,AuntRunOffStart
 line:393e8a,ez nuen hitz egin nahi,"i just, didn't feel like\ntalking i guess",,Player,AuntRunOffStart
-line:8bc66d,hmm zer ari da gertatzen?,hmm what's going on?,,Original,AuntRunOffStart
+line:8bc66d,hmm zer gertatzen da bada?,hmm what's going on?,,Original,AuntRunOffStart
 line:68da3e,ez da ezer!,it's nothing!,,Player,AuntRunOffStart
 line:cc2ab6,hm,um,,Player,AuntRunOffStart
 line:2a2a55,dei baten zain nengoen,i've just been waiting\naround for a call,Jumps to AuntIntroEnd.,Player,AuntRunOffStart
@@ -331,7 +331,7 @@ line:692bdd,Gozatu Panorama Lurmuturrerako bide\nikusgarria edo jarraitu <color=
 line:b1e575,"Uharte hau mendi tontorrengatik\nezaguna den arren,","Although this island is known for\nits titular mountain peak,",,Original,VisitorsCenterSignStart
 line:b107d7,Hainbat hondartza eta baso\nederren egoitza ere bada!,It is also home to a number of\nbeautiful beaches and forests!,,Original,VisitorsCenterSignStart
 line:a83a22,Bazenekien?,Did you know?,,Original,VisitorsCenterSignStart
-line:fcd4a8,"bertako ""Marrubiak eta Tostak""\n plater higuingarria HEMEN\nasmatu zuten, Belatz Tontorren!",The infamous local dish\n'Strawberries and Toast'\nwas invented HERE at Hawk Peak!,,Original,VisitorsCenterSignStart
+line:fcd4a8,"bertako ""Marrubiak eta Tostak""\n plater higuina HEMEN\nasmatu zuten, Belatz Tontorren!",The infamous local dish\n'Strawberries and Toast'\nwas invented HERE at Hawk Peak!,,Original,VisitorsCenterSignStart
 line:ad24ec,"mesedez, zatoz arratsaldeko\n5etan plater historiko\nhonen anoatxo bat dastatzera!",Please join us at 5PM to\nenjoy a delicious serving\nof the historical dish!,,Original,VisitorsCenterSignStart
 line:e688e0,ia ez zaigu salgairik geratzen,we're kinda low on stock,If the player tries to buy merch from the Goat Ranger.,Original,BuyMerchStart
 line:a7cf46,"baina hori ona da, egia esan","but that's good, actually",,Original,BuyMerchStart
@@ -1037,11 +1037,11 @@ line:33151c,siesta ordua da!,it's nap time!,,Original,EndGameStart
 line:0493bf,"orduan, nolakoa izan da?",so what has it been like there?,Unused.,Original,Node101
 line:f8414d,tira ba,well,Unused.,Player,Node101
 line:65055a,"murgiltzeko moduaz hitz egin behar dizut, oraindik ez baduzu ikasi","i need to talk about how to dive, if u havent been given the tutorial yet",Unused.,Original,Node102
-line:45a376,ez naiz inoiz nekatzen ikuspegi honetaz,i never get tired of this view,This dialogue is played during the opening screen of the game. Claire is speaking to her Aunt in the car.,AuntSpeaker,TitleScreenIntroStart
+line:45a376,ez naiz inoiz nekatzen ikuspegi honekin,i never get tired of this view,This dialogue is played during the opening screen of the game. Claire is speaking to her Aunt in the car.,AuntSpeaker,TitleScreenIntroStart
 line:cda187,"claire,","claire,",,AuntSpeaker,TitleScreenIntroStart
 line:d7aeb5,uda honetan primeran\npasatuko duzu hemen!,you're gonna have a great\ntime here this summer!,,AuntSpeaker,TitleScreenIntroStart
 line:760ec9,nik uste,i think,,AuntSpeaker,TitleScreenIntroStart
-line:62ea07,ona izango da\nhiritik urruntzea,it'll be good to get\naway from the city,,AuntSpeaker,TitleScreenIntroStart
+line:62ea07,ona izango dela\nhiritik urruntzea,it'll be good to get\naway from the city,,AuntSpeaker,TitleScreenIntroStart
 line:d3607e,eta gertatzen ari den\nguztiaz atsedena hartzea,and take a break from\neverything else going on,,AuntSpeaker,TitleScreenIntroStart
 line:3fd92a,oraindik esna zaude?,are you still awake?,,AuntSpeaker,TitleScreenIntroStart
 line:049cc1,mmmmm,mmmmm,,Original,TitleScreenIntroStart
@@ -3021,7 +3021,7 @@ ISCampingPermit,Kanpatzeko Baimen,Camping Permits,Item name plural.,,
 IDCampingPermit,"""Parkean gauez kanpatzea ahalbidetzen du.
 """"IZAN ESKURA UNE ORO!"""" jartzen du.""","It allows you to camp overnight at the park.
 It says ""KEEP ON HAND AT ALL TIMES!""",Item description.,,
-ICellphone,Mugikor,Cellphone,Item name singular.,,
+ICellphone,Mugikorra,Cellphone,Item name singular.,,
 ISCellphone,Mugikor,Cellphones,Item name plural.,,
 IDCellphone,"""Estaldurarik gabe ez du ezertarako balio.
 Jokuek ere ez dute offline funtzionatzen.""","It's useless without reception.
