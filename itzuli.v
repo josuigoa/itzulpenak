@@ -34,7 +34,7 @@ fn main() {
 	cmd.add_flag(cli.Flag{
 		flag: .string
 		required: true
-		name: 'file-path'
+		name: 'file'
 		abbrev: 'p'
 		description: 'Fitxategiaren path-a. Esperotako formatua: lerro bakoitzean itzuli beharreko string bat'
 	})
@@ -53,26 +53,31 @@ fn main() {
 fn cmd_func(cmd cli.Command) ! {
 	sw := time.new_stopwatch()
 
-	file_name := cmd.flags.get_string('file-path') or { panic('Ez da [file-path] flag-a aurkitu: ${err}') }
+	file := cmd.flags.get_string('file') or { panic('Ez da [file] flag-a aurkitu: ${err}') }
 	lang := cmd.flags.get_string('lang') or { panic('Ez da [lang] flag-a aurkitu: ${err}') }
 	translation_type := '${lang}2eu'
 
-	file_content := os.read_file('${file_name}') or {
-		eprintln('[${file_name}] fitxategia irakurtzean errorea: ${err}')
+	file_content := os.read_file('${file}') or {
+		eprintln('[${file}] fitxategia irakurtzean errorea: ${err}')
 		return
 	}
-	
-	println('${time.now().hhmm()}: [$file_name] fitxategiko edukia [$lang] hizkuntzatik itzultzeko prest')
+
+	println('${time.now().hhmm()}: [${file}] fitxategiko edukia [${lang}] hizkuntzatik itzultzen')
 
 	orig_texts := file_content.split_into_lines()
+	total := orig_texts.len
+	mut count := 0.0
+	println('[${total}] lerro itzultzeko')
 	mut translated_texts := []string{}
 
 	for orig in orig_texts {
 		translated_texts << itzuli(orig, translation_type)
+		count++
+		println('%${int(f32(count / total) * 100)}')
 	}
 
-	os.write_file('${file_name}_trans.txt', translated_texts.join('\n')) or {
-		eprintln('[${file_name}] fitxategian idaztean errorea: ${err}')
+	os.write_file('${file}_trans.txt', translated_texts.join('\n')) or {
+		eprintln('[${file}] fitxategian idaztean errorea: ${err}')
 		return
 	}
 
@@ -83,7 +88,7 @@ fn itzuli(orig_text string, translation_type string) string {
 	request_body := RequestBody{
 		mkey: '8d9016025eb0a44215c7f69c2e10861d'
 		text: orig_text
-		model: 'generic_$translation_type'
+		model: 'generic_${translation_type}'
 	}
 
 	endpoint := 'https://api.euskadi.eus/itzuli/${translation_type}/translate'
@@ -114,6 +119,6 @@ fn itzuli(orig_text string, translation_type string) string {
 	if trans.starts_with('-') && !orig_text.starts_with('-') {
 		trans = trans.all_after('-')
 	}
-    
+
 	return trans
 }
