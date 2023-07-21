@@ -1,0 +1,471 @@
+Dispenser
+Timed
+Min delay (ms):
+Max delay (ms):
+Initial delay (ms):
+Exists
+Distance to Dude
+Min distance (0 = none):
+Max distance (0 = none):
+How often to check (ms):
+"Initial delay" is the amount of time before dispensing begins.
+"Min delay" is the minimum amount of time before the next item is dispensed.
+"Max delay" is the maximum amount of time before the next item is dispensed.
+"Min delay" is the minimum amount of time after the previously dispensed item is destroyed or killed that the next item will be dispensed.
+"Max delay" is the maximum amount of time after the previously dispensed item is destroyed or killed that the next item will be dispensed.
+"How often to check" is the amount of time between checking the distance from the dispenser to the main dude.
+"Min distance" to "Max distance" is the range of distances to the closest main dude that will cause the next item to be dispensed.
+Run&Shoot
+Advance-Hold
+Madness
+Help
+Verbal Abuse
+Rocket
+Grenade
+Napalm
+Cocktail
+ProximityMine
+TimedMine
+RemoteMine
+BouncingBetty
+Assault
+DeathWad
+DoubleBarrel
+SmallPistol
+Dynamite;;Dinamita
+bare hands;;esku  huts
+
+   No Weapon
+   Machine Gun;;   Metraileta 
+   %d Proximity Mines;;   %d  Hurbileko Mina
+   %d Timed Mines;;   %d Denb.  Mina
+   %d Remote Mines;;   %d  Urrun  Mina
+   %d Bouncing Bettys
+Double Barrel;;Kanoi Bikoitz
+   Double Barrel -- %d Shells;;   Kanoi Bikoitza -- %d  Bala
+   
+No Weapon;;Arma Gabe
+Bullets;;Balak  
+Shotgun;;Eskopta
+   Shotgun -- %d Shells;;   Eskopeta -- %d Bala 
+Spray Cannon;;Spray  Kanoi
+   Spray Cannon -- %d Shells;;   Spray Kanoi  -- %d   Bala
+   %d Grenades;;   %d  Granada
+Missile Launcher;;Misil  Jaurtitz.
+   %d Cocktails;;   %d   Koktail
+Napalm Launcher;;Napalm Jaurtitz
+Napalm Canisters;;Napalm    Poteak
+Flame Thrower;;Gar  Botazale
+Fuel Canisters;;Erregai Potoak
+%d Bouncing Bettys
+Wad Launcher
+Wads
+Missile Launcher -- %d Missiles;;Misil Jaurtitzailea -- %d Misil
+Missile Launcher -- %d Heatseekers;;Misil Jaurt. --  %d Berobilatzaile
+Napalm Launcher -- %d Canisters;;Napalm Jaurtitzailea -- %d Pote
+Flamer -- %d Fuel Canisters;;Sugarra -- %d Erregai  Pote
+Wad -- %d missiles, %d napalm canisters, %d fuel canisters, %d grenades;;Wad  --  %d  misil,  %d  napalm  pote,  %d  erregai  pote,  %d  granada
+Browse for Hood
+None;;Gabe
+Custom
+Choose logic file
+Unexpected end of file.
+Logic Table Loader
+Error reading from file.
+Contents of the logic table:
+Row #%hd:
+Matched row #%hd:
+No rows matched!
+Invalid weapon
+Text entry is too long.  The text read so far is '%s'.
+This is a LogTab logging file.
+'%s' cannot be used as an output.
+Table exceeds maximum number of vars, which is currently limited to %hd.
+Unexpected end of table following initial row of column headings.
+No inputs were found in initial row of column headings.
+Output separator '%s' was not found in initial row of column headings.
+No outputs were found in initial row of column headings.
+Row #%hd has more columns than the first row.
+Row #%hd contains less columns than the first row.
+Table exceeds maximum number of rows, which is currently limited to %hd.
+Table has no rows following initial column headings.
+Variable named '%s' does not exist or is defined multiple times.  Either way, you are hosed.
+'%s' is an invalid setting for '%s'.
+Doofus
+Tkachuk
+RocketMan
+Grenader
+Ball
+Explode
+Buoy
+GameEditThing
+Imbecile
+Firebomb
+Firefrag
+AnimThing
+SoundThing
+Gunner
+Band
+Item3d
+Fireball
+Person
+BouncingBettyMine
+RemoteControlMine
+Pylon
+PowerUp
+Ostrich
+Trigger
+Chunk
+AssaultWeapon
+Sentry
+CentryGun
+Warp
+Demon
+Character
+GoalTimer
+Flag
+Flagbase
+Firestream
+SndRelay
+PanicBegin
+PanicContinue
+WalkBegin
+WalkContinue
+DelayShoot
+AvoidFire
+Helping
+MarchNext
+WalkNext
+Please Add State Description
+Loading...;;Kargan ...
+Title
+Text
+Music
+Save Realm
+You may not delete the hood.
+Delete Hood
+Delete Navigation Net
+Load Realm
+Loading -- %ld bytes so far.
+LoadRealm()
+Postal Editor
+Delete entire "%s" class
+Play a Realm
+Camera %d
+CThing
+Cannot create new Buoy when there is no current NavNet.
+Pylon editor regions failed to save.
+%ld) "%s" ID: %u X: %s Y: %s Z: %s
+You may not delete the CGameEditThing.
+You may not delete the last remaining Navigation Net.
+Pylon editor regions failed to load.
+An error has occurred that prevents this realm from being played.
+Are you sure you want to perform this group delete?!
+Delete Everything except bouys, pylons, warps, soundthings and soundrelays?
+Are you sure you want to perform such a delete?
+There is no hood.  Cannot play.
+Keys
+Turn Left;;Bira Ezkr
+Turn Right;;Bira  Eskn
+Backward;;Atzeraka
+Up
+Down;;Behe
+Left;;Ezkr
+Right;;Eskn 
+Strafe Left
+Strafe Right
+Walk;;Ibil
+Fire Left;;Ezker  Su
+Fire Right;;Eskuin  Su
+Fire Up;;Gora Su
+Fire Down;;Behe.  Su
+Duck;;Piru
+Rejuvenate;;Gazteagotu
+Execute;Exekut.
+Suicide;;Suizid.
+Next Level;;Hur. Maila
+Next Weapon;;Hur.   Arma
+Prev Weapon;;Aurr.  Arma
+NoWeapon;;Armagabe
+MachineGun;;Metraileta
+SprayCannon;;SprayKanoi 
+Grenades;;Granadak
+Missiles;;Misilak 
+Heatseekers;;Berobilatz.
+Molotovs
+Napalm
+Flamer;;Sugar 
+Mines;;Minak
+Guide
+Middle
+Button 4
+Button 5
+Wheel Up
+Wheel Down
+Home
+Backspace
+Insert
+Enter
+Left Shift
+Right Shift
+Left Control
+Right Control
+Left Alt
+Right Alt
+Page Up
+Page Down
+Escape
+Pause
+Capital
+Numlock
+Scroll
+Space
+Print Screen
+Right Quote
+Comma
+Minus
+Period
+Semicolon
+Equals
+Left Bracket
+Back Slash
+Right Bracket
+Left Quote
+Numpad 0
+Numpad 1
+Numpad 2
+Numpad 3
+Numpad 4
+Numpad 5
+Numpad 6
+Numpad 7
+Numpad 8
+Numpad 9
+Numpad *
+Numpad +
+Numpad -
+Numpad .
+Numpad /
+Left System
+Right System
+Menu %s
+Coop
+Grenader Brad
+grenader
+Rocket Man Darrel
+rocket
+Gunner Lisa
+machinetip
+gunner
+Officer Holbert
+pistoltip
+Miner 1
+Swat Rick
+boypistol
+Protestor Patrick
+protest
+Sheriff Bubba
+Military Joe
+military
+Construction Mac
+construct
+The Man
+Woman
+Construction Carlos
+Construction Armando
+Grenader Pepe
+Grenader Larry
+Rocket Man Dexter
+Rocket Man Pedro
+Gunner Heidi
+Gunner Linda
+Officer Smith
+Officer Ramirez
+Miner Gary
+Miner Fernando
+Swat Charlie
+Swat Raymond
+Sheriff Dale
+Man Frank
+Woman Mindy
+Sheriff Norm
+Employee 1
+employ2
+Employee 2
+Red Cross 1
+Red Cross 2
+Golfer 1
+Golfer 2
+Lawyer
+Bum 1
+Bum 2
+Vet 1
+Vet 2
+Nude 1
+Nude 2
+Gramps 1
+Gramps 2
+Granny 1
+Granny 2
+Granny 3
+Shopper G1
+Shopper G2
+Shopper B1
+Shopper B2
+Shopper V1
+Shopper V2
+JP Male Kensaku
+JP Male Yutaka
+JP Male Osamu
+JP Female Sakura
+JP Female Tomiko
+JP Female Asami
+JP Computer Sales
+JP Computer Shopper
+JP Officer Kazuki
+JP Officer Noboru
+JP Old Woman Ayame
+JP Old Woman Shinobu
+JP Old Man Ryuichi
+JP Old Man Tadao
+JP Osaka Salesman
+      Population %d                 Body Count %d (%d%%)                       Goal %d%%;;      %d Biztanle              Gorpu kontaketa %d (%d%%)                   Helburua %d%%
+Player%d;;Jokal.%d
+Player%d
+<Empty>
+Score%d
+%m/%d/%y %H:%M;;%y/%m/dy %H:%M
+Postal
+Choose Realm To Record
+Choose Game Slot
+Mono
+Cannot initialize menu system, most likely due to a memory or drive error.
+The selected network protocol has failed to initialize.  Please contact your system administrator or network vendor.
+Synchronization logging is disabled for release mode for safety.
+CMost kills in %s
+Most flags collected
+Top %d Scores
+Kills;;Hilak
+Flags
+Frags
+GENERAL;;OROKOR 
+SOUNDTRACK;;SOINU-BAND
+WEAPONS;;ARMAK  
+FEEDBACK
+DESTRUCTION;;SUNTSIKETA 
+DEMON;;MAMUA
+SHOUTING;;GARRASIA
+PAIN;;MINA
+SUFFERING;;SUFRITZEA
+Best times for killing %d hostiles;;%d aurkari hiltzeko denbora onenak
+Best times for capturing the flag;;Bandera  hartzeko  denbora onenak
+      You must kill %d%% of the hostiles.;;      Aurkarien  %%%d  hil  behar  duzu. 
+ Score as many kills as possible in the time remaining.
+ Kill everyone before time runs out.;; Hil denak denbora bukatu  aurretik.
+ Capture the flag before time runs out.;; Hartu bandera denbora bukatu aurretik.
+ Kill %d People in as little time as possible.;; Hil itzazu %d  pertsona ahalik eta  azkarren.
+ Capture the flag in as little time as possible.
+ Grab as many flags as possible before time runs out.
+ The player with the most kills when time expires is the winner
+ The first player to get %d kills wins
+ Try to reach %d kills before time expires
+ There are no time or kill limits on this game - play as long as you like
+      Population %d                        Hostiles %d   Killed %d (%d%% / %d%%);;      %d Biztanle                         %d Aurkari    %d Hildako (%d%% / %d%%)
+ Time Remaining %d:%2.2d                                Kills %d;; Geratzen den Denbora %d:%2.2d                        %d Hildako
+ Time Remaining %d:%2.2d            Kills %d               Remaining %d / %d;; Geratzen den Denbora %d:%2.2d      %d Hildako      Geratzen direnak %d / %d
+ Kills %d                     Remaining %d            Time Elapsed %d:%2.2d;; %d Hildako                   %d Geratzen dira   Igarotako Denbora %d:%2.2d
+ Clock %d:%2.2d    You have %d flags    Flags Remaining %d;; Ordua %d:%2.2d    %d bandera dituzu     %d Bandera Faltan
+%hd by %hd Pixels
+, %hd Colors;;, %hd Kolore
+SET;;AUK
+Easy;;Aise
+# Medium;;Erdiko
+Hard;;Zail
+Masochist;;Masokista
+players to get ready...
+You don't have
+the selected hood.
+Dropping out...
+FPS: %ld Video H/W Update: %ld%% %s
+There are no warps in this realm!  There must be at least one warp in a realm!
+Make Postal the foreground app to resume
+Can't open realm prefs file '%s'.
+available
+PAUSED;;ETENDA
+Press <Pause> key to resume
+Untitled
+POSTAL: %s
+POSTAL
+Activation occurred %g seconds into execution.
+Total report time was %g seconds.
+Profiler overhead: Tot(ms) = %g, # of calls = %ld, Avg(ms) = %g
+Number of profile ranges was %hd.
+Maximum nesting depth was %hd
+TOTAL PROGRAM TIME = %g seconds
+Last timing run finished %g seconds before program exit.
+Cancel
+Abort
+Retry
+Ignore
+STUBBED: %s:%d
+USE X CONTROLLER
+START;;HASI 
+OPTIONS;;AUKERAK
+CHECKPOINT
+FLAG
+GOAL;;XEDE
+TIMED
+THE GAUNTLET
+CHALLENGE;;ERRONKA  
+GAUNTLET CHALLENGE;;GAUNTLET   ERRONKA
+NEW GAME;;BERRIA  
+LOAD GAME;;KARGATU  
+LOAD LEVEL
+SPECIAL DELIVERY;;ENTREGA  BEREZIA
+SINGLE PLAYER
+START GAME;;JOKOA HASI
+AUDIO MIXER
+RESTORE OLD DEFAULTS;;HASIERAKORA   ITZULI
+RESTORE DEFAULTS;;LEHENGORA ITZULI
+TAP DEGREES
+STANDING (FAST);;EGONEAN  (AZK.)
+STANDING (SLOW);;EGONEAN  (POL.)
+RUNNING (FAST);;KORRIKA (AZK.)
+RUNNING (SLOW);;KORRIKA (POL.)
+TURNING SPEEDS;;ABIADURAK ALD.
+AMBIENT SOUNDS;;GIROKO SOINUAK
+DYNAMIC VOLUME;BOLUMEN ALDAK.
+PARTICLES;;PARTIKULA
+3D LIGHTING;;3D   ARGIAK
+TRANSPARENCY;;TRANSPARENT.
+PERFORMANCE;;ERRENDIMEN.
+X CONTROLLER SETUP;;X AGINTEAREN KONF.
+MOUSE SETUP;;SAGUA KONF.
+KEYBOARD SETUP;;TEKLATU  KONF.
+VERT MOUSE SENS.;;SAGU SENTS. BERT
+HORIZ MOUSE SENS.;;SAGU SENTS. HORIZ
+USE MOUSE;;SAGUA    
+CONTROLS;;KONTROLA
+GAMMA
+VIDEO;;BIDEO
+SOUND TEST;;SOINU TEST
+MIXER;;NAHAS
+AUDIO
+TAB - NEXT SET OF SOUNDS;;TAB  -  HURRENGO SOINUAK
+A thru Z - PLAY A SOUND;;A-Z tartean - SOINUA JO
+0 thru 9 - PLAY A SOUND;;0-9 tartean - SOINUA JO
+SPECIAL KEYS;;TEKLA BEREZ.
+DIFFICULTY;;ZAILTASUNA
+# CROSSHAIR;;PUNTO DE MIRA
+CONTINUE;;JARRAITU
+EDITOR
+SAVE
+GAME;;JOKO
+REALLY QUIT?;; ZIUR ZAUDE?
+REALLY EXIT?;; ZIUR ZAUDE?
+ORDER INFO
+AMBIENT;;GIROA  
+QUIT;;UTZI
+EXIT;;UTZI
+YES;;BAI
+NO;;EZ
