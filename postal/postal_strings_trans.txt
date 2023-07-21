@@ -43,7 +43,6 @@ bare hands;;esku  huts
    %d Bouncing Bettys
 Double Barrel;;Kanoi Bikoitz
    Double Barrel -- %d Shells;;   Kanoi Bikoitza -- %d  Bala
-   
 No Weapon;;Arma Gabe
 Bullets;;Balak  
 Shotgun;;Eskopta
@@ -196,58 +195,6 @@ Molotovs
 Napalm
 Flamer;;Sugar 
 Mines;;Minak
-Guide
-Middle
-Button 4
-Button 5
-Wheel Up
-Wheel Down
-Home
-Backspace
-Insert
-Enter
-Left Shift
-Right Shift
-Left Control
-Right Control
-Left Alt
-Right Alt
-Page Up
-Page Down
-Escape
-Pause
-Capital
-Numlock
-Scroll
-Space
-Print Screen
-Right Quote
-Comma
-Minus
-Period
-Semicolon
-Equals
-Left Bracket
-Back Slash
-Right Bracket
-Left Quote
-Numpad 0
-Numpad 1
-Numpad 2
-Numpad 3
-Numpad 4
-Numpad 5
-Numpad 6
-Numpad 7
-Numpad 8
-Numpad 9
-Numpad *
-Numpad +
-Numpad -
-Numpad .
-Numpad /
-Left System
-Right System
 Menu %s
 Coop
 Grenader Brad
@@ -456,7 +403,7 @@ A thru Z - PLAY A SOUND;;A-Z tartean - SOINUA JO
 0 thru 9 - PLAY A SOUND;;0-9 tartean - SOINUA JO
 SPECIAL KEYS;;TEKLA BEREZ.
 DIFFICULTY;;ZAILTASUNA
-# CROSSHAIR;;PUNTO DE MIRA
+CROSSHAIR;;PUNTEROA 
 CONTINUE;;JARRAITU
 EDITOR
 SAVE

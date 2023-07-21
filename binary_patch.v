@@ -69,7 +69,6 @@ fn cmd_func(cmd cli.Command) ! {
 			continue
 		}
 
-		// binary_content = binary_content.replace(orig, trans)
 		binary_content = binary_content.replace('${separator}${orig}${separator}', '${separator}${trans}${separator}')
 	}
 
