@@ -1,19 +1,19 @@
 import os
 
 fn main() {
-	orig_lines := get_file_lines('minit_loc_orig.csv')
-	eu_lines := get_file_lines('minit_loc_eu.csv')
+	orig_lines := get_file_lines('minit_loc.csv')
+	eu_lines := get_file_lines('eu_trans.txt')
 
 	mut patched_lines := []string{}
 
 	for i, orig in orig_lines {
 		mut line_strings := orig.split(';')
-		line_strings.delete(8)
+		line_strings.delete(1)
 		line_strings.insert(1, eu_lines[i])
 		patched_lines << line_strings.join(';')
 	}
 
-	os.write_file('minit_loc_patched.csv', patched_lines.join('\n')) or {
+	os.write_file('minit_loc.csv', patched_lines.join('\n')) or {
 		eprintln('failed to write the file: ${err}')
 		return
 	}

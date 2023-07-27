@@ -1,6 +1,6 @@
 # MINIT
 
-Kopia ezazu `minit_loc.csv` fitxategia jokuaren instalazio direktorioan dagoen `assets` direktorio barruan. Lehendik dagoena gainidatzi beharko duzu.
+Kopia ezazu `minit_loc.csv` fitxategia jokuaren instalazio direktorioan dagoen `assets` barruan. Lehendik dagoena gainidatzi beharko duzu.
 
 Mac ordenagailuetan:
 * Exekutagarriaren gainean eskuineko botoia klikatu
