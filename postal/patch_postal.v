@@ -10,9 +10,9 @@ fn main() {
 
 	binary_file_backup := '${binary_file}_backup'
 	if !os.exists(binary_file_backup) {
-		println('${binary_file_backup} fitxategia sortu da, badaezpada')
+		println('${binary_file_backup} fitxategia sortuko da, badaezpada')
 		os.cp(binary_file, binary_file_backup) or {
-			eprintln('failed to copy the file: ${err}')
+			eprintln('Ezin izan da ${binary_file} kopiatu: ${err}')
 			return
 		}
 	}
@@ -45,20 +45,20 @@ fn main() {
 		binary_content = binary_content.replace('${separator}${orig}${separator}', '${separator}${trans}${separator}')
 	}
 
-	println('[${binary_file}] successfully patched.')
 	os.write_file(binary_file, binary_content) or {
-		eprintln('failed to write the file: ${err}')
+		eprintln('Partxea aplikatzerakoan huts bat egon da: ${err}')
 		return
 	}
+	println('Partxea ongi aplikatu zaio [${binary_file}] fitxategiari.')
 
 	translated_credits := $embed_file('credits.txt').to_string()
 	os.write_file('res/credits.txt', translated_credits) or {
-		eprintln('failed to write the file: ${err}')
+		eprintln('"res/credits.txt" fitxategia idaztean errorea: ${err}')
 		return
 	}
 	translated_realms := $embed_file('postal_plus_realms.ini').to_string()
 	os.write_file('res/levels/postal_plus_realms.ini', translated_realms) or {
-		eprintln('failed to write the file: ${err}')
+		eprintln('"res/levels/postal_plus_realms.ini" fitxategia idaztean errorea: ${err}')
 		return
 	}
 }
