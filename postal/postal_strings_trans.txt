@@ -173,7 +173,7 @@ Left;;Ezkr
 Right;;Eskn 
 Strafe Left
 Strafe Right
-Walk;;Ibil
+# Walk;;Ibil
 Fire Left;;Ezker  Su
 Fire Right;;Eskuin  Su
 Fire Up;;Gora Su
@@ -281,10 +281,10 @@ Player%d;;Jokal.%d
 Player%d
 <Empty>
 Score%d
-%m/%d/%y %H:%M;;%y/%m/dy %H:%M
+%m/%d/%y %H:%M;;%y/%m/%d %H:%M
 Postal
 Choose Realm To Record
-Choose Game Slot
+Choose Game Slot;;Aukeratu Partida
 Mono
 Cannot initialize menu system, most likely due to a memory or drive error.
 The selected network protocol has failed to initialize.  Please contact your system administrator or network vendor.
@@ -369,7 +369,7 @@ NEW GAME;;BERRIA
 LOAD GAME;;KARGATU  
 LOAD LEVEL
 SPECIAL DELIVERY;;ENTREGA  BEREZIA
-SINGLE PLAYER
+SINGLE PLAYER;; BAKARKAKOA  
 START GAME;;JOKOA HASI
 AUDIO MIXER
 RESTORE OLD DEFAULTS;;HASIERAKORA   ITZULI
@@ -416,3 +416,23 @@ QUIT;;UTZI
 EXIT;;UTZI
 YES;;BAI
 NO;;EZ
+NEW CAMPAIGN;;HASI KNPAINA
+EXCESS POSTAGE (ALL LEVELS);;POSTA GEHIEGI (MAILA DENAK)
+LEVEL SELECT;;MAILA AUKERA
+TIMED
+JOIN GAME
+HOST GAME
+OPTIONS;;AUKERAK
+BROWSE (LAN only);;BILATU (LAN bak.)
+CONNECT TO;;KONEKTATU 
+BROWSE;;BILATU
+PLAY;;HASI
+RECORD
+CONSTRUCTION;;ERAIKUNTZAN 
+HOME;;ETXE
+BRIDGE;;ZUBIA 
+MULTIPLAYER
+NAME;;IZEN
+COAT COLOR;;JAKA KOLOR
+PROTOCOL;;PROTOKOL
+CONNECTION;;KONEXIOA  
