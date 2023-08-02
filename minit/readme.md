@@ -11,4 +11,5 @@ Fitxategia ongi kopiatu bada, jokoan hizkuntza aldatzeko aukeren artean agertuko
 
 Oharra: Jokoak dakartzan hizkuntzetatik polonieraren ordez jarri dut euskara, ezin baitzen bertzerik gabe hizkuntza berri bat gehitu.
 
+![](ura_epel.png)
 ![](zomorro_zubiak.png)
