@@ -56,15 +56,15 @@ fn main() {
 		eprintln('"res/credits.txt" fitxategia idaztean errorea: ${err}')
 		return
 	}
-	
+
 	realms_file := $if windows {
 		'postal plus realms.ini'
 	} $else {
 		'postal_plus_realms.ini'
 	}
 	translated_realms := $embed_file('postal_plus_realms.ini').to_string()
-	os.write_file('res/levels/$realms_file', translated_realms) or {
-		eprintln('"res/levels/$realms_file" fitxategia idaztean errorea: ${err}')
+	os.write_file('res/levels/${realms_file}', translated_realms) or {
+		eprintln('"res/levels/${realms_file}" fitxategia idaztean errorea: ${err}')
 		return
 	}
 }
