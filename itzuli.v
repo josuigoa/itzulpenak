@@ -35,7 +35,7 @@ fn main() {
 		flag: .string
 		required: true
 		name: 'file'
-		abbrev: 'p'
+		abbrev: 'f'
 		description: 'Fitxategiaren path-a. Esperotako formatua: lerro bakoitzean itzuli beharreko string bat'
 	})
 	cmd.add_flag(cli.Flag{
