@@ -278,9 +278,8 @@ JP Old Man Tadao
 JP Osaka Salesman
       Population %d                 Body Count %d (%d%%)                       Goal %d%%;;      %d Biztanle              Gorpu kontaketa %d (%d%%)                   Helburua %d%%
 Player%d;;Jokal.%d
-Player%d
 <Empty>
-Score%d
+Score%d;;Punt:%d
 %m/%d/%y %H:%M;;%y/%m/%d %H:%M
 Postal
 Choose Realm To Record
@@ -307,16 +306,16 @@ SUFFERING;;SUFRITZEA
 Best times for killing %d hostiles;;%d aurkari hiltzeko denbora onenak
 Best times for capturing the flag;;Bandera  hartzeko  denbora onenak
       You must kill %d%% of the hostiles.;;      Aurkarien  %%%d  hil  behar  duzu. 
- Score as many kills as possible in the time remaining.
+ Score as many kills as possible in the time remaining.;; Lortu ahalik  eta hildako  gehien falta  den denboran.
  Kill everyone before time runs out.;; Hil denak denbora bukatu  aurretik.
  Capture the flag before time runs out.;; Hartu bandera denbora bukatu aurretik.
  Kill %d People in as little time as possible.;; Hil itzazu %d  pertsona ahalik eta  azkarren.
- Capture the flag in as little time as possible.
- Grab as many flags as possible before time runs out.
- The player with the most kills when time expires is the winner
- The first player to get %d kills wins
- Try to reach %d kills before time expires
- There are no time or kill limits on this game - play as long as you like
+ Capture the flag in as little time as possible.;; Lortu bandera  ahalik eta  denbora  gutxienean.
+ Grab as many flags as possible before time runs out.;; Lortu ahalik eta bandera gehien  debora bukatzerako.
+ The player with the most kills when time expires is the winner;; Denbora bukatzean hildako  gehin dituen  jokalaria da garailea
+ The first player to get %d kills wins;; %d  hildako  lortzen  dituena garaile
+ Try to reach %d kills before time expires;; Saiatu  %d  hiltzen  denbora  bukatzerako
+ There are no time or kill limits on this game - play as long as you like;; Ez dago denbora edo hilako mugarik joko honetan- josta zaitez nahi adina
       Population %d                        Hostiles %d   Killed %d (%d%% / %d%%);;      %d Biztanle                         %d Aurkari    %d Hildako (%d%% / %d%%)
  Time Remaining %d:%2.2d                                Kills %d;; Geratzen den Denbora %d:%2.2d                        %d Hildako
  Time Remaining %d:%2.2d            Kills %d               Remaining %d / %d;; Geratzen den Denbora %d:%2.2d      %d Hildako      Geratzen direnak %d / %d
