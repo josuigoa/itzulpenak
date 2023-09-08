@@ -19,6 +19,8 @@ Ez dut lortzen testu batzuk itzultzea:
 
 Hitz hauek jostagarritasunean edo istorioaren garapenean ez dute eragin haundirik, beraz, bere horretan utzi ditut.
 
+Oharra: [GOG](https://www.gog.com/) plataformatko `Postal Classic and Uncut` bertsioan bakarrik probatu dut.
+
 ![](postal.png)
 
 ## GARAPENA ETA KONPILAZIOA
