@@ -16,3 +16,5 @@
   * [instalazioa](./a_short_hike/)
 * minit
   * [instalazioa](./minit/)
+* Postal
+  * [instalazioa](./postal/)
