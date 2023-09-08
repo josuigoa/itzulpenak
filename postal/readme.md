@@ -1,6 +1,6 @@
 # POSTAL [WIP]
 
-Dagokion sistema eragileran exekutagarria deskargatu:
+Dagokion sistema eragileran exekutagarria deskargatu `partxea` direktoriotik:
 
 * Linux-en: patch_postal_linux
 * Windows-en: patch_postal_win.exe
