@@ -1,11 +1,10 @@
 # POSTAL [WIP]
 
-Dagokion sistema eragileran exekutagarria deskargatu `partxea` direktoriotik:
+Dagokion sistema eragileran exekutagarria deskargatu:
 
-* Linux-en: patch_postal_linux
-* Windows-en: patch_postal_win.exe
-
-Jokoa martxan jartzeko exekutagarria (Linuxen `postal1` eta Windowsen `Postal.exe`) dagoen direktorio berean jarri eta exekutatu. Badaezpada, komeni da komando lerrotik exekutatzea, arazorik baldin badago, ikusi ahal izateko.
+* [Linux](./partxea/patch_postal_linux) edo [Windows](./partxea/patch_postal.exe)
+* Deskargatu berri duzun partxea jokoa martxan jartzeko exekutagarria (Linuxen `postal1` eta Windowsen `Postal.exe` edo `Postal Plus.exe`) dagoen direktorio berean jarri
+* Partxea exekutatu: honela, partxeak jokoaren exekutagarri barruko testuak aldatuko ditu. Badaezpada, komeni da komando lerrotik exekutatzea, arazorik baldin badago, ikusi ahal izateko.
 
 Gerta daiteke testu batzuk arraro samar ikustea. Jokoaren exekutagarriaren byte-ak ordezkatzen ditut eta exekutagarria bera ez hondatzeko, aldatutako hitzek berezko hitzen luzera bera izan behar zuten. Adibidez:
 
@@ -18,8 +17,6 @@ Ez dut lortzen testu batzuk itzultzea:
 * Teklatuaren konfigurazioan: Walk, Strafe, Grenades...
 
 Hitz hauek jostagarritasunean edo istorioaren garapenean ez dute eragin haundirik, beraz, bere horretan utzi ditut.
-
-Oharra: [GOG](https://www.gog.com/) plataformatko `Postal Classic and Uncut` bertsioan bakarrik probatu dut.
 
 ![](postal.png)
 
