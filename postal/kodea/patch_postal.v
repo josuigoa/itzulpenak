@@ -3,7 +3,11 @@ import encoding.hex
 
 fn main() {
 	binary_file := $if windows {
-		'Postal.exe'
+		if os.exists('Postal Plus.exe') {
+			'Postal Plus.exe'
+		} else {
+			'Postal.exe'
+		}
 	} $else {
 		'postal1'
 	}

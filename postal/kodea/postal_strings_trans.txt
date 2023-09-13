@@ -15,27 +15,27 @@ How often to check (ms):
 "Max delay" is the maximum amount of time after the previously dispensed item is destroyed or killed that the next item will be dispensed.
 "How often to check" is the amount of time between checking the distance from the dispenser to the main dude.
 "Min distance" to "Max distance" is the range of distances to the closest main dude that will cause the next item to be dispensed.
-Run&Shoot
+#Run&Shoot;;Korri&Su 
 Advance-Hold
-Madness
+Madness;;Eromena
 Help
 Verbal Abuse
 Rocket
-Grenade
+Grenade;;Granada
 Napalm
 Cocktail
 ProximityMine
-TimedMine
-RemoteMine
+TimedMine;;DenboMina
+RemoteMine;;UrrunMina 
 BouncingBetty
 Assault
 DeathWad
 DoubleBarrel
-SmallPistol
+SmallPistol;;Pistolatxoa
 Dynamite;;Dinamita
 bare hands;;esku  huts
 
-   No Weapon
+   No Weapon;;   Arma gabe
    Machine Gun;;   Metraileta 
    %d Proximity Mines;;   %d  Hurbileko Mina
    %d Timed Mines;;   %d Denb.  Mina
