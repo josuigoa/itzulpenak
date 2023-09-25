@@ -1,4 +1,4 @@
-# POSTAL [WIP]
+# POSTAL
 
 Dagokion sistema eragileran exekutagarria deskargatu:
 
