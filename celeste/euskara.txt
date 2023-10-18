@@ -1,0 +1,5235 @@
+﻿# NOTES:
+# The # Symbol at the start of a line counts as a Comment. To include in dialog, use a \#
+# The . Symbol will cause a pause unless escaped with \. (ex: Mr. Oshiro has a pause, Mr\. Oshiro does not)
+# Newlines automatically create a Page Break, unless there is an {n} command on the previous line
+# Commands: Anything inside of curly braces {...} is a command and should not be translated.
+
+# Inline Text Commands:
+# {~}wavy text{/~}
+# {!}impact text{/!}
+# {>> x}changes speed at which characters are displayed{>>}
+# {# 000000}this text is black{#} (uses HEX color values)
+# {+MENU_BEGIN} inserts the dialog from the MENU_BEGIN value (in English, "CLIMB")
+# {n} creates a newline, without a page break
+# {0.5} creates a 0.5 second pause
+# {big}this text is large{/big}
+
+# Gameplay Control Commands (should never change)
+# {trigger x} this triggers an in-game event
+# {anchor} controls the visual position of the textbox in-game
+
+# Language (id,label)
+	LANGUAGE=euskara,Euskara
+	ICON=Icons/euskara.png
+	ORDER=49
+
+# Font (Face, Base Size)
+# Use BMFONT to generate the .fnt and image files
+	FONT=Renogare,64
+
+# Done loading Meta Data
+	BEGIN=true
+
+# Auto-Saving
+	AUTOSAVING_TITLE_NS=
+		Joko honek automatikoki gordetzeko funtzioa du
+	AUTOSAVING_DESC_NS=
+		Ez itzali kontsola
+		ikono hau ikusgai dagoenean
+	AUTOSAVING_TITLE_PS4=
+		Joko honek automatikoki gordetzeko funtzioa du
+	AUTOSAVING_DESC_PS4=
+		Ez itzali kontsola
+		ikono hau ikusgai dagoenean
+	AUTOSAVING_TITLE_XB1=
+		Joko honek automatikoki gordetzeko funtzioa du
+	AUTOSAVING_DESC_XB1=
+		Ez itzali kontsola
+		ikono hau ikusgai dagoenean
+	AUTOSAVING_TITLE_PC=
+		Joko honek automatikoki gordetzeko funtzioa du
+	AUTOSAVING_DESC_PC=
+		Ez itzali ordenagailua
+		ikono hau ikusgai dagoenean
+
+# Main Menu
+	MENU_DEBUG=		~DEBUG~
+	MENU_BEGIN=		IGO
+	MENU_PICO8=		PICO-8
+	MENU_OPTIONS=	Ezarpenak
+	MENU_CREDITS=	Kredituak
+	MENU_EXIT=		Irten
+
+# Options
+	OPTIONS_TITLE=			EZARPENAK
+	OPTIONS_CONTROLS=		KONTROLAK
+	OPTIONS_RUMBLE_PC=		Bibrazioa
+	OPTIONS_RUMBLE_PS4=		Bibrazioa
+	OPTIONS_RUMBLE_XB1=		Bibrazioa
+	OPTIONS_RUMBLE_NS=		Bibrazioa
+	OPTIONS_RUMBLE_ON=		%100
+	OPTIONS_RUMBLE_HALF=	%50
+	OPTIONS_RUMBLE_OFF=		EZGAITUA
+	OPTIONS_GRAB_MODE=		Euste modua
+	OPTIONS_CROUCH_DASH_MODE=	Makurtutako Dash modua
+	OPTIONS_BUTTON_PRESS=	Sakatu
+	OPTIONS_BUTTON_HOLD=	Eutsi
+	OPTIONS_BUTTON_INVERT=	Alderantzikatu
+	OPTIONS_BUTTON_TOGGLE=	Gaitu/Desgaitu
+	OPTIONS_KEYCONFIG=		Teklatu Konfig
+	OPTIONS_BTNCONFIG=		Aginte Konfig
+
+	OPTIONS_VIDEO=			BIDEO
+	OPTIONS_FULLSCREEN=		Pantaila osoa
+	OPTIONS_WINDOW=			Leihoaren eskala
+	OPTIONS_VSYNC=			Sink. bertikala
+	OPTIONS_VIEWPORT_NS=	Pantailaren neurria doitu
+	OPTIONS_VIEWPORT_PS4=	Pantailaren neurria doitu
+	OPTIONS_VIEWPORT_XB1=	Pantailaren neurria doitu
+	OPTIONS_VIEWPORT_PC=	Pantailaren neurria doitu
+	OPTIONS_DISABLE_FLASH=	Fotosentikor modua
+	OPTIONS_DISABLE_SHAKE=	Pantaila Dardara Efektuak
+
+	OPTIONS_AUDIO=			AUDIO
+	OPTIONS_MUSIC=			Musika
+	OPTIONS_SOUNDS=			Soinuak
+
+	OPTIONS_GAMEPLAY=		GAMEPLAY
+	OPTIONS_SPEEDRUN=		Speedrun Erlojua
+	OPTIONS_SPEEDRUN_CHAPTER=Kapitulua
+	OPTIONS_SPEEDRUN_FILE=	Fitxategia
+	OPTIONS_DASHES=			Dash kontagailua
+	OPTIONS_LANGUAGE=		Language
+	OPTIONS_ON=				GAITUTA
+	OPTIONS_OFF=			DESGAITUTA
+
+# KEYBOARD CONFIG
+	KEY_CONFIG_TITLE=		Teklatu Konfig
+	KEY_CONFIG_GAMEPLAY=	GAMEPLAY
+	KEY_CONFIG_LEFT=		Ezker
+	KEY_CONFIG_RIGHT=		Eskuin
+	KEY_CONFIG_UP=			Gora
+	KEY_CONFIG_DOWN=		Behera
+	KEY_CONFIG_JUMP=		Jauzi
+	KEY_CONFIG_DASH=		Dash
+	KEY_CONFIG_GRAB=		Heldu
+	KEY_CONFIG_TALK=		Hitzegin
+	KEY_CONFIG_MENUS=		MENU
+	KEY_CONFIG_CONFIRM=		Baieztatu
+	KEY_CONFIG_CANCEL=		Ezeztatu
+	KEY_CONFIG_PAUSE=		Eten
+	KEY_CONFIG_JOURNAL=		Egunerokoa
+	KEY_CONFIG_QUICKRESTART=Berriro haste Azkarra
+	KEY_CONFIG_RESET=		Dena Berezkoetara itzuli
+	KEY_CONFIG_CHANGING=	SAKATU BOTOI BAT
+	KEY_CONFIG_MOVE_ONLY=	MUGIMENTUENTZAT BAKARRIK
+	KEY_CONFIG_DASH_ONLY=	DASH-ENTZAT BAKARRIK
+
+# CONTROLLER CONFIG
+	BTN_CONFIG_TITLE=		Aginte Konfig
+	BTN_CONFIG_INFO=		SAKATU | BOTOIA GEHITZEKO, | BOTOIAK GARBITZEKO
+	BTN_CONFIG_CHANGING=	SAKATU GEHITZEKO BOTOIA
+	BTN_CONFIG_NOCONTROLLER=Konektatu Agite bat, mesedez
+
+# ADDITIONAL OPTIONS FOR V1.4.0.0
+	KEY_CONFIG_DEMO=		Makurtutako Dash
+	KEY_CONFIG_ADVANCED=	AURRERATUA
+	KEY_CONFIG_MENU_NOTICE= EKINTZA BAKOITZAK LOTURA BAKARRA BEHAR DU
+
+# PICO-8
+	PICO8_UNLOCKED=			Orain Menu Nagusitik joka dezakezu
+	PICO8_PAUSE_TITLE=		ETENDA
+	PICO8_PAUSE_CONTINUE=	Jarraitu
+	PICO8_PAUSE_RESTART=	Reset PICO-8
+	PICO8_PAUSE_QUIT=		Irten PICO-8
+
+# FILE MENU
+	FILE_DEFAULT=		Madeline
+	FILE_CORRUPTED=		Hondatuta :(
+	FILE_FAILEDTOLOAD=	Kargatzean akatsa
+	FILE_NEWGAME=		Hasi partida berria!
+	FILE_CONTINUE=		Jarraitu
+	FILE_DELETE=		Ezabatu
+	FILE_BEGIN=			Hasi
+	FILE_ASSIST_OFF=	Laguntza Modua : DESGAITUTA
+	FILE_ASSIST_ON=		Laguntza Modua : GAITUTA
+	FILE_VARIANT_OFF=	Aldaera Modua : DESGAITUTA
+	FILE_VARIANT_ON=	Aldaera Modua : GAITUTA
+	FILE_RENAME=		Berrizendatu
+	FILE_DELETE_REALLY=	Ziur zaude?
+	FILE_DELETE_NO=		Ezeztatu
+	FILE_DELETE_YES=	Ezabatu
+	FILE_DELETE_FAILED=	Fitxategia ezabatzean akatsa!
+
+# Assist Mode
+	ASSIST_MODE_0=
+		{# 44adf7}Laguntza Moduak{#} jokoaren arauak{n}
+		zure behar berezietara egokitzen ahalbidetzen du.		
+	ASSIST_MODE_1=
+		Honek hainbat aukera ematen ditu, hala nola, jokoaren {n}
+		abiadura murriztea, garaiezin egitea edo indar amaiezina {n}
+		eta kapitulu osoak saltatzea.
+	ASSIST_MODE_2=
+		Celeste erronkaz betetako esperientzia izatea espero da.{n}
+		Berezko jokoa zuretzat gaindiezina bada, espero dugu{n} 
+		nahi duzun esperientzia hori {# 44adf7}Laguntza Moduarekin{#} aurkitzea
+	ASSIST_ASK=		{# 44adf7}Laguntza Moduan{#} jokatu nahi al duzu?
+	ASSIST_YES=		Bai
+	ASSIST_NO=		Ez
+	ASSIST_SKIP=	Laguntza{n}Saltatu
+
+# File Naming
+	NAME_LETTERS=
+		ABCDEFGHI abcdefghi
+		JKLMNOPQR jklmnopqr
+		STUVWXYZ  stuvwxyz
+		1234567890+=:~!@$%
+		^&*_-#"'()<>/\.,|`
+
+	NAME_SPACE=			hutsunea
+	NAME_BACKSPACE=		ezabatu
+	NAME_ACCEPT=		ONARTU
+	NAME_BACK=			EZEZTATU
+
+# Xbox One Stuff
+	XB1_MENU_SWITCH_PROFILE=	Switch Profile
+	XB1_SIGN_OUT_MESSAGE=		A sign-in change has occured. Please sign back in or exit to the title screen.
+	XB1_SIGN_IN=				Sign-in
+	XB1_RECONNECT_CONTROLLER=	Please reconnect your controller to continue.
+
+# Intro Vignette
+	INTRO_VIGNETTE_RESUME=	Jarraitu
+	INTRO_VIGNETTE_SKIP=	Saltatu
+	INTRO_VIGNETTE_QUIT=	Irten
+
+# Overworld
+	OVERWORLD_START=			Hasi
+	OVERWORLD_NORMAL=			IGO
+	OVERWORLD_INTERLUDE=		HASI
+	OVERWORLD_REMIX=			B-ALDEA
+	OVERWORLD_REMIX2=			C-ALDEA
+	OVERWORLD_REMIX_UNLOCKED=	B-Aldea Desblokeatuta!
+	OVERWORLD_REMIX_UNLOCKED2=	C-Aldea Desblokeatuta!
+
+# Chapter Titles
+	AREA_CHAPTER=	{x} Kapitulua
+	AREA_0=			Hitzaurrea
+	AREA_1=			Ahaztutako Hiria
+	AREA_2=			Hondakinak
+	AREA_3=			Celestial Resort
+	AREA_4=			Urrezko Mendikatea
+	AREA_5=			Ispilu Tenplua
+	AREA_6=			Gogoeta
+	AREA_7=			Gailurra
+	AREA_8=			Hitzatze
+	AREA_9=			Nukleoa
+	AREA_10=		Adioa
+
+# Checkpoints
+	CHECKPOINT_1_0=		Pasabidea
+	CHECKPOINT_1_1=		Leizea
+
+	CHECKPOINT_2_0=		Esku-hartzea
+	CHECKPOINT_2_1=		Esna
+
+	CHECKPOINT_3_0=		Nahaspila Handia
+	CHECKPOINT_3_1=		Igogailu Zuloa
+	CHECKPOINT_3_2=		Lehendakari-Suitea
+
+	CHECKPOINT_4_0=		Santutegia
+	CHECKPOINT_4_1=		Bide Zaharra
+	CHECKPOINT_4_2=		Labarraren Aurpegia
+
+	CHECKPOINT_5_0=		Sakonerak
+	CHECKPOINT_5_1=		Argitzen (edo askatzen?????)
+	CHECKPOINT_5_2=		Bilaketa
+	CHECKPOINT_5_3=		Erreskatea
+
+	CHECKPOINT_6_0=		Lakua
+	CHECKPOINT_6_1=		Hutsak
+	CHECKPOINT_6_2=		Isladak
+	CHECKPOINT_6_3=		Oinarria
+	CHECKPOINT_6_4=		Erabakia
+
+	CHECKPOINT_7_0=		500 M
+	CHECKPOINT_7_1=		1000 M
+	CHECKPOINT_7_2=		1500 M
+	CHECKPOINT_7_3=		2000 M
+	CHECKPOINT_7_4=		2500 M
+	CHECKPOINT_7_5=		3000 M
+
+	CHECKPOINT_8_0=		Muinean
+	CHECKPOINT_8_1=		Bero eta Hotz
+	CHECKPOINT_8_2=		Mendiaren Bihotza
+
+	CHECKPOINT_9_0=		Bakarra
+	CHECKPOINT_9_1=		Botere Iturria
+	CHECKPOINT_9_2=		Oroimenean
+	CHECKPOINT_9_3=		Gertaera Muga
+	CHECKPOINT_9_4=		Irmotasuna
+	CHECKPOINT_9_5=		Burugogorkeria
+	CHECKPOINT_9_6=		Adiskidetzea
+	CHECKPOINT_9_7=		Adioa
+
+# B-Side Checkpoints
+	CHECKPOINT_1H_0=	Tresna
+	CHECKPOINT_1H_1=	Zulo Hondarrak (Scrap Pit)
+
+	CHECKPOINT_2H_0=	Konbinazio-Sarraila
+	CHECKPOINT_2H_1=	Amets Aldarea
+
+	CHECKPOINT_3H_0=	Langileen Kuartela
+	CHECKPOINT_3H_1=	Liburutegia
+	CHECKPOINT_3H_2=	Sabaia
+
+	CHECKPOINT_4H_0=	Harrizko Mailak
+	CHECKPOINT_4H_1=	Gusty Arroila
+	CHECKPOINT_4H_2=	Ekaitzaren Begia
+
+	CHECKPOINT_5H_0=	Erdiko Ganbera
+	CHECKPOINT_5H_1=	Ispiluan Zehar
+	CHECKPOINT_5H_2=	Nahaste Maisua
+
+	CHECKPOINT_6H_0=	Islada
+	CHECKPOINT_6H_1=	Oinarria
+	CHECKPOINT_6H_2=	Atzerapena (edo indultua?????)
+
+	CHECKPOINT_7H_0=	500 M
+	CHECKPOINT_7H_1=	1000 M
+	CHECKPOINT_7H_2=	1500 M
+	CHECKPOINT_7H_3=	2000 M
+	CHECKPOINT_7H_4=	2500 M
+	CHECKPOINT_7H_5=	3000 M
+
+	CHECKPOINT_8H_0=	Muinean
+	CHECKPOINT_8H_1=	Erretzen edo Izozten
+	CHECKPOINT_8H_2=	Bihotz taupada
+
+# Postcards
+	POSTCARD_AREA_1=
+		Aukeratu etenaldi menuko {#ff1144}Gorde eta Irten{#} atsendena hartu nahi duzunean. Pantaila berera itzuliko zara batere aurrerapenik galdu gabe!
+
+	POSTCARD_AREA_2=
+		{#ff1144}Marrubiek{#} zure lagunak harrituko dituzte, ez besterik. Jaso itzazu nahi baduzu bakarrik!
+
+	POSTCARD_AREA_3=
+		Egon harro zure {#ff1144}Heriotza Kontaketarekin{#}!{n}Gero eta gehiago hil, orduan eta gehiago ikasi duzu!{n}Eutsi gogor!
+
+	POSTCARD_AREA_4=
+		{# F94A4A}Eskalatzeko Aholkua!{#}{n}Energiaz baxu zabiltza?{n}{n}Paretatik jauzi egiteak{n}ez dizu indarrik kenduko!
+
+	POSTCARD_AREA_5=
+		{# F94A4A}Badakizu?{#}{n}Eskaladako ezbehar gehienak{n}nekeagatik gertatzen dira.{n}{n}Gogoratu tarteka atseden hartzeaz!
+
+	POSTCARD_AREA_6=
+		{# F94A4A}Badakizu?{#}{n}{n}Ezinezkoa da{}zure islada baino azkarragoa izatea.
+
+	POSTCARD_CSIDES=
+		Benetazko erronka baterako prest?{n}{n}{# F94A4A}C-Aldeak{#} desblokeatu dira, eta{n}{# dbb63f}Urrezko Marrubiak{#} agertu dira{n}kapitulu bakoitzaren hasieran!!{n}{n}Zorte on, {+MADELINE}!
+
+	POSTCARD_VARIANTS=
+		Hara, lortu duzu!{n}{n}Orain {# 9B3FB5}aldaerak{#} Fitxategia Aukeratzeko Menuan eskuragarri dituzu.
+
+# Journal
+	JOURNAL_OF=
+	JOURNAL_PROGRESS=				AURRERAPENA
+	JOURNAL_SPEEDRUNS=				MARKA:{n}SPEEDRUNS
+	JOURNAL_DASHES=					MARKA:{n}DASHES???? GUTXIENA
+	JOURNAL_DEATHS=					MARKA:{n}HERIOTZA GUTXIENA
+	JOURNAL_POEM=					KRISTALEZKO BIHOTZAK
+	JOURNAL_MODE_NORMAL=			GAINDITUTA
+	JOURNAL_MODE_NORMAL_FULLCLEAR=	OSATUTA
+	JOURNAL_MODE_BSIDE=				B-ALDEA
+	JOURNAL_MODE_CSIDE=				C-ALDEA
+	JOURNAL_TOTALS=					GUZTIRA
+	JOURNAL_GRANDTOTAL=				OROKORREAN GUZTIRA
+
+# Stats
+	STATS_TITLE=			Steam Estatistika Orokorrak
+	STAT_BERRIES=			Marrubiak
+	STAT_DEATHS=			Heriotzak
+	STAT_DASHES=			Dashes????
+	STAT_GOLDBERRIES=		Urrezko marrubiak
+	STAT_PICO_BERRIES=		PICO-8 Marrubiak
+	STAT_PICO_DEATHS=		PICO-8 Heriotzak
+	STAT_PICO_COMPLETES=	PICO-8 Osatzeak
+
+# Saving / Loading Failed
+	SAVEFAILED_TITLE=	EZIN IZAN DA GORDE
+	SAVEFAILED_RETRY=	Berriro saiatu
+	SAVEFAILED_IGNORE=	Gorde gabe jarraitu
+	LOADFAILED_TITLE=	EZIN IZAN DA KARGATU
+	LOADFAILED_GOBACK=	Atzera joan
+	LOADFAILED_IGNORE=	Gorde gabe jarraitu
+
+# Tutorial
+	TUTORIAL_CLIMB=		IGO
+	TUTORIAL_HOLD=		EUTSI
+	TUTORIAL_DASH=		DASH????
+	TUTORIAL_DREAMJUMP=	JAUZI
+	TUTORIAL_CARRY=		ERAMAN
+
+# Area Complete
+	AREACOMPLETE_NORMAL=				Kapitulua Gaindituta
+	AREACOMPLETE_NORMAL_FULLCLEAR=		Kapitulua Osatuta
+	AREACOMPLETE_BSIDE=					B-Aldea Gaindituta
+	AREACOMPLETE_CSIDE=					C-Aldea Gaindituta
+	MOUNTAIN_COMPLETE_NORMAL=			Gaindituta
+	MOUNTAIN_COMPLETE_NORMAL_FULLCLEAR=	Osatuta
+	MOUNTAIN_COMPLETE_BSIDE=			B-Aldea Osatuta
+	MOUNTAIN_COMPLETE_CSIDE=			C-Aldea Osatuta
+
+# Game Paused
+	MENU_PAUSE_TITLE=			ETENDA
+	MENU_PAUSE_RESUME=			Jarraitu
+	MENU_PAUSE_SKIP_CUTSCENE=	Eszena saltatu
+	MENU_PAUSE_RETRY=			Berriz saiatu
+	MENU_PAUSE_ASSIST=			Laguntza aukerak
+	MENU_PAUSE_VARIANT=			Aldaerak
+	MENU_PAUSE_OPTIONS=			Aukerak
+	MENU_PAUSE_RESTARTAREA=		Kapitulua berriz hasi
+	MENU_PAUSE_SAVEQUIT=		Gorde eta Irten
+	MENU_PAUSE_RETURN=			Mapara itzuli
+	MENU_PAUSE_RESTARTDEMO=		Demoa berriz hasi
+	MENU_RETURN_TITLE=			MAPARA ITZULI?
+	MENU_RETURN_CONTINUE=		Bai
+	MENU_RETURN_CANCEL=			Ezeztatu
+	MENU_RETURN_INFO=			Mapara itzulita aurrerapenak gordeko dira{n}
+								baina azken kontrol-puntuan hasiko zara
+	MENU_RESTART_TITLE=			KAPITULUA BERRIZ HASI?
+	MENU_RESTART_CONTINUE=		Bai
+	MENU_RESTART_CANCEL=		Ezeztatu
+
+# Assist UI
+	MENU_ASSIST_TITLE=					LAGUNTZA MODUA
+	MENU_ASSIST_SUBTITLE=				Laguntzak
+	MENU_ASSIST_GAMESPEED=				Jokoaren Abiadura
+	MENU_ASSIST_INVINCIBLE=				Garaiezintasuna
+	MENU_ASSIST_AIR_DASHES=				Aire Dashes?????
+	MENU_ASSIST_DASH_ASSIST=			Dash???? Laguntza
+	MENU_ASSIST_AIR_DASHES_NORMAL=		Lehenetsia
+	MENU_ASSIST_AIR_DASHES_TWO=			2
+	MENU_ASSIST_AIR_DASHES_INFINITE=	Infinitu
+	MENU_ASSIST_INFINITE_STAMINA=		Indar infinitua
+
+# Variant UI
+	MENU_VARIANT_TITLE=					ALDAERAK
+	MENU_VARIANT_SUBTITLE=				Aldaerak
+	MENU_VARIANT_MIRROR=				Ispilu Modua
+	MENU_VARIANT_360DASHING=			360 Dashing
+	MENU_VARIANT_INVISMOTION=			Mugimendu Ikusezina
+	MENU_VARIANT_PLAYASBADELINE=		Other Self
+	MENU_VARIANT_NOGRABBING=			Ezin eutsi
+	MENU_VARIANT_LOWFRICTION=			Marruskadura Txikia
+	MENU_VARIANT_SUPERDASHING=			Super Dashing
+	MENU_VARIANT_HICCUPS=				Zotinak
+
+# Misc UI
+	UI_CUTSCENE_SKIP=	Saltatu
+	UI_REMIX_UNLOCKED=	B-Aldea Desblokeatuta
+	UI_CANCEL=			Atzera
+	UI_CONFIRM=			Baieztatu
+	UI_QUICK_RESTART_TITLE=Berriro haste azkarra: 
+	UI_QUICK_RESTART_HOLD=Eutsi
+	UI_QUICK_RESTART_PRESS=Sakatu
+
+# B SIDES
+	REMIX_BY=			Musika
+	REMIX_ALBUM=		Celeste B-Sides
+
+	AREA_1_REMIX=		(Sever the Skyline Mix)
+	AREA_2_REMIX=		(Black Moonrise Mix)
+	AREA_3_REMIX=		(Good Karma Mix)
+	AREA_4_REMIX=		(Golden Feather Mix)
+	AREA_5_REMIX=		(Mirror Magic Mix)
+	AREA_6_REMIX=		(Center of the Earth Mix)
+	AREA_7_REMIX=		(No More Running Mix)
+	AREA_9_REMIX=		(Say Goodbye Mix)
+
+# Credits
+	CREDITS_THANKYOU=	Eskerrik asko jostatzeagatik :)
+
+# Names
+	THEO=				{# FF9523}Theo{#}
+	THEO_UNDER_STARS=	{# FFFF4C}TheoIzarpean{#}
+	MIXMASTER_THEO=		{# FF9523}Theo Nahaste Maisua{#}
+	MOM=				{# 339CC7}Ama{#}
+	MROSHIRO=			{# 7BD838}Oshiro Jauna{#}
+	OSHIRO=				{# 7BD838}Oshiro{#}
+	ELCREEPO=			{# 7BD838}Makabro Jauna{#}
+	MADELINE=			{# F94A4A}{savedata Name}{#}
+	MS_MADELINE=		{# F94A4A}{savedata Name} Andereñoa{#}
+	RESORT=				{# b864be}Celestial Resort{#}
+	THOUGHT=			{# 696a6a}{~}(
+	ENDTHOUGHT=			){/~}{#}
+	MOUNTAIN=			{# 96EFFF}mendi{#}
+	CELESTE_MOUNTAIN=	{# 96EFFF}Celeste Mendia{#}
+	PART_OF_ME=			{# d678db}{~}nire zati{/~}{#}
+	PART_OF_YOU=		{# d678db}{~}zure zati{/~}{#}
+	ST_BAD=				{# d678db}{~}
+	END_BAD=			{/~}{#}
+	GRANNY=				{# 66ea3a}Amatxi{#}
+	PART_OF_HER=		{# 66ea3a}{~}bere zati{/~}{#}
+	PART_OF_GRANNY=		{# 66ea3a}{~}amatxiren zati{/~}{#}
+
+# Theo sister name
+# if the player name is the same as this one, theo's sister name becomes the ALT_NAME
+	THEO_SISTER_NAME=		Alex
+	THEO_SISTER_ALT_NAME=	Maddy
+	ALEX=					{# F94A4A}{savedata TheoSisterName}{#}
+
+# ================================== IN-GAME DIALOG BEGINS HERE! ==================================
+
+# *** Prologue ***
+
+	CH0_INTRO=
+		Hau da ba, {+MADELINE}.
+		Hartu arnasa.
+		Zergatik zaude hain urduri?
+
+	CH0_GRANNY=
+		{anchor top}
+
+		[MADELINE left normal]
+		Barkatu, anderea?
+
+		{trigger 0 Madeline walks forward}
+
+		[MADELINE left normal]
+		Kanpoko kartela hondatuta dago...{n}hau al da {+mountain}-ra joateko bidea?
+
+		[GRANNY right normal]
+		Ia ailegatu zara.{n}Zubiaren beste aldean dago.
+
+		{trigger 1 Madeline walks to the right of the house, turns left}
+		
+		[MADELINE right sad]
+		Bidenabar, sarbidearengatik norbaiti deitu behar zenioke. Mendi bizkarra erori eta ia hil nau.
+
+		{trigger 2 Granny laughs}
+
+		[GRANNY left laugh]
+		Nire {>> 0.3}"sarbideak"{>>}{0.2} ia hil bazaitu,{n}beharbada {+mountain} hau gehitxo izango da zuretzat.
+
+		{trigger 3 Laugh Continues}
+
+		[MADELINE right upset]
+		{0.5}...{0.2}
+
+		[MADELINE right angry]
+		Zera, {~}zu{/~} bezalako atso zahar batek{n}hemen biziraun badezake, ziur ni moldatuko naizela.
+
+		{trigger 4 Stop laughing}
+
+		[GRANNY left normal]
+		Zuk ikusi.
+
+		{silent_trigger 5 Ominous zoom-in}
+
+		[GRANNY left normal]
+		Baina jakin behar zenuke,{n}{+CELESTE_MOUNTAIN} leku arraroa da.
+
+		[GRANNY left creepA]
+		Gauzak ikus ditzakezu.
+
+		[GRANNY left creepB]
+		Ikusteko prest ez zauden gauzak.
+
+		{trigger 6 pan to Maddy}
+
+		[MADELINE right upset]
+		Laguntza eskatu behar zenuke, andere.
+
+		{trigger 3 resume laughing}
+
+	CH0_END=
+		Zuk egin dezakezu.
+
+# *** Chapter 01 ***
+
+	CH1_THEO_A=
+		[THEO left normal]
+		Kaixo, lagun bidaiaria!
+
+		[MADELINE right distracted]
+		Oh... epa.
+
+		{trigger 0 Madeline approaches}
+		
+		[THEO left normal]
+		Ibilaldi baterako gau gogorra!
+
+		[MADELINE right distracted]
+		Hala dirudi, bai.
+
+		[THEO left normal]
+		Leku hau erokeria da. 
+
+		[THEO left excited]
+		Existitzen denik ere ezin dut sinetsi!
+
+		[MADELINE right sad]
+		Ez da igoera errazena, ezta?
+
+		[MADELINE right distracted]
+		Baina nik uste honen bila nebilela...
+		
+		[THEO left normal]
+		Uau, horrek oso serioa dirudi.
+		Pozten nau horrelako leku bakarti{n}batean beste gizaki bat ikusteak.
+
+		[THEO left excited]
+		Bidenabar, ni {+ theo} naiz, {>> 0.3}{~}urruneko lurretako{/~}{>>} abenturazalea!
+		
+		[MADELINE right sad]
+		...{0.2}
+
+		[THEO left thinking]
+		Ez zara oso berritsua, ezta?
+
+		[THEO left normal]
+		Otso bakarti misteriotsua, ulertuta.{n}Zuri buruzko istorio ilunen bat imajinatuko dut.
+
+	CH1_THEO_B=
+		[MADELINE right sad]
+		Zera, barkatu. Ni {+MADELINE} naiz.
+		Gauza gehiegi dut buruan.
+
+		[THEO left normal]
+		Tira, {+MADELINE}, leku egokira etorri zarela esango nuke!
+
+		[THEO left thinking]
+		Hotzak akabatzen ari naiz, baina ezin dut gogoeta{n}lasai baterako leku hoberik imajinatua.
+		
+		[MADELINE right sad]
+		Bai, agian zuzen zaude.
+
+		[MADELINE right normal]
+		Zein "{>> 0.5}{~}urruneko lurretakoa{/~}{>>}" zara bada?
+		
+		[THEO left excited]
+		Zera, aberkide begiluze hori, erresuma{n}{0.3}{~}mistiko,{0.4} exotiko{/~}{0.4} batetakoa...
+		
+		[THEO left normal]
+		{0.4} Seattle-koa.
+
+		[MADELINE right normal]
+		Leku berezia dirudi.
+
+	CH1_THEO_C=
+		[THEO left excited]
+		Leku hau primerakoa da!
+
+		[THEO left normal]
+		Zergatik abandonatuko zuten hiri oso bat?
+		
+		[MADELINE right normal]
+		Irakurri dut mega-korporazio bat eraikitzen hasi{n}eta inork ez zuela bertan bizi nahi.
+
+		[MADELINE right distracted]
+		Zergatik ote...
+		
+		[THEO left excited]
+		Nik uste gobernuaren akatsen bat estaltzeko dela.
+
+		[MADELINE right distracted]
+		A ze galera, arrazoirik gabe hainbeste eraikitzea...
+
+		[THEO left normal]
+		Soberakinez goza dezkegu gutxienez.
+
+	CH1_THEO_D=
+		[MADELINE right normal]
+		Hiria esploratzeko al zaude hemen?
+		
+		[THEO left normal]
+		Bai, abandonatutako lekuek zerbait daukate.
+		
+		[THEO left thinking]
+		Eta nire burua argazkilari{n}hasiberri bezala ikuste gustoko dut.
+		
+		[MADELINE right normal]
+		Ah bai? Bikain!!
+		Blog edo antzekorik ba al duzu?
+		
+		[THEO left thinking]
+		Blog bat?
+		{+MADELINE}.
+		Orain mundu guztia {# FFFF4C}InstaPix{#}-ekin dabil.
+		
+		[THEO left excited]
+		{+THEO_UNDER_STARS} naiz, begira nazazu!
+
+	CH1_THEO_E=
+		[THEO left normal]
+		This terrain is pretty tricky,{n}are you turning back soon?
+		
+		[MADELINE right normal]
+		Nope. I'm heading for the summit.
+		
+		[THEO left excited]
+		I can really see the determination in your eyes!
+
+		[THEO left normal]
+		It's inspiring.
+
+		[MADELINE right distracted]
+		If you say so.
+
+		[MADELINE right normal]
+		I bet you could make it to the summit too.
+
+		[THEO left normal]
+		Maybe. 
+		
+		[THEO left thinking]
+		I don't really care about reaching the top, TBH.
+
+		[THEO left normal]
+		{!}Oh!{/!} But I heard there are some {~}legit{/~}{n}old ruins up beyond the city.
+		
+		[THEO left excited]
+		Like 1800's legit. 
+
+		[THEO left normal]
+		I know it's risky but I have to see them for myself.
+
+	CH1_THEO_F=
+		[THEO left normal]
+		What's that thing you say right before{n}you do something irresponsible?
+
+		[MADELINE right sad]
+		Uh... "throw caution to the wind?"
+
+		[THEO left wtf]
+		No, that's not it.
+
+		[THEO left excited]
+		Oh right...
+
+		{trigger 0 Theo pumps his fist in the air}
+		
+		[THEO left yolo]
+		{big}{~}Y{>> 0.5}OLO{>> 0.2}OOOOOOOO!!{>>}{/~}{/big}
+
+	MEMORIAL=
+		-- CELESTE MENDIA --
+		Oroitarri hau igoera honetan
+		zendutakoei eskeinia da
+
+	CH1_END=
+		[MADELINE left distracted]
+		Uf, leher eginda nago.
+
+		{trigger 0 MADELINE sits down to rest. A bird swoops in, lands on her head, and goes to sleep}
+		
+		[MADELINE left deadpan]
+		{>> 0.4}Beharbada hau akatsa izan da.
+
+# *** Chapter 02 ***
+
+	CH2_BADELINE_INTRO=
+		{anchor top}
+		
+		[BADELINE left normal]
+		{+MADELINE}, maitea, joan polikiago.
+
+		{trigger 0 Madeline turns around}
+		
+		[MADELINE right distracted]
+		Nork esan du hori?
+		
+		[BADELINE left normal]
+		Oh, kezkatutako ikusle soil bat naiz.
+
+		{trigger 1 Badeline is revealed}
+		
+		[MADELINE right sad]
+		Zu... ni zara?
+
+		[BADELINE left normal]
+		Ni {+PART_OF_YOU} bat naiz.
+
+		[MADELINE right sad]
+		Nolatan du {+PART_OF_ME} batek hain itxura {0.3}{*}beldurgarria?{/*}
+
+		[BADELINE left worried]
+		...
+
+		[BADELINE left angry]
+		Hauxe da nire itxura, bai?
+		Gaindi ezazu.
+
+		[MADELINE right distracted]
+		Barkatu, ez nuen esa-
+
+		[BADELINE left angry]
+		Ahaztu ezazu.
+		Ez dakizu ze lasaitua hartu dudan{n}{~}azkenean{/~} zure burutik ateratzean.
+
+		[BADELINE left upset]
+		Bai aizu, guri buruz kezkatuta nago.
+
+		[BADELINE left normal]
+		Hobby bat behar dugu, baina hau...
+		
+		[MADELINE right sad]
+		Badakit erokeria dirudiela,{n}baina {+mountain} hau igo behar dut.
+
+		{trigger 2 Badeline starts laughing}
+		
+		[BADELINE left scoff]
+		Gauza asko izango zara, maitea,{n}baina ez zara {~}mendigoizalea{/~}.
+
+		[MADELINE right distracted]
+		Nork dio ezin naizela izan?
+
+		{trigger 3 Badeline stops laughing}
+		
+		[BADELINE left upset]
+		Badakit ez dela zure indargunea,{n}baina izan zaitez zentzuzkoa behingoz.
+		Ez duzu idearik ere non ari zaren sartzen.
+		Ezin izango duzu lortu.
+		
+		[MADELINE right upset]
+		Bereziko horregatik egin behar dut hau.
+		Zu {+PART_OF_ME} ahula zara, edo alferra?
+
+		[BADELINE left upset]
+		Zati pragamatikoa naiz ni.
+		
+		[BADELINE left scoff]
+		Eta diplomatikoa izaten {~}saiatzen{/~} ari naiz.
+		
+		[BADELINE left serious]
+		{s 4}Goazen etxera {.6}[BADELINE left serious_alt]elkarrekin.
+
+	CH2_DREAM_PHONECALL=
+		[MADELINE_PHONE left distracted]
+		Kaixo?
+		
+		[EX_PHONE right normal]
+		{+MADELINE}?
+		...kabina batetik deika ari zara?
+
+		[MADELINE_PHONE left distracted]
+		Bai.
+
+		[MADELINE_PHONE left sad]
+		Ez, itxaron... zuk deitu didazu.
+
+		[EX_PHONE right normal]
+		Baina zer diozu?
+		
+		[MADELINE_PHONE left distracted]
+		Ez dio axola. Arazo bat daukat.
+		Niri segika dabil... norbait.
+
+		[MADELINE_PHONE left sad]
+		Ez dut ongi ulertzen zen ari den gertatzen,{n}baina badakit arriskuan nagoela. Nabari dut.
+		
+		[EX_PHONE right normal]
+		{+MADELINE}, gauaren erdian beldurrak jota{n}zaudenean bakarrik deitzen didazu.
+		Ez duzu horrelako istorio {n}barregarririk asmatu behar nik kasu egiteko.
+		
+		[MADELINE_PHONE left angry]
+		Ez naiz asmatzen ari!
+		Beti berdina egiten duzu!
+		
+		[EX_PHONE right normal]
+		{~}Shhh{/~} {0.5}ongi da, lasai.
+		Barkaidazu, bihotza.
+		Kontaidazu.
+		
+		[MADELINE_PHONE left sad]
+		{+celeste_mountain}-n gora noa.{n}Ispilu zahar bat aurkitu dut, puskatu egin da,{n}baina nire zati batek alde egin du, eta...
+
+		[MADELINE_PHONE left upset]
+		...
+		...Ametsetan ari naiz, ezta?
+		
+		[EX_PHONE right normal]
+		{+MADELINE}. Noski ametsetan ari zarela.
+		Hilabeteak dira ez dugula hitz egin.
+		Zergatik hasi zara orain?
+		
+		[MADELINE_PHONE left angry]
+		Agh! Zergatik ari ote naiz {+mountain} ergel hau igotzen?
+
+		{trigger 0 Badeline appears}
+		
+		[BADELINE right scoff]
+		Gauza bera diot nik ere.
+		
+		[BADELINE right upset]
+		Amore eman eta etxera joateko ordua da.
+
+	# if the MADELINE has never met Theo before
+	CH2_THEO_INTRO_NEVER_MET=
+		[THEO left normal]
+		Kaixu, lagun esploratzailea!
+		
+		[MADELINE right distracted]
+		Oh... epa.
+
+		{trigger 0 Madeline approaches}
+
+		[THEO left normal]
+		Hondakin zahar hauek ikusteko igo zara zu ere hona?
+		
+		[MADELINE right sad]
+		Uhh... ez, tontorrerantz noa.
+		
+		[THEO left excited]
+		Uau, hori erokeria!
+		
+		[THEO left normal]
+		Bidenabar, ni {+ theo} naiz, {>> 0.3}{~}urruneko lurretako{/~}{>>} abenturazalea!
+		
+		[MADELINE right sad]
+		...{0.2}
+		
+		[THEO left thinking]
+		Ez zara oso berritsua, ezta?
+
+		[THEO left normal]
+		Otso bakarti misteriotsua, ulertuta.{n}Zuri buruzko istorio ilunen bat imajinatuko dut.
+
+	# if the MADELINE has met Theo, but never introduced herself
+	CH2_THEO_INTRO_NEVER_INTRODUCED=
+		[MADELINE right sad]
+		Aizu {+ theo}, barkatu lehengoa.{n}{+MADELINE} naiz.
+		Gauza gehiegi dut buruan.
+		
+		[THEO left normal]
+		Tira, leku egokia da horretarako.
+		Hondakin hauek barrurantz begira jartzeko indarra dute.
+		Ispiluaren sakoneraino begira{n}jartzea bezala, nolabait esateko.
+		
+		[MADELINE right distracted]
+		Bai... ulertzen dut.
+
+		[MADELINE right normal]
+		Zein "{>> 0.5}{~}urruneko lurretakoa{/~}{>>}" zara bada?
+		
+		[THEO left excited]
+		Zera, aberkide begiluze hori, erresuma{n}{0.3}{~}mistiko,{0.4} exotiko{/~}{0.4} batetakoa...
+		
+		[THEO left normal]
+		{0.4} Seattle-koa.
+
+		[MADELINE right normal]
+		It sounds like a special place.
+
+	# added to the start of the CH2_THEO_A if the MADELINE has met and introduced themselves to Theo
+	# (if NEVER_MET and NEVER_INTRODUCED are skipped)
+	CH2_THEO_A_EXT=
+		[THEO left excited]
+		Aizu, {+MADELINE}!{n}Lortu duzu!
+
+		{trigger 3 Madeline Approaches}
+
+		{+ CH2_THEO_A}
+
+	# normal conversation once introductions are out of the way
+	CH2_THEO_A=
+		[THEO left normal]
+		Igoera oso gogorra izan da,{n}baina erabat merezi du.
+		
+		[THEO left excited]
+		Begiratu hondakin hauek!
+		Argazki eder askoak atera ditut, ikusi nahi?
+		
+		[MADELINE right sad]
+		Oh... [MADELINE right normal]noski.
+
+		{trigger 0 Maddy walks to Theo}
+
+		[MADELINE right normal]
+		{+ theo}, ederrak dira!
+		
+		[THEO left thinking]
+		Agian hauekin mila jarraitzaile lortuko ditut azkenean.
+
+		{trigger 1 Theo puts away phone}
+		
+		[THEO left normal]
+		Oh! Gertakari honen orogarria formalki egin behar dugu...
+		
+		[THEO left excited]
+		Atera nirekin selfie bat!
+		
+		[MADELINE right distracted]
+		Ehh... Ez dakit oraintxe bertan idearik onena ote den...
+		
+		[THEO left normal]
+		Tira, erraza da. Horrela!
+
+		{trigger 2 Theo takes a selfie with Maddy by surprise}
+		
+		[MADELINE right upset]
+		...
+
+	CH2_THEO_B=
+		[THEO left normal]
+		Barkaidazu.
+		Lasai, hori ez dut publikatuko.
+
+		[MADELINE right distracted]
+		...
+		
+		[MADELINE right sad]
+		Ez, ongi dago. Publika dezakezu.
+		Zera{.2} ni... ez naiz fotogenikoa.
+		
+		[THEO left normal]
+		{+MADELINE}, ez izan hain gogorra zure buruarekin!
+		Inork ez du itxura onik filtrorik gabe.
+
+		{trigger 0 Add filter to selfie}
+		
+		[THEO left thinking]
+		Kasuala, baina dotore.
+
+	CH2_THEO_C=
+		[MADELINE right normal]
+		Nolatan hasi zinen argazkigintzan?
+
+		[THEO left normal]
+		Nire aitatxi asko ibiltzen zen.
+
+		[THEO left thinking]
+		Argazkilaritzaren munduan{n}nahiko ezaguna omen zen.
+
+		[THEO left wtf]
+		Ez dakit ni inoiz hain ona izango ote naizen.
+
+		[THEO left normal]
+		Baina beretik hurbil sentitzea polita da.
+
+	CH2_THEO_D=
+		[THEO left excited]
+		Orduan erabat ziur zaude {+mountain} oso hau igo nahi duzula?
+		
+		[MADELINE right normal]
+		Bai, nire buruari agindu nion.
+
+		[MADELINE right sad]
+		Nahiko promesa puskatu ditut dagoeneko.
+		
+		[THEO left excited]
+		Bizitzako helburuak! Gustuko dut.
+		
+		[THEO left normal]
+		Ez du uste zu bezala goraino igoko naizenik,{n}baina oraindik ez nago itzultzeko prest.
+
+	CH2_THEO_E=
+		[THEO left wtf]
+		Ba al duzu hemen batere estaldurarik?
+		
+		[MADELINE right normal]
+		Ez daukat smartphone-ik.
+		
+		[THEO left wtf]
+		{+MADELINE}. Ez dakit horri nola erantzun ere.
+
+	CH2_END_PHONECALL=
+		[MOM_PHONE right normal]
+		Bai?
+		
+		[MADELINE_PHONE left distracted]
+		Kaixo {+ mom}.
+		
+		[MOM_PHONE right normal]
+		{+MADELINE}, zeinen sorpresa polita!
+		Zer moduz zure bidaia?
+		
+		[MADELINE_PHONE left distracted]
+		Ongi dago, ez dakit ez ote den niretzat... gehitxo.
+		
+		[MOM_PHONE right concerned]
+		Oh ez, beste izu-atake bat izaten ari zara?
+		Jarri arreta zure arnasean maitea, hemen nago.
+		Zer gertatzen da?
+
+	CH2_JOURNAL=
+		Hautsez betetako liburu zahar bat dago irekita mahai gainean.
+		Kolore gabeko orri batean poema bat dago idatzita.
+
+	CH2_POEM=
+		Mundu honetako ez den{n}
+		Agerkunde bat{n}
+		Baina marko kanpotik{n}
+		Zelatan dagoenagatik{n}{n}
+		Esna, nire bihotza gotorlekua da{n}
+		Ametsetan hauskorra naiz
+
+# *** Chapter 03 ***
+
+	CH3_OSHIRO_FRONT_DESK=
+		[OSHIRO right normal]
+		Ongi etorri! Lagun zaitzaket?
+
+		[MADELINE left surprised]
+		Zu... mamua zara?
+		
+		[OSHIRO right worried]
+		Mamua? Ez esan txorakeriarik.
+		
+		[OSHIRO right normal]
+		Negozio txukun honetako atezaina naiz.
+
+		[OSHIRO right worried]
+		Ongi etorri{.3} {~}{>> .2}mundu mailan ezaguna den{/~}{>>}{n}{big}Celestial Resort Hotelera!{/big}
+
+		[OSHIRO right normal]
+		{+ mroshiro}, zuri laguntzeko.
+		
+		[OSHIRO right sidehappy]
+		{+thought}Bi bezero egun bakarrean!{n}Negozioa azkenik martxa hartzen ari da!{+endthought}
+		
+		[OSHIRO right normal]
+		Zenbat denboraz egongo zara gurekin?
+		
+		[MADELINE left normal]
+		Oh... Pasaeran bakarrik nago hemen.{n}{+mountain} hau igotzen ari naiz.
+		Baduzue atzeko aterik?
+		
+		[OSHIRO right worried]
+		...atzeko atea?
+		
+		[OSHIRO right sideworried]
+		{+thought}Pasaeran bakarrik? Horrela gaizki goaz.{+endthought}
+		
+		[MADELINE left distracted]
+		Badakizu entzun zaitzakedala, ezta?
+		
+		[OSHIRO right nervous]
+		...
+		
+		[OSHIRO right normal]
+		Zera, gure atzeko zerbitzu atea{n}hoteleko langileentzat bakarrik da.
+
+		[OSHIRO right worried]
+		Edonola ere, goiko solairuko suite nagusiak{n}tontorraren sekulako bistak ditu.
+
+		[OSHIRO right normal]
+		Bai, oso eroso egongo zara han goian.
+		
+		[MADELINE left distracted]
+		Agian bertatik teilatura igo naiteke{n}eta gero atzeko aldera jaitsi?
+		
+		[OSHIRO right sidehappy]
+		{+thought}Suite nagusia, ideia zoragarria {+ oshiro}!{+endthought}
+		
+		[OSHIRO right normal]
+		Nola duzu izena, gure agirietarako?
+		
+		[MADELINE left normal]
+		{+MADELINE} naiz.
+		
+		[MADELINE left sad]
+		Berriz diot, ez dut hemen gelditzeko intentziorik.
+
+		{trigger 0 Camera zooms back out}
+		
+		[OSHIRO right normal]
+		Etorri hemendik, {+MS_MADELINE}.
+
+	CH3_GUESTBOOK=
+		Hautsez betetako bisita-liburu oso zahar bat dirudi.
+		Orri asko hondatuta daude edo falta dira.
+		Iruzkinak, aldiz, ederrak dira...
+		"Ez dugu inoiz ahaztuko hemen igarotako denbora."
+		"Ez naiz inoiz hain bakean sentitu. Eskerrik asko."
+	
+	CH3_OSHIRO_HALLWAY_A=
+		[OSHIRO right normal]
+		Jarraitu hurbilagotik, mesedez, {+MS_MADELINE}.
+		Igogailua korridorearen bukaera dago.
+		
+		[MADELINE left distracted]
+		Hotela ez dago bere sasoirik onenean...
+
+		[MADELINE left sad]
+		Ziur zaude negozioa benetan martxan dagoela?
+		
+		[OSHIRO right nervous]
+		Horixe baietz!
+
+		[OSHIRO right worried]
+		Celestial Resort Hotelak ez luke inoiz{n}turismoaren garai gorenean itxiko!
+
+		[OSHIRO right sideworried]
+		{+thought}Sasoirik onena? Zer esan nahi izan ote du?{+endthought}
+
+		[OSHIRO right normal]
+		Oh! Mesedez, utzidazu zure maletekin laguntzen.
+		
+		[MADELINE left sad]
+		Nire zorroa?
+
+		[MADELINE left normal]
+		Ez eskerrik asko, nirekin eramango dut.
+		
+		[OSHIRO right normal]
+		Hmm. Ongi da.
+		
+		[OSHIRO right sidesuspicious]
+		{+thought}Hau bai bezero bitxia.{+endthought}
+
+	CH3_OSHIRO_HALLWAY_B=
+		[OSHIRO right normal]
+		{+MS_MADELINE}, hemen geldi zaitezen erregutzen dizut.
+
+		[OSHIRO right worried]
+		Mundu mailako negozia baten nagusia nauzu.{n}Ez dut bezeroekin harat-honat ibiltzeko astirik.
+		
+		[MADELINE left sad]
+		Benetan ez didazula itxaron beharrik,{n}leku hau zeharkatzeko bide baten bila bakarrik nabil.
+		
+		[OSHIRO right sideworried]
+		{+thought}{+oshiro} ergela, bezeroa beti dago zuzen!{+endthought}
+		{+thought}Negozioa martxa hartzen ari da{n}eta zu aldarte honekin!?{+endthought}
+		
+		[OSHIRO right nervous]
+		Oh... horixe baietz {+MS_MADELINE}!
+		Benetan sentitzen dut, hori lekuz kanpo zegoen.
+
+		[OSHIRO right normal]
+		Mesedez, hartu nahi duzun denbora guztia hotela miatzeko.
+
+	CH3_MEMO_OPENING=
+		Nahaspila honen gainean paper zahar bat ageri da...
+
+	CH3_MEMO=
+		{big}Hoteleko langile agurgarriak:{/big}{n}{n}
+		Jakinarazpen triste batekin natorkizue: hurrengo denboraldian Celestial Resort Hotela mugagabeki itxiko dugu, gure esku ez dauden gertaera batzuengatik.{n}{n}
+		Denbora guzti honetan zuen ondoan lan egitea ohorea izan da, gure bezeroentzat ahalik eta esperientzia abegitsu eta gogoangarriena izan zedin gelditu gabe lanean aritu baikara.{n}{n}
+		Bihotzeko minez idazten dut hau. Hotela hau nire etxea bihurtu da, bertako langilean eta bezeroak, nire familia. Guztien falta sumatuko dut.{n}{n}
+		-Oshiro Jauna
+
+	CH3_OSHIRO_CLUTTER0=
+		[OSHIRO left worried]
+		Argh! Nahaspila honek jango gaitu!
+
+		{trigger 1 Oshiro paces to the left}
+
+		[OSHIRO left worried flip]
+		Noiz gertatu da hau!?
+
+		{trigger 2 Oshiro paces back to the right}
+
+		[OSHIRO left worried]
+		Ez dakit nondik hasi ere...
+		
+		[MADELINE right sad]
+		{+mroshiro}, zuk bakarrik kudeatzen al duzu hau dena?
+		
+		[OSHIRO left nervous]
+		Halaxe da {+MS_MADELINE},{n}ez dut inoiz lortu hau nik bakarrik konpontzea.
+
+		{trigger 0 Oshiro Collapses}
+		
+		[OSHIRO left drama]
+		Hetsigarria da.
+
+		[MADELINE right distracted]
+		Ez nuen hori esan nahi...
+
+		[MADELINE right sad]
+		Hartu arnasa, {+MROSHIRO}. Arnasa.
+		Pixka bat txukuntzea besterik ez du behar.
+		
+		[MADELINE right distracted]
+		Tira, pixka bat baino gehixeago...
+		
+		[MADELINE right normal]
+		Baina lagun dezaket!
+		
+		[OSHIRO left normal]
+		Oso atsegina zara.
+		
+		[OSHIRO left drama]
+		Baina ez zaitez arduratu.
+		Honek ez du konponbiderik.
+
+	CH3_OSHIRO_CLUTTER0_B=
+		[MADELINE right normal]
+		Zenbat denbora daramazu hotel honen buru?
+
+		[OSHIRO left normal]
+		Oh, denbora puska bat bai.
+
+		[OSHIRO left sideworried]
+		{+thought}Negozioa... mantso dabil.{+endthought}
+
+		[MADELINE right sad]
+		Zure lana benetan gustukoa izango duzu.
+
+		[OSHIRO left normal]
+		Oh bai, {+MS_MADELINE}.
+
+		{trigger 0 Oshiro gets back up}
+
+		[OSHIRO left normal]
+		Hotelen negozioan, gure grina abegikortasunaren{n}arte fina bikaintasunera eramatea da.
+
+		[OSHIRO left worried]
+		Benetako hotel on bat{.2} {~}betirako{/~} biziko da{n}pozik joandako bezeroen gogoan.
+
+		[MADELINE right normal]
+		Hori duk eta!
+		Orain txukundu dezagun nahaste-borraste hau.
+
+	CH3_OSHIRO_CLUTTER1=
+		[OSHIRO right normal]
+		Oraindik ez naiz garbitzen ere hasi eta{n}dagoeneko ariman argitasuna nabari dut!
+		Hori pentsaera baikorraren eragina da!
+		
+		[MADELINE left distracted]
+		Hmm, zera...
+		
+		[MADELINE left normal]
+		Nik dagoeneko nahaspilaren zati bat garbitu dut.
+		
+		[OSHIRO right normal]
+		Oh bai, eskerrik asko, {+MS_MADELINE}.
+		Baina mesedez, zaude lasai eta utzi lana hoteleko langileei!
+		
+		[OSHIRO right sidesuspicious]
+		{+thought}{+oshiro}, ergel hori. Galdu egingo duzu.{+endthought}
+
+		[OSHIRO right sideworried]
+		{+thought}Bezeroek ez dute beraien denbora garbiketan pasa nahi!{+endthought}
+		
+		[MADELINE left distracted]
+		Ongi zaude?
+		
+		[OSHIRO right nervous]
+		Bai, noski.
+
+		[OSHIRO right worried]
+		Inoiz bisitatu duzun hotelik hoberena da hau, ikusiko duzu!
+		
+		[OSHIRO right sideworried]
+		{+thought}Nola utzi dut nire arazoak horrela pilatzea?{+endthought}
+
+	CH3_OSHIRO_CLUTTER1_B=
+
+		[MADELINE left sad]
+		{+mroshiro}, normala da nahaste{n}honek kezkatzea.
+
+		[MADELINE left normal]
+		Ezin izango naiz lotan geratu, baina joan aurretik lagunduko dizut.
+
+		[OSHIRO right sideworried]
+		{+thought}Zuretaz erruki da, {+oshiro}. Lotsagarria zara.{+endthought}
+
+		[MADELINE left upset]
+		...
+
+	CH3_OSHIRO_CLUTTER2=
+		[MADELINE left normal]
+		Askoz politago dago orain!
+		
+		[MADELINE left distracted]
+		Irteerara eramango nauzu orain?
+
+		[OSHIRO right worried]
+		Baina {+MS_MADELINE}, apenas gozatu dituzu hotel{n}honek eskaintzen dituen luxuak!
+		
+		[OSHIRO right normal]
+		Garbitzen bukatzen dudanean hitzegingo dugu.
+
+		[OSHIRO right worried]
+		Oso lanpetuta nago!
+
+		[OSHIRO right sidesuspicious]
+		{+thought}Bai... gaurko gazteek ez dute inongo errespeturik.{+endthought}
+		
+		[MADELINE left upset]
+		...ez horregatik, eneee.
+
+	CH3_OSHIRO_CLUTTER2_B=
+		[MADELINE left angry]
+		Nire laguntzan nahi duzu{.3} edo ez?
+
+		[OSHIRO right sideworried]
+		{+thought}Bukatu da, {+oshiro}. Gorroto zaitu.{+endthought}
+
+		[MADELINE left upset]
+		Ni{.3} ez... 
+
+		[MADELINE left distracted]
+		Sentitzen dut. 
+
+		[MADELINE left sad]
+		Zure hotela...  zoragarria da. Mundu mailakoa benetan.
+		Gelditu nahi nuke.
+
+		[OSHIRO right serious]
+		Ez didazu arrazoia eman beharrik, {+MS_MADELINE}.
+		Ulertzen dut.
+
+	CH3_OSHIRO_CLUTTER_ENDING=
+		{anchor bottom}
+		[OSHIRO left normal]
+		Hemen zaude!
+		Gordeketan aritzen benetan ona zara gero.
+		
+		[MADELINE right distracted]
+		Zaila samarra izan da, baina zuregatik dena txukundu dut.
+		
+		[OSHIRO left normal]
+		Celestial Resort Hotelak bere esker ona{n}azaltzen dizu laguntzagatik, {+MS_MADELINE}.
+		Noski, langileek nahaspila guzti hau kontrolpean zuten.
+		
+		[MADELINE right upset]
+		Oh, ziur. Bai.
+		
+		[OSHIRO left sideworried]
+		{+thought}Zeinen umiliagarria.{+endthought}
+		
+		[OSHIRO left worried]
+		Zure gela ikusteko desiotan egongo zara!
+
+		[OSHIRO left normal]
+		Igogailutik igo eta korridorearen bukaerara joatea besterik ez da.
+		
+		[MADELINE right upset]
+		Horixe baietz, zer demontre. 
+		Erakutsi iezadazu suite nagusia.
+		Zoragarria dirudi.
+		
+		[OSHIRO left sideworried]
+		{+thought}Hau da zure azken aukera, {+oshiro}. Ez ezazu galdu.{+endthought}
+
+	CH3_THEO_NEVER_MET=
+		[MADELINE left sad]
+		Oh hara, zu ere... {0.2}hemengo bezeroa zara?
+
+		{trigger 0 Theo stops trying to pry off the vent cover}
+		
+		[THEO right worried]
+		Uau, {~}{!}zeinen{/!}{/~} pozgarria den beste pertsona bat aurkitzea.
+		Leku honek benetako ezin egona eragiten dit.
+		
+		[MADELINE left sad]
+		Arraroa den zerbait dauka, zalantzarik gabe.
+
+		[MADELINE left normal]
+		{+MADELINE} naiz, bidenabar.
+		
+		[THEO right normal]
+		Oh, ni {+theo} naiz.
+		
+		[THEO right thinking]
+		Misterio beldurgarriak gustuko ditut,{n}baina hau errealegia da.
+
+		{+CH3_THEO_ESCAPING}
+
+	CH3_THEO_NEVER_INTRODUCED=
+		[MADELINE left normal]
+		{+theo}! Zu ere hemengo "bezeroa" zara?
+
+		{trigger 0 Theo stops trying to pry off the vent cover}
+		
+		[THEO right worried]
+		Uau, {~}{!}zeinen{/!}{/~} pozgarria den beste pertsona bat aurkitzea.
+		Misterio beldurgarriak gustuko ditut,{n}baina hau errealegia da.
+		
+		[MADELINE left sad]
+		Arraroa den zerbait dauka, zalantzarik gabe.
+
+		[MADELINE left normal]
+		{+MADELINE} naiz, bidenabar.
+		Barka lehen antisozial portatu banaiz,{n}gauza asko ditut buruan.
+
+		{+CH3_THEO_ESCAPING}
+
+	CH3_THEO_INTRO=
+		[MADELINE left normal]
+		{+theo}! Zu ere hemengo "bezeroa" zara?
+
+		{trigger 0 Theo stops trying to pry off the vent cover}
+		
+		[THEO right worried]
+		Uau, {~}{!}zeinen{/!}{/~} pozgarria den beste pertsona bat aurkitzea.
+		Misterio beldurgarriak gustuko ditut,{n}baina hau errealegia da.
+
+		{+CH3_THEO_ESCAPING}
+
+	CH3_THEO_ESCAPING=
+		[MADELINE left sad]
+		{+mroshiro}rekin hitzegin al duzu?
+
+		[MADELINE left distracted]
+		Laguntza behar duela uste dut.
+
+		{trigger 0 Theo stops trying to pry off the vent cover}
+		
+		[THEO right wtf]
+		Zuk {~}uste?{/~} 
+		Agure zahar makabroa da.
+		Ziur oraintxe zokoren bat garbitzen{n}ari dela gure gorpuak bertan gordetzeko.
+
+		{trigger 1 Theo goes back to prying off the vent cover}
+
+		[THEO right worried]
+		Haizebide honetatik joango naiz,{n}kanpoko haize hotza botatzen ari da.
+		Goazen!
+		
+		[MADELINE left sad]
+		{+mroshiro}k arazoak ditu, baina...{n}Ez dut uste minik eman nahi digunik.
+		
+		[MADELINE left normal]
+		Nahaspila hau garbitzea besterik ez du behar.
+		Lagundu egin nahi diot.
+		
+		[THEO right worried flip]
+		{+MADELINE}, hori oso polita da, baina hau arriskutsua da.
+		
+		{trigger 2 Theo removes vent cover and it flies off. Theo falls down as it comes off, and gets back up}
+
+		[THEO right worried]
+		Hemendik atera eta {0.2}{*}agure zahar makabroetan{/*}{n}aditua den norbaiti deitu behar diogu.
+		Ez gaude honetarako prest.
+		
+		[MADELINE left distracted]
+		Berekin hitzegin dezakedala uste dut.
+
+		[MADELINE left normal]
+		Segi zuk eta geroago harrapatuko zaitut.
+		
+		[THEO right wtf]
+		Neska, nire arreba baino burugogorragoa zara.
+		Ezinezkoa zela uste nuen.
+
+		{trigger 3 Theo walks to Maddy}
+		
+		[THEO right serious]
+		Zaindu zaitez.
+
+		[MADELINE left normal]
+		Eskerrik asko {+theo}. Kanpoan ikusiko zaitut.
+
+	CH3_THEO_VENTS=
+		{anchor bottom}
+		[THEO right normal upsidedown]
+		Bua, hau labirintoa da.
+		Zer moduz zoaz {+elcreepo}rekin?
+		
+		[MADELINE left sad]
+		Nahaspila txukuntzen lagundu diot,{n}baina nirekin gaizki portatu da.
+		
+		[MADELINE left upset]
+		Eta oraindik ere hemen gera nadin konbentzitu nahi nau.
+		
+		[THEO right wtf upsidedown]
+		{+MADELINE}, benetan diotsut.
+		Nire ideia txarren radarra {~}grafikatik kanpo{/~} dago oraintxe
+		Hemendik alde egin behar zenuke.
+		
+		[MADELINE left sad]
+		Orain joango banintz, {+mroshiro}rentzat hondamendia litzateke.
+		
+		[MADELINE left distracted]
+		Eta agian ona den zerbait{n}egin dezaket.{.3} Behingoz.
+		
+		[THEO right worried upsidedown]
+		Ahantzi zure {~}karma{/~}, neska.
+
+		[THEO right wtf upsidedown]
+		Nik uste tipo horrentzat edozer gauza izango dela hondamendia.
+
+		[THEO right worried upsidedown]
+		Zure segurtasunean pentsatu behar duzu.
+		
+		[MADELINE left upset]
+		{+theo}. Ongi egongo naiz.
+		
+		[THEO right thinking upsidedown]
+		Bai bai, ez nuen entzungo ninduzunik espero.
+
+		[THEO right wtf upsidedown]
+		Kanpoan ikusiko zaitut, gatibutxo.
+
+	CH3_OSHIRO_BREAKDOWN=
+		{anchor top}
+		[OSHIRO left sideworried]
+		{+thought}Hementxe duzu {+oshiro}, zure azken aukera.{+endthought}
+
+		{trigger 0 Oshiro paces}
+		
+		[OSHIRO right sidesuspicious]
+		{+thought}Dagoneko hanka sartu duzu.{n}Bezero bat zure nahastea txukuntzen?{+endthought}
+		{+thought}Ez da sekulan geratuko.{+endthought}
+
+		{trigger 1 Oshiro paces}
+		
+		[OSHIRO left sideworried]
+		{+thought}Ez, hemen jarraitzen du. Oraindik aukera dago!{+endthought}
+
+		{trigger 0 Oshiro paces}
+		
+		[OSHIRO right sidehappy]
+		{+thought}Suite nagusia da gakoa.{n}Ziur zirrara sortuko diola!{+endthought}
+
+		{trigger 2 Oshiro falls to ground, spawns dust creatures}
+		
+		[OSHIRO left sideworried]
+		{+thought}Eutsi, {+oshiro}!{+endthought}
+
+		{trigger 3 Enter Madeline}
+		
+		[OSHIRO left nervous]
+		Hemen zaude, {+MS_MADELINE}!
+		Jarrai iezaidazu! Ia ailegatu gara.
+
+	CH3_DIARY=
+		{anchor bottom}
+		{+MROSHIRO}ren egunerokoa da.
+		Azken sarrerak hamarkadak dituela dirudi...
+		"Gaurko egunez hotelak ofizialki itxi ditu ateak. Charlotte-ek agur irteera bat antolatu du mendira. Gutako gehienok ez dugu tontorra ikusi."
+		"Adio egokia zirudien, baina unea ailegatu denean, ezin izan dut azken aldiz ikusi gabe alde egin. Ni gabe joateko esan diet."
+		"Hemendik gutxira harrapatuko ditut, dena{n}ongi dagoela egiaztatu ondoren..."
+		"Ezin dut sinetsi nire hemengo egonaldia{n}bukatu denik. Zer egingo dut orain?"
+		"Agian azken gaua pasatuko dut hemen, hotelak{n}eta biok behar den bezalako agurra izan dezagun..."
+
+	CH3_OSHIRO_SUITE=
+		{anchor bottom}
+		[OSHIRO left normal]
+		Hementxe gaude, sariak irabazi dituen suite nagusian!
+
+		[OSHIRO left worried]
+		Benetan, landa-luxuaren definizioa da.
+
+		[OSHIRO left normal]
+		Pixka bat baztertuko naiz bere handitasunean murgil zaitezen.
+		Kudeatzeko asko dagoela baitakit.
+
+		{trigger 3 Madeline walks around the room and looks around}
+		
+		[OSHIRO right nervous]
+		Eta? Zer iruditzen?
+		
+		[MADELINE left sad]
+		Zera... eh, ederra da.
+		Altzariek garestiak dirudite...
+
+		[MADELINE left distracted]
+		Oso... zabala da.
+
+		[MADELINE left sad]
+		Kolore eleganteak ditu.
+
+		[MADELINE left normal]
+		Nabari da lan handia egin duzuela hemen.
+
+		[OSHIRO right worried]
+		{*}Banekien zirrara sortuko ziola!{/*}
+
+		[MADELINE left sad]
+		Bai.
+
+		[MADELINE left distracted]
+		...
+		Eta, hemendik teilatura igo nahiteke?
+		
+		[OSHIRO right sideworried]
+		{+thought}Ergela zara, aukera galtzen ari zara!{+endthought}
+		
+		[OSHIRO right nervous]
+		Oh err, ia ahaztu dut aipatzea...
+		Zure gisako bezero baliotsuak gure{n}hotel ederrean erdi prezioan egon daitezke!
+		
+		[MADELINE left sad]
+		Nik... ez dut gelditu nahi.
+
+		{trigger 0 Badeline appears in the mirror}
+		
+		[OSHIRO right serious]
+		Mesedez, {+MS_MADELINE}.
+		Geldi zaitez, mesedez.
+		
+		[MADELINE left upset]
+		{+mroshiro}, denbora gehiegi daramat hemen...
+
+		{trigger 1 Badeline escapes the mirror}
+		
+		[BADELINE right normal]
+		{+MADELINE}, maitea, ahaztu txotxolo hau.
+		
+		[OSHIRO left serious]
+		Txotxoloa? {silent_trigger 6}
+		
+		[BADELINE right upset]
+		Ez duzu onartu nahi, agure zaharra. 
+		Oporleku hau {*}{!}zabortegia{/!}{/*}{0.3} da.
+
+		[BADELINE right yell]
+		Inork ez luke {*}{!}inoiz{/!}{/*} hemen gelditu nahi.
+		
+		[BADELINE right scoff]
+		Norbaitek esan beharra zuen.
+
+		{trigger 4 Madeline steps closer to Oshiro}
+		
+		[MADELINE left sad]
+		Ez zuen horrelakorik esan nahi.
+		
+		[OSHIRO right serious]
+		Ni... 
+
+		[OSHIRO right lostcontrol]
+		Oso lanpetuta nago.
+		Zoaz, mesedez, {+MS_MADELINE}. {silent_trigger 5 Madeline jumps back}
+		
+		[BADELINE right upset]
+		Tira {~}{+MS_MADELINE}{/~}, entzun duzu esan dizuna.
+
+		{trigger 2 Badeline blasts a hole in the ceiling}
+		
+		[BADELINE left normal]
+		Non zeundeke ni gabe?
+
+	CH3_OSHIRO_SUITE_SAD0=
+		{anchor bottom}
+		[OSHIRO right sideworried]
+		{+thought}Zergatik esan ote du nire hotel ederra zabortegia dela?{+endthought}
+
+	CH3_OSHIRO_SUITE_SAD1=
+		{anchor bottom}
+		[OSHIRO right sidesuspicious]
+		{+thought}Nola ausartu da zu horrela iraintzen.{+endthought}
+
+	CH3_OSHIRO_SUITE_SAD2=
+		{anchor bottom}
+		[OSHIRO right sideworried]
+		{+thought}Eta zuzen badago?{+endthought}
+
+	CH3_OSHIRO_SUITE_SAD3=
+		{anchor bottom}
+		[OSHIRO right sidesuspicious]
+		{+thought}Noski dagoela zuzen.{n}Bere laguntzarik gabe ez zenuen txukunduko.{+endthought}
+
+	CH3_OSHIRO_SUITE_SAD4=
+		{anchor bottom}
+		[OSHIRO right lostcontrol]
+		{+thought}Saiatu naiz. Ahal izan dudan guztia.{+endthought}
+
+	CH3_OSHIRO_SUITE_SAD5=
+		{anchor bottom}
+		[OSHIRO right serious]
+		{+thought}{+MS_MADELINE}k lagundu bakarrik egin nahi zizun!{+endthought}
+
+	CH3_OSHIRO_SUITE_SAD6=
+		{anchor bottom}
+		[OSHIRO right sideworried]
+		{+thought}Baina zergatik izan da hain krudela?{+endthought}
+
+	CH3_OSHIRO_START_CHASE=
+		[BADELINE left normal]
+		Uste nuen ez genuela inoiz atzean utziko.
+		Hau zor didazu.
+
+		[BADELINE left scoff]
+		Zerrendan gehitu behar zenuke.
+		
+		[MADELINE right upset]
+		Utz nazazu bakean.
+
+		{trigger 0 Maddy walks away}
+		
+		[BADELINE left upset]
+		Nik uste nuen {~}eeeeerabat{/~}{n}seguru zeundela igotzen jarraitzeaz...
+
+		[BADELINE left scoff]
+		Eta orain bapatean tipo arraro baten terapeuta bihurtu zara?
+
+		{trigger 1 Maddy turns around}
+		
+		[MADELINE right angry]
+		Zoaz pikutara!
+
+		{trigger 2 Oshiro enters}
+		
+		[OSHIRO left serious]
+		{+MS_MADELINE}, alde egin baino lehen...
+		gauza bat galdetu nahi dizut...
+		
+		[OSHIRO left serious]
+		Zergatik izan zara hain atsegina nirekin, gero alde egiteko?
+		Zer egin dut gaizki?
+		
+		[BADELINE right scoff]
+		Oh, utzi arnasa hartzen. Oraindik ez duzu ulertu?
+
+		[BADELINE right upset]
+		Bere ego maltzurra elikatzeko bakarrik laguntzen dio jendeari.
+		
+		[BADELINE right yell]
+		{*}Inoiz{/*} ez da zutaz arduratu.
+		
+		[MADELINE right angry]
+		Ixo! 
+		
+		[MADELINE right sad]
+		Lagundu egin nahi nuen.
+		
+		[BADELINE right scoff]
+		Lotsagarriak zarete biak.
+
+		{trigger 3 Badeline disappears, Oshiro gets angry}
+
+		[OSHIRO left lostcontrol]
+		Lotsagarria!?
+		Ni umiliatzera bakarrik etorri zara...
+		Ez naiz gehiago makurtuko!
+
+	CH3_OSHIRO_CHASE_END=
+		{anchor top}
+		[MADELINE right surprised]
+		{+mroshiro}, geldi!
+
+		{trigger 0 Oshiro slams the roof below their feet and it begins shaking}
+		
+		[MADELINE right surprised]
+		Lagundu egin nahi nuen!
+
+	CH3_ENDING=
+		[OSHIRO left serious]
+		...
+		Konponketa batzuengatik hotela ixtea erabaki dut.
+		Bigarren solaituko iturri batek isuria du...
+		...liburutegia sekulako nahaste-borrastea da...
+		...eta suite nagusiko sabaiko zuloa{n}ez dut aipatu ere egingo.
+
+		{trigger 0 Turn and pause, turn back}
+
+		[OSHIRO left serious]
+		Mesedez, utzi ni bakarrik.
+
+# *** Chapter 04 ***
+
+	CH4_GRANNY_1=
+		[MADELINE left upset]
+		Oh ederki, berriz ere zu.
+
+		{trigger 3 zoom in}
+		
+		[GRANNY right normal]
+		Tira tira, ez nuen espero zu hemen goian aurkitzerik!
+		Pozten naiz osorik segitzen duzula ikusita.
+		Hoteletik pasa zarela ikusi dut,{n}ezagutu al duzu {+mroshiro}?
+
+		{trigger 4 maddy turns around}
+		
+		[MADELINE left upset flip]
+		Oh, ezagutu dut, bai.
+		Eskapatu behar izan dut.
+		Bertan zuen sekulako nahaspila txukundu ondoren.
+
+		{trigger 0 Start Laughing}
+		
+		[GRANNY right laugh]
+		Oh ho ho, goiz dibertigarria izan duzu.
+
+		{trigger 1 Stop Laughing}
+		
+		[GRANNY right normal]
+		{+oshiro} galdutako arima da, maitea.
+		Leku hori beretzat hotel soil bat baino gehiago da.
+		Ez dadila zure proiektu pertsonala izan.
+
+		{trigger 5 maddy approaches}
+		
+		[MADELINE left angry]
+		Badakizu zer uste dudan?
+		Nik uste {+mountain} honek zuek eroturik zaudetela.
+
+		{trigger 2 Wait a beat}
+		
+		[GRANNY right normal]
+		Ba'kizu, ez zara hori esan duen lehenengoa.
+
+		{trigger 0 Start Laughing}
+		
+		[GRANNY right laugh]
+		Beharbada zuzen zaude.
+		Nola jakingo dut eroturik ote nagoen?
+
+		{trigger 1 Stop Laughing}
+		
+		[GRANNY right normal]
+		Nik uste dudana da, {+mountain} honek{n}ezin duela lehendik barruan ez dugunik atera.
+
+		{trigger 0 Start Laughing}
+		
+		[GRANNY right laugh]
+		Lehenego eta behin, ezin zara burutik guztiz{n}sano egon hemen goian bizitzeko, ezta?
+
+		{trigger 2 Wait a beat}
+		
+		[MADELINE left upset]
+		Baina zertaz ari zara hizketan?
+
+		{trigger 1 Stop Laughing}
+		
+		[GRANNY right mock]
+		Oh, atso zahar baten hitzak besterik ez dira.
+
+		[GRANNY right normal]
+		Amore emateko prest al zaude?{n}Zure autorako bidezidor bat ezagutzen dut.
+
+		{trigger 6 Maddy walks past granny}
+		 
+		[MADELINE right upset flip]
+		Eman bakea, anderea.
+		Tontorrerantz noa.
+		
+		[GRANNY left normal flip]
+		Batzutan zaila da burugogorkeria eta{n}irmotasunaren arteko aldea ikustea, ez duzu uste?
+		Neroni gogoratzen nauzu, gaztetan.
+
+		{trigger 0 Start Laughing}
+
+		[GRANNY left laugh flip]
+		Zorte on, eta kontuz haizearekin!
+
+	CH4_GRANNY_2=
+		[MADELINE left upset]
+		Ez duzu hemen goian bisitari askorik, ala?
+
+		[GRANNY right normal]
+		Ez, ezin horrelakorik esan.
+		Bakarrik ere gustura, baina.
+
+		[MADELINE left distracted]
+		Batzutan bakarrik bizi behar nukela pentsatzen dut nik ere.
+
+		[MADELINE left sad]
+		{+mroshiro}rekin esfortzu handia egin behar izan dut.{n}Lagundu egin nahi nion.
+
+		[GRANNY right normal]
+		{+OSHIRO}k hotel hori atzean utzi behar du.
+		Baina hori ez da zure planarekin gertatuko.
+		Eta zuk zehozer frogatu beharrak ere ez du laguntzen.
+
+		[MADELINE left distracted]
+		...
+
+	CH4_GRANNY_3=
+		[MADELINE left sad]
+		Ez al zara bakarrik sentitzen txabolatxo horretan?
+
+		[GRANNY right normal]
+		Baditut lagunak, maitea.
+
+		[GRANNY right mock]
+		Agian erotuta nago, baina ez naiz ermitaua.
+
+		[MADELINE left distracted]
+		Barkatu.
+		Ez nuen hori esan nahi.
+
+		[GRANNY right normal]
+		Gazteago nintzenean ezin nuen imajinatu{n}leku berean denbora luzez egongo nintzenik.
+		Baina {+MOUNTAIN} hau aurkitu nuenean.
+		Berehala jakin nuen nire etxea izango zela.
+
+		[MADELINE left sad]
+		Zerk egiten du hain berezia?
+
+		[GRANNY right normal]
+		{+MOUNTAIN} honek benetan nolakoa zaren erakusten dizu.
+		Horretarako prest egon edo ez.
+		Zintzo mantentzen nau.
+
+	CH4_GONDOLA=
+		{anchor top}
+		[UNKNOWN]
+		{+MADELINE}! Itxaron!
+
+		{trigger 0 Enter Theo from above, he falls and lands on the ground face-down}
+		
+		[THEO left nailedit]
+		{%}{*}L o r t u   d u t  .{/*}{/%}
+
+		{trigger 1 Check on Theo}
+		
+		[MADELINE right sad]
+		{+theo}! Ongi al zaude?
+		
+		[THEO left nailedit]
+		Uf. Bai. 
+		Eman segundu bat.
+
+		{trigger 2 Theo gets up}
+		
+		[THEO left excited]
+		Telekabina bat! Beti ibili nahi izan dut hauetako batean.
+		
+		[MADELINE right sad]
+		Nahiko zaharra dirudi, baina oraindik funtziona dezake.
+		
+		[MADELINE right distracted]
+		Ez dut amildegia gurutzatzeko beste modurik ikusten.
+		
+		[THEO left excited]
+		Egin dezagun!
+
+		{trigger 3 Look at Lever}
+		
+		[THEO right normal]
+		Palanka honek garrantzitsua dirudi.
+
+		{trigger 4 Pull Lever}
+		
+		[THEO right normal]
+		Erraza izan da.
+
+		[THEO right thinking]
+		Aurreko bizitzaren batean teleferiko gidaria izango nintzen.
+
+		[MADELINE left distracted]
+		Gauza hau segurua ote da?
+
+		[THEO right normal]
+		Ziur ongi dabilela.
+
+		{trigger 5 Wait a bit}
+
+		[THEO right normal]
+		Zer moduz joan da {+oshiro}rekin?
+
+		[MADELINE left sad]
+		Zuzen zeunden.
+
+		[MADELINE left distracted]
+		Hobe ez banintz laguntzen saiatu.
+
+		[THEO right thinking]
+		Ez dut esan nahi esan nizunik, baina...
+
+		[MADELINE left upset]
+		Bai bai...
+		Entzun egin behar nizun.
+
+		[THEO right normal]
+		Ez duzu minik hartu, hori da garrantzitsuena.
+		
+		{trigger 5 Wait a bit}
+		
+		[MADELINE left sad]
+		Haize fina dabil hemen goian.
+
+		[MADELINE left distracted]
+		Arnasa hartzeko ere nahikoa lan.
+
+		{trigger 6 Wait for gondola to reach center}
+		
+		[THEO right excited flip]
+		Tira, leku honetan ez badugu selfie{n}bat ateratzen, damutuko gara.
+
+		[MADELINE left distracted flip]
+		Lainoarekin ezin dut lurra ere ikusi...
+		Zein altueratan ote gaude?
+
+		[THEO right thinking flip]
+		Beldur gutxiago, pose gehiago.
+
+		{trigger 7 Seflie, then gondola stalls out and badeline appears}
+		{anchor bottom}
+		
+		[MADELINE left surprised]
+		Zer izan da hori?
+		
+		[THEO right wtf flip]
+		Heh. Gelditu egin garela dirudi.
+
+		{trigger 8 Madeline moves left}
+		
+		[MADELINE left sad]
+		Hau oso txarra da...
+
+		[THEO right wtf]
+		Beharbada hau egiten badut...
+
+		{trigger 9 lever snaps off}
+		
+		[THEO right worried]
+		Tira, hori ez da ona.
+
+		{trigger 10 tentacles appear}
+		
+		[MADELINE left panic]
+		Ez, benetan ez dela ona.
+
+		{trigger 11 tentacles grow}
+		
+		[THEO right worried]
+		{+MADELINE}, ongi?
+
+		[MADELINE left panic]
+		Bai... soilik...
+
+		{trigger 12 Maddy can't breathe}
+
+		[MADELINE left panic]
+		Ez, ez nago ongi.
+		Ezin dut arnasik hartu.
+		
+		[THEO right serious]
+		Izu-atakea izaten ari zara.
+
+		[MADELINE left angry]
+		Nolatan pentsatu duzu traste ergel{n}honetan ibiltzea ideia ona zela?
+
+		[THEO right thinking]
+		Tira, hau ez da nire errua izan.
+
+		[THEO right serious]
+		Egon adi.
+		Nire aitonak honetarako truko bat irakatsi zidan.
+		Itxi begiak.
+
+		{trigger 13 Play breathing minigame}
+		
+		[THEO right normal]
+		Ikusi? Erraza izan da.
+
+		{trigger 14 Gondola continues to the end station}
+
+		{anchor top}
+		
+		[THEO left normal]
+		Hobeto sentitzen zara?
+		
+		[MADELINE right distracted flip]
+		Pentsatzen dut. Eskerrik asko lasaitzen laguntzeagatik.
+
+		{trigger 15 Wait a bit}
+		
+		[MADELINE right sad flip]
+		Nola zenekien berriz mugitzen hasiko ginela?
+		
+		[THEO left normal]
+		Oh, ziur nengoan gureak egin zuela.
+
+		{trigger 16 Theo takes out phone}
+		
+		[THEO left excited]
+		Oh. Ama. Maitea.
+		{silent_trigger 17 Maddy faces theo}
+		Begira ezazu selfie hau!
+
+	CH4_GONDOLA_FEATHER_1=
+		Imajina ezazu luma bat zure aurrean hegan.
+
+	CH4_GONDOLA_FEATHER_2=
+		Ikusten duzu?
+
+	CH4_GONDOLA_FEATHER_3=
+		Ados.
+	
+	CH4_GONDOLA_FEATHER_4=	
+		Zure hatsak luma airean mantentzen du.
+
+	CH4_GONDOLA_FEATHER_5=
+		Hartu arnasa poliki eta lasai, barrura eta kanpora.
+
+# *** Chapter 05 ***
+
+	CH5_ENTRANCE=
+		[THEO right excited flip]
+		Ai ene, zeinen leku ederra!
+		Abenturarako gogorik?
+
+		{trigger 0 Maddy turns right}
+
+		[MADELINE left sad]
+		Ah, ez dakit. 
+		Nahiko ilun dago barruan.
+
+		[MADELINE left distracted]
+		Abentura baino amesgaiztoa dirudi.
+
+		{trigger 1 Theo turns left}
+		
+		[THEO right normal]
+		Paseo azkar bat emango dut, argazki batzuk atera.
+
+		{trigger 1 Theo turns right}
+
+		[THEO right excited flip]
+		Leku honek aintzinakoa izan behar du!
+
+		[MADELINE left sad]
+		{+THEO}, egon.
+		
+		[THEO right excited flip]
+		Nire {# FFFF4C}InstaPix{#}eko jarraitzaleak hau irentsi egingo dute.
+
+		{trigger 2 Theo leaves}
+		
+		[MADELINE left distracted]
+		Hau ez da ongi bukatuko.
+
+	CH5_PHONE=
+		[MADELINE left sad]
+		Uh oh.
+
+		{trigger 0 Maddy walks to phone, ducks to pick it up}
+
+		[MADELINE left distracted]
+		Hau {+THEO}ren telefonoa da...
+
+		{trigger 1 Maddy stands back up}
+
+		[MADELINE left determinedclosed]
+		Ez izutu, {+MADELINE}.
+		Beharbada sakelatik erori zaio.
+		Aurkitzen dudanean itzuliko diot.
+
+	CH5_THEO_MIRROR=
+		[MADELINE left normal]
+		{+theo}! Hemen zaude eta!
+		
+		[THEO_MIRROR right excited]
+		{+MADELINE}! Kaixo!
+		
+		[THEO_MIRROR right wtf]
+		...eh, zergatik zaude ispiluaren barruan?
+		
+		[MADELINE left sad]
+		Ziur nago zu zarela ispiluaren barruan dagoena.
+		Zer gertatu da?
+		
+		[THEO_MIRROR right wtf]
+		Tira, ispiluarekin selfie bat ateratzen ari nintzen...
+		Ba'kizu, {~}{# aaaaaa}"Zure {+THEO} maitea{# aaaaaa} aintzinako{n}tenpluan, ezer berezirik ez."{#}{/~}
+
+		[THEO_MIRROR right thinking]
+		{# ffff9b}\#bedeinkatua{#}
+		
+		[THEO_MIRROR right serious]
+		Eta bapatean lurrean etzanda esnatuko naiz.
+		
+		[MADELINE left sad]
+		Zer itxura du alde horrek?
+		Nola aurki zaitzaket?
+		
+		[THEO_MIRROR right serious]
+		Zera, eh... oso ilun eta arraroa da. Zerbait...
+		
+		[THEO_MIRROR right wtf]
+		Egon, zerbait dator.
+		Korrika alde egiteko sekulako grina sartu zait.
+		
+		[THEO_MIRROR right serious]
+		Kontuz ibili, bai?
+
+	CH5_SHADOW_MADDY_0=
+		[MADELINE left angry]
+		{*}Aizu!{/*} Non gaude?
+		{!}Zer egin diozu {+theo}ri?{/!}
+		
+		[BADELINE right scoff]
+		{~}Ni{/~} ari naizela uste duzu?
+		Zeinen polita.
+		
+		[BADELINE right upset]
+		Bihotza, honetaz ohartarazi nahi izan zaitut hain zuzen ere.
+		
+	CH5_SHADOW_MADDY_1=
+		[MADELINE left angry]
+		Ez saiatu orain niri errua botatzen.
+
+		[BADELINE right scoff]
+		Oraindik ez duzu ulertu?
+
+		[BADELINE right upset]
+		{+mountain} honek eman dit gorputz hau.
+
+		[BADELINE right scoff]
+		Baina ez naiz zure burua nahasi duen hemengo gauza{n}{*}gauza arraro{/*}{n} bakarra.
+
+		[BADELINE right normal]
+		Ikusten duzuna ez duzu gustuko?
+
+		[BADELINE right scoff]
+		{~}Hau bai sorpresa.{/~}
+		
+		[MADELINE left angry]
+		Ixo!
+
+		[BADELINE right angry]
+		Zu geldiarazten {~}saiatu{/~} naiz.
+
+		[BADELINE right yell]
+		Begiratu ispilura, guzti hori zurea da.
+
+		[BADELINE right angry]
+		Tenplu honek {+mountain}aren boterea handitu besterik ez du egiten.
+
+		[BADELINE right upset]
+		Zu zara hemen kontrola duena, ez ni.
+
+	CH5_SHADOW_MADDY_2=
+		[MADELINE left sad]
+		Ez dizut sinesten.
+
+		[MADELINE left distracted]
+		{+PART_OF_ME}a bazara, zergatik mindu nahi nauzu?
+
+		[BADELINE right angry]
+		{+MADELINE} gaixoa, {~}beti zara biktima.{/~}
+
+		[BADELINE right yell]
+		Zure umezaina bakarrik naiz, eta horregatik gorrotatzen nauzu.
+
+		[BADELINE right angry]
+		Hau dena argitzen ari zara eta badakizu. 
+
+		[MADELINE left angry]
+		Ni zaintzeaz hainbeste arduratu bazara,{n}zergatik ez didazu zer gertatzen ari den {*}azaltzen{/*}?
+		
+		[BADELINE right angry]
+		Entzungo bazenit bezala?
+		Ez didazu inoiz aukerarik eman.
+
+	CH5_SHADOW_MADDY_3=
+		[MADELINE left panic]
+		Mesedez, lagundu hemendik ateratzen.
+
+		[BADELINE right scoff]
+		{~}Orain{/~} nahi duzu nik zu salbatzea?
+
+		[MADELINE left panic]
+		Zergatik egiten duzu hau?
+		Zatoz nire ondora.
+		Mesedez.
+
+		[BADELINE right angry]
+		Utziozu ni munstroa banintz bezala sentiarazteari.
+		{~}Benetan{/~} jakin nahi duzu zergatik ez naizen laguntzen ari?
+
+		[BADELINE right yell]
+		Hau {*}merezi{/*} duzulako.
+
+		[MADELINE left panic]
+		...
+
+		[BADELINE right angry]
+		Oraindik {~}{+MOUNTAIN} igo dezakezula{/~} uste duzu?
+
+		[MADELINE left angry]
+		{*}IXO!{/*}
+
+		{trigger 0 Badeline Leaves}
+
+		[MADELINE left angry]
+		{*}Ez dut zure laguntzarik behar.{/*}
+		Nik bakarrik egingo dut.
+
+	CH5_REFLECTION=
+		[MADELINE right sad]
+		Hau dena nire buruan badago, zergatik da hain oldarkorra?
+		
+		[MADELINE right distracted]
+		{*}Gauza{/*} ni ehizatzen ari dira.
+		Arrotza naiz nire munduan.
+
+		{trigger 0 Madeline falls to knees}
+		
+		[MADELINE right panic]
+		Nire erruz dago {+theo} hemen nonbait harrapatuta dago.
+		Guztiz etsitzen badut, agian tenpluak alde egiten utziko dio...
+
+		{trigger 1 Madeline stops panicking}
+
+		[MADELINE_MIRROR left determinedclosed flip]
+		...
+		Arnasa.
+		
+		[MADELINE_MIRROR left determined flip]
+		Hau dena nire barrutik dator.
+		Altxa zaitez, {+MADELINE}.
+
+		{trigger 2 Madeline gets up}
+
+		[MADELINE_MIRROR left determinedclosed flip]
+		Pentsatu luman.
+		{+theo} salba dezakezu.
+
+	CH5_SEE_THEO=
+		[MADELINE left normal]
+		{+theo}! Eskerrak aurkitu zaitudala.
+		
+		[THEO right excited]
+		{+MADELINE}! Uau, zu ikusteaz pozten naiz.
+
+		{trigger 0 zoom in}
+
+		[MADELINE left sad]
+		Ongi zaude?
+		
+		[THEO right serious]
+		Bai, ongi nago. 	
+
+		[THEO right thinking]
+		Luzaro egon naiz sartuta... kristalezko gauza honetan.
+
+		[THEO right wtf]
+		Leku honek zuk zeure burua baino hobeto{n}ezagutzen zaituenaren irudipena duzu?
+		
+		[MADELINE left distracted]
+		Bai...
+		Nire alderdi hau ikusi duzulako{n}erabat lotsatuta nago.
+
+		[MADELINE left upset]
+		Zu gelditzen saiatu naiz.
+		Selfie horrek merezi izatea espero dut.
+
+		[THEO right yolo]
+		Selfiek beti merezi dute, no.
+
+		[MADELINE left distracted]
+		Ez nuke haserre egon behar, ez da zure errua.
+
+		[MADELINE left sad]
+		Salbu zaudelako pozten naiz,{n}baina nire errua izan da zu hor egotea.
+
+		{trigger 1 Madeline turns around}
+
+		[MADELINE left distracted flip]
+		Eta orain tenplu honek benetan{n}nolakoa naizen erakutsi dizu.
+		Izugarria naiz...
+
+		{trigger 2 wait a bit}
+
+		[THEO right thinking]
+		Aizu, honetan elkarrekin gaude.
+
+		[THEO right wtf]
+		Ez pentsa hau dena zure kontua bakarrik denik.
+
+		{trigger 3 Madeline turns back, zoom out, room gets brighter}
+
+		[MADELINE left sad]
+		Zer esan nahi duzu?
+
+		[THEO right wtf]
+		Ez nauzu zuk harrapatu kristalean.
+		Bai, munstro horiek zugandik zetozen, baina{n}tenpluak niregan ere eragina izan du.
+
+		[THEO right worried]
+		{*}Senti{/*} dezaket.
+		{~}Begi{/~} horiek begira dauzkat...
+
+		[THEO right wtf]
+		Eta kristal hau nigandik dator, badakit.
+
+		[THEO right serious]
+		Ez dut nahi, baina serioski laguntza eskatu behar dizut.
+
+		{trigger 0 zoom back in}
+
+		[MADELINE left sad]
+		...
+		
+		[MADELINE left distracted]
+		Ados.
+
+		[MADELINE left normal]
+		Zurekin naukazu.
+		Gauza horretatik aterako zaitut,{n}eta elkarrekin eskapatuko gara.
+
+		[MADELINE left sad]
+		Zureganaino ailegatzeko modua aurkitzen dudanean...
+		
+		[THEO right serious]
+		{+MADELINE}, nire esperantza bakarra zara.
+		Zugan sinesten dut, benetan.
+
+		[MADELINE left distracted]
+		Oker ez egotea espero dut.
+
+	CH5_SEE_THEO_B=
+		[MADELINE left distracted]
+		Tenplua ni benetan nor naizen erakusten ari bada...
+
+		[MADELINE left sad]
+		...orduan hau merezi dut, ezta?
+
+		[THEO right wtf]
+		{+ALEX}, ezin duzu zure buruarekin hain gogor jokatzen jarraitu.
+
+		[MADELINE left sad]
+		...
+		Nor da {+ALEX}?
+
+		[THEO right thinking]
+		Barkatu, {+MADELINE} esan nahi nuen.
+
+		[THEO right wtf]
+		Baina esandakoa mantentzen dut.
+		Inork ez du hau merezi, batez ere zuk.
+
+		[MADELINE left sad]
+		Bai... zuzen zaude.
+
+		[MADELINE left determinedclosed]
+		Ongi, egin dezaket.
+
+	CH5_FOUND_THEO=
+		[MADELINE left normal]
+		{+theo}! Azkenean aurkitu zaitut.
+		
+		[THEO right excited]
+		Banekien lortuko zenuela!
+
+		[MADELINE left sad]
+		Ez da erraza izan...
+
+		[MADELINE left distracted]
+		Munstro horiek benetan nigandik zetozen?
+		
+		[THEO right thinking]
+		{+MADELINE}, zentzuzko galdera da.
+		Gustora hitzegingo dut munstro{n}horiek zure barruko ni-arekin duten erlazioaz...
+
+		[THEO right wtf]
+		Baina oraintxe bertan, {~}nire{/~} barruko ni-a{n}errela da eta kristal honetatik atera nahi du.
+		
+		[MADELINE left sad]
+		Oh, arrazoi.
+
+		[MADELINE left normal]
+		Lasai, nik aterako zaitut!
+
+		{trigger 0 Attempt to break the crystal, but it just falls to the ground}
+		
+		[THEO right thinking]
+		Tira, ongi hasi gara, baina...
+		
+		[THEO right wtf]
+		Kristal honek, zera, nire energia psikiko{n}ezkorraren luzapen bat dirudi... horrelakoren bat.
+
+		[MADELINE left sad]
+		Bai, baina nola puskatuko dugu?
+
+		[THEO right serious]
+		Hemen barruan egotearen {~}zergatia{/~}{n}jakingo banu, agian puskatu nezake.
+
+		[THEO right wtf]
+		Baina ez dakit.
+
+		[THEO right thinking]
+		Eta nik uste amesgaiztoko dimentsio honetan nagoen{n}bitarean ezin izango dudala asmatu.
+		
+		[THEO right serious]
+		Ez dut hau esan nahi, baina beharbada-
+		
+		[MADELINE left angry]
+		{+theo}, ezta pentsatu ere!
+		{*}Ez{/*} zaitut hemen utziko!
+		
+		[THEO right worried]
+		{~}Noski ezetz{/~}, ez nazazu leku honetan utzi!
+
+		[THEO right thinking]
+		Beharbada garraiatu beharko nauzula esatera nindoan.
+		
+		[MADELINE left sad]
+		Oh.
+		
+		[MADELINE left normal]
+		Bai, egin dezaket.
+
+	CH5_THEO_SAVING_LIFT=
+		[THEO left thinking]
+		Bai neskato, altxa dezakezu
+
+	CH5_THEO_SAVING_A=
+		[THEO left excited]
+		{~}Ederki{/~}, lortu duzu!
+
+	CH5_THEO_SAVING_NICE=
+		[THEO left thinking]
+		Egurra! Ate horrek ez zuen inolako aukerarik.
+
+	CH5_THEO_SAVING_B=
+		[THEO left worried]
+		Oh oh... gauza hauen aurka nola aritu jakitea espero dut.
+
+	CH5_THEO_SAVING_C=
+		[THEO left worried]
+		Beste bat!? Bai zera...
+
+	CH5_THEO_SAVING_SWITCH=
+		[THEO left thinking]
+		{+theo}k berriz ere eguna salbatu du.
+
+	CH5_THEO_SAVING_DUNK=
+		[THEO left nailedit]
+		Laguntzen ari naiz.
+
+	CH5_THEO_SAVING_REALLY=
+		[THEO left thinking]
+		Orain harrotzen bakarrik ari zara.
+
+	CH5_THEO_SAVING_D=
+		[THEO left excited]
+		Hurbil gabiltza, nabari dut.
+
+	CH5_THEO_SAVING_E=
+		[THEO left worried]
+		Pixka bat gehizeago. Egin dezakezu {+MADELINE}.
+
+	CH5_BSIDE_THEO_A=
+		[THEO left excited]
+		Tenpluaren remix-a da, zure {+MIXMASTER_THEO} mutilarekin!
+
+	CH5_BSIDE_THEO_B=
+		[THEO left wtf]
+		Hau ez da istorio nagusia, ezta?
+
+	CH5_BSIDE_THEO_C=
+		[THEO left wtf]
+		Ahh, hau benetan ezinezkoa da.
+
+# *** Chapter 06 ***
+
+	CH6_THEO_INTRO=
+		[MADELINE right normal]
+		{+theo}, esna zaude!
+
+		[THEO left thinking]
+		Bai? Ez dut sinesten...
+
+		[THEO left wtf]
+		Amesgaizto {~}oso nahasi{/~} bat izan dut.
+		
+		[MADELINE right distracted]
+		Bai, hori...
+
+		[THEO left wtf]
+		Itxaron...
+
+		[THEO left thinking]
+		Oh, bai, dena burura datorkit orain.
+
+		[THEO left wtf]
+		Hori benetan gertatu da.
+
+		[THEO left serious]
+		Eskerrik asko bertatik ateratzeagatik.
+
+		[MADELINE right distracted]
+		Pozten naiz elkarrekin egin dugulako.
+
+		[MADELINE right sad]
+		Ez dakit bakarrik egin ahal izango nukeen.
+
+	CH6_THEO_ASK_OUTFOR=
+		[THEO left thinking]
+		Zenbat denboraz utzi zaitut bakarrik?
+	CH6_THEO_SAY_OUTFOR=
+		[THEO left thinking]
+		Zenbat denboraz utzi zaitut bakarrik?
+
+		[MADELINE right sad]
+		Ordu batzuk izango ziren...
+
+		[THEO left serious]
+		No, a zer bidaia.
+
+		[MADELINE right upset]
+		Esaidazu niri.
+
+		[MADELINE right sad]
+		Are you okay?
+
+		[THEO left thinking]
+		Zera, krisi existentziala alde batera utzita?
+
+		[THEO left wtf]
+		Bai, ongi nago.
+
+	CH6_THEO_ASK_EXPLAIN=
+		[THEO left wtf]
+		Zer gertatzen da hemen benetan?
+	CH6_THEO_SAY_EXPLAIN=
+		[THEO left wtf]
+		Argi dago hau ez dela {+MOUNTAIN} normala.
+		Zer gertatzen da hemen benetan?
+
+		[MADELINE right sad]
+		Lehenago kontatu behar nizun.
+
+		[MADELINE right distracted]
+		Hondakin zaharren inguruan, nire...{n}{+PART_OF_ME} bat ispilu batetik atera da.
+		Oso harro ez naukan zati bat.
+
+		[MADELINE right upset]
+		Zin dagit ametsa izan dela.
+
+		[THEO left serious]
+		{+MOUNTAIN}ak erreal bihurtu duela uste duzu?
+
+		[MADELINE right distracted]
+		Bai.
+		Denbora guzti honetan ni jazartzen aritu da.
+
+		[MADELINE right sad]
+		{+MROSHIRO} irandu zuen.
+
+		[MADELINE right distracted]
+		Nik uste telekabina gelditzea ere bere kontua izan zela
+
+		[MADELINE right sad]
+		Eta han zegoen, tenpluan.
+
+		[THEO left worried]
+		...
+		Zergatik ez zenuen ezer esan?
+		Ez nintzatekeen tenplu horretan sartuko{n}{+MOUNTAIN} hau zertarako gai den jakin izan banu...
+
+		[MADELINE right upset]		
+		Zu gelditzen saiatu nintzen.	
+		
+		[THEO left wtf]
+		Ba zure {+ST_BAD}biki gaiztoa{+END_BAD} libre zebilela{n}esan zenezakeen.
+			
+		[MADELINE right upset]
+		Tira, {+THEO}.
+		Badakizu erokeria dirudiela.
+
+		[MADELINE right distracted]
+		Nik ere ezin nuen sinetsi eta.
+
+		[THEO left wtf]
+		Ados, ados.
+		Ulertzen dut.
+
+		[THEO left thinking]
+		Baina hurrengo aldian {0.3}kontatu iezaidazu.
+		Sinetsiko dizudala agintzen dizut.
+
+		[MADELINE right distracted]
+		Ados.
+
+	CH6_THEO_ASK_THANKYOU=
+		[MADELINE right distracted]
+		Eskerrik asko, han nigan sinetsi izanagatik.
+	CH6_THEO_SAY_THANKYOU=
+		[MADELINE right distracted]
+		Eskerrik asko, {+THEO}.
+		...han nigan sinetsi duzulako, diot.
+
+		[THEO left wtf]
+		Zugan sinestea izan da errazena.
+
+		[THEO left thinking]
+		Nahiago nuen lagundu ahal izan banu.
+
+		[THEO left wtf]
+		Ezdeusa nintzen, gauza horretan harrapaturik.
+
+		[MADELINE right sad]
+		Ba asko lagundu zenuen.
+
+		[MADELINE right distracted]
+		Benetan diot, zure babes gabe ezin izango nukeen egin.
+
+	CH6_THEO_ASK_TRUST=
+		[MADELINE right distracted] 
+		Zergatik sinesten duzu nigan hain erraz?
+	CH6_THEO_SAY_TRUST=
+		[MADELINE right distracted] 
+		Zergatik sinesten duzu nigan hain erraz?
+
+		[MADELINE right sad]
+		Benetan, apenas ezagutzen nauzu.
+
+		[THEO left normal]
+		Benetan?
+		Nire arreba gogorarazten didazu.
+
+		[MADELINE right normal]
+		Maitagarria. 
+		Nolakoa da bera?
+
+		[THEO left excited]
+		Oh, gustatuko litzaizuke!
+
+		[THEO left wtf]
+		Beno, hasieran beharbada ez zenukete elkar ikusi ere egin nahi...
+
+		[THEO left thinking]
+		Baina bukaeran maitatuko zenuke.
+
+		[THEO left excited]
+		{~}Hitze-hitz{/~} rock izar bat da.
+
+		[MADELINE right normal]
+		Musikaria da?
+		Egundokoa!
+
+		[THEO left thinking]
+		Tira, ez da {~}literalki{/~} hitzez-hitzeko rock izar bat.
+
+		[THEO left normal]
+		{+ALEX} soilik da... denean zoragarria.
+		Eskubide zibilen abokatu izateko ikasten ari da.
+
+		[MADELINE right normal]
+		Uau!
+
+		[MADELINE right distracted]
+		Nolatan gogorarazten dizut bera?
+
+		[THEO left wtf]
+		Biak bizi zarete zuen barru mundu sakonean.
+
+		[MADELINE right distracted]
+		Oh...
+
+		[THEO left thinking]
+		{+ALEX}ek barru iparrorratz izugarria du.
+
+		[THEO left normal]
+		Argi dago behar duen lekura iritsiko dela.
+		Zugan ere hori ikus dezaket.
+
+		[THEO left wtf]
+		Nitaz gauza bera esan nahiko nuke.
+		
+	CH6_THEO_ASK_WHY=
+		[MADELINE right distracted]
+		Zure arrebak sekulakoa dirudi. Benetan bera gogorarazten dizut?
+	CH6_THEO_SAY_WHY=
+		[MADELINE right distracted]
+		Zure arrebak sekulakoa dirudi. Benetan bera gogorarazten dizut?
+
+		[THEO left thinking]
+		Broma, ala?
+
+		[THEO left excited]
+		Zu zara {+MOUNTAIN} hau igotzea{n}beste ezer baino gehiago nahi duena.
+
+		[THEO left thinking]
+		Eta {~}{>> .3}zuk ere ez dakizu zergatik.{>>}{/~}
+
+		[THEO left excited]
+		Horrelakoa da {+ALEX} ere.
+
+		[MADELINE right distracted]
+		...
+
+		[THEO left thinking]
+		Txantxetan ari naiz.
+
+		[THEO left normal]
+		Eta, zergatik {~}ari{/~} {+MOUNTAIN} hau igotzen?
+
+		[MADELINE right distracted]
+		Zuzen zaude, nik ere ez dakit zergatik.
+
+		[MADELINE right sad]
+		Soilik{0.4} nire {*}burutik{/*} atera nahi dut.
+		Ziklo batean trabaturik nago.
+
+		[THEO left normal]
+		Hori zer den soberan dakit.
+		Arima desegiten duten lan asko izan ditut.
+
+		[MADELINE right sad]
+		Lana ez dago gaizki, soilik da...
+
+		[MADELINE right distracted]
+		...
+
+		[MADELINE right upset]
+		Erotzen ari naiz.
+		Ezin diot garrantzirik ez duten{n}txorakeriei buruz pentsatzeari utzi.
+
+		[MADELINE right sad]
+		Nire burmuina trabaturik gelditzen da {>>}{.4}aspaldi gertatu ziren{n}{.4}{>> .3}{*}gauza{/*} hutsalekin.
+
+		[MADELINE right angry]
+		Horien {*}gainetik{/*} egon behar nuke.
+		{*}Batek ere ez baitu axola.{/*}
+
+		{trigger 0 Wait a bit}
+
+		[MADELINE right distracted]
+		...
+		Itxura mantentzen trebea naiz, baina{n}benetan ia ezin dut aurrera egin.
+
+		[THEO left worried]
+		Sentitzen dut, gogorra izango da.
+		Lagun dezaket?
+
+		[MADELINE right sad]
+		Dagoeneko ari zara laguntzen.
+		Ozen esateak ongi sentiarazten nau.
+
+		[THEO left wtf]
+		Ez al duzu honi buruz inorekin hitz egin?
+
+		[MADELINE right distracted]
+		Ez... egia esan ez.
+
+		[MADELINE right sad]
+		Nire amak badaki deprimitzen naizela,{n}eta izu-atakeak ditudala.
+
+		[MADELINE right distracted]
+		Hori da dena.
+
+		[THEO left thinking]
+		Normala harrapaturik sentitzea.
+		
+		[THEO left wtf]
+		Nola egiten diozu aurre... edozeri?
+
+		[MADELINE right upset]
+		Edan egiten dut, gehienetan.
+		Eta interneteko jendearekin haserretzen naiz.
+
+	CH6_THEO_ASK_DEPRESSION=
+		[THEO left serious]
+		Depresioa nolakoa den kontatuko al zenidake?
+	CH6_THEO_SAY_DEPRESSION=
+		[THEO left serious]
+		Depresioa nolakoa den kontatuko al zenidake?
+
+		[MADELINE right distracted]
+		...
+
+		[MADELINE right upset]
+		Nazkagarria da.
+
+		[THEO left wtf]
+		Bai, baina nola {~}sentiarazten{/~} zaitu?
+
+		[THEO left serious]
+		{+ALEX}i ere gertatzen zaio.{n}Benetan ulertu nahi dut.
+
+		[THEO left normal]
+		Nahiago baduzu beste zerbaitetaz hitz egin dezakegu.
+
+		[MADELINE right distracted]
+		...
+		Zera da...
+
+		[MADELINE right sad]
+		Ozeanoaren hondoan nago.
+		Norabide guztietara begiratuta ere ez du ezer ikusten.
+
+		[MADELINE right distracted]
+		Klaustrofobikoa da, baina agerian sentitzen naiz.
+		...
+
+		{trigger 0 Wait a bit}
+
+		[MADELINE right sad]
+		Arrunt sentitzen nintzela gogoratzen dut.
+		Baina orain badirudi ez dagoela{n}eskuragarri, edozelan saiatuta era.
+		
+		[MADELINE right distracted]
+		Hala ere, segur aski beti izan ditut arazoak.
+		Gertatutako gauza mingarriren batek kanporatuko zuen.
+
+		[MADELINE right upset]
+		Zerbait ez dago ongi nigan.
+
+		[THEO left serious]
+		Gertatutakoa gertatuta ere, ziur nago ez zela zure hutsa izan.
+
+		{trigger 0 Wait a bit}
+
+		[MADELINE right sad]
+		Nik uste pentsatu nuela posible izango nuela...
+
+		[MADELINE right distracted]
+		Ez dakit.
+		Amildegi honetan flotatzen ari naiz,{n}noraezean igerian.
+
+		[MADELINE right sad]
+		{*}Zerbait{/*} aurkituko dudan esperantzarekin.
+
+		[MADELINE right distracted]
+		Horregatik nago benetan hemen.
+		...
+		Baina ezin diot nire buruari ihes egin.
+
+		[MADELINE right upset]
+		Literalki {*}nire buruarekin borrokan{/*} ari naiz bide guztian.
+
+		[MADELINE right distracted]
+		Beharbada hau alferrikakoa da.
+
+		{trigger 0 Wait a bit}
+
+		[THEO left serious]
+		{+MADELINE}, zuk {~}bizitza{/~} salbatu didazu.
+
+		[THEO left wtf]
+		Hori ez da alferrikakoa.
+
+		[MADELINE right distracted]
+		Bai...
+
+		{trigger 0 Wait a bit}
+
+		[THEO left wtf]
+		Entzun, pertsona ona zara.
+
+		[THEO left thinking]
+		Nahiko zorrotza, baina {~}pertsona ona{/~} zara.
+
+		[THEO left wtf]
+		Nik uste egiten ari zaren bakarra{n}zauden zulo horretatik irteten saiatzea dela.
+
+		[THEO left excited]
+		Eta hori {+MOUNTAIN}a igotzeko zilegizko arrazoia da!
+
+		[MADELINE right distracted]
+		Baliteke.
+
+		[MADELINE right sad]
+		Horrek... laguntzen du.
+
+		{trigger 0 Wait a bit}
+
+		[THEO left normal]
+		Zu jazartzen ari den {+PART_OF_YOU},{n}baliteke lurraldearekin agertzea.
+
+		[MADELINE right upset]
+		Berari betirako lotuta nagoela uste duzu orduan?
+
+		[THEO left normal]
+		Tira, bera ere zuri lotura dago.
+
+		[MADELINE right upset]
+		Horrek {*}ez du{/*} laguntzen.
+
+	CH6_THEO_ASK_DEFENSE=
+		[THEO left wtf]
+		Orduan {+PART_OF_YOU} hau suntsitu nahi duzu?
+	CH6_THEO_SAY_DEFENSE=
+		[THEO left wtf]
+		Orduan {+PART_OF_YOU} hau suntsitu nahi duzu?
+		Ez dizu zuri ere min emango?
+
+		[MADELINE right sad]
+		Egiten ez badut ni jazartzen jarraituko du.
+
+		[MADELINE right upset]
+		Ni babesten nauela dio,{n}baina argi dago ez dela egia.
+
+		[THEO left normal]
+		Baliteke hala ari izatea.
+		Beharbada izan daiteke...{n}defensa mekanismo maltzur bat.
+		
+		[MADELINE right upset]
+		Benetan, nori axola dio?
+		Nigan kontrol handiegia du.
+		Gorroto dut.
+
+		[THEO left wtf]
+		Agian zuk ikasi behar duzu bera kontrolatzen.
+
+		[MADELINE right distracted]
+		Lumak asko laguntzen du.
+
+		[MADELINE right sad]
+		Eskerrik asko hori irakasteagatik.
+
+		[THEO left thinking]
+		Nire aitonaren jakituriaren pipita askotako bat.
+
+	CH6_THEO_ASK_VACATION=
+		[THEO left thinking]
+		Zergatik ez dituzu oporrak hartzen?
+	CH6_THEO_SAY_VACATION=
+		[THEO left thinking]
+		Zergatik ez dituzu oporrak hartzen?
+
+		[MADELINE right sad]
+		Zer esan nahi duzu?
+
+		[THEO left normal]
+		Aizu, aldaketa bat behar{n}zenuen eta {>> .2}{+MOUNTAIN} bat igotzea{>>} aukeratu zenuen...
+
+		[THEO left thinking]
+		Zergatik ez egin lasaituko zaituen zerbait?
+
+		[THEO left wtf]
+		Hawaii-ra joan, edo ez dakit, {0.3}bainu bat hartu.
+
+		[MADELINE right sad]
+		...
+		Pentsatzen dut zerbait lortu izanaren sentipena behar nuela.
+
+		[THEO left wtf]
+		Gauza gehiegi dituzula{n}iruditzen zait.
+
+		[MADELINE right distracted]
+		Nahiko muturrekoa izan daiteke.
+		Baina horrelakoa naiz.
+		Niretzat erronka den zerbait behar dut.
+
+		[MADELINE right sad]
+		Eta ezin dut zerbait pixka bat bakarrik egin.
+		Dena ala ezer ez.
+
+	CH6_THEO_ASK_FAMILY=
+		[MADELINE right normal]
+		Zer ekarri zaitu {+MOUNTAIN}ra?
+	CH6_THEO_SAY_FAMILY=
+		[MADELINE right normal]
+		Eta zu?
+		Zer ekarri zaitu {+MOUNTAIN}ra?
+
+		[THEO left normal]
+		Bueltaka bakarrik nabil.
+		
+		[THEO left thinking]
+		Beti bezala.
+
+		[THEO left normal]
+		Lan berri batean hasi nintzen Seattle-n.
+		Uste nuen {~}azkenean{/~} banekiela nire{n}bizitzarekin zer egin behar nuen...
+
+		[THEO left wtf]
+		Baina gorroto nuen.
+
+		[THEO left thinking]
+		Aste baten ondoren utzi nuen eta{n}Canadarako autobus bat hartu nuen.
+
+		[THEO left wtf]
+		Bapatean behar bat sentitu nuen...{n}ezerezaren erdian galtzekoa.
+		...
+		Orain ohartzen naiz, ozen esaten{n}ari naizela, nolako xelebrekeria den.
+
+		[MADELINE right sad]
+		Presio handia jasan zenuela bakarrik dirudi.
+
+		[THEO left thinking]
+		Benetan ez.
+		Denek zuten pazientzia handia nirekin.
+
+		[THEO left serious]
+		Baian nik uste {~}nire buruari{/~} ari nintzela presio handiegia jartzen.
+
+		[THEO left wtf]
+		Mundu guztiak uste du nire burua {+ALEX}ekin{n}alderatzen dudala, baina {~}zin dagit{/~} ez dela horrela.
+		Arduratzen nauena da inoiz ez ote{n}dudan jakingo nora noan.
+		
+		[MADELINE right distracted]
+		Galduta sentitu nahi zenuela esan duzu...
+
+		[MADELINE right normal]		
+		Agian oraingoz hori onartu behar zenuke.
+
+		[THEO left serious]
+		Agian.
+
+	CH6_THEO_ASK_GRANDPA=
+		[MADELINE right normal]
+		Zure aitonarekin erlazio ona duzu?
+	CH6_THEO_SAY_GRANDPA=
+		[MADELINE right normal]
+		Zure aitonarekin erlazio ona duzu?
+
+		[THEO left serious]
+		Baina... banuen.
+
+		[MADELINE right distracted]
+		Oh... sentitzen dut.
+
+		[THEO left serious]
+		Lasai. Horrelakoa da bizitza.
+
+		[MADELINE right distracted]
+		...
+
+		[THEO left wtf]
+		Baikor egotea da egin dezakedan bakarra.
+
+		[THEO left serious]
+		Eta bizia sakonki bizi,{n}horrela baita berak nahiko lukeena.
+
+		{trigger 0 Wait a bit}
+
+		[MADELINE right sad]
+		Sentitzen dut, {+THEO}.
+
+		[THEO left serious]
+		Eskerrik asko.
+
+	CH6_THEO_ASK_TIPS=
+		[MADELINE right normal]
+		Zer gehiago ikasi zenuen zure aitonarengandik?
+	CH6_THEO_SAY_TIPS=
+		[MADELINE right normal]
+		Zer gehiago ikasi zenuen zure aitonarengandik?
+
+		[THEO left excited]
+		Gauza asko!
+
+		[THEO left normal]
+		Berez, beregatik ezagutzen dut{n}{+CELESTE_MOUNTAIN}.
+		Beti zioen leku honek bizitza aldatu ziola.
+
+		[THEO left thinking]
+		Seattle-ko lana utzi ondoren{n}ohartu nintzen zeinen hurbilekoa nuen.
+		Hona etortzeko esaten zidala sentitu nuen.
+
+		[THEO left wtf]
+		Aitonak esan zidan {+MOUNTAIN}a {~}"berezia"{/~} zela.
+
+		[MADELINE right sad]
+		Zuk uste bera ere gu bezala tenplutik igaro zela?
+
+		[MADELINE right normal]
+		Zuk uste {+MOUNTAIN}aren{n}boterea ulertu zuela?
+		
+		[THEO left thinking]
+		Ez zuen inoiz hemen gertatutakoaz hitz egin.
+
+		[MADELINE right distracted]
+		Ez dut uste zure aitona ni bezain nahasia zegoenik...
+
+		[MADELINE right sad]
+		Bere esperientzia segur aski ez zen izan hain... bortitza.
+
+		[THEO left wtf]
+		Ni jaio baino lehenago aurkitu zuen {+MOUNTAIN}a.
+		Ez dakit hori baino lehenago nolakoa zen.
+
+		[THEO left serious]
+		Hemen bere buruaz zer ikasi zuen jakin nahi nuke...
+
+	CH6_THEO_ASK_TEMPLE=
+		[THEO left wtf]
+		Nork uste duzu eraiki zuela tenplua?
+	CH6_THEO_SAY_TEMPLE=
+		[THEO left wtf]
+		Nork uste duzu eraiki zuela tenplua?
+
+		[MADELINE right sad]
+		Aintzinakoa dirudi...
+		{+MOUNTAIN}ko beste edozer baino lehenagokoa dirudi.{n}Hotela, hondakinak, hiria...
+
+		[THEO left serious]
+		Historia handia dago hemen.
+
+		[MADELINE right distracted]
+		Bai. 
+		{+MOUNTAIN} honek jende askorentzat{n}esanahi asko izango ditu.
+
+		[MADELINE right normal]
+		Ulertzen hasi naiz zergatik{n}bizi den atso zahar ero hori hemen.
+
+		[THEO left excited]
+		Zuk ere aurkitu duzu?
+
+		[THEO left thinking]
+		Zertan dabil?
+
+		[MADELINE right upset]
+		Nik uste pertsona ankerra dela.
+
+		[MADELINE right distracted]
+		...baina hemen pozik bizi dela dirudi.
+
+	CH6_THEO_ASK_SELFIE=
+		[MADELINE right normal]
+		Gau hau gogoratu nahi dut...
+	CH6_THEO_SAY_SELFIE=
+		[MADELINE right normal]
+		Badakizu zer?
+		Gau hau gogoratu nahi dut...
+		Atera dezagun selfie bat!
+
+		[THEO left normal]
+		Uste nuen ez zenuela inoiz esango.
+
+		{trigger 1 selfie sequence}
+
+		[MADELINE right normal]
+		Ba'kizu, hau dena igarota ere,{n}ederki sentitzen naiz.
+
+		[THEO left wtf]
+		Segundu bat...
+
+		[THEO left excited]
+		Bihar ailegatuko zara tontorrera!
+
+		[MADELINE right upset]
+		Ixo, zorte txarra dakar.
+
+		[MADELINE right distracted]
+		...bai, urduri nago.
+
+		[MADELINE right normal]
+		Hau guztia atzean uzteko prest nago.
+
+		[THEO left normal]
+		Zuri adorea ematen arituko naiz.
+		Lo pixka bat egin behar genuke.
+
+		[MADELINE right normal]
+		Ados, gabon pasa, {+THEO}.
+
+		[MADELINE right distracted]
+		Eskerrik asko... aparta izateagatik.
+
+		[THEO left thinking]
+		Zer esango dut bada? Berezkoa dut.
+
+	CH6_THEO_ASK_SLEEP=
+		[MADELINE right distracted]
+		Lo egin behar nuke.
+	CH6_THEO_SAY_SLEEP=
+		[MADELINE right distracted]
+		Lo egin behar nuke.
+
+		[THEO left thinking]
+		Oh, ziur zaude ez duzula hitz egiten jarraitu nahi?
+
+		[THEO left normal]
+		Ni ere nekatuta nago, baina asko dugu hitz egiteko.
+
+	CH6_THEO_ASK_SLEEP_CONFIRM=
+		[MADELINE right sad]
+		Bai, barkatu, oso nekatuta nago.
+	CH6_THEO_SAY_SLEEP_CONFIRM=
+		[MADELINE right sad]
+		Bai, barkatu, oso nekatuta nago.
+
+		{+CH6_THEO_SAY_SELFIE}
+
+	CH6_THEO_ASK_SLEEP_CANCEL=
+		[MADELINE right normal]
+		Arrazoi, beranduago egin dezaket lo.
+	CH6_THEO_SAY_SLEEP_CANCEL=
+		[MADELINE right sad]
+		Arrazoi, beranduago egin dezaket lo.
+
+	CH6_DREAMING=
+		[MADELINE left normal]
+		Aurora boreala zoragarria da.
+
+		[BADELINE right worried]
+		Bai... hala da...
+		...
+
+		[BADELINE right worriedAlt]
+		Non gaude?
+
+		[MADELINE left sad]
+		Hitz egin behar dugu.
+
+		[BADELINE right worried]
+		...ados.
+
+		[MADELINE left distracted]
+		Azkenean nor zaren ulertu dut.
+
+		[MADELINE left sad]
+		Ez zara nire benetako isla.
+
+		[BADELINE right worriedAlt]
+		...ez naiz?
+
+		[MADELINE left sad]
+		Atzean utzi behar dudan guztia zara.
+		Kontrolatzailea, paranoikoa, kontrolatzailea... zara.
+
+		[BADELINE right worriedAlt]
+		Zergatik diozu hori?
+
+		[MADELINE left normal]
+		Ez, ongi dago!
+		Orain ulertzen dut.
+		Ez zaitut gehiago behar.
+
+		[BADELINE right worried]
+		Orduan ni... baztertzen ari zara?
+
+		[MADELINE left sad]
+		Zu askatzen ari naiz.
+
+		[MADELINE left normal]
+		Biok askoz zoriontsuago izango gara.
+
+		[BADELINE right worried]
+		Zu zara...
+
+		[BADELINE right sad]
+		oso...
+
+		[BADELINE right freakA pop]
+		{silent_trigger 0 Tentacles Appear}
+		...oso tentela!
+
+		[BADELINE right freakB pop]
+		{silent_trigger 0 Tentacles Appear More}
+		Besterik gabe {~}bazterrean utzi{/~} nazakezula uste duzu?
+		{silent_trigger 0 Tentacles Appear moooore}
+		Akats guztiak nire gain utz ditzakezula?
+		{silent_trigger 0 Tentacles Appear EVEN MORE}
+		Nire {~}gainetik{/~} zaudela uste duzu!?
+
+		[BADELINE right freakC pop]
+		{silent_trigger 1 Tentacles grab Madeline}
+		{!}{*}ERANTZUN!{/*}{/!}
+
+		[MADELINE left panic]
+		Lasai, mesedez...
+
+		{trigger 4 start circling the player}
+		[BADELINE right freakC_cont]
+		{!}{*}Lasaitu!?{/*}{/!}
+
+		[MADELINE left determinedclosed]
+		Arnastu, {+MADELINE}.
+		Erabili luma.
+
+		{trigger 2 Feather minigame}
+
+		[BADELINE right freakBAlt]
+		Ni geldiarazteko {~}luma batean pentsatuko{/~} duzu?
+
+		{trigger 3 Destroy feather minigame}
+
+		[BADELINE right freakBAlt]
+		Ez zaude {*}nire gainetik.{/*}
+		Eta {*}ezin duzu{/*} {+MOUNTAIN} hau igo.
+
+		[BADELINE right freakCAlt pop]
+		Hori onartzeko garaia da.
+
+	CH6_THEO_WATCHOUT=
+		[THEO left worried]
+		{+MADELINE}, zer ari da gertatzen!?
+
+	CH6_REFLECT_AFTER=
+		[MADELINE left sad]
+		Hurbil egon naiz.
+
+		[MADELINE left panic]
+		Hau bukatu da.
+		Zergatik ez nau bakean uzten?
+
+		[MADELINE left angry]
+		{*}Gorroto{/*} dut.
+		...
+
+		[MADELINE left distracted]
+		...
+		Baina bera {+PART_OF_ME}a da.
+		Ezin izango dut inoia alde batera utzi.
+
+		[MADELINE left sad]
+		Eta zuzen zegoen.
+		Ezin izango dut {+MOUNTAIN}a igo.
+
+	CH6_OLDLADY=
+		[GRANNY right normal]
+		Oh, kaixo berriz.
+
+		[MADELINE left upset]
+		Zu hemen, nola ez.
+
+		{trigger 0 Zoom in}
+
+		[GRANNY right mock]
+		Bakean gaudela dirudi.
+		
+		[MADELINE left upset]
+		Ez, erori egin naiz.
+		Bukatu da.
+
+		[GRANNY right normal]
+		Hobe izango da horrela seguruenik.
+		{+MOUNTAIN}ak ezin du bere burua kontrolatu.
+
+		[MADELINE left upset]
+		Bai, badakit. 
+		Ez naiz zure {+MOUNTAIN} ergel hau igotzeko bezain indartsua.
+
+		[MADELINE left distracted]
+		Nahi baduzu nire bizkar irri egin dezakezu berriz.
+
+		{trigger 1 Start laughing}
+		
+		[MADELINE left upset]
+		Ez nuen espreski irri esan nahi...
+
+		{trigger 2 Stop laughing}
+		
+		[GRANNY right normal]
+		Batzuetan eskuoihala lurrera noiz bota jakin behar da.
+		Gaindituko duzu.
+
+		{trigger 3 Maddy walks right}
+		
+		[MADELINE left angry]
+		Badakizu zer?
+		Kobazulo horretan gora nindoala,{n}pentsatzeko denbora asko izan dut...	
+		Eta dagoeneko {*}gainditu dut.{/*}
+
+		{trigger 4 Maddy walks left}
+
+		[MADELINE left upset flip]
+		{+PART_OF_ME}{0.4}hori{0.4} zuzen zegoen, ezin dut egin.
+
+		[MADELINE left panic flip]
+		Ni... etxera joango naiz nire bizi{n}tristera eta {.4}betirako tamalgarria izango naiz.
+
+		{trigger 5 Wait a bit}
+		
+		[GRANNY right normal]
+		Argi dago ez duzula gainditu.
+
+		{trigger 6 Maddy turns right}
+		
+		[MADELINE left upset]
+		Ixildu zaitez, badakit.
+
+		[MADELINE left distracted]
+		Ez dut amore eman nahi...
+		Baina ez dio axola zenbat saiatu,{n}berak pausu guztiak sabotatuko dizkit.
+		
+		[GRANNY right normal]
+		Ume asko etortzen dira {+mountain}{n}hau igotzera, amore emateko bakarrik.
+		Pena da erori izana, lortuko{n}zenuela pentsatzen hasita nengoen.
+
+		[MADELINE left sad]
+		Zerk egiten nau hain berezia?
+
+		[GRANNY right normal]
+		Ez dut inoiz ezagutu bere buruarekin hain haserre dagoen inor.
+
+		{trigger 1 Start lauging}
+
+		[GRANNY right laugh]
+		Honestly, I thought you'd reach{n}the summit just to spite yourself.
+
+		[MADELINE left upset]
+		Ene, eskerrik asko.
+
+		{trigger 2 Stop laughing}
+
+		[GRANNY right normal]
+		This girl you're talking about,{n}it sounds like she's holding you back.
+		Talk to her.
+		Figure out why she's so scared.
+		
+		[MADELINE left sad]
+		You think she's... scared?
+
+		[MADELINE left distracted]
+		I guess I never thought of it that way.
+		
+		[GRANNY right normal]
+		Stop wasting both of our time and {~}ask her.{/~}
+		What have you got to lose?
+
+	CH6_OLDLADY_B=
+		[MADELINE left sad]
+		I don't know how to find her...
+
+		[GRANNY right normal]
+		She's {+PART_OF_YOU}, right?
+		If you look for her, she won't take long to find.
+
+		[MADELINE left upset]
+		...so you know about the {+MOUNTAIN}'s power.
+
+		[GRANNY right normal]
+		Of course I know, I live here.
+		I tried to warn you.
+
+		[MADELINE left upset]
+		You need to work on your messaging.
+
+		[GRANNY right normal]
+		A glimpse at the truth is good for people.
+		Even if most can't accept what they see.
+		There's no shame in running back{n}to your car and driving away.
+		Some day you'll be ready,{n}then you'll come back.
+
+		[MADELINE left distracted]
+		...
+		No.
+
+		[MADELINE left sad]
+		I'm going to see this through.
+		No more running.
+
+		[GRANNY right normal]
+		I thought so.
+		Good luck.
+
+	CH6_OLDLADY_C=
+		[MADELINE left sad]
+		How can you stand living here?
+		Isn't it hard to deal with this all the time?
+
+		[GRANNY right normal]
+		It's true, you never really get used to it.
+		But it keeps me sharp.
+		I like that about it.
+
+		[MADELINE left sad]
+		But the {+MOUNTAIN} is so... confrontational.
+
+		[GRANNY right normal]
+		Sure, it doesn't beat around the bush.
+		{+CELESTE_MOUNTAIN} is a place of healing, dear.
+		The first step of healing{n}is confronting the problem.
+		It's never easy.
+
+		[MADELINE left upset]
+		Tell me about it.
+
+	CH6_BOSS_START=
+		[BADELINE right angry flip]
+		Looking for me?
+		I thought you were done with me.
+
+		[MADELINE left sad]
+		That was a mistake.
+		I'm sorry.
+
+		[BADELINE right scoff flip]
+		You think you've got it {~}all figured out.{/~}
+
+		[BADELINE right angry flip]
+		You think you don't need me.
+		
+		[MADELINE left upset]
+		I said I'm sorry.
+
+		[MADELINE left sad]
+		We need to move past this.
+
+		{trigger 0 Badeline floats, zooms in}
+
+		[BADELINE right yell]
+		You expect me to trust you?
+
+		[MADELINE left angry]
+		You aren't innocent here either.
+		...
+
+		[MADELINE left determinedclosed]
+		But I know you're scared.
+		
+		{trigger 1 Maddy steps forward}
+		
+		[MADELINE left sad]
+		Look, we're at rock bottom.
+		There's no point in fighting.
+
+		[BADELINE right scoff]
+		I can keep digging.
+
+		[BADELINE right angry]
+		I could pull us down to the center of the earth.
+
+		[MADELINE left sad]
+		What would be the point?
+
+		[MADELINE left together]
+		{s 4}Let's climb out of here {.6}[MADELINE left togetherZoom]together.
+		
+		[BADELINE right yell]
+		Come close to me and I'll make you regret it.
+
+	CH6_BOSS_TIRED_A=
+		[BADELINE right angry]
+		I did you a favor.
+
+	CH6_BOSS_TIRED_B=
+		[BADELINE right yell]
+		You aren't a {*}mountain climber.{/*}
+
+	CH6_BOSS_TIRED_C=
+		[BADELINE right yell]
+		{*}I'm just trying to help you!{/*}
+
+	CH6_BOSS_MIDDLE=
+		[BADELINE right yell]
+		None of this would have {*}happened{/*}{n}if you had {*}listened to me!{/*}
+
+	CH6_BOSS_ENDING=
+		[BADELINE right sigh flip]
+		Fine.
+		You win.
+
+		{silent_trigger 0 Music starts}
+
+		[BADELINE right worried flip]
+		I guess you don't need me after all.
+
+		[BADELINE right worriedAlt flip]
+		If you want me to go away, I'll try.
+		
+		[MADELINE left distracted]
+		That's not what I want.
+		I need your help now more than ever.
+
+		[MADELINE left sad]
+		Please. Let's work together.
+
+		[BADELINE right worried flip]
+		Work together?
+
+		[BADELINE right worriedAlt flip]
+		You're joking, right?
+
+		{trigger 1 Madeline puts hand on Badeline}
+
+		[MADELINE left sad]
+		It's okay to be scared.
+
+		{trigger 2 Badeline calms down}
+
+		[BADELINE right worried flip]
+		...
+
+	CH6_ENDING=
+		[MADELINE left surprised]
+		How did we do that?
+
+		[MADELINE left normal]
+		If we can climb like that, maybe{n}we can still reach the summit!
+		
+		[BADELINE right worriedAlt]
+		You still want to climb the {+MOUNTAIN}?
+
+		[BADELINE right worried]
+		Why would we go back up there?
+
+		{trigger 0 Old Lady enters right}
+
+		[GRANNY right normal]
+		It's good to see you two playing nice.
+
+		[MADELINE left sad]
+		Hey, thanks for talking some sense into me earlier.
+
+		[GRANNY right normal]
+		Don't mention it.
+		I'm glad I can still be useful every now and then.
+
+		{portrait none}
+		{*}{+MADELINE}!!!{/*}
+
+		{trigger 1 Theo enters left}
+		
+		[THEO left worried]
+		{+MADELINE}! You're okay!
+
+		[THEO left wtf]
+		I ran down to help, but it looks like you're doing fine.
+		
+		[MADELINE right normal]
+		Thanks, {+THEO}.
+
+		[MADELINE right distracted]
+		Honestly, maybe that fall was what I needed.
+		
+		{trigger 8 theo stops being tired}
+		[THEO left wtf]
+		Is this the {+PART_OF_YOU} that you were talking about?
+
+		[THEO left excited]
+		She's like an adorable goth {+MADELINE}!
+
+		[BADELINE right angry]
+		Hi.
+
+		[MADELINE right sad]
+		You were right, {+THEO}.
+		I shouldn't be afraid of her.
+
+		[MADELINE right normal]
+		If her and I work together,{n}I think we can still finish the climb.
+
+		[THEO left excited]
+		That's so rad!
+
+		[BADELINE right angry]
+		Wait, {0.4}{*}no{/*}.
+
+		[BADELINE right worried]
+		...I didn't agree to this.
+
+		{trigger 2 Madeline turns to the right}
+
+		[BADELINE right worriedAlt]
+		You said we'd talk about things first.
+
+		[MADELINE left sad]
+		You're right.
+		I understand that you're scared.
+		
+		[MADELINE left distracted]
+		But we both know that this is something we want to do.
+
+		[MADELINE left normal]
+		We have to try one last time.
+
+		{trigger 7 Theo raises fist}
+
+		[THEO left yolo]
+		Yeah! You've got this!
+		
+		[BADELINE right worried]
+		I don't know...
+
+		[BADELINE right worriedAlt]
+		We were so close, and then we, uh, fell...
+
+		[BADELINE right worried]
+		The {+MOUNTAIN} tore us apart.
+
+		[MADELINE left upset]
+		Yeah, that happened.
+
+		[MADELINE left sad]
+		But I have to believe we can put that behind us.
+		I have to believe we're capable of this.
+
+		{trigger 5 Wait a bit}
+
+		[GRANNY right normal]
+		It's not a bad idea.
+
+		{trigger 3 badeline turns right}
+
+		[GRANNY right normal]
+		It'll still be difficult, mind you.
+		But I'm amazed you got as far as{n}you did, butting heads like you were.
+		I reckon you can make it if you cooperate.
+
+		[BADELINE right worried flip]
+		...
+
+		{trigger 4 badeline turns left}
+
+		[BADELINE right worriedAlt]
+		Okay. 
+
+		[BADELINE right worried]
+		I'll try.
+
+		{trigger 5 Wait a bit}
+
+		[THEO left normal]
+		Can I help?
+
+		{trigger 6 Madeline turns to the left}
+
+		[MADELINE right distracted]
+		You've already done so much for me.
+
+		[THEO left wtf]
+		Let me hold your bag at least.
+
+		[MADELINE right normal]
+		Good idea.
+
+		[MADELINE right determined]
+		{>> 0.2}This won't take long.{>>}
+
+# *** Chapter 07 ***
+
+	CH7_HEIGHT_START=Ground Level
+	CH7_HEIGHT_0={X} M
+ 	CH7_HEIGHT_1={X} M
+	CH7_HEIGHT_2={X} M
+	CH7_HEIGHT_3={X} M
+	CH7_HEIGHT_4={X} M
+	CH7_HEIGHT_5={X} M
+
+	# Mountain Base -> Forsaken City
+	CH7_ASCEND_0=
+		[MADELINE left normal]
+		We're getting the hang of that.
+
+		[BADELINE right upset]
+		If you say so...
+
+		[MADELINE left determined]
+		This mountain doesn't stand a chance.
+
+		[BADELINE right worried]
+		Stop jinxing it.
+
+	# Forsaken City -> Old Site
+	CH7_ASCEND_1=
+		[MADELINE left normal]
+		How are you feeling?
+
+		[BADELINE right upset]
+		I'm fine.
+
+		[BADELINE right worried]
+		I'm just {0.4}waiting for something to go wrong.
+
+		[MADELINE left sad]
+		No matter what happens,{n}I'll be right there with you.
+
+		[BADELINE right worried]
+		You know what's really scary?
+		
+		[BADELINE right upset]
+		I'm starting to believe you.
+
+	# Old Site -> Celestial Resort
+	CH7_ASCEND_2=
+		[BADELINE right normal]
+		Nice job back there.
+
+		[MADELINE left surprised]
+		Look at you!
+
+		[MADELINE left normal]
+		{+ST_BAD}Ms\. Positivity{+END_BAD} over here.
+
+		[MADELINE left determined]
+		You're so supportive.
+
+		[BADELINE right angry]
+		Don't push your luck.
+		
+	# Celestial Resort -> Cliffside
+	CH7_ASCEND_3=
+		[MADELINE left distracted]
+		I hope {+MROSHIRO} is okay.
+
+		[BADELINE right angry]
+		Why? He treated you like garbage.
+
+		[MADELINE left sad]
+		Yeah, but I still care about him.
+		
+		[MADELINE left upset]
+		And you didn't have to snap at him like you did.
+
+		[BADELINE right angry]
+		Whatever.
+
+		[MADELINE left sad]
+		I mean it. You're way too aggressive.
+
+		[BADELINE right angry]
+		Well {~}you{/~} put too much energy into bad{n}people who will just end up hurting you.
+
+		[MADELINE left distracted]
+		{+MROSHIRO} isn't a bad person...
+
+		[BADELINE right yell]
+		He transformed into a {*}monster!{/*}
+		He tried to {*}hurt{/*} you!
+
+		[BADELINE right worriedAlt]
+		And now you're defending him?
+
+		[MADELINE left distracted]
+		I'm not defending him...
+
+		[MADELINE left sad]
+		I'm on your side here.{n}I'm mad at him too.
+		I might still be in that hotel{n}if you hadn't forced the issue.
+
+		[MADELINE left distracted]
+		...but I still hope he's alright.
+
+		[BADELINE right worried]
+		...
+
+		[BADELINE right worriedAlt]
+		Okay...
+		...I'm sorry...
+
+		[BADELINE right worried]
+		...for snapping at {+MROSHIRO}.
+
+		[MADELINE left distracted]
+		Thanks. 
+		
+		[MADELINE left sad]
+		It's in the past now.
+		
+	# Cliffside -> Temple
+	CH7_ASCEND_4=
+		[MADELINE left surprised]
+		That was a close one.
+
+		[BADELINE right worried]
+		Yeah, I wasn't sure if we'd make it.
+
+		[MADELINE left distracted]
+		Maybe you were right.
+
+		[MADELINE left sad]
+		Maybe this {~}is{/~} too dangerous.
+
+		[BADELINE right worried]
+		...
+
+		[BADELINE right angry]
+		{*}No.{/*}
+		I was wrong.
+		We can climb this {+MOUNTAIN}.
+
+		[BADELINE right normal]
+		I've got your back...
+
+		[BADELINE right worried]
+		...and...
+
+		[BADELINE right worriedAlt]
+		...I believe in you.
+
+		[MADELINE left sad]
+		That means a lot to me.
+		
+	# Temple -> Summit
+	CH7_ASCEND_5=
+		[MADELINE left determined]
+		This is it, the home stretch.
+
+		[MADELINE left normal]
+		We're so close.{n}We're going to make it!
+
+		[BADELINE right worriedAlt]
+		Yeah...
+
+		[BADELINE right worried]
+		...
+
+		[MADELINE left sad]
+		What's wrong?
+
+		[BADELINE right worried]
+		...I'm just...
+		...
+
+		[BADELINE right worriedAlt]
+		...I'm sorry. 
+		I was holding you back.
+
+		[BADELINE right worried]
+		I need to learn to trust you.
+
+		[MADELINE left distracted]
+		It's not your fault.
+		I tried to leave you behind.
+		And honestly, I've been trying to{n}leave you behind my entire life.
+
+		[MADELINE left sad]
+		{~}I'm{/~} sorry.
+		I wish I tried to understand you sooner.
+		I was too proud, or stubborn, or {*}something.{/*}
+
+		[BADELINE right worriedAlt]
+		We wasted so much time and energy.
+
+		[BADELINE right worried]
+		...
+
+		[BADELINE right worriedAlt]
+		At least we're finally talking about it.
+
+		[MADELINE left sad]
+		Yeah...
+
+		[MADELINE left normal]
+		I'm glad the {+MOUNTAIN} brought you out.
+		I think we can move past this.
+		If we can climb this {+MOUNTAIN} together,{n}we can do anything.
+		
+		[BADELINE right worried]
+		What if we don't make it?
+
+		[MADELINE left normal]
+		I'd be okay with that.
+
+		[BADELINE right worriedAlt]
+		You would?
+
+		[MADELINE left sad]
+		Of course.
+		
+		[MADELINE left normal]
+		I'm just glad we're trying.
+
+		[MADELINE left sad]
+		I really needed to do this.
+		
+		[BADELINE right upset]
+		I'm finally starting to understand why.
+
+		[BADELINE right normal]
+		Let's finish it.
+
+	CH7_ENDING=
+		[BADELINE left normal]
+		We actually did it.
+		I can't believe it!
+
+		[MADELINE right surprised flip]
+		Wow! It's so beautiful!
+		
+		[MADELINE right normal flip]
+		Look at how far we've come!
+
+		{trigger 1 Madeline sits down}
+
+		[BADELINE left normal]
+		I'm glad I got to see this before I...
+
+		[BADELINE left worriedAlt]
+		Well, before I...
+
+		[MADELINE right distracted flip]
+		Oh, right.
+
+		[MADELINE right sad flip]
+		When we leave the {+MOUNTAIN}, you{n}won't be able to talk to me anymore...
+		At least not like this.
+
+		[BADELINE left worried]
+		Yeah.
+
+		[BADELINE left upset]
+		I know that we need to go home eventually.
+		But it'll be scary to lose this body.
+
+		{trigger 2 Badeline moves beside Maddy as camera begins panning right}
+
+		[MADELINE left sad]
+		You'll still exist, though.
+		You were {+PART_OF_ME} before we came here.
+
+		[BADELINE left upset]
+		Yeah, I know.
+		But I'm gonna have to depend on you to listen to me.
+
+		[BADELINE left worried]
+		...even if I can't talk to you in person anymore.
+
+		[BADELINE left worriedAlt]
+		I just... can't go back to how it was before.
+		Before the {+MOUNTAIN}.
+
+		[MADELINE right sad flip]
+		Don't worry, I can't go back to that either.
+		I really want us to work together from now on.
+
+		[BADELINE left upset]
+		I believe you.
+
+		[BADELINE left worriedAlt]
+		...but I'm still nervous.
+
+		{trigger 0 Wait a bit}
+		
+		[BADELINE left upset]
+		So... now what?
+
+		[MADELINE right distracted flip]
+		...
+
+		[MADELINE right normal flip]
+		Let's just enjoy this for a bit.
+
+	CH7_BSIDE_ASCEND=
+		[BADELINE left freakA]
+		That was amazing!
+
+		[MADELINE right surprised]
+		I can't believe we did that!
+
+		[BADELINE left freakA]
+		Nothing can stop us!
+
+		[MADELINE right upset]
+		You're scaring me right now.
+
+	CH7_CSIDE_OLDLADY=
+		[GRANNY right normal]
+		It's hard to believe that it's over, isn't it?
+
+		[GRANNY right laugh]
+		Funny how we get attached to the struggle.
+
+		[GRANNY right normal]
+		Promise me that you'll take care of yourself, okay?
+
+	CH7_CSIDE_OLDLADY_B=
+		[GRANNY right normal]
+		Well?
+		What are you waiting for?
+
+# *** Epilogue ***
+
+	EP_CABIN=
+		[GRANNY right normal]
+		Welcome back.
+
+		[THEO right excited]
+		{+MADELINE}!
+		Did you make it to the summit?
+		
+		{trigger 0 Badeline emerges}
+
+		[MADELINE left normal]
+		Yeah, we did.
+		It was incredible.
+
+		[GRANNY right normal]
+		Beautiful, isn't it?
+
+		[BADELINE left upset]
+		I didn't think it would be worth it...
+
+		[BADELINE left normal]
+		But it totally was.
+
+		[THEO right thinking]
+		I should've given you my phone so{n}you could take {~}The Ultimate Selfie.{/~}
+
+		{trigger 1 Fade out, hear knock on door, fade in and Oshiro enters}
+
+		[OSHIRO left normal]
+		Good evening, everyone.
+
+		[BADELINE right angry]
+		What are {~}you{/~} doing here?
+
+		[OSHIRO left normal]
+		A little bird told me there was to be a party.
+
+		[OSHIRO left sidehappy]
+		{+thought}RSVP-by-bird, positively magical!{+endthought}
+
+		[OSHIRO left drama]
+		But if I am unwelcome, I shall take my leave.
+
+		[MADELINE right sad]
+		Please stay, {+MROSHIRO}.
+
+		[MADELINE right normal]
+		It's good to see you.
+
+		{trigger 2 Oshiro settles in}
+
+		[GRANNY left normal]
+		Y'know, this is the first time I've seen{n}you outside that hotel of yours, {+OSHIRO}.
+		I'm glad you made it.
+		{+MADELINE} here is baking us a pie with all{n}of the strawberries she's been collecting.
+
+		[OSHIRO left normal]
+		Oh, that's wonderful, {+MS_MADELINE}.
+
+		[THEO right normal]
+		I haven't had {# F94A4A}strawberry pie{#} since I was a kid.
+
+		[THEO right excited]
+		This is gonna be amazing!
+
+		[BADELINE right scoff]
+		Don't get your hopes up, she's not much of a baker.
+
+		{trigger 3 Maddy Turns}
+
+		[MADELINE left normal]
+		You also said I wasn't a mountain climber.
+
+		[BADELINE right worried]
+		True.
+
+		{trigger 3 Maddy Turns}
+
+		[MADELINE right sad]
+		I can't promise it'll live up to the hype, {+THEO}.
+
+		[MADELINE right normal]
+		But I tried my best.
+
+	EP_PIE_START=
+		[MADELINE right normal]
+		So?
+		How's it taste?
+
+	EP_PIE_DISAPPOINTED=
+		[THEO left wtf]
+		I guess this is technically a pie...
+
+		[OSHIRO left worried]
+		Is this some kind of joke, {+MS_MADELINE}?
+
+		[GRANNY left normal]
+		Strawberry pies are supposed to{n}have strawberries in them, dear.
+
+	EP_PIE_GROSSED_OUT=
+		[THEO left wtf]
+		{+MADELINE}, I super appreciate you baking for us...
+		But I don't think I can eat this.
+
+		[GRANNY left normal]
+		It's the thought that counts.
+
+		[BADELINE left angry]
+		You people just can't appreciate good food.
+		I'll eat all of it myself.
+
+		[MADELINE right sad]
+		You don't have to do that.
+
+		[BADELINE left worried]
+		Yeah... it was an empty threat.
+
+	EP_PIE_OKAY=
+		[OSHIRO left normal]
+		The important thing is that you{n}tried your best, {+MS_MADELINE}.
+
+		[BADELINE left angry]
+		Who invited this guy?
+
+		[THEO left thinking]
+		Come on, it's really good.
+
+		[GRANNY left normal]
+		I've certainly had worse.
+
+		[THEO left normal]
+		Thanks for the pie, {+MADELINE}.
+
+	EP_PIE_REALLY_GOOD=
+		[GRANNY left normal]
+		I'm impressed!
+		This gives my baking a run for its money.
+
+		[BADELINE left normal]
+		Not bad.
+
+		[THEO left excited]
+		Holy crap!
+
+		[THEO left normal]
+		This is so tasty.
+
+		[OSHIRO left normal]
+		{+MS_MADELINE}, are you available to{n}cater our re-opening banquet?
+		
+		[THEO left excited]
+		Can I take a slice home for {+ALEX}?
+		She'll die when she tastes this.
+		
+	EP_PIE_AMAZING=
+		[THEO left wtf]
+		{+MADELINE}.
+
+		[THEO left excited]
+		This is the best thing I've ever tasted!
+
+		[MADELINE right sad]
+		Come on. Be honest.
+
+		[GRANNY left normal]
+		He's right, dear.
+		This is delicious.
+
+		[OSHIRO left normal]
+		It's truly magnificent, {+MS_MADELINE}.
+
+		[OSHIRO left worried]
+		{~}A symphony for the taste buds!{/~}
+
+		[BADELINE left scoff]
+		Can I take partial credit for this?
+
+		[MADELINE right normal]
+		Wow, thanks everyone.
+		I worked really hard for it.
+		
+# *** Appendix ***
+
+	APP_INTRO=
+		About a year later...
+
+	APP_OLDLADY_A=
+		[GRANNY right normal]
+		Hey there, kiddo!
+		Nice to see you again.
+
+		{trigger 0}
+
+		[GRANNY right normal flip]
+		Here's the cave I told you about{n}on the phone.
+		
+		{silent_trigger 1}
+		
+		Follow me.
+
+	APP_OLDLADY_B=
+		[MADELINE left sad]
+		What is this place?
+
+		[GRANNY right normal]
+		This passage leads to the center of the {+MOUNTAIN}.
+		You said you wanted to come{n}back and explore deeper...
+
+		{trigger 0 start laughing}
+
+		[GRANNY right laugh]
+		Doesn't get any deeper than this!
+
+		{trigger 1 stop laughing}
+
+		[GRANNY right normal]
+		Be careful, though.
+		When you get this close to the heart of the {+MOUNTAIN},{n}its power will start affectin' you differently.
+
+		[MADELINE left sad]
+		Yeah, I already noticed some of that...
+
+		[GRANNY right normal]
+		Good luck in there.
+
+	APP_OLDLADY_C=
+		[GRANNY right normal]
+		Where's that other {+PART_OF_YOU}?
+
+		[MADELINE left sad]
+		I don't know... I expected her to show up by now.
+
+		[MADELINE left distracted]
+		Maybe I've changed, and{n}she's not {+PART_OF_ME} anymore.
+
+		[GRANNY right normal]
+		Or maybe you've grown together.
+		Maybe it's not so easy for the{n}{+MOUNTAIN} to separate you now.
+		I'd wager she's still with you, in some form.
+
+		[MADELINE left normal]
+		I like that theory better.
+
+		[MADELINE left distracted]
+		I still wish I could talk to her though.
+
+	APP_OLDLADY_D=
+		[GRANNY right normal]
+		Do you keep in touch with {+THEO}?
+
+		[MADELINE left normal]
+		Yeah, he spent the summer in Vancouver.
+		We got to spend some quality time together.
+
+		[GRANNY right normal]
+		What's he up to these days?
+
+		[MADELINE left normal]
+		He's back in California with his family now.
+		He wants to be around while{n}his sister finishes law school.
+
+		[MADELINE left sad]
+		It sounds pretty intense, but he{n}wants to be there to support her.
+
+		[GRANNY right normal]
+		He seems like a nice young man.
+
+	APP_OLDLADY_E=
+		[MADELINE left normal]
+		It's been a while. How've you been?
+
+		[GRANNY right normal]
+		Oh, same old same old.
+
+		{trigger 0 start laughing}
+
+		[GRANNY right laugh]
+		And in my case, that's pretty old.
+
+		{trigger 1 end laughing}
+
+		[GRANNY right normal]
+		I'm not gettin' any younger, that's for sure.
+		Some days, just keeping the{n}lights on can take all my energy.
+		The {+MOUNTAIN} still keeps me sharp, though.
+
+		[GRANNY right mock]
+		I'm not ready to give up the ghost anytime soon.
+
+		[MADELINE left normal]
+		I'd expect no less from you.
+
+		[MADELINE left sad]
+		Take care of yourself.
+
+	APP_OLDLADY_LOCKED=
+		[MADELINE left sad]
+		That door up ahead won't budge.
+		Is there another way in?
+
+		[GRANNY right normal]
+		I'm afraid not, dear.
+
+		[GRANNY right mock]
+		You think the {+MOUNTAIN} is gonna{n}start going easy on you now?
+
+		[GRANNY right normal]
+		I guess it doesn't think you're ready yet.
+
+		[MADELINE left sad]
+		Okay, {+CELESTE_MOUNTAIN} might be {~}weird and magical.{/~}
+
+		[MADELINE left upset]
+		But now you're telling me it can {~}"think",{/~} too?
+
+		[GRANNY right normal]
+		It doesn't think like you or me.
+		It's like... how a river thinks to flow to the sea.
+		You can make it sound crazy if you want.
+
+		[MADELINE left upset]
+		I know better than to doubt you.
+
+		[MADELINE left sad]
+		How do I convince it I'm ready?
+
+		[GRANNY right normal]
+		Heck if I know.
+		I'd retrace my steps, and really pay attention.
+		{+CELESTE_MOUNTAIN} must have more to teach you.
+
+	APP_ENDING=
+		...this is it?
+		This is what's at the center of all of this?
+		It's so empty... and vast...
+		Yet it feels nostalgic somehow.
+		And peaceful.
+
+	CH9_GRAVESTONE=
+		[MADELINE left sad]
+		{+GRANNY}...
+		[MADELINE left sadder]
+		I can't believe you're gone, you old bat.
+
+		[MADELINE left distracted]
+		Well,{0.2} I guess I can.
+
+		[MADELINE left sadder]
+		It sounded like you were saying goodbye{n}in the last letter you sent me.
+
+		{silent_trigger 0 Step Forward}
+		
+		[MADELINE left sadder]
+		This isn't fair. I need you.
+
+		[MADELINE left angry]
+		You didn't prepare me for any of this.
+
+		{trigger 1 Badeline Appears}
+
+		[BADELINE left scoff]
+		What do you want her to do, apologize?
+
+		[BADELINE left upset]
+		She's gone.
+
+		[BADELINE left angry]
+		And you didn't even go to the funeral.
+
+		{trigger 2 Sit Down}
+
+		[MADELINE left distracted]
+		I know, I just... couldn't.
+
+		[MADELINE left sadder]
+		I fell apart.
+
+		[MADELINE left sadder]
+		I'm so sorry, {+GRANNY}.
+
+		[BADELINE left angry]
+		{~}Sorry{/~} won't bring her back.
+
+		[MADELINE left sadder]
+		You're right.
+
+		[MADELINE left sad]
+		It was selfish of me to come here.
+
+	CH9_FLYING_TO_THE_MOON=
+		[BADELINE right concerned]
+		Where are we going, {+MADELINE}?
+
+		[MADELINE left sad]
+		We have to follow that bird.
+		It's {+PART_OF_GRANNY}, just like you're {+PART_OF_ME}.
+    
+		[BADELINE right worried]
+		I thought it was just her pet or something...
+
+		[MADELINE left distracted]
+		It {~}has{/~} to be more than that.
+
+		[MADELINE left sad]
+		That bird was always looking out for me{n}on the {+MOUNTAIN}, just like {+GRANNY} did.
+
+		[BADELINE right concerned]
+		{+MADELINE}... I hate to say it, but...
+
+		[BADELINE right worriedAlt]
+		You're in denial.
+
+		[BADELINE right worried]
+		It's just a bird.
+    
+		[MADELINE left upset]
+		Just shut up and help me for once, okay?
+
+	CH9_LANDING=
+		[BADELINE left worried]
+		Uh... we're really high up.
+
+		{trigger 0 Badeline turns}
+
+		[BADELINE left worriedAlt flip]
+		The mountain looks like a molehill from here.
+
+		{trigger 0 Badeline turns}
+
+		[BADELINE left worried]
+		We should really turn back.
+
+		[MADELINE right upset]
+		We don't have time to argue about this.
+
+		[BADELINE left concerned]
+		How are you even breathing up here?
+
+		[MADELINE right sad]
+		{+GRANNY} wants us to follow her.
+
+		[MADELINE right distracted]
+		We can't let her down again.
+
+		[BADELINE left angryAlt]
+		{~}...it's a bird,{/~} {+MADELINE}.
+
+		[BADELINE left angry]
+		{+GRANNY} is gone.
+
+		[MADELINE right angry]
+		You {*}really{/*} think that's just a regular bird?
+
+		[MADELINE right sad]
+		It's {+PART_OF_HER}, and it's still here somehow.
+
+		[MADELINE right distracted]
+		Maybe there's a way to bring her back.
+
+		[MADELINE right sad]
+		I have to do... something.
+
+		[BADELINE left angryAlt]
+		...
+		I can't help you with this.
+
+		[MADELINE right angry]
+		Then {*}leave!{/*}
+
+		{trigger 1 Badeline Vanishes}
+
+		[MADELINE left determined]
+		Don't worry, {+GRANNY}.
+		I won't lose you.
+
+	CH9_FAKE_HEART=
+		[MADELINE left distracted]
+		Wait, no...
+
+		[MADELINE left sad]
+		This can't be the end.
+
+	CH9_KEEP_GOING=
+		[MADELINE left sadder]
+		{+GRANNY} is still out there somewhere.
+
+		{trigger 0 Step Forward}
+
+		[MADELINE left determined]
+		Which means I need to keep going.
+
+	CH9_MISS_THE_BIRD=
+		[MADELINE left angry]
+		{~}Hey!{/~}
+		Don't you want me to help you?
+
+		[MADELINE left sadder]
+		...don't you want to see me again, {+GRANNY}?
+
+		{trigger 0 stand up, face left }
+
+		[MADELINE left sad flip]
+		I don't understand.
+
+		[MADELINE left distracted flip]
+		Are you testing me?
+		Are you just afraid to ask for help?
+
+		[MADELINE left sadder flip]
+		Maybe {+PART_OF_ME} was right.{n}Maybe it {~}is{/~} just a bird.
+		...
+
+		{trigger 1 take a step left}
+
+		[MADELINE left sad flip]
+		Unless...
+
+		{trigger 2 take a step right}
+
+		[MADELINE left surprised]
+		The bird doesn't want me to save {+GRANNY}.
+		
+		{trigger 3 black hole flickers }
+
+		[MADELINE left sadder]
+		It's trying to stop me, just like {+PART_OF_ME}.
+		I'm alone up here.
+
+		{trigger 4 black hole flickers more, tiles to crack into the sci-fi one}
+
+		[MADELINE left angry]
+		Well, we don't need their help, right {+GRANNY}?
+
+		[MADELINE left together]
+		Don't worry, I won't give up on you!
+		I'll catch that stupid bird and set you free.
+
+	CH9_HELPING_HAND=
+		[MADELINE left upset]
+		I didn't ask for your help.
+		
+		[BADELINE right angryAlt]
+		I know, but come on {+MADELINE}...
+		Think this through.
+
+		[BADELINE right angry]
+		What's your endgame here?
+    
+		{trigger 0 Madeline faces away}
+
+		[MADELINE left determined flip]
+		All that matters is finding {+GRANNY}.
+		Then maybe I can bring her home...
+
+		[MADELINE left sadder flip]
+		Even if the whole universe is against me.
+		
+		[BADELINE right worriedAlt]
+		...
+
+		[BADELINE right worried]
+		Aren't you worried about getting lost up here?
+
+		[MADELINE left angry flip]
+		I'll figure it out.
+
+		[BADELINE right worriedAlt]
+		...
+
+		[BADELINE right worried]
+		Look, {+MADELINE}...
+
+		[BADELINE right worriedAlt]
+		We're in {~}space{/~} chasing a {~}mysterious bird{/~}.
+
+		[BADELINE right upset]
+		None of this is real.
+
+		[BADELINE right concerned]
+		You're dreaming.
+
+		[MADELINE left sadder flip]
+		...
+
+		[BADELINE right concerned]
+		...she's gone.
+
+		[BADELINE right upset]
+		It's time to wake up now.
+		
+		[MADELINE left sadder flip]
+		But if we wake up, we'll never see {+GRANNY} again...
+
+		{trigger 1 Madeline faces towards badeline}
+		
+		[MADELINE left angry]
+		I can't believe you want her to disappear forever!
+		You're always so {*}selfish{/*}.    
+
+		[BADELINE right angry]
+		...
+		
+		[BADELINE right angryAlt]
+		First of all, it's a {~}bird{/~}.
+		We don't {~}know{/~} that it's her.
+		
+		[BADELINE right yell]
+		And {*}second{/*} of all...
+		...
+
+		[BADELINE right sigh]
+		...we need to take a step back here.
+		
+		{trigger 2 Madeline steps towards badeline}
+
+		[MADELINE left angry]
+		No, {!}{*}you{/*}{/!} need to take a step back.
+		{*}I'm doing this.{/*}
+
+		[MADELINE left sad]
+		With or without you. 
+		I'm done letting you hold me back.
+
+		[MADELINE left sadder]
+		{+GRANNY} needs me.
+		
+		[BADELINE right simple_sigh]
+		Okay.
+		Good luck.
+		
+	CH9_CATCH_THE_BIRD=
+		[MADELINE left surprised]
+		Got you! Finally!
+
+		[MADELINE left angry]
+		Now where's {+GRANNY}!?
+
+		{trigger 0 bird looks hurt}
+
+		[MADELINE left angry]
+		...
+
+		[MADELINE left surprised]
+		Oh no. 
+		Are you okay?
+
+		{trigger 1 bird squaks}
+		
+		[MADELINE left sad]
+		I'm sorry, I didn't mean to hurt you.
+		
+		{trigger 2 approach bird, it moves away}
+		
+		[MADELINE left sad]
+		Wait! Please don't leave.
+		
+		{trigger 3 bird flys out of the camera}
+		
+		[MADELINE left sadder]
+		At least tell me...
+		You're {+PART_OF_GRANNY}, right?
+		If you have to go, then...
+
+		[MADELINE left sad]
+		Take me with you.
+		
+		{trigger 4 badeline appears}
+    
+		[BADELINE right yell]
+		{+MADELINE}, stop!
+
+		[BADELINE right concerned]
+		You can't go with her.
+		
+		[MADELINE left angry]
+		Shut up!
+		You couldn't force me to give up on the {+MOUNTAIN}.
+		And you can't force me to give up on {+GRANNY}.
+
+		[MADELINE left sadder]
+		{*}Go away.{/*}
+		
+		[BADELINE right concerned]
+		...
+
+		[BADELINE right worried]
+		I'm not forcing you.
+
+		[BADELINE right concerned]
+		I'm asking you.
+
+		{trigger 5 Wait a beat}
+
+		[BADELINE right worriedAlt]
+		I miss {+GRANNY} too.
+		She meant a lot to both of us.
+
+		[MADELINE left sad]
+		Then why is it so easy for you to leave her behind?
+
+		[BADELINE right worriedAlt]
+		It's {~}not{/~} easy.
+
+		[BADELINE right worried]
+		Maybe I pushed us to get over it too quickly...
+
+		[BADELINE right concerned]
+		But this isn't healthy either.
+		I just want us to survive this.
+
+		{trigger 6 Madeline sits}
+		
+		[MADELINE left sadder flip]
+		...
+		I know she's gone.
+		And this is just a dream.
+		Catching this bird won't bring her back.
+		
+		{trigger 7 badeline hugs madeline}
+		
+		[BADELINE left concerned]
+		I'm so sorry, {+MADELINE}.
+		
+		[BADELINE left concerned]
+		Let's wake up, and we'll face this together.
+		
+		[MADELINE right sadder]
+		...
+
+		[MADELINE right distracted]
+		No.
+
+		[MADELINE right sad]
+		Not yet.
+
+		{trigger 8 stand up}
+
+		[MADELINE right sad]
+		I want to set things right first.
+    
+		[BADELINE left upset]
+		What do you mean?
+		
+		[MADELINE right sad]
+		The bird, it's trapped here because of me.
+		
+		{trigger 9 shift camera over to the bird}
+		
+		[MADELINE right sad flip]
+		We need to help it escape before we leave.
+		{+GRANNY} wouldn't want it to be stuck like this.
+		
+		[BADELINE left concerned]
+		You're right. 
+
+		[BADELINE left normal]
+		Let's do it.
+
+		[BADELINE left upset]
+		But as soon as we’re done,{n}we need to wake up.
+
+		[BADELINE left worried]
+		This place is so {*}weird{/*}.{n}I want to go home.
+
+	CH9_LAST_ROOM=
+		[BADELINE right normal]
+		This is it! We're almost out of here.
+
+		[MADELINE left determined]
+		Let's do this, for {+GRANNY}.
+
+	CH9_LAST_ROOM_ALT=
+		[BADELINE right concerned]
+		Are you alright, {+MADELINE}?
+
+		[MADELINE left sad]
+		We're so close, but it feels impossible...
+
+		[BADELINE right upset]
+		Come on, just a few more tries.
+
+		[BADELINE right normal]
+		We can do this.
+
+	CH9_LAST_BOOST=
+		[BADELINE right normal]
+		Say goodbye to her for me.
+
+	CH9_FAREWELL=
+		[MADELINE left normal]
+		{+GRANNY}!
+
+		[GRANNY right normal]
+		Hey there, kiddo.
+		
+		[MADELINE left normal]
+		It's so great to see you.
+		I didn't know what to do without you.
+
+		[MADELINE left sad]
+		...
+		But you aren't real...
+
+		[MADELINE left sadder]
+		This is just a dream.
+		
+		[GRANNY right normal]
+		So what?
+		That didn't stop you from coming all this way.
+		You finally found me, and {~}now{/~}{n}you care that it's just a dream?
+		
+		[GRANNY right mock]
+		Quit making excuses and{n}say what you need to say.
+		
+		[MADELINE left sad]
+		...
+
+		[MADELINE left distracted]
+		I'm sorry that I didn't come to your funeral.
+
+		[MADELINE left sadder]
+		I couldn't do it... I just shut down.
+		
+		{silent_trigger 0 laugh}
+
+		[GRANNY right laugh]
+		Heh, that sounds familiar.
+		
+		[MADELINE left upset]
+		...
+
+		{silent_trigger 1 stop laughing}
+		
+		[GRANNY right normal]
+		Hey, what do I care who showed up to that thing?
+
+		{silent_trigger 0 laugh}
+
+		[GRANNY right laugh]
+		I'm dead!
+
+		{silent_trigger 1 stop laughing}
+
+		[GRANNY right mock]
+		Funerals are for all you suckers{n}stuck living without me.
+		
+		{trigger 2 take a step forward}
+
+		[MADELINE left normal]
+		Thank you for looking out for me on the {+MOUNTAIN}.
+
+		[MADELINE left distracted]
+		You helped me so much, and...
+
+		[MADELINE left sadder]
+		I really miss you.
+
+		{trigger 3 granny fades away}
+		
+		[MADELINE left sadder]
+		What am I supposed to do now?
+		Just keep going, like nothing happened?
+
+		{silent_trigger 4 fade to white}
+
+		[MADELINE left panic]
+		Like you aren't... gone forever?
+
+	CH9_END_CINEMATIC=
+		{anchor bottom}
+
+		[WEBCAM_THEO right excited]
+		There she is!
+
+		[WEBCAM_THEO right normal]
+		Long time no see, {# F94A4A}Strawberry{#}.
+
+		[MADELINE left sad]
+		Hey {+THEO}.
+		
+		[WEBCAM_THEO right normal]
+		It's been forever!
+
+		[WEBCAM_THEO right thinking]
+		You went off the grid!{n}What happened to you?
+		
+		[MADELINE left sad]
+		Yeah, sorry for not responding to your messages...
+
+		[MADELINE left distracted]
+		...or answering your calls...
+		...
+		...or replying to your emails.
+
+		[MADELINE left sad]
+		I kind of had a breakdown when {+GRANNY} died.
+
+		[MADELINE left distracted]
+		And then I felt weird messaging you.
+		I thought maybe you were{n}mad at me for disappearing.
+
+		[MADELINE left sad]
+		It snowballed from there.
+		
+		[WEBCAM_THEO right thinking]
+		Yeah yeah, I know you.
+
+		[WEBCAM_THEO right normal]
+		I figured the funeral might've{n}triggered your anxiety, NBD.
+
+		[WEBCAM_THEO right thinking]
+		Next time, {~}at least{/~} just let me know you're still alive.
+
+		[WEBCAM_THEO right normal]
+		You feeling any better?
+		
+		[MADELINE left sad]
+		Yeah...
+
+		[MADELINE left distracted]
+		I'm finally starting to come to terms with it.
+
+		[MADELINE left sad]
+		When I first met {+GRANNY},{n}I thought she was crazy.
+
+		[MADELINE left distracted]
+		But then I got to know her...
+
+		[MADELINE left upset]
+		...and I thought she was mean.
+
+		[MADELINE left sad]
+		But she knew what I needed to hear,{n}and she really helped me.
+
+		[MADELINE left sadder]
+		I miss her a lot.
+		
+		[WEBCAM_THEO right normal]
+		Yeah, me too.
+
+		[WEBCAM_THEO right thinking]
+		I honestly thought she'd live forever.
+
+		[WEBCAM_THEO right excited]
+		Oh! That reminds me!{n}I have to show you something.
+		
+		[MADELINE left normal]
+		Oh?
+		
+		[WEBCAM_THEO right excited]
+		Remember how I told you my grandpa went{n}to {+CELESTE_MOUNTAIN} when he was younger?
+
+		[WEBCAM_THEO right normal]
+		Well, I was going through{n}some of his old stuff with {+ALEX}...
+		And check out this photo I found.
+     
+ 		{trigger 0 Shows the photo of Theo's grandpa with Granny at Celeste Mountain.}
+ 		
+ 		[MADELINE left surprised]
+		Is that {+GRANNY}!? With your grandpa?
+
+		[MADELINE left normal]
+		{+THEO}, that's amazing!
+		It looks like they were friends.
+		
+		[WEBCAM_THEO right excited]
+		Just like us!
+
+		[WEBCAM_THEO right thinking]
+		It really sucks that they're gone.
+
+		[WEBCAM_THEO right normal]
+		But it's nice to know that we{n}shared the {+MOUNTAIN} with them.
+		
+		[MADELINE left normal]
+		Yeah...
+
+		[MADELINE left peaceful]
+		{>> 0.3}That {~}is{/~} nice.{>>}
+
+# Crystal Hearts
+
+	POEM_FC=	Pointless machines
+	POEM_FCR=	Sever the skyline
+
+	POEM_OS=	Resurrections
+	POEM_OSR=	Black moonrise
+
+	POEM_CR=	Scattered and lost
+	POEM_CRR=	Good karma
+
+	POEM_CS=	Eye of the storm
+	POEM_CSR=	Golden feather
+
+	POEM_T=		Quiet and falling
+	POEM_TR=	Mirror magic
+
+	POEM_TF=	Heavy and frail
+	POEM_TFR=	Center of the earth
+
+	POEM_TS=	Pink sunrise
+	POEM_TSR=	No more running
+
+	POEM_MC=	Heart of the mountain
+	POEM_MCR=	Say goodbye
+
+	POEM_FW=	Empty Space
+	
+# Wavedash Tutorial
+	
+	WAVEDASH_DESKTOP_MYPC=			My Mountain
+	WAVEDASH_DESKTOP_POWERPOINT=	wavedash.ppt
+	WAVEDASH_DESKTOP_RECYCLEBIN=	Recycle Bin
+	WAVEDASH_DESKTOP_STARTBUTTON=	BerryOS
+
+	WAVEDASH_PAGE1_TITLE=			Wavedashing and You
+	WAVEDASH_PAGE1_SUBTITLE=		A practical solution for catching birds in space
+
+	WAVEDASH_PAGE2_TITLE=			Can't|Catch|That|Bird?
+	WAVEDASH_PAGE2_LIST=
+		-Fact: Birds are hard to catch{n}
+		-Wow. It's fast!{n}
+		-Also, it can fly{n}
+		-And {+PART_OF_YOU} won't help{n}
+		-(she's the worst)
+
+	WAVEDASH_PAGE2_IMPOSSIBLE=		IMPOSSIBLE???
+	
+	WAVEDASH_PAGE3_TITLE=			Introducing... Wavedashing!!
+	WAVEDASH_PAGE3_INFO=			With Wavedashing, you can jump very far{n}and regain your dash {~}at the same time!{/~}
+	WAVEDASH_PAGE3_EASY=			It's "easy!"
+
+	WAVEDASH_PAGE4_TITLE=			How It's Done
+	WAVEDASH_PAGE4_LIST=
+		-Jump{n}
+		-Dash diagonally down to the ground{n}
+		-Immediately jump again and hold forward{n}
+		-{~}You did it!{/~}{n}
+		-(go you)
+	
+	WAVEDASH_PAGE5_TITLE=			Trouble in Paradise?
+	WAVEDASH_PAGE5_INFO1=			{#ff0000}If you don't regain your dash{#}{n}you're starting {~}too low{/~} to the ground.
+	WAVEDASH_PAGE5_INFO2=			{#ff0000}If you don't get much distance{#}{n}you're starting {~}too far{/~} from the ground.
+
+	WAVEDASH_PAGE6_TITLE=			Happy Wavedashing!

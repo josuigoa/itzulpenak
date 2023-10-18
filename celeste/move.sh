@@ -1,0 +1,1 @@
+cp euskara.txt /home/josu/jokoak/celeste-linux/Content/Dialog/
