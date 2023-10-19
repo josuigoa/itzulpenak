@@ -68,7 +68,7 @@ color 244,size 36,`Arte Gehigarria`;color 245,size 28,
 	;
 
 skip 25,
-color 244,size 36,`Joku Diseinua`;color 245,size 28,
+color 244,size 36,`Joko Diseinua`;color 245,size 28,
 	`Randy Briley`;
 	`Jeff Diamond`;
 	`Bill Harman`;

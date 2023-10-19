@@ -1,6 +1,6 @@
 Hemen X bat jartzen badut, berak O bat jarriko du goian, eta orduan . . . Baina goian X bat jartzen badut . . . Kaka!
 Ahh! Kaka zaharra joko madarikatu honentzat! Gorroto dut! Ez da bidezkoa! Ez dut inoiz irabazten!!
-Tranpati halakoa! Tranpa egiten ari zara! Itxaron handia eta indartsua izan arte. Orduan edozein jokutan irabaziko dizut!
+Tranpati halakoa! Tranpa egiten ari zara! Itxaron handia eta indartsua izan arte. Orduan edozein jokotan irabaziko dizut!
 Ez nuen egin nahi, ama. Ez nuen egin nahi.
 Berriro irabazi dut, Billy! Ezin izango didazu inoiz irabazi! Billy galtzaile bat da! Billy galtzaile bat da! Berriz jokatu nahi duzu?
 Ez egin hori, Billy. Bi mugimendurekin irabaziko dizut egiten baduzu! Ez, hor ere ez! Haur ergela!
@@ -1646,7 +1646,7 @@ Howie "Neurotic" Schwartz
 
 
 
-Jokuko Ahotsak
+Jokoko Ahotsak
 
 Frank Schurter izan da -
 Max Laughton,
@@ -1947,49 +1947,49 @@ Bai, noski. 8 urte ditut, ez naiz inuxente bat!
 {N} Ez dut hemen heldurik ikusi. Non daude?
 {N} Zein jokotan ari zarete?
 Hirutan hiru. Jokatu nahi duzu? Onena naiz!
-{N} Esango didazu nola jolastu?
-S) T X bat jartzen duzu eta nik O bat jartzen dut karratu hauetan. Ideia da hiru segidan lortzea, edo gorantz eta beherantz, edo diagonalean. Egiten baduzu, irabazi.
+{N} Esango didazu nola jolasten den?
+Tira, zuk X bat jartzen duzu eta nik O bat. Karratu hauetan. Ideia hiruko segida lortzea da, gorantz, beherantz edo diagonalean. Egiten baduzu, irabazi duzu.
 {N} Joka dezagun. Ea diozun bezain ona zaren.
-Ja! Oso azkarra zarela uste duzu, baina mutil bat zara
+Kar! Oso azkarra zarela uste duzu, baina mutil handi, tentel bat zara.
 {N} Aw. Zortea izan duzu.
-Kiratsa dario! Mutil guztiak idiotak dira! Thpt!!
-Erratua zara . . .
-Hmph! Irabazi egin behar duzu, berria zarelako herrian. Baina mutil bat izateko nahiko azkarra zara. Aurretik pare bat aldiz irabazi didate, baina denak neskak izan ziren
-Txorakeriak dira!
-Billyk esan zuen: -Zer?
-{N} Nork irabazi dizu?
-Meg eta Eileen . . . zure lagunik onenak dira
-{N} Megek esan dit lau aldiz irabazi duzula
-Bai. OK. Megek zenbait aldiz irabazi dit
-{N} Uste dut zu zinela txapelduna, Jessie. Eileenek esan du ipurdian ostikoka hasi zarela joko honetan. Zazpi aldiz irabaziko dizudala esan dit!
-Gezurra! Gezur zikina!
+Ah-ah! Zerri alaena!  Mutil guztiak baboak dira! Thhhpppptttt!!
+{H} Badirudi ez zarela uste zenuena bezain ona, Jessie.
+Hmph! Irabazten utzi dizut, herrian berria zarelako. Baina nahiko azkarra zara - mutila izateko. Aurretik pare bat aldiz irabazi didate, baina denak neskak. Neskak mutilak baino askoz azkarragoak dira!
+Eeez-ez! Neskak tuntunagoak ditun!
+Hago ixilik Billy, inozoa!
+{N} Zein neskek irabazi dizute?
+Meg eta Eileen . . . lagun hoberen onenak dira.
+{N} Megek esan dit lau aldiz irabazi dizula. Egia al da?
+Bai. OK. Megek batzutan irabazi dit.
+{N} Txapelduna zu zinela uste nuen, Jessie. Eileenek esan zidan joko honetan aise irabazi zizula. Zazpi aldi irabazi zizula esan zidan!
+Gezurtia! Sorgina! Ipurdi zikina! Lau aldiz bakarrik irabazi zidan!
 Eta joan den ostegunean?
-Horrek ez zuen ezer kontatzen!
-zioen! Bere X jarri zuen ezabatu aurretik.
-Ados! Baina berak bost aldiz egingo dit, ez 7 aldiz
+Horrek ez du kontatzen! Euria hasi zuen!
+Noski baietz! Bere X euriak ezabatu aurretik jarri zuen.
+Ados! Baina berak bost aldiz bakarrik irabazi zidan, ez 7 aldiz
 {E} Ongi da. Saia gaitezen berriro.
-Orain irabazi egingo dizut!
+Ados! Orain irabazi egingo dizut!
 {N} Ez dut zakarra izan nahi, baina . . . Zer gertatu zaio zure aurpegira?
-A, hau, Amak egin zuen! -Ez nago polita? Espero dut Ama bezain polita izatea hazten naizenean! -Ez duzu uste polita nagoenik?
-{N} Bai, noski. Oso polita zara, Jessie. Jainkoak daki, "Zer gertatzen ari da?"
-{N} Kalabaza-baratze horretatik atera nazazu, Jessie
-Inor ez doa . . . ez bada gaizki portatzen direla, Mar bezala! Oso leku txarra da!
-{N} Sarraila bat dago baratzeko atean
+Eh? Ah, hau, Amak egin zidan! Ez al da polita? Handitzen naizenean Ama bezain polita izatea espero dut! Ez duzu uste polita naizenik?
+{N} Bai, em, noski. Oso, oso polita zara, Jessie. Ene, zer gertatzen da hor?
+{N} Hitzegidazu zure kalabaza-baratze horri buruz, Jessie, Zerk egiten du hain berezi?
+Ez da inor bertan sartzen . . . gaizto izan direnak bakarrik, Maria bezala! Leku txar-txarra da!
+{N} Sarraila bat dago kalabaza-baratzeko atean. Ba al dakizu zein den konbinazioa, Jessie?
 Behin pregunt zion Amari eta esan zidan erantzuna "galtzen den zerbaitekin" ikusteko. Ez dut ulertzen, ona naizelako gauzak non jartzen ditudan gogoratuz. Ez Billy eskatzen dudan bezala!
-Gezurra, burukoa!
-Do too!
-{E} Ama ezagutzen dut. Ikusi dut. Ez da gizakia. Ez dute erosten zer dagoen
-Leku guztietan zaude.
-{E} Zergatik ari zara hizketan?
-Ez zaude triste, Max.
-{N} Zer da leku hau?
-Hazi bihurtzen gara!
-{S} Haziak?! Baina zu bat zara, gizaki bat?
-Hori da arazoa! Amak dio laster amaitu dezakezula aldaketa, laster. Ohh, ezin dut itxaron! Lore eder bat bezalakoa izan
+Ez dakit, urde buruhandia!
+Baaai!
+{E} Bai, 'Ama'-ri buruz zerbait entzun dut. Ikusi dut - ez da gizakia! Ez al duzu ulertzen bera dela --
+Ama ona da. Ama da bidea. Mina emango liguken haragitik zaintzen gaitu Amak. Haragia deuseztatu behar da, haziak erne daitezen. Guztiok gara Amaren hazi.
+{E} Haragia? Zertaz ari zara hizketan?
+Ez izan tentela, Max. Badakizu! Mundu guztiak daki, baita nire anaia txotxoloak ere. Haragia! Haragia txarra da . . . horregatik aldatzen gaitu Amak.
+{N} Zer ari da ba bera egiten? Zer esan nahi duzu 'aldatzen' esatean?
+Gu hazi bihurtzen ari da, noski!
+{S} Haziak?!  Baina zu ume bat zara, giza ume bat -
+Hori da arazoa! Amak dio laster amaitu dezakeela aldaketa. Ohh, ezin dut itxaron! Lore ederra izango naiz. Ez duzu uste, Max?
 {N} Bai. Oso ederra
-Meg ni 4 aldiz, Eileen 5 aldiz. Baina behin irabazi didazu, Sabelotodo
-{H} Kaixo, mutil. Nola duzu izena?
-Billy dut izena
+Beraz, Meg-ek 4 aldiz irabazi dit, Eileen-ek 5 aldiz. Baina zuk behin besterik ez, Sasijakintsu Jauna.
+{H} Kaixo, em, mutil. Nola duzu izena?
+Billy dut izena. Zein da zurea?
 {N} Nik . . . Ezin dut gogoratu . . .
 Beno, amak ez dit uzten beste norbaitekin hitz egiten, hobe duzu joatea
 {N} Non dago komuna?

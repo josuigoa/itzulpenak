@@ -2498,7 +2498,7 @@ line:c7ee6a,{{Transition}},{{Transition}},,Player,AuntDynamic
 line:c3d3b6,bitxstikbol partida bat jokatu dut,i played a game of beachstickball,If you play Beachstickball and get under 20 points,Player,AuntDynamic
 line:695b04,zer da bitxstikbola?,what's beachstickball?,,Original,AuntDynamic
 line:edbc45,haurrek jolasten duten jolas bat da,it's some game the kids play,,Player,AuntDynamic
-line:23899f,beti ari dira joku berriren batean,they're always playing something new,,Original,AuntDynamic
+line:23899f,beti ari dira joko berriren batean,they're always playing something new,,Original,AuntDynamic
 line:3983bc,ezin dut gaurko\ngazteen erritmoa jarraitu,i can't keep up with\nthe youth these days,,Original,AuntDynamic
 line:c90080,{{Transition}},{{Transition}},,Player,AuntDynamic
 line:4ba184,uharte misteriotsu batera igeri egin dut!,i swam out to a mysterious island!,If you visit the secret island.,Player,AuntDynamic
@@ -3024,7 +3024,7 @@ It says ""KEEP ON HAND AT ALL TIMES!""",Item description.,,
 ICellphone,Mugikorra,Cellphone,Item name singular.,,
 ISCellphone,Mugikor,Cellphones,Item name plural.,,
 IDCellphone,"""Estaldurarik gabe ez du ezertarako balio.
-Jokuek ere ez dute offline funtzionatzen.""","It's useless without reception.
+Jokoek ere ez dute offline funtzionatzen.""","It's useless without reception.
 Not even the games work offline.",Item description.,,
 ICoin,Txanpona,Coin,Item name singular.,,
 ISCoin,Txanpon,Coins,Item name plural.,,
@@ -3069,7 +3069,7 @@ Looks sporty.",Item description.,,
 IHighRes,Mugikorra,Cellphone,Item name singular.,,
 ISHighRes,Mugikor,Cellphones,Item name plural.,,
 IDHighRes,"Estaldurarik gabe ez du ezertarako balio.
-Jokuek offline ere ez dute funtzionatzen.","It's useless without reception.
+Jokoek offline ere ez dute funtzionatzen.","It's useless without reception.
 Not even the games work offline.",Item description.,,
 IKidHat,Baseball Txapela,Baseball Cap,Item name singular.,,
 ISKidHat,Baseball Txapela,Baseball Caps,Item name plural.,,
