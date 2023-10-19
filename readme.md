@@ -18,3 +18,5 @@
   * [instalazioa](./minit/)
 * Postal
   * [instalazioa](./postal/)
+* Celeste
+  * [instalazioa](./celeste/)

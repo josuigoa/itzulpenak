@@ -71,7 +71,7 @@
 	OPTIONS_RUMBLE_HALF=	%50
 	OPTIONS_RUMBLE_OFF=		EZGAITUA
 	OPTIONS_GRAB_MODE=		Euste modua
-	OPTIONS_CROUCH_DASH_MODE=	Makurtutako Dash modua
+	OPTIONS_CROUCH_DASH_MODE=	Makurtutako Bulkada modua
 	OPTIONS_BUTTON_PRESS=	Sakatu
 	OPTIONS_BUTTON_HOLD=	Eutsi
 	OPTIONS_BUTTON_INVERT=	Alderantzikatu
@@ -98,7 +98,7 @@
 	OPTIONS_SPEEDRUN=		Speedrun Erlojua
 	OPTIONS_SPEEDRUN_CHAPTER=Kapitulua
 	OPTIONS_SPEEDRUN_FILE=	Fitxategia
-	OPTIONS_DASHES=			Dash kontagailua
+	OPTIONS_DASHES=			Bulkada kontagailua
 	OPTIONS_LANGUAGE=		Language
 	OPTIONS_ON=				GAITUTA
 	OPTIONS_OFF=			DESGAITUTA
@@ -111,7 +111,7 @@
 	KEY_CONFIG_UP=			Gora
 	KEY_CONFIG_DOWN=		Behera
 	KEY_CONFIG_JUMP=		Jauzi
-	KEY_CONFIG_DASH=		Dash
+	KEY_CONFIG_DASH=		Bulkada
 	KEY_CONFIG_GRAB=		Heldu
 	KEY_CONFIG_TALK=		Hitzegin
 	KEY_CONFIG_MENUS=		MENU
@@ -123,7 +123,7 @@
 	KEY_CONFIG_RESET=		Dena Berezkoetara itzuli
 	KEY_CONFIG_CHANGING=	SAKATU BOTOI BAT
 	KEY_CONFIG_MOVE_ONLY=	MUGIMENTUENTZAT BAKARRIK
-	KEY_CONFIG_DASH_ONLY=	DASH-ENTZAT BAKARRIK
+	KEY_CONFIG_DASH_ONLY=	BULKADENTZAT BAKARRIK
 
 # CONTROLLER CONFIG
 	BTN_CONFIG_TITLE=		Aginte Konfig
@@ -132,7 +132,7 @@
 	BTN_CONFIG_NOCONTROLLER=Konektatu Agite bat, mesedez
 
 # ADDITIONAL OPTIONS FOR V1.4.0.0
-	KEY_CONFIG_DEMO=		Makurtutako Dash
+	KEY_CONFIG_DEMO=		Makurtutako Bulkada
 	KEY_CONFIG_ADVANCED=	AURRERATUA
 	KEY_CONFIG_MENU_NOTICE= EKINTZA BAKOITZAK LOTURA BAKARRA BEHAR DU
 
@@ -322,7 +322,7 @@
 		{# F94A4A}Badakizu?{#}{n}Eskaladako ezbehar gehienak{n}nekeagatik gertatzen dira.{n}{n}Gogoratu tarteka atseden hartzeaz!
 
 	POSTCARD_AREA_6=
-		{# F94A4A}Badakizu?{#}{n}{n}Ezinezkoa da{}zure islada baino azkarragoa izatea.
+		{# F94A4A}Badakizu?{#}{n}{n}Ezin zara zure{n}islada baino azkarragoa izan.
 
 	POSTCARD_CSIDES=
 		Benetazko erronka baterako prest?{n}{n}{# F94A4A}C-Aldeak{#} desblokeatu dira, eta{n}{# dbb63f}Urrezko Marrubiak{#} agertu dira{n}kapitulu bakoitzaren hasieran!!{n}{n}Zorte on, {+MADELINE}!
@@ -334,7 +334,7 @@
 	JOURNAL_OF=
 	JOURNAL_PROGRESS=				AURRERAPENA
 	JOURNAL_SPEEDRUNS=				MARKA:{n}SPEEDRUNS
-	JOURNAL_DASHES=					MARKA:{n}DASHES???? GUTXIENA
+	JOURNAL_DASHES=					MARKA:{n}BULAKADA GUTXIENA
 	JOURNAL_DEATHS=					MARKA:{n}HERIOTZA GUTXIENA
 	JOURNAL_POEM=					KRISTALEZKO BIHOTZAK
 	JOURNAL_MODE_NORMAL=			GAINDITUTA
@@ -348,7 +348,7 @@
 	STATS_TITLE=			Steam Estatistika Orokorrak
 	STAT_BERRIES=			Marrubiak
 	STAT_DEATHS=			Heriotzak
-	STAT_DASHES=			Dashes????
+	STAT_DASHES=			Bulkadak
 	STAT_GOLDBERRIES=		Urrezko marrubiak
 	STAT_PICO_BERRIES=		PICO-8 Marrubiak
 	STAT_PICO_DEATHS=		PICO-8 Heriotzak
@@ -365,7 +365,7 @@
 # Tutorial
 	TUTORIAL_CLIMB=		IGO
 	TUTORIAL_HOLD=		EUTSI
-	TUTORIAL_DASH=		DASH????
+	TUTORIAL_DASH=		BULKADA
 	TUTORIAL_DREAMJUMP=	JAUZI
 	TUTORIAL_CARRY=		ERAMAN
 
@@ -405,8 +405,8 @@
 	MENU_ASSIST_SUBTITLE=				Laguntzak
 	MENU_ASSIST_GAMESPEED=				Jokoaren Abiadura
 	MENU_ASSIST_INVINCIBLE=				Garaiezintasuna
-	MENU_ASSIST_AIR_DASHES=				Aire Dashes?????
-	MENU_ASSIST_DASH_ASSIST=			Dash???? Laguntza
+	MENU_ASSIST_AIR_DASHES=				Aire Bulkadak
+	MENU_ASSIST_DASH_ASSIST=			Bulkada Laguntza
 	MENU_ASSIST_AIR_DASHES_NORMAL=		Lehenetsia
 	MENU_ASSIST_AIR_DASHES_TWO=			2
 	MENU_ASSIST_AIR_DASHES_INFINITE=	Infinitu
@@ -416,12 +416,12 @@
 	MENU_VARIANT_TITLE=					ALDAERAK
 	MENU_VARIANT_SUBTITLE=				Aldaerak
 	MENU_VARIANT_MIRROR=				Ispilu Modua
-	MENU_VARIANT_360DASHING=			360 Dashing
+	MENU_VARIANT_360DASHING=			360 Bulkada
 	MENU_VARIANT_INVISMOTION=			Mugimendu Ikusezina
 	MENU_VARIANT_PLAYASBADELINE=		Other Self
 	MENU_VARIANT_NOGRABBING=			Ezin eutsi
 	MENU_VARIANT_LOWFRICTION=			Marruskadura Txikia
-	MENU_VARIANT_SUPERDASHING=			Super Dashing
+	MENU_VARIANT_SUPERDASHING=			Super Bulkada
 	MENU_VARIANT_HICCUPS=				Zotinak
 
 # Misc UI
@@ -2092,7 +2092,7 @@
 
 		[THEO right serious]
 		Egon adi.
-		Nire aitonak honetarako truko bat irakatsi zidan.
+		Nire aitatxik honetarako truko bat irakatsi zidan.
 		Itxi begiak.
 
 		{trigger 13 Play breathing minigame}
@@ -2179,7 +2179,7 @@
 
 	CH5_PHONE=
 		[MADELINE left sad]
-		Uh oh.
+		Oh oh.
 
 		{trigger 0 Maddy walks to phone, ducks to pick it up}
 
@@ -2212,7 +2212,7 @@
 		Ba'kizu, {~}{# aaaaaa}"Zure {+THEO} maitea{# aaaaaa} aintzinako{n}tenpluan, ezer berezirik ez."{#}{/~}
 
 		[THEO_MIRROR right thinking]
-		{# ffff9b}\#bedeinkatua{#}
+		{# ffff9b}\#sorioneku{#}
 		
 		[THEO_MIRROR right serious]
 		Eta bapatean lurrean etzanda esnatuko naiz.
@@ -2702,7 +2702,7 @@
 		Zu gelditzen saiatu nintzen.	
 		
 		[THEO left wtf]
-		Ba zure {+ST_BAD}biki gaiztoa{+END_BAD} libre zebilela{n}esan zenezakeen.
+		Ba zure {+ST_BAD}biki maltzurra{+END_BAD} libre zebilela{n}esan zenezakeen.
 			
 		[MADELINE right upset]
 		Tira, {+THEO}.
@@ -3051,7 +3051,7 @@
 		Eskerrik asko hori irakasteagatik.
 
 		[THEO left thinking]
-		Nire aitonaren jakituriaren pipita askotako bat.
+		Nire aitatxiren jakituriaren pipita askotako bat.
 
 	CH6_THEO_ASK_VACATION=
 		[THEO left thinking]
@@ -3125,7 +3125,7 @@
 		Denek zuten pazientzia handia nirekin.
 
 		[THEO left serious]
-		Baian nik uste {~}nire buruari{/~} ari nintzela presio handiegia jartzen.
+		Baina nik uste {~}nire buruari{/~} ari nintzela presio handiegia jartzen.
 
 		[THEO left wtf]
 		Mundu guztiak uste du nire burua {+ALEX}ekin{n}alderatzen dudala, baina {~}zin dagit{/~} ez dela horrela.
@@ -3142,10 +3142,10 @@
 
 	CH6_THEO_ASK_GRANDPA=
 		[MADELINE right normal]
-		Zure aitonarekin erlazio ona duzu?
+		Zure aitatxirekin erlazio ona duzu?
 	CH6_THEO_SAY_GRANDPA=
 		[MADELINE right normal]
-		Zure aitonarekin erlazio ona duzu?
+		Zure aitatxirekin erlazio ona duzu?
 
 		[THEO left serious]
 		Baina... banuen.
@@ -3175,10 +3175,10 @@
 
 	CH6_THEO_ASK_TIPS=
 		[MADELINE right normal]
-		Zer gehiago ikasi zenuen zure aitonarengandik?
+		Zer gehiago ikasi zenuen zure aitatxirengandik?
 	CH6_THEO_SAY_TIPS=
 		[MADELINE right normal]
-		Zer gehiago ikasi zenuen zure aitonarengandik?
+		Zer gehiago ikasi zenuen zure aitatxirengandik?
 
 		[THEO left excited]
 		Gauza asko!
@@ -3192,7 +3192,7 @@
 		Hona etortzeko esaten zidala sentitu nuen.
 
 		[THEO left wtf]
-		Aitonak esan zidan {+MOUNTAIN}a {~}"berezia"{/~} zela.
+		Aitatxik esan zidan {+MOUNTAIN}a {~}"berezia"{/~} zela.
 
 		[MADELINE right sad]
 		Zuk uste bera ere gu bezala tenplutik igaro zela?
@@ -3204,7 +3204,7 @@
 		Ez zuen inoiz hemen gertatutakoaz hitz egin.
 
 		[MADELINE right distracted]
-		Ez dut uste zure aitona ni bezain nahasia zegoenik...
+		Ez dut uste zure aitatxi ni bezain nahasia zegoenik...
 
 		[MADELINE right sad]
 		Bere esperientzia segur aski ez zen izan hain... bortitza.
@@ -3371,14 +3371,14 @@
 		Biok askoz zoriontsuago izango gara.
 
 		[BADELINE right worried]
-		Zu zara...
+		Demonio...
 
 		[BADELINE right sad]
-		oso...
+		urde...
 
 		[BADELINE right freakA pop]
 		{silent_trigger 0 Tentacles Appear}
-		...oso tentela!
+		...ilupa!
 
 		[BADELINE right freakB pop]
 		{silent_trigger 0 Tentacles Appear More}
@@ -3522,7 +3522,7 @@
 		{trigger 1 Start lauging}
 
 		[GRANNY right laugh]
-		Honestly, I thought you'd reach{n}the summit just to spite yourself.
+		Egia esan, tontorrera igoko zinela{n}uste nuen, zure burua izorratzeko bazen ere.
 
 		[MADELINE left upset]
 		Ene, eskerrik asko.
@@ -3530,178 +3530,178 @@
 		{trigger 2 Stop laughing}
 
 		[GRANNY right normal]
-		This girl you're talking about,{n}it sounds like she's holding you back.
-		Talk to her.
-		Figure out why she's so scared.
+		Aipatzen duzun neska hori, nik uste{n}zu atzeratzen ari dela.
+		Hitz egin berekin.
+		Hainbesteko beldurra zerk eragiten dion jakin behar duzu.
 		
 		[MADELINE left sad]
-		You think she's... scared?
+		Zuk uste duzu... beldurtuta dagoela?
 
 		[MADELINE left distracted]
-		I guess I never thought of it that way.
+		Ez nuen inoiz horrelakorik pentsatu.
 		
 		[GRANNY right normal]
-		Stop wasting both of our time and {~}ask her.{/~}
-		What have you got to lose?
+		Utziozu bion denbora galtzeari eta {~}galdetu berari.{/~}
+		Zer duzu galtzeko?
 
 	CH6_OLDLADY_B=
 		[MADELINE left sad]
-		I don't know how to find her...
+		Ez dakit non aurki dezakedan...
 
 		[GRANNY right normal]
-		She's {+PART_OF_YOU}, right?
-		If you look for her, she won't take long to find.
+		Bera {+PART_OF_YOU}a da, ezta?
+		Bere bila hasten bazara, azkar agertuko zaizu.
 
 		[MADELINE left upset]
-		...so you know about the {+MOUNTAIN}'s power.
+		...orduan zuk ere {+MOUNTAIN}aren boterea ezagutzen duzu.
 
 		[GRANNY right normal]
-		Of course I know, I live here.
-		I tried to warn you.
+		Noski ezagutzen dudala, hemen bizi naiz.
+		Zu oharatarazten saiatu nintzen.
 
 		[MADELINE left upset]
-		You need to work on your messaging.
+		Komunikatzeko gaitasuna landu beharko zenuke.
 
 		[GRANNY right normal]
-		A glimpse at the truth is good for people.
-		Even if most can't accept what they see.
-		There's no shame in running back{n}to your car and driving away.
-		Some day you'll be ready,{n}then you'll come back.
+		Egiaren aldera hurbiltzea ona da jendearentzako.
+		Nahiz eta gehienek ikusten dutena ezin onartu.
+		Ez da txarra atzera egin, autoa{n}hartu eta alde egitea.
+		Egunen batean prest egongo zara,{n}orduan itzuliko zara.
 
 		[MADELINE left distracted]
 		...
-		No.
+		Ez.
 
 		[MADELINE left sad]
-		I'm going to see this through.
-		No more running.
+		Hasitakoa bukatuko dut.
+		Ihes gehiagorik ez.
 
 		[GRANNY right normal]
-		I thought so.
-		Good luck.
+		Pentsatzen nuen, bai.
+		Zorte on.
 
 	CH6_OLDLADY_C=
 		[MADELINE left sad]
-		How can you stand living here?
-		Isn't it hard to deal with this all the time?
+		Nolatan egon zaitezke hemen?
+		Ez al da zaila honekin bizitzea?
 
 		[GRANNY right normal]
-		It's true, you never really get used to it.
-		But it keeps me sharp.
-		I like that about it.
+		Hala da, ezin da honetara inoiz ohitu.
+		Baina zorrotz mantentzen nau.
+		Hori gustuko dut.
 
 		[MADELINE left sad]
-		But the {+MOUNTAIN} is so... confrontational.
+		Baina {+MOUNTAIN}a hain da... oldarkorra.
 
 		[GRANNY right normal]
-		Sure, it doesn't beat around the bush.
-		{+CELESTE_MOUNTAIN} is a place of healing, dear.
-		The first step of healing{n}is confronting the problem.
-		It's never easy.
+		Hala da, ez da txantxetako kontua.
+		{+CELESTE_MOUNTAIN} sendatzeko lekua da, maitea.
+		Sendatzeko lehenengo pausua{n}arazoari aurre egitea da.
+		Inoiz ez da erraza.
 
 		[MADELINE left upset]
-		Tell me about it.
+		Kontaidazu gehiago.
 
 	CH6_BOSS_START=
 		[BADELINE right angry flip]
-		Looking for me?
-		I thought you were done with me.
+		Nire bila?
+		Niretaz aspertu zinela uste nuen.
 
 		[MADELINE left sad]
-		That was a mistake.
-		I'm sorry.
+		Akatsa izan da.
+		Barkatu.
 
 		[BADELINE right scoff flip]
-		You think you've got it {~}all figured out.{/~}
+		{~}Dena oso argi{/~} duzula uste duzu.
 
 		[BADELINE right angry flip]
-		You think you don't need me.
+		Ez nauzula behar uste duzu.
 		
 		[MADELINE left upset]
-		I said I'm sorry.
+		Barkamena eskatu dut.
 
 		[MADELINE left sad]
-		We need to move past this.
+		Hau dena atzean utzi behar dugu.
 
 		{trigger 0 Badeline floats, zooms in}
 
 		[BADELINE right yell]
-		You expect me to trust you?
+		Eta nik sinestea espero duzu?
 
 		[MADELINE left angry]
-		You aren't innocent here either.
+		Zu ere ez zara guztiz errugabea.
 		...
 
 		[MADELINE left determinedclosed]
-		But I know you're scared.
+		Baina badakit beldurtuta zaudela.
 		
 		{trigger 1 Maddy steps forward}
 		
 		[MADELINE left sad]
-		Look, we're at rock bottom.
-		There's no point in fighting.
+		Begira, hondoa jo dugu.
+		Ezin dugu borrokan jarraitu.
 
 		[BADELINE right scoff]
-		I can keep digging.
+		Nik beherago joan nahiteke.
 
 		[BADELINE right angry]
-		I could pull us down to the center of the earth.
+		Lurraren erdiraino eraman zaitzaket.
 
 		[MADELINE left sad]
-		What would be the point?
+		Eta zertarako?
 
 		[MADELINE left together]
-		{s 4}Let's climb out of here {.6}[MADELINE left togetherZoom]together.
+		{s 4}Igo gaitezen hemendik {.6}[MADELINE left togetherZoom]elkarrekin.
 		
 		[BADELINE right yell]
-		Come close to me and I'll make you regret it.
+		Hurbil zaitez nigana eta damutuko zara.
 
 	CH6_BOSS_TIRED_A=
 		[BADELINE right angry]
-		I did you a favor.
+		Mesede bat egin dizut.
 
 	CH6_BOSS_TIRED_B=
 		[BADELINE right yell]
-		You aren't a {*}mountain climber.{/*}
+		Zu ez zara {*}mendigoizalea.{/*}
 
 	CH6_BOSS_TIRED_C=
 		[BADELINE right yell]
-		{*}I'm just trying to help you!{/*}
+		{*}Zuri laguntzen ari naiz!{/*}
 
 	CH6_BOSS_MIDDLE=
 		[BADELINE right yell]
-		None of this would have {*}happened{/*}{n}if you had {*}listened to me!{/*}
+		Hau dena ez zen {*}gertatuko{/*}{n}{*}entzun izan bazenit!{/*}
 
 	CH6_BOSS_ENDING=
 		[BADELINE right sigh flip]
-		Fine.
-		You win.
+		Ados.
+		Zu txapeldun.
 
 		{silent_trigger 0 Music starts}
 
 		[BADELINE right worried flip]
-		I guess you don't need me after all.
+		Nik uste, guzti honen ondoren, ez nauzula behar.
 
 		[BADELINE right worriedAlt flip]
-		If you want me to go away, I'll try.
+		Ni joatea nahi baduzu, saiatuko naiz.
 		
 		[MADELINE left distracted]
-		That's not what I want.
-		I need your help now more than ever.
+		Ez da hori nik nahi dudana.
+		Inoiz baino gehiago behar dut zure laguntza.
 
 		[MADELINE left sad]
-		Please. Let's work together.
+		Mesedez. Saia gaitezen elkarrekin.
 
 		[BADELINE right worried flip]
-		Work together?
+		Elkarrekin?
 
 		[BADELINE right worriedAlt flip]
-		You're joking, right?
+		Txantxetan, ala?
 
 		{trigger 1 Madeline puts hand on Badeline}
 
 		[MADELINE left sad]
-		It's okay to be scared.
+		Ongi dago beldurra izatea.
 
 		{trigger 2 Badeline calms down}
 
@@ -3710,28 +3710,28 @@
 
 	CH6_ENDING=
 		[MADELINE left surprised]
-		How did we do that?
+		Nola egin dugu hori?
 
 		[MADELINE left normal]
-		If we can climb like that, maybe{n}we can still reach the summit!
+		Horrela igo bazaitezke, agian{n}oraindik tontorrera iritsi gaitezke!
 		
 		[BADELINE right worriedAlt]
-		You still want to climb the {+MOUNTAIN}?
+		Oraindik ere {+MOUNTAIN}a igo nahi duzu?
 
 		[BADELINE right worried]
-		Why would we go back up there?
+		Zergatik itzuliko gara horra gora?
 
 		{trigger 0 Old Lady enters right}
 
 		[GRANNY right normal]
-		It's good to see you two playing nice.
+		Ederra da zuek biak ongi zabiltzatela ikustea.
 
 		[MADELINE left sad]
-		Hey, thanks for talking some sense into me earlier.
+		Aizu, eskerrik asko nere onera itzultzen laguntzeagatik.
 
 		[GRANNY right normal]
-		Don't mention it.
-		I'm glad I can still be useful every now and then.
+		Ezta aipatu ere.
+		Pozten nau oraindik ere baliagarria naizela ikusteak.
 
 		{portrait none}
 		{*}{+MADELINE}!!!{/*}
@@ -3739,90 +3739,90 @@
 		{trigger 1 Theo enters left}
 		
 		[THEO left worried]
-		{+MADELINE}! You're okay!
+		{+MADELINE}! Ongi zaude!
 
 		[THEO left wtf]
-		I ran down to help, but it looks like you're doing fine.
+		Ziztu bizian jaitsi naiz laguntzera,{n}baina ongi zaudela dirudi.
 		
 		[MADELINE right normal]
-		Thanks, {+THEO}.
+		Eskerrik asko, {+THEO}.
 
 		[MADELINE right distracted]
-		Honestly, maybe that fall was what I needed.
+		Benetan, agian eroriko hori zen behar nuena.
 		
 		{trigger 8 theo stops being tired}
 		[THEO left wtf]
-		Is this the {+PART_OF_YOU} that you were talking about?
+		Hau al da aipatu didazu {+PART_OF_YOU} hori?
 
 		[THEO left excited]
-		She's like an adorable goth {+MADELINE}!
+		{+MADELINE} gotiko maitagarri bat bezala da!
 
 		[BADELINE right angry]
-		Hi.
+		Kaixo.
 
 		[MADELINE right sad]
-		You were right, {+THEO}.
-		I shouldn't be afraid of her.
+		Zuzen zeunden, {+THEO}.
+		Ez nion beldurrik izan behar.
 
 		[MADELINE right normal]
-		If her and I work together,{n}I think we can still finish the climb.
+		Elkarrekin lan egiten badugu,{n}nik uste igoera hau bukatu dezakegula.
 
 		[THEO left excited]
-		That's so rad!
+		Ederki!
 
 		[BADELINE right angry]
-		Wait, {0.4}{*}no{/*}.
+		Egon, {0.4}{*}ez{/*}.
 
 		[BADELINE right worried]
-		...I didn't agree to this.
+		...ni ez nago ados.
 
 		{trigger 2 Madeline turns to the right}
 
 		[BADELINE right worriedAlt]
-		You said we'd talk about things first.
+		Lehenengo hitz egin behar genuela esan duzu.
 
 		[MADELINE left sad]
-		You're right.
-		I understand that you're scared.
+		Zuzen zaude.
+		Beldurrak zaudela ulertzen dut.
 		
 		[MADELINE left distracted]
-		But we both know that this is something we want to do.
+		Baina biok dakigu hau egin nahi dugula.
 
 		[MADELINE left normal]
-		We have to try one last time.
+		Azkenengo aldiz saiatu behar dugu.
 
 		{trigger 7 Theo raises fist}
 
 		[THEO left yolo]
-		Yeah! You've got this!
+		Bai! Lortu duzu!
 		
 		[BADELINE right worried]
-		I don't know...
+		Ez dakit...
 
 		[BADELINE right worriedAlt]
-		We were so close, and then we, uh, fell...
+		Hain hurbil geunden, eta gero, eh, erori gara...
 
 		[BADELINE right worried]
-		The {+MOUNTAIN} tore us apart.
+		{+MOUNTAIN}ak urratu egin gaitu.
 
 		[MADELINE left upset]
-		Yeah, that happened.
+		Bai, hala izan da.
 
 		[MADELINE left sad]
-		But I have to believe we can put that behind us.
-		I have to believe we're capable of this.
+		Baina hori dena atzean utzi dezakegula pentsatu nahi dut.
+		Hau egiteko gai garela sinetsi behar dut.
 
 		{trigger 5 Wait a bit}
 
 		[GRANNY right normal]
-		It's not a bad idea.
+		Ez da ideia txarra.
 
 		{trigger 3 badeline turns right}
 
 		[GRANNY right normal]
-		It'll still be difficult, mind you.
-		But I'm amazed you got as far as{n}you did, butting heads like you were.
-		I reckon you can make it if you cooperate.
+		Zaila izango da, ez ahaztu.
+		Baina harrituta naukazue zeinen{n}urrun ailegatu zareten, elkar joka ibilita ere.
+		Elkarlanean egingo duzuenaren zalantarik ez dut.
 
 		[BADELINE right worried flip]
 		...
@@ -3830,29 +3830,29 @@
 		{trigger 4 badeline turns left}
 
 		[BADELINE right worriedAlt]
-		Okay. 
+		Ados. 
 
 		[BADELINE right worried]
-		I'll try.
+		Saiatuko naiz.
 
 		{trigger 5 Wait a bit}
 
 		[THEO left normal]
-		Can I help?
+		Lagundu dezaket?
 
 		{trigger 6 Madeline turns to the left}
 
 		[MADELINE right distracted]
-		You've already done so much for me.
+		Nahikoa egin duzu nigatik dagoeneko.
 
 		[THEO left wtf]
-		Let me hold your bag at least.
+		Utzidazu zure zorroa eusten behintzat.
 
 		[MADELINE right normal]
-		Good idea.
+		Ideia ona.
 
 		[MADELINE right determined]
-		{>> 0.2}This won't take long.{>>}
+		{>> 0.2}Ez dut asko iraungo.{>>}
 
 # *** Chapter 07 ***
 
@@ -3867,285 +3867,285 @@
 	# Mountain Base -> Forsaken City
 	CH7_ASCEND_0=
 		[MADELINE left normal]
-		We're getting the hang of that.
+		Hau eginda zagon.
 
 		[BADELINE right upset]
-		If you say so...
+		Hala uste baduzu...
 
 		[MADELINE left determined]
-		This mountain doesn't stand a chance.
+		Mendi hau ez da oztopo izango.
 
 		[BADELINE right worried]
-		Stop jinxing it.
+		Esan eta orain zorte txarra...
 
 	# Forsaken City -> Old Site
 	CH7_ASCEND_1=
 		[MADELINE left normal]
-		How are you feeling?
+		Zer moduz zabiltza?
 
 		[BADELINE right upset]
-		I'm fine.
+		Ongi nago.
 
 		[BADELINE right worried]
-		I'm just {0.4}waiting for something to go wrong.
+		Bakarrik {0.4}oker aterako den zerbaiten zain nago.
 
 		[MADELINE left sad]
-		No matter what happens,{n}I'll be right there with you.
+		Horrek ez dio axola,{n}hemen zurekin egongo naiz.
 
 		[BADELINE right worried]
-		You know what's really scary?
+		Badakizu zer den benetan beldurgarria?
 		
 		[BADELINE right upset]
-		I'm starting to believe you.
+		Hori sinesten hasita nagoela.
 
 	# Old Site -> Celestial Resort
 	CH7_ASCEND_2=
 		[BADELINE right normal]
-		Nice job back there.
+		Lan ona izan da.
 
 		[MADELINE left surprised]
-		Look at you!
+		Begira zaitez!
 
 		[MADELINE left normal]
-		{+ST_BAD}Ms\. Positivity{+END_BAD} over here.
+		{+ST_BAD}Baikortasun Andereñoa{+END_BAD} dugu hemen.
 
 		[MADELINE left determined]
-		You're so supportive.
+		Laguntza handia zara.
 
 		[BADELINE right angry]
-		Don't push your luck.
+		Ez horrekin hasi.
 		
 	# Celestial Resort -> Cliffside
 	CH7_ASCEND_3=
 		[MADELINE left distracted]
-		I hope {+MROSHIRO} is okay.
+		{+MROSHIRO} ongi egotea espero dut.
 
 		[BADELINE right angry]
-		Why? He treated you like garbage.
+		Zergatik? Zaborra bazina bezala tratatu zintuen.
 
 		[MADELINE left sad]
-		Yeah, but I still care about him.
+		Bai, baina hala ere arduratuta nauka.
 		
 		[MADELINE left upset]
-		And you didn't have to snap at him like you did.
+		Eta zuk ez diozu horrela hitz egin beharrik.
 
 		[BADELINE right angry]
-		Whatever.
+		Nahi duzuna.
 
 		[MADELINE left sad]
-		I mean it. You're way too aggressive.
+		Hala da. Oldarkorregia izan zinen.
 
 		[BADELINE right angry]
-		Well {~}you{/~} put too much energy into bad{n}people who will just end up hurting you.
+		Tira {~}zuk{/~} indar gehiegi erabili duzu azkenean{n}min emango zizuten pertsona txarrei laguntzen.
 
 		[MADELINE left distracted]
-		{+MROSHIRO} isn't a bad person...
+		{+MROSHIRO} ez da pertsona txarra...
 
 		[BADELINE right yell]
-		He transformed into a {*}monster!{/*}
-		He tried to {*}hurt{/*} you!
+		{*}Munstro{/*} batean bihurtu zen!
+		Zuri {*}min{/*} ematen saiatu zen!
 
 		[BADELINE right worriedAlt]
-		And now you're defending him?
+		Eta orain ber defendatzen ari zara?
 
 		[MADELINE left distracted]
-		I'm not defending him...
+		Ez naiz bera defendatzen ari...
 
 		[MADELINE left sad]
-		I'm on your side here.{n}I'm mad at him too.
-		I might still be in that hotel{n}if you hadn't forced the issue.
+		Honetan zure alde nago.{n}Ni ere berekin haserre nago.
+		Beharbada oraindik hotel horretan{n}nengoke, ez bazenu egoera behartu.
 
 		[MADELINE left distracted]
-		...but I still hope he's alright.
+		...baina hala ere, bera ongi egotea espero dut.
 
 		[BADELINE right worried]
 		...
 
 		[BADELINE right worriedAlt]
-		Okay...
-		...I'm sorry...
+		Ados...
+		...Sentitzen dut...
 
 		[BADELINE right worried]
-		...for snapping at {+MROSHIRO}.
+		...{+MROSHIRO}rekin zakar aritu izana.
 
 		[MADELINE left distracted]
-		Thanks. 
+		Eskerrik asko. 
 		
 		[MADELINE left sad]
-		It's in the past now.
+		Dagoeneko ahaztu dut.
 		
 	# Cliffside -> Temple
 	CH7_ASCEND_4=
 		[MADELINE left surprised]
-		That was a close one.
+		Gutxigatik.
 
 		[BADELINE right worried]
-		Yeah, I wasn't sure if we'd make it.
+		Hori da, ez nekien lortuko ote genuen.
 
 		[MADELINE left distracted]
-		Maybe you were right.
+		Beharbada zuzen zeunden.
 
 		[MADELINE left sad]
-		Maybe this {~}is{/~} too dangerous.
+		Beharbada {~}hau{/~} arriskutsuegia da.
 
 		[BADELINE right worried]
 		...
 
 		[BADELINE right angry]
-		{*}No.{/*}
-		I was wrong.
-		We can climb this {+MOUNTAIN}.
+		{*}Ez.{/*}
+		Oker nengoen.
+		{+MOUNTAIN} hau igo dezakegu.
 
 		[BADELINE right normal]
-		I've got your back...
+		Zurekin nago...
 
 		[BADELINE right worried]
-		...and...
+		...eta...
 
 		[BADELINE right worriedAlt]
-		...I believe in you.
+		...zugan sinesten dut.
 
 		[MADELINE left sad]
-		That means a lot to me.
+		Horrek asko esan nahi du niretzat.
 		
 	# Temple -> Summit
 	CH7_ASCEND_5=
 		[MADELINE left determined]
-		This is it, the home stretch.
+		Hementxe dugu, azken txanpa.
 
 		[MADELINE left normal]
-		We're so close.{n}We're going to make it!
+		Bertan gaude.{n}Lortuko dugu!
 
 		[BADELINE right worriedAlt]
-		Yeah...
+		Bai...
 
 		[BADELINE right worried]
 		...
 
 		[MADELINE left sad]
-		What's wrong?
+		Zer gertatzen da?
 
 		[BADELINE right worried]
-		...I'm just...
+		...Nik, zera...
 		...
 
 		[BADELINE right worriedAlt]
-		...I'm sorry. 
-		I was holding you back.
+		...sentitzen dut. 
+		Zuri trabak jartzen aritu naiz.
 
 		[BADELINE right worried]
-		I need to learn to trust you.
+		Zutaz fidatzen ikasti behar dut.
 
 		[MADELINE left distracted]
-		It's not your fault.
-		I tried to leave you behind.
-		And honestly, I've been trying to{n}leave you behind my entire life.
+		Ez da zure errua.
+		Zu atzean uzten saiatu naiz.
+		Eta egia esate aldera, bizi guztia{n}eman dut zu atzean utzi nahian.
 
 		[MADELINE left sad]
-		{~}I'm{/~} sorry.
-		I wish I tried to understand you sooner.
-		I was too proud, or stubborn, or {*}something.{/*}
+		{~}Nik{/~} sentitzen dut.
+		Lehenago saiatu behar nuen zu ulertzen.
+		Harroegia, edo burugogorregia, edo {*}zerbait{/*} nintzen.
 
 		[BADELINE right worriedAlt]
-		We wasted so much time and energy.
+		Denbora eta indar gehiegi xahutu dugu.
 
 		[BADELINE right worried]
 		...
 
 		[BADELINE right worriedAlt]
-		At least we're finally talking about it.
+		Hortaz hitz egiten ari gara behintzat, azkenean.
 
 		[MADELINE left sad]
-		Yeah...
+		Bai...
 
 		[MADELINE left normal]
-		I'm glad the {+MOUNTAIN} brought you out.
-		I think we can move past this.
-		If we can climb this {+MOUNTAIN} together,{n}we can do anything.
+		Pozte naiz {+MOUNTAIN}ak zu kanporatu izanaz.
+		Nik uste hau atzean utzi dezakegula.
+		Elkarrekin igo badezakegu {+MOUNTAIN} hau,{n}edozer egin dezakegu.
 		
 		[BADELINE right worried]
-		What if we don't make it?
+		Eta ez badugu lortzen?
 
 		[MADELINE left normal]
-		I'd be okay with that.
+		Niri ez litzaidake axola izango.
 
 		[BADELINE right worriedAlt]
-		You would?
+		Benetan?
 
 		[MADELINE left sad]
-		Of course.
+		Noski ezetz.
 		
 		[MADELINE left normal]
-		I'm just glad we're trying.
+        Biok saiatze hutsak pozten nau.
 
 		[MADELINE left sad]
-		I really needed to do this.
+		Hau egitea benetan behar nuen.
 		
 		[BADELINE right upset]
-		I'm finally starting to understand why.
+		Azkenean hasia naiz zergatik diozun ulertzen.
 
 		[BADELINE right normal]
-		Let's finish it.
+		Buka dezagun hau.
 
 	CH7_ENDING=
 		[BADELINE left normal]
-		We actually did it.
-		I can't believe it!
+		Azkenean lortu dugu.
+		Ezin dut sinetsi!
 
 		[MADELINE right surprised flip]
-		Wow! It's so beautiful!
+		Uau! Zoragarria da!
 		
 		[MADELINE right normal flip]
-		Look at how far we've come!
+		Begira noraino iritsi garen!
 
 		{trigger 1 Madeline sits down}
 
 		[BADELINE left normal]
-		I'm glad I got to see this before I...
+		Pozten naiz hau ikusi ahal izan dudalako ni...
 
 		[BADELINE left worriedAlt]
-		Well, before I...
+		Zera, ni...
 
 		[MADELINE right distracted flip]
-		Oh, right.
+		Oh, ados.
 
 		[MADELINE right sad flip]
-		When we leave the {+MOUNTAIN}, you{n}won't be able to talk to me anymore...
-		At least not like this.
+		{+MOUNTAIN} honetatik jaistean, ezin{n}izango dugu nirekin gehiago hitz egin...
+		Horrela ez, behintzat.
 
 		[BADELINE left worried]
-		Yeah.
+		Bai.
 
 		[BADELINE left upset]
-		I know that we need to go home eventually.
-		But it'll be scary to lose this body.
+		Badakit noizbait etxera joan beharko dugula.
+		Baina gorputz hau galtzea beldurgarria izango da.
 
 		{trigger 2 Badeline moves beside Maddy as camera begins panning right}
 
 		[MADELINE left sad]
-		You'll still exist, though.
-		You were {+PART_OF_ME} before we came here.
+		Hala ere existituko zara
+		Zu {+PART_OF_ME}a zinen hona etorri baino lehen.
 
 		[BADELINE left upset]
-		Yeah, I know.
-		But I'm gonna have to depend on you to listen to me.
+		Bai, badakit.
+		Baina zure esku egongo da entzungo didazun edo ez.
 
 		[BADELINE left worried]
-		...even if I can't talk to you in person anymore.
+		...eta ezin izango dizudala aurrez-aurre hitz egin.
 
 		[BADELINE left worriedAlt]
-		I just... can't go back to how it was before.
-		Before the {+MOUNTAIN}.
+		Ni... ezin naiz lehenago nintzenera itzuli.
+		{+MOUNTAIN}aren aurrekora.
 
 		[MADELINE right sad flip]
-		Don't worry, I can't go back to that either.
-		I really want us to work together from now on.
+		Lasai, ni ere ezin naiz lehengo horretara itzuli.
+		Hemendik aurrera elkarrekin lan egin dezagun nahi dut.
 
 		[BADELINE left upset]
-		I believe you.
+		Sinesten dizut.
 
 		[BADELINE left worriedAlt]
-		...but I'm still nervous.
+		...baina hala ere urduri nago.
 
 		{trigger 0 Wait a bit}
 		
@@ -4156,674 +4156,674 @@
 		...
 
 		[MADELINE right normal flip]
-		Let's just enjoy this for a bit.
+		Goza dezagun une hau pixka batez.
 
 	CH7_BSIDE_ASCEND=
 		[BADELINE left freakA]
-		That was amazing!
+		Izugarria izan da!
 
 		[MADELINE right surprised]
-		I can't believe we did that!
+		Ezin dut hori egin dugunik sinetsi!
 
 		[BADELINE left freakA]
-		Nothing can stop us!
+		Ezerk ere ez gaitu geldituko!
 
 		[MADELINE right upset]
-		You're scaring me right now.
+		Beldur pixka bat ematen didazu.
 
 	CH7_CSIDE_OLDLADY=
 		[GRANNY right normal]
-		It's hard to believe that it's over, isn't it?
+		Bukatu dela sinestea ere zaila da, ezta?
 
 		[GRANNY right laugh]
-		Funny how we get attached to the struggle.
+		Bitxia da nola lotzen gaituzten zailtasunek.
 
 		[GRANNY right normal]
-		Promise me that you'll take care of yourself, okay?
+		Zure burua zainduko duzunaren promesa egidazu, ados?
 
 	CH7_CSIDE_OLDLADY_B=
 		[GRANNY right normal]
-		Well?
-		What are you waiting for?
+		Tira?
+		Zeren zain gaude bada?
 
 # *** Epilogue ***
 
 	EP_CABIN=
 		[GRANNY right normal]
-		Welcome back.
+		Ongi etorri bueltan.
 
 		[THEO right excited]
 		{+MADELINE}!
-		Did you make it to the summit?
+		Lortu al duzu tontorrera igotzea?
 		
 		{trigger 0 Badeline emerges}
 
 		[MADELINE left normal]
-		Yeah, we did.
-		It was incredible.
+		Bai, egin dugu.
+		Sinestezina izan da.
 
 		[GRANNY right normal]
-		Beautiful, isn't it?
+		Polita, ezta?
 
 		[BADELINE left upset]
-		I didn't think it would be worth it...
+		Ez nuen uste merezi izango zuenik...
 
 		[BADELINE left normal]
-		But it totally was.
+		Baina erabat merezi izan du.
 
 		[THEO right thinking]
-		I should've given you my phone so{n}you could take {~}The Ultimate Selfie.{/~}
+		Nire telefonoa utzi behar nizun{n}eta horrela {~}Selfie Gorena{/~} atera ahalko zenuen.
 
 		{trigger 1 Fade out, hear knock on door, fade in and Oshiro enters}
 
 		[OSHIRO left normal]
-		Good evening, everyone.
+		Arratsalde on guztioi.
 
 		[BADELINE right angry]
-		What are {~}you{/~} doing here?
+		Zertan ari zara {~}zu{/~} hemen?
 
 		[OSHIRO left normal]
-		A little bird told me there was to be a party.
+		Txoritxo batek esan dit hemen festa zegoela.
 
 		[OSHIRO left sidehappy]
-		{+thought}RSVP-by-bird, positively magical!{+endthought}
+		{+thought}Txoritxo bidez bertaratzea baieztatu, positiboki magikoa!{+endthought}
 
 		[OSHIRO left drama]
-		But if I am unwelcome, I shall take my leave.
+		Baina ez banaiz ongi etorria, alde egingo dut.
 
 		[MADELINE right sad]
-		Please stay, {+MROSHIRO}.
+		Zaude mesedez, {+MROSHIRO}.
 
 		[MADELINE right normal]
-		It's good to see you.
+		Pozten nau zu ikusteak.
 
 		{trigger 2 Oshiro settles in}
 
 		[GRANNY left normal]
-		Y'know, this is the first time I've seen{n}you outside that hotel of yours, {+OSHIRO}.
-		I'm glad you made it.
-		{+MADELINE} here is baking us a pie with all{n}of the strawberries she's been collecting.
+		Ba'kizu, hau da zure hotel horretatik{n}kanpo ikusten zaitudan lehenengo aldia, {+OSHIRO}.
+		Pozten naiz.
+		Hementxe dugu {+MADELINE} bildu dituen marrubi{n}guztiekin guretzako tarta bat egiten
 
 		[OSHIRO left normal]
-		Oh, that's wonderful, {+MS_MADELINE}.
+		Oh, hori zoragarria da, {+MS_MADELINE}.
 
 		[THEO right normal]
-		I haven't had {# F94A4A}strawberry pie{#} since I was a kid.
+		Haurra nintzenetik ez dut{# F94A4A}marrubi tartarik{#} jan.
 
 		[THEO right excited]
-		This is gonna be amazing!
+		Hau izugarria izango da!
 
 		[BADELINE right scoff]
-		Don't get your hopes up, she's not much of a baker.
+		Ez ezazue itxaropen handirik izan, ez da sukaldari ona.
 
 		{trigger 3 Maddy Turns}
 
 		[MADELINE left normal]
-		You also said I wasn't a mountain climber.
+		Mendigoizalea ez nintzela ere esan zenuen.
 
 		[BADELINE right worried]
-		True.
+		Arrazoi.
 
 		{trigger 3 Maddy Turns}
 
 		[MADELINE right sad]
-		I can't promise it'll live up to the hype, {+THEO}.
+		Ezin dizuet esan espero duzuena bezain ona izango denik, {+THEO}.
 
 		[MADELINE right normal]
-		But I tried my best.
+		Baina nire onena emango dut.
 
 	EP_PIE_START=
 		[MADELINE right normal]
-		So?
-		How's it taste?
+		Eta?
+		Zer moduzkoa dago?
 
 	EP_PIE_DISAPPOINTED=
 		[THEO left wtf]
-		I guess this is technically a pie...
+		Teknikoki tarta bat dela esan daiteke...
 
 		[OSHIRO left worried]
-		Is this some kind of joke, {+MS_MADELINE}?
+		Hau txantxaren bat da, {+MS_MADELINE}?
 
 		[GRANNY left normal]
-		Strawberry pies are supposed to{n}have strawberries in them, dear.
+		Marrubi tartek normalean{n}marrubiak izaten dituzte, maitea.
 
 	EP_PIE_GROSSED_OUT=
 		[THEO left wtf]
-		{+MADELINE}, I super appreciate you baking for us...
-		But I don't think I can eat this.
+		{+MADELINE}, izugarri eskertzen dizut guretzat tarta egin izana...
+		Baina ez dut uste hau jan dezakedanik.
 
 		[GRANNY left normal]
-		It's the thought that counts.
+		Intentzioa da balio duena.
 
 		[BADELINE left angry]
-		You people just can't appreciate good food.
-		I'll eat all of it myself.
+		Zuek ezin duzue janari ona gozatu.
+		Nik jango dut oso-osorik.
 
 		[MADELINE right sad]
-		You don't have to do that.
+		Ez duzu hori egin beharrik.
 
 		[BADELINE left worried]
-		Yeah... it was an empty threat.
+		Bai... mehatxu hutsa izan da.
 
 	EP_PIE_OKAY=
 		[OSHIRO left normal]
-		The important thing is that you{n}tried your best, {+MS_MADELINE}.
+		Garrantzitsuena ahal duzun{n}hoberen egin duzula da, {+MS_MADELINE}.
 
 		[BADELINE left angry]
-		Who invited this guy?
+		Nork gonbidatu du tipo hau?
 
 		[THEO left thinking]
-		Come on, it's really good.
+		Tira, oso ona dago.
 
 		[GRANNY left normal]
-		I've certainly had worse.
+		Okerragoak ere jan ditut.
 
 		[THEO left normal]
-		Thanks for the pie, {+MADELINE}.
+		Eskerrik asko tartagatik, {+MADELINE}.
 
 	EP_PIE_REALLY_GOOD=
 		[GRANNY left normal]
-		I'm impressed!
-		This gives my baking a run for its money.
+		Harrituta naukazu!
+		Hartutako lanak merezi izan du.
 
 		[BADELINE left normal]
-		Not bad.
+		Ez dago txarra.
 
 		[THEO left excited]
-		Holy crap!
+		Demontre!
 
 		[THEO left normal]
-		This is so tasty.
+		Oso zaporetsua da.
 
 		[OSHIRO left normal]
-		{+MS_MADELINE}, are you available to{n}cater our re-opening banquet?
+		{+MS_MADELINE}, berriz irekiko dugunerako{n}otordua egiteko prest al zeundeke?
 		
 		[THEO left excited]
-		Can I take a slice home for {+ALEX}?
-		She'll die when she tastes this.
+		Hartu al dezaket zatitxo bat {+ALEX}entzat?
+		Kuleroetan pixa egingo du hau probatzean.
 		
 	EP_PIE_AMAZING=
 		[THEO left wtf]
 		{+MADELINE}.
 
 		[THEO left excited]
-		This is the best thing I've ever tasted!
+		Inoiz jan dudan gauzarik onena da hau!
 
 		[MADELINE right sad]
-		Come on. Be honest.
+		Tira. Esan egia.
 
 		[GRANNY left normal]
-		He's right, dear.
-		This is delicious.
+		Arrazoia du, maitea.
+		Zoragarri dago.
 
 		[OSHIRO left normal]
-		It's truly magnificent, {+MS_MADELINE}.
+		Benetan bikaina da, {+MS_MADELINE}.
 
 		[OSHIRO left worried]
-		{~}A symphony for the taste buds!{/~}
+		{~}Zapore sinfonia mokofinontzat!{/~}
 
 		[BADELINE left scoff]
-		Can I take partial credit for this?
+		Merituaren zati bat nirea da, ala?
 
 		[MADELINE right normal]
-		Wow, thanks everyone.
-		I worked really hard for it.
+		Uau, eskerrik asko guztioi.
+		Gogor aritu naiz lanean.
 		
 # *** Appendix ***
 
 	APP_INTRO=
-		About a year later...
+		Urte bete beranduago...
 
 	APP_OLDLADY_A=
 		[GRANNY right normal]
-		Hey there, kiddo!
-		Nice to see you again.
+		Kaixo, txiki!
+		Pozten naiz zu berriz ikusteaz.
 
 		{trigger 0}
 
 		[GRANNY right normal flip]
-		Here's the cave I told you about{n}on the phone.
+		Hementxe dago telefonoz aipatu{n}nizun kobazuloa.
 		
 		{silent_trigger 1}
 		
-		Follow me.
+		Jarraitu niri.
 
 	APP_OLDLADY_B=
 		[MADELINE left sad]
-		What is this place?
+		Zer da leku hau?
 
 		[GRANNY right normal]
-		This passage leads to the center of the {+MOUNTAIN}.
-		You said you wanted to come{n}back and explore deeper...
+		Pasabide honek {+MOUNTAIN}aren erdiraino garamatza.
+		Hona itzuli eta sakonago{n}esploratu nahi zenuela esan zenuen...
 
 		{trigger 0 start laughing}
 
 		[GRANNY right laugh]
-		Doesn't get any deeper than this!
+		Ezin da hau baino sakonago joan!
 
 		{trigger 1 stop laughing}
 
 		[GRANNY right normal]
-		Be careful, though.
-		When you get this close to the heart of the {+MOUNTAIN},{n}its power will start affectin' you differently.
+		Kontuz ibili.
+		{+MOUNTAIN} honen bihotzera hurbiltzen zarenean,{n}bere botereak modu desberdinean eragingo zaitu.
 
 		[MADELINE left sad]
-		Yeah, I already noticed some of that...
+		Bai, hasia naiz dagoeneko zerbait sumatzen...
 
 		[GRANNY right normal]
-		Good luck in there.
+		Zorte on hor barruan.
 
 	APP_OLDLADY_C=
 		[GRANNY right normal]
-		Where's that other {+PART_OF_YOU}?
+		Non dago beste {+PART_OF_YOU} hori?
 
 		[MADELINE left sad]
-		I don't know... I expected her to show up by now.
+		Ez dakit... dagoeneko agertua behar zuen.
 
 		[MADELINE left distracted]
-		Maybe I've changed, and{n}she's not {+PART_OF_ME} anymore.
+		Beharbada aldatu egin naiz,{n}eta jada ez da {+PART_OF_ME}a.
 
 		[GRANNY right normal]
-		Or maybe you've grown together.
-		Maybe it's not so easy for the{n}{+MOUNTAIN} to separate you now.
-		I'd wager she's still with you, in some form.
+		Edo agian elkarrekin hazi zarete.
+		Agian orain ez da erraza{n}{+MOUNTAIN}arentzat zuek banatzea.
+		Moduren batean zurekin jarraitzen duela apustu egingo nuke.
 
 		[MADELINE left normal]
-		I like that theory better.
+		Gustuko dut teoria hori.
 
 		[MADELINE left distracted]
-		I still wish I could talk to her though.
+		Baina oraindik berarekin hitz egiteko aukera izan nahi nuke.
 
 	APP_OLDLADY_D=
 		[GRANNY right normal]
-		Do you keep in touch with {+THEO}?
+		Egoten al zara oraindik {+THEO}rekin?
 
 		[MADELINE left normal]
-		Yeah, he spent the summer in Vancouver.
-		We got to spend some quality time together.
+		Bai, uda Vancouver-en pasa du.
+		Elkartu eta egun ederra pasa genuen elkarrekin.
 
 		[GRANNY right normal]
-		What's he up to these days?
+		Zertan dabil gaur egun?
 
 		[MADELINE left normal]
-		He's back in California with his family now.
-		He wants to be around while{n}his sister finishes law school.
+		Familiarekin Californiara itzuli da.
+		Bere arrebak zuzenbide eskolak{n}bukatu bitartean bertan egon nahi du.
 
 		[MADELINE left sad]
-		It sounds pretty intense, but he{n}wants to be there to support her.
+		Gogorra dirudi, baina bertan egon{n}nahi du arrebaren sostengu gisa.
 
 		[GRANNY right normal]
-		He seems like a nice young man.
+		Gazte zoragarria dirudi.
 
 	APP_OLDLADY_E=
 		[MADELINE left normal]
-		It's been a while. How've you been?
+		Aspaldiko, zer moduz zabiltza?
 
 		[GRANNY right normal]
-		Oh, same old same old.
+		Oh, zaharrak berri.
 
 		{trigger 0 start laughing}
 
 		[GRANNY right laugh]
-		And in my case, that's pretty old.
+		Nire kasuan, horiek oso zaharrak dira.
 
 		{trigger 1 end laughing}
 
 		[GRANNY right normal]
-		I'm not gettin' any younger, that's for sure.
-		Some days, just keeping the{n}lights on can take all my energy.
-		The {+MOUNTAIN} still keeps me sharp, though.
+		Ez naiz gaztetzen ari, hori ziur.
+		Egun batzuetan, argia piztuta{n}mantentze hutsak xahutzen dit indar guztia.
+		Baina {+MOUNTAIN}ak zorrotz mantentzan nau oraindik.
 
 		[GRANNY right mock]
-		I'm not ready to give up the ghost anytime soon.
+		Ez nago mamua bakarrik uzteko prest oraindik.
 
 		[MADELINE left normal]
-		I'd expect no less from you.
+		Ez nuen zugandik gutxiago espero.
 
 		[MADELINE left sad]
-		Take care of yourself.
+		Zaindu zaitez.
 
 	APP_OLDLADY_LOCKED=
 		[MADELINE left sad]
-		That door up ahead won't budge.
-		Is there another way in?
+		Hor aurreko ate hori ezin da ireki.
+		Badago barrurako beste biderik?
 
 		[GRANNY right normal]
-		I'm afraid not, dear.
+		Ez dut uste, maitea.
 
 		[GRANNY right mock]
-		You think the {+MOUNTAIN} is gonna{n}start going easy on you now?
+		Zer uste zenuen, {+MOUNTAIN}a orain{n}gauzak errazten hasiko zela?
 
 		[GRANNY right normal]
-		I guess it doesn't think you're ready yet.
+		Pentsatuko du oraindik ez zaudela prest.
 
 		[MADELINE left sad]
-		Okay, {+CELESTE_MOUNTAIN} might be {~}weird and magical.{/~}
+		Ados, {+CELESTE_MOUNTAIN} {~}arraro eta magikoa{/~} izango da.
 
 		[MADELINE left upset]
-		But now you're telling me it can {~}"think",{/~} too?
+		Baina orain esaten ari zara {~}"pentsatu"{/~} ere egin dezakela?
 
 		[GRANNY right normal]
-		It doesn't think like you or me.
-		It's like... how a river thinks to flow to the sea.
-		You can make it sound crazy if you want.
+		Ez du zuk edo nik bezala pentsatzen.
+		Zera da... erreka batek itsasorainoko bidea pentsatzea bezala.
+		Erokeria dirudiela pentsa dezakezu.
 
 		[MADELINE left upset]
-		I know better than to doubt you.
+		Badakit zuk esandakoa egia dela.
 
 		[MADELINE left sad]
-		How do I convince it I'm ready?
+		Eta nola sinetsaraziko diot prest nagoela?
 
 		[GRANNY right normal]
-		Heck if I know.
-		I'd retrace my steps, and really pay attention.
-		{+CELESTE_MOUNTAIN} must have more to teach you.
+		Nik jakingo banu.
+		Ibilitakoa desegin, eta benetan arreta jarriko nuke.
+		{+CELESTE_MOUNTAIN}ak gehigo izango du zuri irakasteko.
 
 	APP_ENDING=
-		...this is it?
-		This is what's at the center of all of this?
-		It's so empty... and vast...
-		Yet it feels nostalgic somehow.
-		And peaceful.
+		...hau al da?
+		Hau da hau guztiaren erdian dagoena?
+		Hain da hutsa... eta zabala...
+		Nolabaiteko herrimina sortzen dit.
+		Eta bakea.
 
 	CH9_GRAVESTONE=
 		[MADELINE left sad]
 		{+GRANNY}...
 		[MADELINE left sadder]
-		I can't believe you're gone, you old bat.
+		Ezin dut sinetsi joan zarenik, atso zaharra zu.
 
 		[MADELINE left distracted]
-		Well,{0.2} I guess I can.
+		Tira,{0.2} sinetsi dezaket.
 
 		[MADELINE left sadder]
-		It sounded like you were saying goodbye{n}in the last letter you sent me.
+		Bidali zenidan azken gutuna{n}adio bezala uler zitekeen.
 
 		{silent_trigger 0 Step Forward}
 		
 		[MADELINE left sadder]
-		This isn't fair. I need you.
+		Ez da bidezkoa. Behar zaitut.
 
 		[MADELINE left angry]
-		You didn't prepare me for any of this.
+		Ez ninduzun honetarako prestatu.
 
 		{trigger 1 Badeline Appears}
 
 		[BADELINE left scoff]
-		What do you want her to do, apologize?
+		Zer nahi duzu bada berak egitea, barkamena eskatzea?
 
 		[BADELINE left upset]
-		She's gone.
+		Joan egin da.
 
 		[BADELINE left angry]
-		And you didn't even go to the funeral.
+		Eta zu ez zinen hiletara ere joan.
 
 		{trigger 2 Sit Down}
 
 		[MADELINE left distracted]
-		I know, I just... couldn't.
+		Badakit, bakarrik... ezin nuen.
 
 		[MADELINE left sadder]
-		I fell apart.
+		Puskatuta nengoen.
 
 		[MADELINE left sadder]
-		I'm so sorry, {+GRANNY}.
+		Sentitzen dut, {+GRANNY}.
 
 		[BADELINE left angry]
-		{~}Sorry{/~} won't bring her back.
+		{~}Sentitzeak{/~} ez du berpiztuko.
 
 		[MADELINE left sadder]
-		You're right.
+		Zuzen zaude.
 
 		[MADELINE left sad]
-		It was selfish of me to come here.
+		Neurekoikeria izan da hona etortzea.
 
 	CH9_FLYING_TO_THE_MOON=
 		[BADELINE right concerned]
-		Where are we going, {+MADELINE}?
+		Nora zoaz, {+MADELINE}?
 
 		[MADELINE left sad]
-		We have to follow that bird.
-		It's {+PART_OF_GRANNY}, just like you're {+PART_OF_ME}.
+		Txori horri jarraitu behar diogu.
+		Hori {+PART_OF_GRANNY}a da, zu {+PART_OF_ME}a zaren bezalaxe.
     
 		[BADELINE right worried]
-		I thought it was just her pet or something...
+		Bere maskota edo antzekoren bat zela uste nuen...
 
 		[MADELINE left distracted]
-		It {~}has{/~} to be more than that.
+		Hori baino gehiago izan {~}behar{/~} du.
 
 		[MADELINE left sad]
-		That bird was always looking out for me{n}on the {+MOUNTAIN}, just like {+GRANNY} did.
+		Txori hori une oro egon da ni zaintzen{n}{+MOUNTAIN}n nebilen bitartean, {+GRANNY} egin zuen bezala.
 
 		[BADELINE right concerned]
-		{+MADELINE}... I hate to say it, but...
+		{+MADELINE}... gorroto dut esatea, baina...
 
 		[BADELINE right worriedAlt]
-		You're in denial.
+		Ukapenean zaude.
 
 		[BADELINE right worried]
-		It's just a bird.
+		Txori bat besteri ez da.
     
 		[MADELINE left upset]
-		Just shut up and help me for once, okay?
+		Mingaina txulora eta lagundu behingoz, ados?
 
 	CH9_LANDING=
 		[BADELINE left worried]
-		Uh... we're really high up.
+		Eh... hemen oso altu gaude.
 
 		{trigger 0 Badeline turns}
 
 		[BADELINE left worriedAlt flip]
-		The mountain looks like a molehill from here.
+		Mendiak sator-zulo bat dirudi hemendik.
 
 		{trigger 0 Badeline turns}
 
 		[BADELINE left worried]
-		We should really turn back.
+		Itzuli behar zenuke.
 
 		[MADELINE right upset]
-		We don't have time to argue about this.
+		Ez dugu honetaz eztabaidatzeko astirik.
 
 		[BADELINE left concerned]
-		How are you even breathing up here?
+		Nolatan har dezakezu hemen goian arnasa?
 
 		[MADELINE right sad]
-		{+GRANNY} wants us to follow her.
+		{+GRANNY}k berari jarraitzea nahi zuen.
 
 		[MADELINE right distracted]
-		We can't let her down again.
+		Oraingoan ezin diogu huts egin.
 
 		[BADELINE left angryAlt]
-		{~}...it's a bird,{/~} {+MADELINE}.
+		{~}...txoria da,{/~} {+MADELINE}.
 
 		[BADELINE left angry]
-		{+GRANNY} is gone.
+		{+GRANNY} joan egin da.
 
 		[MADELINE right angry]
-		You {*}really{/*} think that's just a regular bird?
+		Zuk {*}benetan{/*} uste duzu txori arrunt bat dela?
 
 		[MADELINE right sad]
-		It's {+PART_OF_HER}, and it's still here somehow.
+		{+PART_OF_HER}a da, eta nolabait hemen dabil.
 
 		[MADELINE right distracted]
-		Maybe there's a way to bring her back.
+		Agian bueltan ekarteko moduren bat dago.
 
 		[MADELINE right sad]
-		I have to do... something.
+		Zerbati... egin behar dut.
 
 		[BADELINE left angryAlt]
 		...
-		I can't help you with this.
+		Ezin dizut honetan lagundu.
 
 		[MADELINE right angry]
-		Then {*}leave!{/*}
+		Orduan {*}alde!{/*}
 
 		{trigger 1 Badeline Vanishes}
 
 		[MADELINE left determined]
-		Don't worry, {+GRANNY}.
-		I won't lose you.
+		Ez arduratu, {+GRANNY}.
+		Ez zaitut galduko.
 
 	CH9_FAKE_HEART=
 		[MADELINE left distracted]
-		Wait, no...
+		Itxaron, ez...
 
 		[MADELINE left sad]
-		This can't be the end.
+		Ezin da horrela bukatu.
 
 	CH9_KEEP_GOING=
 		[MADELINE left sadder]
-		{+GRANNY} is still out there somewhere.
+		Oraindik {+GRANNY} hor nonbait dago.
 
 		{trigger 0 Step Forward}
 
 		[MADELINE left determined]
-		Which means I need to keep going.
+		Eta horregatik jarraitu behar dut aurrera.
 
 	CH9_MISS_THE_BIRD=
 		[MADELINE left angry]
-		{~}Hey!{/~}
-		Don't you want me to help you?
+		{~}Aizu!{/~}
+		Ez al didazu lagunduko?
 
 		[MADELINE left sadder]
-		...don't you want to see me again, {+GRANNY}?
+		...ez al nauzu berriz ikusi nahi, {+GRANNY}?
 
 		{trigger 0 stand up, face left }
 
 		[MADELINE left sad flip]
-		I don't understand.
+		Ez dut ulertzen.
 
 		[MADELINE left distracted flip]
-		Are you testing me?
-		Are you just afraid to ask for help?
+		Zerbait frogatu behar dizut?
+		Laguntza eskatzeko beldurra al duzu?
 
 		[MADELINE left sadder flip]
-		Maybe {+PART_OF_ME} was right.{n}Maybe it {~}is{/~} just a bird.
+		Beharbada {+PART_OF_ME}a zuzen zegoen.{n}Beharbada txoria {~}bakarrik da{/~}.
 		...
 
 		{trigger 1 take a step left}
 
 		[MADELINE left sad flip]
-		Unless...
+		Edo...
 
 		{trigger 2 take a step right}
 
 		[MADELINE left surprised]
-		The bird doesn't want me to save {+GRANNY}.
+		Txoriak ez du {+GRANNY} salbatu nahi.
 		
 		{trigger 3 black hole flickers }
 
 		[MADELINE left sadder]
-		It's trying to stop me, just like {+PART_OF_ME}.
-		I'm alone up here.
+		Ni geldiarazi nahian dabil, {+PART_OF_ME}ak egin zuen bezala.
+		Bakarrik nago hemen goian.
 
 		{trigger 4 black hole flickers more, tiles to crack into the sci-fi one}
 
 		[MADELINE left angry]
-		Well, we don't need their help, right {+GRANNY}?
+		Tira, ez dugu beraien laguntzarik behar, ezta {+GRANNY}?
 
 		[MADELINE left together]
-		Don't worry, I won't give up on you!
-		I'll catch that stupid bird and set you free.
+		Ez arduratu, ez dut amore emango!
+		Txori ergel hori harrapatu eta askatuko zaitut.
 
 	CH9_HELPING_HAND=
 		[MADELINE left upset]
-		I didn't ask for your help.
+		Ez dizut laguntzarik eskatu.
 		
 		[BADELINE right angryAlt]
-		I know, but come on {+MADELINE}...
-		Think this through.
+		Badakit, baina tira {+MADELINE}...
+		Pentsatu pixka bat.
 
 		[BADELINE right angry]
-		What's your endgame here?
+		Zer da lortu nahi duzuna?
     
 		{trigger 0 Madeline faces away}
 
 		[MADELINE left determined flip]
-		All that matters is finding {+GRANNY}.
-		Then maybe I can bring her home...
+		Inporta duen bakarra {+GRANNY} aurkitzea da.
+		Eta horrela etxera ekar nezake...
 
 		[MADELINE left sadder flip]
-		Even if the whole universe is against me.
+		Nahiz eta unibertso osoa nire aurka izan.
 		
 		[BADELINE right worriedAlt]
 		...
 
 		[BADELINE right worried]
-		Aren't you worried about getting lost up here?
+		Ez al duzu hor goian galtzeko beldurrik?
 
 		[MADELINE left angry flip]
-		I'll figure it out.
+		Moldatuko naiz.
 
 		[BADELINE right worriedAlt]
 		...
 
 		[BADELINE right worried]
-		Look, {+MADELINE}...
+		Tira, {+MADELINE}...
 
 		[BADELINE right worriedAlt]
-		We're in {~}space{/~} chasing a {~}mysterious bird{/~}.
+		{~}Espazioan{/~} gabiltza {~}txori misteriotsu{/~} baten atzetik.
 
 		[BADELINE right upset]
-		None of this is real.
+		Hau dena ez da erreala.
 
 		[BADELINE right concerned]
-		You're dreaming.
+		Ametsetan ari zara.
 
 		[MADELINE left sadder flip]
 		...
 
 		[BADELINE right concerned]
-		...she's gone.
+		...joan egin da.
 
 		[BADELINE right upset]
-		It's time to wake up now.
+		Esnatzeko ordua da.
 		
 		[MADELINE left sadder flip]
-		But if we wake up, we'll never see {+GRANNY} again...
+		Baina esnatzen bagara, ez dugu inoiz {+GRANNY} berriz ikusiko...
 
 		{trigger 1 Madeline faces towards badeline}
 		
 		[MADELINE left angry]
-		I can't believe you want her to disappear forever!
-		You're always so {*}selfish{/*}.    
+		Ezin dut sinetsi betirako desagertzea nahi duzunik!
+		Beti izan zara hain {*}zeurekoia{/*}.    
 
 		[BADELINE right angry]
 		...
 		
 		[BADELINE right angryAlt]
-		First of all, it's a {~}bird{/~}.
-		We don't {~}know{/~} that it's her.
+		Lehenengo, {~}txori{/~} bat da.
+		Ez {~}dakigu{/~} bera ote den ere.
 		
 		[BADELINE right yell]
-		And {*}second{/*} of all...
+		Eta {*}bigarrena{/*}...
 		...
 
 		[BADELINE right sigh]
-		...we need to take a step back here.
+		...atzera egin behar dugu.
 		
 		{trigger 2 Madeline steps towards badeline}
 
 		[MADELINE left angry]
-		No, {!}{*}you{/*}{/!} need to take a step back.
-		{*}I'm doing this.{/*}
+		Ez, {!}{*}zuk{/*}{/!} egin behar duzu atzera.
+		{*}Nik hau egin behar dut.{/*}
 
 		[MADELINE left sad]
-		With or without you. 
-		I'm done letting you hold me back.
+		Zurekin edo zu gabe. 
+		Nazkatu naiz atzera egin beharraz.
 
 		[MADELINE left sadder]
-		{+GRANNY} needs me.
+		{+GRANNY}k behar nau.
 		
 		[BADELINE right simple_sigh]
-		Okay.
-		Good luck.
+		Ados.
+		Zorte on.
 		
 	CH9_CATCH_THE_BIRD=
 		[MADELINE left surprised]
-		Got you! Finally!
+		Harrapatuta! Azkenean!
 
 		[MADELINE left angry]
-		Now where's {+GRANNY}!?
+		Tira, non dago {+GRANNY}!?
 
 		{trigger 0 bird looks hurt}
 
@@ -4831,190 +4831,190 @@
 		...
 
 		[MADELINE left surprised]
-		Oh no. 
-		Are you okay?
+		Oh ez. 
+		Ongi zaude?
 
 		{trigger 1 bird squaks}
 		
 		[MADELINE left sad]
-		I'm sorry, I didn't mean to hurt you.
+		Barkatu, ez nizun minik eman nahi.
 		
 		{trigger 2 approach bird, it moves away}
 		
 		[MADELINE left sad]
-		Wait! Please don't leave.
+		Itxaron! Ez joan, mesedez.
 		
 		{trigger 3 bird flys out of the camera}
 		
 		[MADELINE left sadder]
-		At least tell me...
-		You're {+PART_OF_GRANNY}, right?
-		If you have to go, then...
+		Esaidazu gutxienez...
+		Zu {+PART_OF_GRANNY}a zara, ezta?
+		Joen egin behar baduzu, ba...
 
 		[MADELINE left sad]
-		Take me with you.
+		Eraman nazazu zurekin.
 		
 		{trigger 4 badeline appears}
     
 		[BADELINE right yell]
-		{+MADELINE}, stop!
+		{+MADELINE}, geldi!
 
 		[BADELINE right concerned]
-		You can't go with her.
+		Ezin zara berekin joan.
 		
 		[MADELINE left angry]
-		Shut up!
-		You couldn't force me to give up on the {+MOUNTAIN}.
-		And you can't force me to give up on {+GRANNY}.
+		Zaude ixilik!
+		Ezin nauzu {+MOUNTAIN}an amore ematera behartu.
+		Eta ezin nauzu {+GRANNY}ekin amore ematera behartu.
 
 		[MADELINE left sadder]
-		{*}Go away.{/*}
+		{*}Alde hemendik.{/*}
 		
 		[BADELINE right concerned]
 		...
 
 		[BADELINE right worried]
-		I'm not forcing you.
+		Ez naiz zu behartzen ari.
 
 		[BADELINE right concerned]
-		I'm asking you.
+		Eskatzen ari naiz.
 
 		{trigger 5 Wait a beat}
 
 		[BADELINE right worriedAlt]
-		I miss {+GRANNY} too.
-		She meant a lot to both of us.
+		Nik ere {+GRANNY}ren hutsa sentizen dut.
+		Guk biok maite dugu izugarri.
 
 		[MADELINE left sad]
-		Then why is it so easy for you to leave her behind?
+		Eta orduan nola egiten zaizu hain erreza beretaz ahaztea?
 
 		[BADELINE right worriedAlt]
-		It's {~}not{/~} easy.
+		{~}Ez{/~} da erraza.
 
 		[BADELINE right worried]
-		Maybe I pushed us to get over it too quickly...
+		Beharbada azkarregi gainditu nahi izan dut...
 
 		[BADELINE right concerned]
-		But this isn't healthy either.
-		I just want us to survive this.
+		Baina hori ere ez da egokia.
+		Hau gainditu eta biziraun egin nahi nuen.
 
 		{trigger 6 Madeline sits}
 		
 		[MADELINE left sadder flip]
 		...
-		I know she's gone.
-		And this is just a dream.
-		Catching this bird won't bring her back.
+		Badakit joan egin dela.
+		Eta hau ametsa besterik ez da.
+		Txoria harrapatzeak ez digu bueltan ekarriko.
 		
 		{trigger 7 badeline hugs madeline}
 		
 		[BADELINE left concerned]
-		I'm so sorry, {+MADELINE}.
+		Sentitzen dut, {+MADELINE}.
 		
 		[BADELINE left concerned]
-		Let's wake up, and we'll face this together.
+		Esnatu eta elkarrekin egingo diogu honi aurre.
 		
 		[MADELINE right sadder]
 		...
 
 		[MADELINE right distracted]
-		No.
+		Ez.
 
 		[MADELINE right sad]
-		Not yet.
+		Oraindik ez.
 
 		{trigger 8 stand up}
 
 		[MADELINE right sad]
-		I want to set things right first.
+		Lehenengo gauzak ongi utzi nahi ditut.
     
 		[BADELINE left upset]
-		What do you mean?
+		Zer esan nahi duzu?
 		
 		[MADELINE right sad]
-		The bird, it's trapped here because of me.
+		Txoria, nire erruz harrapatuta dago.
 		
 		{trigger 9 shift camera over to the bird}
 		
 		[MADELINE right sad flip]
-		We need to help it escape before we leave.
-		{+GRANNY} wouldn't want it to be stuck like this.
+		Alde egin baino lehen askatu egingo dugu.
+		{+GRANNY}k ez luke horrela uzterik nahi.
 		
 		[BADELINE left concerned]
-		You're right. 
+		Zuzen zaude. 
 
 		[BADELINE left normal]
-		Let's do it.
+		Egin dezagun.
 
 		[BADELINE left upset]
-		But as soon as we’re done,{n}we need to wake up.
+		Baina egin bezain pronto,{n}esnatu egin behar dugu.
 
 		[BADELINE left worried]
-		This place is so {*}weird{/*}.{n}I want to go home.
+		Leku hau hain da {*}arraroa{/*}.{n}Etxera joan nahi dut.
 
 	CH9_LAST_ROOM=
 		[BADELINE right normal]
-		This is it! We're almost out of here.
+		Hori da! Ia kanpoan gaude.
 
 		[MADELINE left determined]
-		Let's do this, for {+GRANNY}.
+		Egin dezagun, {+GRANNY}gatik.
 
 	CH9_LAST_ROOM_ALT=
 		[BADELINE right concerned]
-		Are you alright, {+MADELINE}?
+		Ongi zaude, {+MADELINE}?
 
 		[MADELINE left sad]
-		We're so close, but it feels impossible...
+		Bertan gaude, baina ezinezkoa dirudi...
 
 		[BADELINE right upset]
-		Come on, just a few more tries.
+		Tira, saiakera pare bat gehiago.
 
 		[BADELINE right normal]
-		We can do this.
+		Egin dezakegu.
 
 	CH9_LAST_BOOST=
 		[BADELINE right normal]
-		Say goodbye to her for me.
+		Esaiozu adio nire partez.
 
 	CH9_FAREWELL=
 		[MADELINE left normal]
 		{+GRANNY}!
 
 		[GRANNY right normal]
-		Hey there, kiddo.
+		Kaixo, txiki.
 		
 		[MADELINE left normal]
-		It's so great to see you.
-		I didn't know what to do without you.
+		Zoragarria da zu berriz ikustea.
+		Ez nekien zer egin zu gabe.
 
 		[MADELINE left sad]
 		...
-		But you aren't real...
+		Baina ez zara erreala...
 
 		[MADELINE left sadder]
-		This is just a dream.
+		Hau ametsa besterik ez da.
 		
 		[GRANNY right normal]
-		So what?
-		That didn't stop you from coming all this way.
-		You finally found me, and {~}now{/~}{n}you care that it's just a dream?
+		Eta?
+		Horrek ez zaitu gelditu honaino etortzeko bidean.
+		Aurkitu nauzu azkenean, eta {~}orain{/~}{n}kezkatzen zaitu ametsa izateak?
 		
 		[GRANNY right mock]
-		Quit making excuses and{n}say what you need to say.
+		Utzi aitzakiak eta esadazu{n}esan behar duzuna.
 		
 		[MADELINE left sad]
 		...
 
 		[MADELINE left distracted]
-		I'm sorry that I didn't come to your funeral.
+		Sentitzen dut zure hiletara ez etorri izana.
 
 		[MADELINE left sadder]
-		I couldn't do it... I just shut down.
+		Ezin izan nuen... blokeatuta nengoen.
 		
 		{silent_trigger 0 laugh}
 
 		[GRANNY right laugh]
-		Heh, that sounds familiar.
+		Heh, hori ezaguna zait.
 		
 		[MADELINE left upset]
 		...
@@ -5022,214 +5022,214 @@
 		{silent_trigger 1 stop laughing}
 		
 		[GRANNY right normal]
-		Hey, what do I care who showed up to that thing?
+		Tira, zer inporta zait niri nor joan zen gauza hortara?
 
 		{silent_trigger 0 laugh}
 
 		[GRANNY right laugh]
-		I'm dead!
+		Hilda nago!
 
 		{silent_trigger 1 stop laughing}
 
 		[GRANNY right mock]
-		Funerals are for all you suckers{n}stuck living without me.
+		Hiletak ni gabe bizitzen jarraitu behar{n}duzuen tristeentzako dira.
 		
 		{trigger 2 take a step forward}
 
 		[MADELINE left normal]
-		Thank you for looking out for me on the {+MOUNTAIN}.
+		Eskerrik asko {+MOUNTAIN}an niri laguntzeagatik.
 
 		[MADELINE left distracted]
-		You helped me so much, and...
+		Izugarri lagundu zenidan, eta...
 
 		[MADELINE left sadder]
-		I really miss you.
+		Benetan zure falta sumatzen dut.
 
 		{trigger 3 granny fades away}
 		
 		[MADELINE left sadder]
-		What am I supposed to do now?
-		Just keep going, like nothing happened?
+		Zer egingo dut orain?
+		Aurrera jarraitu, ezer gertatu ez balitz bezala?
 
 		{silent_trigger 4 fade to white}
 
 		[MADELINE left panic]
-		Like you aren't... gone forever?
+		Zu... betirako joan ez bazina bezala?
 
 	CH9_END_CINEMATIC=
 		{anchor bottom}
 
 		[WEBCAM_THEO right excited]
-		There she is!
+		Hementxe!
 
 		[WEBCAM_THEO right normal]
-		Long time no see, {# F94A4A}Strawberry{#}.
+		Aspaldian ikusi gabe, {# F94A4A}Marrubi{#}.
 
 		[MADELINE left sad]
-		Hey {+THEO}.
+		Kaixo {+THEO}.
 		
 		[WEBCAM_THEO right normal]
-		It's been forever!
+		Zenbat denbora!
 
 		[WEBCAM_THEO right thinking]
-		You went off the grid!{n}What happened to you?
+		Desagertu egin zinen!{n}Zer gertatu zitzaizun?
 		
 		[MADELINE left sad]
-		Yeah, sorry for not responding to your messages...
+		Bai, barkatu zure mezuei ez erantzun izana...
 
 		[MADELINE left distracted]
-		...or answering your calls...
+		...edo zure deiei...
 		...
-		...or replying to your emails.
+		...edo zure emailei.
 
 		[MADELINE left sad]
-		I kind of had a breakdown when {+GRANNY} died.
+		Burua erdi galdu nuen {+GRANNY} hil zenean.
 
 		[MADELINE left distracted]
-		And then I felt weird messaging you.
-		I thought maybe you were{n}mad at me for disappearing.
+		Eta gero zuri idazteak lotsa ematen zidan.
+		Horrela desagertzeagatik{n}nirekin haserre egongo zinelakoan.
 
 		[MADELINE left sad]
-		It snowballed from there.
+		Eta elur-bola gero eta handiagoa egin zen.
 		
 		[WEBCAM_THEO right thinking]
-		Yeah yeah, I know you.
+		Bai bai, badakit.
 
 		[WEBCAM_THEO right normal]
-		I figured the funeral might've{n}triggered your anxiety, NBD.
+		Imajina dezaket hiletan zure{n}antsietatea areagotuko zuela, lasai.
 
 		[WEBCAM_THEO right thinking]
-		Next time, {~}at least{/~} just let me know you're still alive.
+		Hurrengoan, {~}gutxienez{/~} jakinarazi bizirik zaudela.
 
 		[WEBCAM_THEO right normal]
-		You feeling any better?
+		Hobeto zaude?
 		
 		[MADELINE left sad]
-		Yeah...
+		Bai...
 
 		[MADELINE left distracted]
-		I'm finally starting to come to terms with it.
+		Azkenean onartzen hasia naiz.
 
 		[MADELINE left sad]
-		When I first met {+GRANNY},{n}I thought she was crazy.
+		{+GRANNY} ezagutu nuenean,{n}zoratuta zegoela uste nuen.
 
 		[MADELINE left distracted]
-		But then I got to know her...
+		Baina gero ezagutu egin nuen...
 
 		[MADELINE left upset]
-		...and I thought she was mean.
+		...eta gaiztoa zela pentsatu nuen.
 
 		[MADELINE left sad]
-		But she knew what I needed to hear,{n}and she really helped me.
+		Baina berak bazekien zer zen entzun behar{n}nuena, eta benetan lagundu zidan.
 
 		[MADELINE left sadder]
-		I miss her a lot.
+		Bere falta handia dut.
 		
 		[WEBCAM_THEO right normal]
-		Yeah, me too.
+		Bai, nik ere bai.
 
 		[WEBCAM_THEO right thinking]
-		I honestly thought she'd live forever.
+		Benetan uste nuen betirako biziko zela.
 
 		[WEBCAM_THEO right excited]
-		Oh! That reminds me!{n}I have to show you something.
+		Oh! Orain gogoratu dut!{n}Gauza bat erakutsi behar dizut.
 		
 		[MADELINE left normal]
 		Oh?
 		
 		[WEBCAM_THEO right excited]
-		Remember how I told you my grandpa went{n}to {+CELESTE_MOUNTAIN} when he was younger?
+		Gogoratzen nola esan nizu nire aitatxi{n}gaztetan {+CELESTE_MOUNTAIN}era joan zela?
 
 		[WEBCAM_THEO right normal]
-		Well, I was going through{n}some of his old stuff with {+ALEX}...
-		And check out this photo I found.
+		Zera, {+ALEX}ekin aritu{n}nintzen bere gauza batzuk kuxkuxeatzen...
+		Eta begira zer argazki aurkitu nuen.
      
  		{trigger 0 Shows the photo of Theo's grandpa with Granny at Celeste Mountain.}
  		
  		[MADELINE left surprised]
-		Is that {+GRANNY}!? With your grandpa?
+		{+GRANNY} al da!? Zure aitatxirekin?
 
 		[MADELINE left normal]
-		{+THEO}, that's amazing!
-		It looks like they were friends.
+		{+THEO}, zoragarria da!
+		Lagunak zirela dirudi.
 		
 		[WEBCAM_THEO right excited]
-		Just like us!
+		Gu bezalaxe!
 
 		[WEBCAM_THEO right thinking]
-		It really sucks that they're gone.
+		Ze pena hemen ez egotea.
 
 		[WEBCAM_THEO right normal]
-		But it's nice to know that we{n}shared the {+MOUNTAIN} with them.
+		Baina polita da jakitea {+MOUNTAIN}a{n}beraiekin partekatzen dugula.
 		
 		[MADELINE left normal]
-		Yeah...
+		Bai...
 
 		[MADELINE left peaceful]
-		{>> 0.3}That {~}is{/~} nice.{>>}
+		{>> 0.3}Hori polita {~}da.{/~}{>>}
 
 # Crystal Hearts
 
-	POEM_FC=	Pointless machines
-	POEM_FCR=	Sever the skyline
+	POEM_FC=	Ezertarako makinak
+	POEM_FCR=	Hortzimuga moztu
 
-	POEM_OS=	Resurrections
-	POEM_OSR=	Black moonrise
+	POEM_OS=	Berpizteak
+	POEM_OSR=	Ilargi beltza
 
-	POEM_CR=	Scattered and lost
-	POEM_CRR=	Good karma
+	POEM_CR=	Barreiatua eta galdua
+	POEM_CRR=	Karma ona
 
-	POEM_CS=	Eye of the storm
-	POEM_CSR=	Golden feather
+	POEM_CS=	Ekaitzaren begia
+	POEM_CSR=	Urrezko luma
 
-	POEM_T=		Quiet and falling
-	POEM_TR=	Mirror magic
+	POEM_T=		Ixilik erortzen
+	POEM_TR=	Ispilu magikoa
 
-	POEM_TF=	Heavy and frail
-	POEM_TFR=	Center of the earth
+	POEM_TF=	Astun eta hauskor
+	POEM_TFR=	Lurraren erdia
 
-	POEM_TS=	Pink sunrise
-	POEM_TSR=	No more running
+	POEM_TS=	Egunsenti arrosa
+	POEM_TSR=	Ihes gehiagorik ez
 
-	POEM_MC=	Heart of the mountain
-	POEM_MCR=	Say goodbye
+	POEM_MC=	Mendiaren bihotza
+	POEM_MCR=	Esan adio
 
-	POEM_FW=	Empty Space
+	POEM_FW=	Espazio hutsa
 	
 # Wavedash Tutorial
 	
-	WAVEDASH_DESKTOP_MYPC=			My Mountain
-	WAVEDASH_DESKTOP_POWERPOINT=	wavedash.ppt
-	WAVEDASH_DESKTOP_RECYCLEBIN=	Recycle Bin
-	WAVEDASH_DESKTOP_STARTBUTTON=	BerryOS
+	WAVEDASH_DESKTOP_MYPC=			Nire Mendia
+	WAVEDASH_DESKTOP_POWERPOINT=	uhinbulkada.ppt
+	WAVEDASH_DESKTOP_RECYCLEBIN=	Zakarrontzia
+	WAVEDASH_DESKTOP_STARTBUTTON=	MarrubiOS
 
-	WAVEDASH_PAGE1_TITLE=			Wavedashing and You
-	WAVEDASH_PAGE1_SUBTITLE=		A practical solution for catching birds in space
+	WAVEDASH_PAGE1_TITLE=			Uhin-bulkadak eta Zu
+	WAVEDASH_PAGE1_SUBTITLE=		Txoriak espazioan harrapatzeko soluzio praktikoa
 
-	WAVEDASH_PAGE2_TITLE=			Can't|Catch|That|Bird?
+	WAVEDASH_PAGE2_TITLE=			Ezin|Txori|Hori|Harrapatu?
 	WAVEDASH_PAGE2_LIST=
-		-Fact: Birds are hard to catch{n}
-		-Wow. It's fast!{n}
-		-Also, it can fly{n}
-		-And {+PART_OF_YOU} won't help{n}
-		-(she's the worst)
+		-Datua: Txoriak harrapatzeko zailak dira{n}
+		-Uau. Azkarra da!{n}
+		-Gainera, hegan egiten du{n}
+		-Eta {+PART_OF_YOU}ak ez du lagunduko{n}
+		-(bera da okerrena)
 
-	WAVEDASH_PAGE2_IMPOSSIBLE=		IMPOSSIBLE???
+	WAVEDASH_PAGE2_IMPOSSIBLE=		EZINEZKOA???
 	
-	WAVEDASH_PAGE3_TITLE=			Introducing... Wavedashing!!
-	WAVEDASH_PAGE3_INFO=			With Wavedashing, you can jump very far{n}and regain your dash {~}at the same time!{/~}
-	WAVEDASH_PAGE3_EASY=			It's "easy!"
+	WAVEDASH_PAGE3_TITLE=			Ezagut dezagun... Uhin-bulkada!!
+	WAVEDASH_PAGE3_INFO=			Uhin-bulkadarekin, oso urrun jauzi egin{n}eta zure bulkada berreskura dezakezu {~}aldi berean!{/~}
+	WAVEDASH_PAGE3_EASY=			"Erraza" da!
 
-	WAVEDASH_PAGE4_TITLE=			How It's Done
+	WAVEDASH_PAGE4_TITLE=			Nola Egin
 	WAVEDASH_PAGE4_LIST=
-		-Jump{n}
-		-Dash diagonally down to the ground{n}
-		-Immediately jump again and hold forward{n}
-		-{~}You did it!{/~}{n}
-		-(go you)
+		-Jauzi{n}
+		-Lurrerantz diagonalean bulkada egin{n}
+		-Berriz jauzi egin berehala eta eutsi aurrera{n}
+		-{~}Lortu duzu!{/~}{n}
+		-(gai zara)
 	
-	WAVEDASH_PAGE5_TITLE=			Trouble in Paradise?
-	WAVEDASH_PAGE5_INFO1=			{#ff0000}If you don't regain your dash{#}{n}you're starting {~}too low{/~} to the ground.
-	WAVEDASH_PAGE5_INFO2=			{#ff0000}If you don't get much distance{#}{n}you're starting {~}too far{/~} from the ground.
+	WAVEDASH_PAGE5_TITLE=			Arazoak Paradisuan?
+	WAVEDASH_PAGE5_INFO1=			{#ff0000}Ez baduzu bulkada berreskuratzen{#}{n}lurretik {~}hurbilegi{/~} hasten zarelako da.
+	WAVEDASH_PAGE5_INFO2=			{#ff0000}Ez baduzu distantzia handirik lortzen{#}{n}lurretik {~}urrunegi{/~} hasten zarelako da.
 
-	WAVEDASH_PAGE6_TITLE=			Happy Wavedashing!
+	WAVEDASH_PAGE6_TITLE=			Uhin-bulkada onak egin!
