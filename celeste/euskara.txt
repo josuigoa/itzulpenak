@@ -212,16 +212,16 @@
 	OVERWORLD_REMIX_UNLOCKED2=	C-Aldea Desblokeatuta!
 
 # Chapter Titles
-	AREA_CHAPTER=	{x} Kapitulua
+	AREA_CHAPTER=	{x}. Kapitulua
 	AREA_0=			Hitzaurrea
 	AREA_1=			Ahaztutako Hiria
 	AREA_2=			Hondakinak
 	AREA_3=			Celestial Resort
 	AREA_4=			Urrezko Mendikatea
-	AREA_5=			Ispilu Tenplua
+	AREA_5=			Ispiluen Tenplua
 	AREA_6=			Gogoeta
 	AREA_7=			Gailurra
-	AREA_8=			Hitzatze
+	AREA_8=			Hitzatzea
 	AREA_9=			Nukleoa
 	AREA_10=		Adioa
 
@@ -234,14 +234,14 @@
 
 	CHECKPOINT_3_0=		Nahaspila Handia
 	CHECKPOINT_3_1=		Igogailu Zuloa
-	CHECKPOINT_3_2=		Lehendakari-Suitea
+	CHECKPOINT_3_2=		Suite Nagusia
 
 	CHECKPOINT_4_0=		Santutegia
 	CHECKPOINT_4_1=		Bide Zaharra
 	CHECKPOINT_4_2=		Labarraren Aurpegia
 
 	CHECKPOINT_5_0=		Sakonerak
-	CHECKPOINT_5_1=		Argitzen (edo askatzen?????)
+	CHECKPOINT_5_1=		Argitzen
 	CHECKPOINT_5_2=		Bilaketa
 	CHECKPOINT_5_3=		Erreskatea
 
@@ -291,8 +291,8 @@
 	CHECKPOINT_5H_2=	Nahaste Maisua
 
 	CHECKPOINT_6H_0=	Islada
-	CHECKPOINT_6H_1=	Oinarria
-	CHECKPOINT_6H_2=	Atzerapena (edo indultua?????)
+	CHECKPOINT_6H_1=	Hondoa
+	CHECKPOINT_6H_2=	Barkamena
 
 	CHECKPOINT_7H_0=	500 M
 	CHECKPOINT_7H_1=	1000 M
@@ -313,7 +313,7 @@
 		{#ff1144}Marrubiek{#} zure lagunak harrituko dituzte, ez besterik. Jaso itzazu nahi baduzu bakarrik!
 
 	POSTCARD_AREA_3=
-		Egon harro zure {#ff1144}Heriotza Kontaketarekin{#}!{n}Gero eta gehiago hil, orduan eta gehiago ikasi duzu!{n}Eutsi gogor!
+		Egon harro zure {#ff1144}Heriotza Kontaketarekin{#}!{n}Gero eta gehiago hil, orduan eta gehiago ikasiko duzu!{n}Eutsi gogor!
 
 	POSTCARD_AREA_4=
 		{# F94A4A}Eskalatzeko Aholkua!{#}{n}Energiaz baxu zabiltza?{n}{n}Paretatik jauzi egiteak{n}ez dizu indarrik kenduko!
@@ -325,15 +325,15 @@
 		{# F94A4A}Badakizu?{#}{n}{n}Ezin zara zure{n}islada baino azkarragoa izan.
 
 	POSTCARD_CSIDES=
-		Benetazko erronka baterako prest?{n}{n}{# F94A4A}C-Aldeak{#} desblokeatu dira, eta{n}{# dbb63f}Urrezko Marrubiak{#} agertu dira{n}kapitulu bakoitzaren hasieran!!{n}{n}Zorte on, {+MADELINE}!
+		Benetako erronka baterako prest?{n}{n}{# F94A4A}C-Aldeak{#} desblokeatu dira, eta{n}{# dbb63f}Urrezko Marrubiak{#} agertu dira{n}kapitulu bakoitzaren hasieran!!{n}{n}Zorte on, {+MADELINE}!
 
 	POSTCARD_VARIANTS=
 		Hara, lortu duzu!{n}{n}Orain {# 9B3FB5}aldaerak{#} Fitxategia Aukeratzeko Menuan eskuragarri dituzu.
 
 # Journal
 	JOURNAL_OF=
-	JOURNAL_PROGRESS=				AURRERAPENA
-	JOURNAL_SPEEDRUNS=				MARKA:{n}SPEEDRUNS
+	JOURNAL_PROGRESS=				EGOERA
+	JOURNAL_SPEEDRUNS=				MARKA:{n}AZKARRENAK
 	JOURNAL_DASHES=					MARKA:{n}BULAKADA GUTXIENA
 	JOURNAL_DEATHS=					MARKA:{n}HERIOTZA GUTXIENA
 	JOURNAL_POEM=					KRISTALEZKO BIHOTZAK
@@ -470,7 +470,7 @@
 	END_BAD=			{/~}{#}
 	GRANNY=				{# 66ea3a}Amatxi{#}
 	PART_OF_HER=		{# 66ea3a}{~}bere zati{/~}{#}
-	PART_OF_GRANNY=		{# 66ea3a}{~}amatxiren zati{/~}{#}
+	PART_OF_GRANNY=		{# 66ea3a}{~}Amatxiren zati{/~}{#}
 
 # Theo sister name
 # if the player name is the same as this one, theo's sister name becomes the ALT_NAME
@@ -646,7 +646,7 @@
 		Bai, abandonatutako lekuek zerbait daukate.
 		
 		[THEO left thinking]
-		Eta nire burua argazkilari{n}hasiberri bezala ikuste gustoko dut.
+		Eta nire burua argazkilari{n}hasiberri bezala ikuste gustuko dut.
 		
 		[MADELINE right normal]
 		Ah bai? Bikain!!
@@ -662,37 +662,37 @@
 
 	CH1_THEO_E=
 		[THEO left normal]
-		This terrain is pretty tricky,{n}are you turning back soon?
+		Lur honetan ibiltzea zaila da gero,{n}laster itzuliko zara?
 		
 		[MADELINE right normal]
-		Nope. I'm heading for the summit.
+		Ezpa. Tontorreraino noa.
 		
 		[THEO left excited]
-		I can really see the determination in your eyes!
+		Zure begietan ikus dezaken irmotasuna!
 
 		[THEO left normal]
-		It's inspiring.
+		Inspiratzailea da.
 
 		[MADELINE right distracted]
-		If you say so.
+		Zuk hala badiozu...
 
 		[MADELINE right normal]
-		I bet you could make it to the summit too.
+		Apustua zu ere tontorrera igo zaitezkela.
 
 		[THEO left normal]
-		Maybe. 
+		Agian. 
 		
 		[THEO left thinking]
-		I don't really care about reaching the top, TBH.
+		Egia esateko, ez zait gehiegi axola{n}ez banaiz goraino ailegatzen.
 
 		[THEO left normal]
-		{!}Oh!{/!} But I heard there are some {~}legit{/~}{n}old ruins up beyond the city.
+		{!}Oh!{/!} Baina entzun dut hiria baino haratago{n}{~}benetako{/~} antzinako hondakinak daudela.
 		
 		[THEO left excited]
-		Like 1800's legit. 
+		Benetakoak, 1800koak-edo.
 
 		[THEO left normal]
-		I know it's risky but I have to see them for myself.
+		Badakit arriskutsua dela,{n}baina neronek ikusi behar ditut.
 
 	CH1_THEO_F=
 		[THEO left normal]
@@ -1943,7 +1943,7 @@
 		Zerk egiten du hain berezia?
 
 		[GRANNY right normal]
-		{+MOUNTAIN} honek benetan nolakoa zaren erakusten dizu.
+		Benetan nolakoa zaren erakusten{n}dizu {+MOUNTAIN} honek.
 		Horretarako prest egon edo ez.
 		Zintzo mantentzen nau.
 
@@ -2164,7 +2164,7 @@
 		{trigger 1 Theo turns right}
 
 		[THEO right excited flip]
-		Leku honek aintzinakoa izan behar du!
+		Leku honek antzinakoa izan behar du!
 
 		[MADELINE left sad]
 		{+THEO}, egon.
@@ -2209,7 +2209,7 @@
 		
 		[THEO_MIRROR right wtf]
 		Tira, ispiluarekin selfie bat ateratzen ari nintzen...
-		Ba'kizu, {~}{# aaaaaa}"Zure {+THEO} maitea{# aaaaaa} aintzinako{n}tenpluan, ezer berezirik ez."{#}{/~}
+		Ba'kizu, {~}{# aaaaaa}"Zure {+THEO} maitea{# aaaaaa} antzinako{n}tenpluan, ezer berezirik ez."{#}{/~}
 
 		[THEO_MIRROR right thinking]
 		{# ffff9b}\#sorioneku{#}
@@ -2241,7 +2241,7 @@
 		Zeinen polita.
 		
 		[BADELINE right upset]
-		Bihotza, honetaz ohartarazi nahi izan zaitut hain zuzen ere.
+		Bihotza, honetaz ohartarazi{n}nahi izan zaitut hain zuzen ere.
 		
 	CH5_SHADOW_MADDY_1=
 		[MADELINE left angry]
@@ -2251,16 +2251,16 @@
 		Oraindik ez duzu ulertu?
 
 		[BADELINE right upset]
-		{+mountain} honek eman dit gorputz hau.
+		Gorputz hau {+mountain} honek eman dit.
 
 		[BADELINE right scoff]
-		Baina ez naiz zure burua nahasi duen hemengo gauza{n}{*}gauza arraro{/*}{n} bakarra.
+		Baina ez naiz zure burua nahasi duen{n}hemengo {*}gauza arraro{/*} bakarra.
 
 		[BADELINE right normal]
 		Ikusten duzuna ez duzu gustuko?
 
 		[BADELINE right scoff]
-		{~}Hau bai sorpresa.{/~}
+		{~}Hau da hau sorpresa.{/~}
 		
 		[MADELINE left angry]
 		Ixo!
@@ -2272,7 +2272,7 @@
 		Begiratu ispilura, guzti hori zurea da.
 
 		[BADELINE right angry]
-		Tenplu honek {+mountain}aren boterea handitu besterik ez du egiten.
+		Tenplu honek {+mountain}aren{n}boterea handitu besterik ez du egiten.
 
 		[BADELINE right upset]
 		Zu zara hemen kontrola duena, ez ni.
@@ -2282,7 +2282,7 @@
 		Ez dizut sinesten.
 
 		[MADELINE left distracted]
-		{+PART_OF_ME}a bazara, zergatik mindu nahi nauzu?
+		Eta {+PART_OF_ME}a bazara, zergatik mindu nahi nauzu?
 
 		[BADELINE right angry]
 		{+MADELINE} gaixoa, {~}beti zara biktima.{/~}
@@ -2297,7 +2297,7 @@
 		Ni zaintzeaz hainbeste arduratu bazara,{n}zergatik ez didazu zer gertatzen ari den {*}azaltzen{/*}?
 		
 		[BADELINE right angry]
-		Entzungo bazenit bezala?
+		Ez duzu inoiz entzuten eta!
 		Ez didazu inoiz aukerarik eman.
 
 	CH5_SHADOW_MADDY_3=
@@ -2305,7 +2305,7 @@
 		Mesedez, lagundu hemendik ateratzen.
 
 		[BADELINE right scoff]
-		{~}Orain{/~} nahi duzu nik zu salbatzea?
+		{~}Orain{/~} nik zu salbatzea nahi duzu?
 
 		[MADELINE left panic]
 		Zergatik egiten duzu hau?
@@ -2314,7 +2314,7 @@
 
 		[BADELINE right angry]
 		Utziozu ni munstroa banintz bezala sentiarazteari.
-		{~}Benetan{/~} jakin nahi duzu zergatik ez naizen laguntzen ari?
+		{~}Benetan{/~} jakin nahi duzu zergatik{n}ez naizen laguntzen ari?
 
 		[BADELINE right yell]
 		Hau {*}merezi{/*} duzulako.
@@ -2323,7 +2323,7 @@
 		...
 
 		[BADELINE right angry]
-		Oraindik {~}{+MOUNTAIN} igo dezakezula{/~} uste duzu?
+		Oraindik {~}{+MOUNTAIN}a igo dezakezula{/~} uste duzu?
 
 		[MADELINE left angry]
 		{*}IXO!{/*}
@@ -2336,17 +2336,17 @@
 
 	CH5_REFLECTION=
 		[MADELINE right sad]
-		Hau dena nire buruan badago, zergatik da hain oldarkorra?
+		Hau dena nire buruan baldin badago,{n}zergatik da hain oldarkorra?
 		
 		[MADELINE right distracted]
-		{*}Gauza{/*} ni ehizatzen ari dira.
+		{*}Gauza{/*} horiek ni ehizatzen ari dira.
 		Arrotza naiz nire munduan.
 
 		{trigger 0 Madeline falls to knees}
 		
 		[MADELINE right panic]
-		Nire erruz dago {+theo} hemen nonbait harrapatuta dago.
-		Guztiz etsitzen badut, agian tenpluak alde egiten utziko dio...
+		Nire errua da {+theo}{n}hemen nonbait harrapatuta egotea.
+		Guztiz etsitzen badut, agian tenpluak{n}alde egiten utziko dio...
 
 		{trigger 1 Madeline stops panicking}
 
@@ -2400,7 +2400,7 @@
 		Ez nuke haserre egon behar, ez da zure errua.
 
 		[MADELINE left sad]
-		Salbu zaudelako pozten naiz,{n}baina nire errua izan da zu hor egotea.
+		Salbu zaudelako pozten naiz,{n}baina nire errua da zu hor egotea.
 
 		{trigger 1 Madeline turns around}
 
@@ -2433,7 +2433,7 @@
 		Eta kristal hau nigandik dator, badakit.
 
 		[THEO right serious]
-		Ez dut nahi, baina serioski laguntza eskatu behar dizut.
+		Ez dut nahi, baina serioski{n}laguntza eskatu behar dizut.
 
 		{trigger 0 zoom back in}
 
@@ -2448,7 +2448,7 @@
 		Gauza horretatik aterako zaitut,{n}eta elkarrekin eskapatuko gara.
 
 		[MADELINE left sad]
-		Zureganaino ailegatzeko modua aurkitzen dudanean...
+		Zureganaino ailegatzeko modua{n}aurkitzen dudanean...
 		
 		[THEO right serious]
 		{+MADELINE}, nire esperantza bakarra zara.
@@ -2465,7 +2465,7 @@
 		...orduan hau merezi dut, ezta?
 
 		[THEO right wtf]
-		{+ALEX}, ezin duzu zure buruarekin hain gogor jokatzen jarraitu.
+		{+ALEX}, ezin duzu zure buruarekin{n}hain gogor jokatzen jarraitu.
 
 		[MADELINE left sad]
 		...
@@ -2499,7 +2499,7 @@
 		
 		[THEO right thinking]
 		{+MADELINE}, zentzuzko galdera da.
-		Gustora hitzegingo dut munstro{n}horiek zure barruko ni-arekin duten erlazioaz...
+		Gustora hitzegingo dut munstro horiek{n}zure barruko ni-arekin duten erlazioaz...
 
 		[THEO right wtf]
 		Baina oraintxe bertan, {~}nire{/~} barruko ni-a{n}errela da eta kristal honetatik atera nahi du.
@@ -2541,7 +2541,7 @@
 		{~}Noski ezetz{/~}, ez nazazu leku honetan utzi!
 
 		[THEO right thinking]
-		Beharbada garraiatu beharko nauzula esatera nindoan.
+		Beharbada garraiatu egin beharko{n}nauzula esatera nindoan.
 		
 		[MADELINE left sad]
 		Oh.
@@ -2583,11 +2583,11 @@
 
 	CH5_THEO_SAVING_D=
 		[THEO left excited]
-		Hurbil gabiltza, nabari dut.
+		Hurbil gaude, nabari dut.
 
 	CH5_THEO_SAVING_E=
 		[THEO left worried]
-		Pixka bat gehizeago. Egin dezakezu {+MADELINE}.
+		Pixka bat gehixeago. Egin dezakezu {+MADELINE}.
 
 	CH5_BSIDE_THEO_A=
 		[THEO left excited]
@@ -2651,7 +2651,7 @@
 		Esaidazu niri.
 
 		[MADELINE right sad]
-		Are you okay?
+		Ongi zaude?
 
 		[THEO left thinking]
 		Zera, krisi existentziala alde batera utzita?
@@ -2678,7 +2678,7 @@
 		Zin dagit ametsa izan dela.
 
 		[THEO left serious]
-		{+MOUNTAIN}ak erreal bihurtu duela uste duzu?
+		Zuk uste {+MOUNTAIN}ak erreal bihurtu duela?
 
 		[MADELINE right distracted]
 		Bai.
@@ -2688,7 +2688,7 @@
 		{+MROSHIRO} irandu zuen.
 
 		[MADELINE right distracted]
-		Nik uste telekabina gelditzea ere bere kontua izan zela
+		Nik uste telekabina gelditzea{n}ere bere kontua izan zela
 
 		[MADELINE right sad]
 		Eta han zegoen, tenpluan.
@@ -2724,11 +2724,11 @@
 
 	CH6_THEO_ASK_THANKYOU=
 		[MADELINE right distracted]
-		Eskerrik asko, han nigan sinetsi izanagatik.
+		Eskerrik asko, hor barruan nigan sinetsi izanagatik.
 	CH6_THEO_SAY_THANKYOU=
 		[MADELINE right distracted]
 		Eskerrik asko, {+THEO}.
-		...han nigan sinetsi duzulako, diot.
+		...hor barruan nigan sinetsi duzulako, diot.
 
 		[THEO left wtf]
 		Zugan sinestea izan da errazena.
@@ -2737,13 +2737,13 @@
 		Nahiago nuen lagundu ahal izan banu.
 
 		[THEO left wtf]
-		Ezdeusa nintzen, gauza horretan harrapaturik.
+		Ezdeusa izan naiz, gauza horretan harrapaturik.
 
 		[MADELINE right sad]
-		Ba asko lagundu zenuen.
+		Ba asko lagundu duzu.
 
 		[MADELINE right distracted]
-		Benetan diot, zure babes gabe ezin izango nukeen egin.
+		Benetan diot, zure babes gabe{n}ezin izango nukeen egin.
 
 	CH6_THEO_ASK_TRUST=
 		[MADELINE right distracted] 
@@ -2767,13 +2767,13 @@
 		Oh, gustatuko litzaizuke!
 
 		[THEO left wtf]
-		Beno, hasieran beharbada ez zenukete elkar ikusi ere egin nahi...
+		Beno, hasieran beharbada ez{n}zenukete elkar ikusi ere egin nahi...
 
 		[THEO left thinking]
 		Baina bukaeran maitatuko zenuke.
 
 		[THEO left excited]
-		{~}Hitze-hitz{/~} rock izar bat da.
+		Rock izar bat da, {~}hitzez-hitz.{/~}
 
 		[MADELINE right normal]
 		Musikaria da?
@@ -2834,7 +2834,7 @@
 		Txantxetan ari naiz.
 
 		[THEO left normal]
-		Eta, zergatik {~}ari{/~} {+MOUNTAIN} hau igotzen?
+		Eta, zergatik {~}ari{/~} zara {+MOUNTAIN} hau igotzen?
 
 		[MADELINE right distracted]
 		Zuzen zaude, nik ere ez dakit zergatik.
@@ -2858,7 +2858,7 @@
 		Ezin diot garrantzirik ez duten{n}txorakeriei buruz pentsatzeari utzi.
 
 		[MADELINE right sad]
-		Nire burmuina trabaturik gelditzen da {>>}{.4}aspaldi gertatu ziren{n}{.4}{>> .3}{*}gauza{/*} hutsalekin.
+		Nire burmuina trabaturik gelditzen da{n}{>>}{.4}aspaldi gertatu ziren{n}{.4}{>> .3}{*}gauza{/*} hutsalekin.
 
 		[MADELINE right angry]
 		Horien {*}gainetik{/*} egon behar nuke.
@@ -2872,7 +2872,7 @@
 
 		[THEO left worried]
 		Sentitzen dut, gogorra izango da.
-		Lagun dezaket?
+		Lagun zaitzaket?
 
 		[MADELINE right sad]
 		Dagoeneko ari zara laguntzen.
@@ -2942,18 +2942,18 @@
 		
 		[MADELINE right distracted]
 		Hala ere, segur aski beti izan ditut arazoak.
-		Gertatutako gauza mingarriren batek kanporatuko zuen.
+		Gertatutako gauza mingarriren{n}batek kanporatuko zuen.
 
 		[MADELINE right upset]
 		Zerbait ez dago ongi nigan.
 
 		[THEO left serious]
-		Gertatutakoa gertatuta ere, ziur nago ez zela zure hutsa izan.
+		Gertatutakoa gertatuta ere,{n}ziur nago ez zela zure hutsa izan.
 
 		{trigger 0 Wait a bit}
 
 		[MADELINE right sad]
-		Nik uste pentsatu nuela posible izango nuela...
+		Beharbada pentsatu nuen posible izango nuela...
 
 		[MADELINE right distracted]
 		Ez dakit.
@@ -2968,7 +2968,7 @@
 		Baina ezin diot nire buruari ihes egin.
 
 		[MADELINE right upset]
-		Literalki {*}nire buruarekin borrokan{/*} ari naiz bide guztian.
+		Literalki {*}nire buruarekin borrokan{/*}{n}ari naiz bide guztian.
 
 		[MADELINE right distracted]
 		Beharbada hau alferrikakoa da.
@@ -3007,7 +3007,7 @@
 		{trigger 0 Wait a bit}
 
 		[THEO left normal]
-		Zu jazartzen ari den {+PART_OF_YOU},{n}baliteke lurraldearekin agertzea.
+		Zu jazartzen ari den {+PART_OF_YOU}a,{n}baliteke inguru honegatik agertzea.
 
 		[MADELINE right upset]
 		Berari betirako lotuta nagoela uste duzu orduan?
@@ -3020,10 +3020,10 @@
 
 	CH6_THEO_ASK_DEFENSE=
 		[THEO left wtf]
-		Orduan {+PART_OF_YOU} hau suntsitu nahi duzu?
+		Orduan {+PART_OF_YOU} hori suntsitu nahi duzu?
 	CH6_THEO_SAY_DEFENSE=
 		[THEO left wtf]
-		Orduan {+PART_OF_YOU} hau suntsitu nahi duzu?
+		Orduan {+PART_OF_YOU} hori suntsitu nahi duzu?
 		Ez dizu zuri ere min emango?
 
 		[MADELINE right sad]
@@ -3148,7 +3148,7 @@
 		Zure aitatxirekin erlazio ona duzu?
 
 		[THEO left serious]
-		Baina... banuen.
+		Beno... banuen.
 
 		[MADELINE right distracted]
 		Oh... sentitzen dut.
@@ -3163,7 +3163,7 @@
 		Baikor egotea da egin dezakedan bakarra.
 
 		[THEO left serious]
-		Eta bizia sakonki bizi,{n}horrela baita berak nahiko lukeena.
+		Eta bizia sakonki bizi,{n}hori baita berak nahiko lukeena.
 
 		{trigger 0 Wait a bit}
 
@@ -3214,7 +3214,7 @@
 		Ez dakit hori baino lehenago nolakoa zen.
 
 		[THEO left serious]
-		Hemen bere buruaz zer ikasi zuen jakin nahi nuke...
+		Hemen bere buruaz zer ikasi zuen jakin nahiko nuke...
 
 	CH6_THEO_ASK_TEMPLE=
 		[THEO left wtf]
@@ -3224,15 +3224,15 @@
 		Nork uste duzu eraiki zuela tenplua?
 
 		[MADELINE right sad]
-		Aintzinakoa dirudi...
-		{+MOUNTAIN}ko beste edozer baino lehenagokoa dirudi.{n}Hotela, hondakinak, hiria...
+		Antzinakoa dirudi...
+		Gauden {+MOUNTAIN}ko beste edozer baino lehenagokoa{n}dirudi. Hotela, hondakinak, hiria...
 
 		[THEO left serious]
 		Historia handia dago hemen.
 
 		[MADELINE right distracted]
 		Bai. 
-		{+MOUNTAIN} honek jende askorentzat{n}esanahi asko izango ditu.
+		Jende askorentzat {+MOUNTAIN} honek{n}esanahi asko izango ditu.
 
 		[MADELINE right normal]
 		Ulertzen hasi naiz zergatik{n}bizi den atso zahar ero hori hemen.
@@ -3241,7 +3241,7 @@
 		Zuk ere aurkitu duzu?
 
 		[THEO left thinking]
-		Zertan dabil?
+		Zertan ote dabil?
 
 		[MADELINE right upset]
 		Nik uste pertsona ankerra dela.
@@ -3347,11 +3347,11 @@
 		Ez zara nire benetako isla.
 
 		[BADELINE right worriedAlt]
-		...ez naiz?
+		...ez al naiz?
 
 		[MADELINE left sad]
 		Atzean utzi behar dudan guztia zara.
-		Kontrolatzailea, paranoikoa, kontrolatzailea... zara.
+		Krudela, paranoikoa, kontrolatzailea... zara.
 
 		[BADELINE right worriedAlt]
 		Zergatik diozu hori?
@@ -3378,7 +3378,7 @@
 
 		[BADELINE right freakA pop]
 		{silent_trigger 0 Tentacles Appear}
-		...ilupa!
+		...tuntuna!
 
 		[BADELINE right freakB pop]
 		{silent_trigger 0 Tentacles Appear More}
@@ -3436,7 +3436,7 @@
 		[MADELINE left distracted]
 		...
 		Baina bera {+PART_OF_ME}a da.
-		Ezin izango dut inoia alde batera utzi.
+		Ezin izango dut inoiz alde batera utzi.
 
 		[MADELINE left sad]
 		Eta zuzen zegoen.
@@ -3444,7 +3444,7 @@
 
 	CH6_OLDLADY=
 		[GRANNY right normal]
-		Oh, kaixo berriz.
+		Oh, kaixo berriz ere.
 
 		[MADELINE left upset]
 		Zu hemen, nola ez.
@@ -3452,7 +3452,7 @@
 		{trigger 0 Zoom in}
 
 		[GRANNY right mock]
-		Bakean gaudela dirudi.
+		Kito gaudela dirudi.
 		
 		[MADELINE left upset]
 		Ez, erori egin naiz.
@@ -3460,7 +3460,7 @@
 
 		[GRANNY right normal]
 		Hobe izango da horrela seguruenik.
-		{+MOUNTAIN}ak ezin du bere burua kontrolatu.
+		Bere burua ezin kontrolatuz dabil {+MOUNTAIN}a.
 
 		[MADELINE left upset]
 		Bai, badakit. 
@@ -3490,10 +3490,10 @@
 		{trigger 4 Maddy walks left}
 
 		[MADELINE left upset flip]
-		{+PART_OF_ME}{0.4}hori{0.4} zuzen zegoen, ezin dut egin.
+		Agertu zaidan {+PART_OF_ME} {0.4}hori{0.4}{n}zuzen zegoen, ezin dut egin.
 
 		[MADELINE left panic flip]
-		Ni... etxera joango naiz nire bizi{n}tristera eta {.4}betirako tamalgarria izango naiz.
+		Ni... etxera joango naiz, nire bizi tristera{n}eta {.4}betirako lotsagarria izango naiz.
 
 		{trigger 5 Wait a bit}
 		
@@ -3517,7 +3517,7 @@
 		Zerk egiten nau hain berezia?
 
 		[GRANNY right normal]
-		Ez dut inoiz ezagutu bere buruarekin hain haserre dagoen inor.
+		Ez dut inoiz ezagutu bere buruarekin{n}hain haserre dagoen inor.
 
 		{trigger 1 Start lauging}
 
@@ -3532,7 +3532,7 @@
 		[GRANNY right normal]
 		Aipatzen duzun neska hori, nik uste{n}zu atzeratzen ari dela.
 		Hitz egin berekin.
-		Hainbesteko beldurra zerk eragiten dion jakin behar duzu.
+		Hainbesteko beldurra zerk{n}eragiten dion jakin behar duzu.
 		
 		[MADELINE left sad]
 		Zuk uste duzu... beldurtuta dagoela?
@@ -3564,7 +3564,7 @@
 
 		[GRANNY right normal]
 		Egiaren aldera hurbiltzea ona da jendearentzako.
-		Nahiz eta gehienek ikusten dutena ezin onartu.
+		Nahiz eta gehienek ikusten dutena ezin duten onartu.
 		Ez da txarra atzera egin, autoa{n}hartu eta alde egitea.
 		Egunen batean prest egongo zara,{n}orduan itzuliko zara.
 
@@ -3605,7 +3605,7 @@
 	CH6_BOSS_START=
 		[BADELINE right angry flip]
 		Nire bila?
-		Niretaz aspertu zinela uste nuen.
+		Nirekin aspertu zinela uste nuen.
 
 		[MADELINE left sad]
 		Akatsa izan da.
@@ -3642,7 +3642,7 @@
 		Ezin dugu borrokan jarraitu.
 
 		[BADELINE right scoff]
-		Nik beherago joan nahiteke.
+		Ni beherago joan naiteke.
 
 		[BADELINE right angry]
 		Lurraren erdiraino eraman zaitzaket.
@@ -3670,7 +3670,7 @@
 
 	CH6_BOSS_MIDDLE=
 		[BADELINE right yell]
-		Hau dena ez zen {*}gertatuko{/*}{n}{*}entzun izan bazenit!{/*}
+		Hau dena ez zen {*}gertatu izango{/*}{n}{*}entzun izan bazenit!{/*}
 
 	CH6_BOSS_ENDING=
 		[BADELINE right sigh flip]
@@ -3683,10 +3683,10 @@
 		Nik uste, guzti honen ondoren, ez nauzula behar.
 
 		[BADELINE right worriedAlt flip]
-		Ni joatea nahi baduzu, saiatuko naiz.
+		Alde egitea nahi baduzu, saiatuko naiz.
 		
 		[MADELINE left distracted]
-		Ez da hori nik nahi dudana.
+		Ez da hori nahi dudana.
 		Inoiz baino gehiago behar dut zure laguntza.
 
 		[MADELINE left sad]
@@ -3803,13 +3803,13 @@
 		Hain hurbil geunden, eta gero, eh, erori gara...
 
 		[BADELINE right worried]
-		{+MOUNTAIN}ak urratu egin gaitu.
+		Urratu egin gaitu {+MOUNTAIN}ak.
 
 		[MADELINE left upset]
 		Bai, hala izan da.
 
 		[MADELINE left sad]
-		Baina hori dena atzean utzi dezakegula pentsatu nahi dut.
+		Baina hori dena atzean utzi{n}dezakegula pentsatu nahi dut.
 		Hau egiteko gai garela sinetsi behar dut.
 
 		{trigger 5 Wait a bit}
@@ -3822,7 +3822,7 @@
 		[GRANNY right normal]
 		Zaila izango da, ez ahaztu.
 		Baina harrituta naukazue zeinen{n}urrun ailegatu zareten, elkar joka ibilita ere.
-		Elkarlanean egingo duzuenaren zalantarik ez dut.
+		Elkarlanean egingo duzuenaren zalantzarik ez dut.
 
 		[BADELINE right worried flip]
 		...
@@ -3994,7 +3994,7 @@
 		[BADELINE right angry]
 		{*}Ez.{/*}
 		Oker nengoen.
-		{+MOUNTAIN} hau igo dezakegu.
+		Zuk {+MOUNTAIN} hau igo dezakegu.
 
 		[BADELINE right normal]
 		Zurekin nago...
@@ -4110,7 +4110,7 @@
 		Oh, ados.
 
 		[MADELINE right sad flip]
-		{+MOUNTAIN} honetatik jaistean, ezin{n}izango dugu nirekin gehiago hitz egin...
+		Eta {+MOUNTAIN} honetatik jaistean, ezin{n}izango dugu nirekin gehiago hitz egin...
 		Horrela ez, behintzat.
 
 		[BADELINE left worried]
@@ -4134,8 +4134,8 @@
 		...eta ezin izango dizudala aurrez-aurre hitz egin.
 
 		[BADELINE left worriedAlt]
-		Ni... ezin naiz lehenago nintzenera itzuli.
-		{+MOUNTAIN}aren aurrekora.
+		Ni... ezin naiz nintzenera itzuli.
+		Lehenagokora, {+MOUNTAIN}aren aurrekora.
 
 		[MADELINE right sad flip]
 		Lasai, ni ere ezin naiz lehengo horretara itzuli.
@@ -4405,7 +4405,7 @@
 
 		[GRANNY right normal]
 		Kontuz ibili.
-		{+MOUNTAIN} honen bihotzera hurbiltzen zarenean,{n}bere botereak modu desberdinean eragingo zaitu.
+		Botereak modu desberdinean eragingo dizu{n}{+MOUNTAIN} honen bihotzera hurbildu ahala.
 
 		[MADELINE left sad]
 		Bai, hasia naiz dagoeneko zerbait sumatzen...
@@ -4642,7 +4642,7 @@
 		Zuk {*}benetan{/*} uste duzu txori arrunt bat dela?
 
 		[MADELINE right sad]
-		{+PART_OF_HER}a da, eta nolabait hemen dabil.
+		Hau {+PART_OF_HER}a da, eta nolabait hemen dabil.
 
 		[MADELINE right distracted]
 		Agian bueltan ekarteko moduren bat dago.
