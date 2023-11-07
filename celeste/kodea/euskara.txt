@@ -181,8 +181,8 @@
 # File Naming
 	NAME_LETTERS=
 		ABCDEFGHI abcdefghi
-		JKLMNOPQR jklmnopqr
-		STUVWXYZ  stuvwxyz
+		JKLMNÑOPQ jklmnñopq
+		RSTUVWXYZ rstuvwxyz
 		1234567890+=:~!@$%
 		^&*_-#"'()<>/\.,|`
 
@@ -563,7 +563,7 @@
 		Hala dirudi, bai.
 
 		[THEO left normal]
-		Leku hau erokeria da. 
+		Leku hau erokeria hutsa da. 
 
 		[THEO left excited]
 		Existitzen denik ere ezin dut sinetsi!
@@ -572,7 +572,7 @@
 		Ez da igoera errazena, ezta?
 
 		[MADELINE right distracted]
-		Baina nik uste honen bila nebilela...
+		Baina nik uste honen bila nenbilela...
 		
 		[THEO left normal]
 		Uau, horrek oso serioa dirudi.
@@ -633,7 +633,7 @@
 		Nik uste gobernuaren akatsen bat estaltzeko dela.
 
 		[MADELINE right distracted]
-		A ze galera, arrazoirik gabe hainbeste eraikitzea...
+		A zer galera, arrazoirik gabe hainbeste eraikitzea...
 
 		[THEO left normal]
 		Soberakinez goza dezkegu gutxienez.
@@ -646,7 +646,7 @@
 		Bai, abandonatutako lekuek zerbait daukate.
 		
 		[THEO left thinking]
-		Eta nire burua argazkilari{n}hasiberri bezala ikuste gustuko dut.
+		Eta nire burua argazkilari{n}hasiberri bezala ikustea gustuko dut.
 		
 		[MADELINE right normal]
 		Ah bai? Bikain!!
@@ -658,7 +658,7 @@
 		Orain mundu guztia {# FFFF4C}InstaPix{#}-ekin dabil.
 		
 		[THEO left excited]
-		{+THEO_UNDER_STARS} naiz, begira nazazu!
+		{+THEO_UNDER_STARS} naiz, bila nazazu!
 
 	CH1_THEO_E=
 		[THEO left normal]
@@ -668,7 +668,7 @@
 		Ezpa. Tontorreraino noa.
 		
 		[THEO left excited]
-		Zure begietan ikus dezaken irmotasuna!
+		Zure begietan ikus dezaket irmotasuna!
 
 		[THEO left normal]
 		Inspiratzailea da.
@@ -677,7 +677,7 @@
 		Zuk hala badiozu...
 
 		[MADELINE right normal]
-		Apustua zu ere tontorrera igo zaitezkela.
+		Apustua zu ere tontorrera igo zaitezkeela.
 
 		[THEO left normal]
 		Agian. 
@@ -696,21 +696,21 @@
 
 	CH1_THEO_F=
 		[THEO left normal]
-		What's that thing you say right before{n}you do something irresponsible?
+		Nola da arduragabekeriaren bat{n}egin aurretik esaten den hori?
 
 		[MADELINE right sad]
-		Uh... "throw caution to the wind?"
+		Eh... "arrisku iraganak, kontagai?"
 
 		[THEO left wtf]
-		No, that's not it.
+		Ez, ez da hori.
 
 		[THEO left excited]
-		Oh right...
+		Ah bai...
 
 		{trigger 0 Theo pumps his fist in the air}
 		
 		[THEO left yolo]
-		{big}{~}Y{>> 0.5}OLO{>> 0.2}OOOOOOOO!!{>>}{/~}{/big}
+		{big}{~}JO TA BOTA{>> 0.5}, ALTXA TA MARTXA!!{>>}{/~}{/big}
 
 	MEMORIAL=
 		-- CELESTE MENDIA --
@@ -757,7 +757,7 @@
 		...
 
 		[BADELINE left angry]
-		Hauxe da nire itxura, bai?
+		Hauxe da nire itxura, ados?
 		Gaindi ezazu.
 
 		[MADELINE right distracted]
@@ -792,7 +792,7 @@
 		Ezin izango duzu lortu.
 		
 		[MADELINE right upset]
-		Bereziko horregatik egin behar dut hau.
+		Bereziki horregatik egin behar dut hau.
 		Zu {+PART_OF_ME} ahula zara, edo alferra?
 
 		[BADELINE left upset]
@@ -830,7 +830,7 @@
 		
 		[EX_PHONE right normal]
 		{+MADELINE}, gauaren erdian beldurrak jota{n}zaudenean bakarrik deitzen didazu.
-		Ez duzu horrelako istorio {n}barregarririk asmatu behar nik kasu egiteko.
+		Ez duzu horrelako istorio {n}erridikulurik asmatu behar nik kasu egiteko.
 		
 		[MADELINE_PHONE left angry]
 		Ez naiz asmatzen ari!
@@ -842,11 +842,11 @@
 		Kontaidazu.
 		
 		[MADELINE_PHONE left sad]
-		{+celeste_mountain}-n gora noa.{n}Ispilu zahar bat aurkitu dut, puskatu egin da,{n}baina nire zati batek alde egin du, eta...
+		{+celeste_mountain}n gora noa.{n}Ispilu zahar bat aurkitu dut, puskatu egin da,{n}baina nire zati batek alde egin du, eta...
 
 		[MADELINE_PHONE left upset]
 		...
-		...Ametsetan ari naiz, ezta?
+		...ametsetan ari naiz, ezta?
 		
 		[EX_PHONE right normal]
 		{+MADELINE}. Noski ametsetan ari zarela.
@@ -954,7 +954,7 @@
 		{trigger 1 Theo puts away phone}
 		
 		[THEO left normal]
-		Oh! Gertakari honen orogarria formalki egin behar dugu...
+		Oh! Gertakari honen orogarri{n}formala egin behar dugu...
 		
 		[THEO left excited]
 		Atera nirekin selfie bat!
@@ -1057,7 +1057,7 @@
 		Kolore gabeko orri batean poema bat dago idatzita.
 
 	CH2_POEM=
-		Mundu honetako ez den{n}
+		Mundu honetakoa ez den{n}
 		Agerkunde bat{n}
 		Baina marko kanpotik{n}
 		Zelatan dagoenagatik{n}{n}
