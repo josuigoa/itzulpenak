@@ -484,7 +484,7 @@
 
 	CH0_INTRO=
 		Hau da ba, {+MADELINE}.
-		Hartu arnasa.
+		Har ezazu arnasa.
 		Zergatik zaude hain urduri?
 
 	CH0_GRANNY=
@@ -496,20 +496,20 @@
 		{trigger 0 Madeline walks forward}
 
 		[MADELINE left normal]
-		Kanpoko kartela hondatuta dago...{n}hau al da {+mountain}-ra joateko bidea?
+		Kanpoko kartela hondatuta dago...{n}hau al da {+mountain}ra joateko bidea?
 
 		[GRANNY right normal]
-		Ia ailegatu zara.{n}Zubiaren beste aldean dago.
+		Ia ailegatu haiz.{n}Zubiaren beste aldean zagon.
 
 		{trigger 1 Madeline walks to the right of the house, turns left}
 		
 		[MADELINE right sad]
-		Bidenabar, sarbidearengatik norbaiti deitu behar zenioke. Mendi bizkarra erori eta ia hil nau.
+		Bidenabar, sarbidearengatik norbaiti deitu{n}behar zenioke. Mendi bizkarra erori eta ia hil nau.
 
 		{trigger 2 Granny laughs}
 
 		[GRANNY left laugh]
-		Nire {>> 0.3}"sarbideak"{>>}{0.2} ia hil bazaitu,{n}beharbada {+mountain} hau gehitxo izango da zuretzat.
+		Nire {>> 0.3}"sarbideak"{>>}{0.2} ia hil bahau,{n}beharbada {+mountain} hau gehitxo izango dun hiretzat.
 
 		{trigger 3 Laugh Continues}
 
@@ -522,18 +522,18 @@
 		{trigger 4 Stop laughing}
 
 		[GRANNY left normal]
-		Zuk ikusi.
+		Hik ikusi.
 
 		{silent_trigger 5 Ominous zoom-in}
 
 		[GRANNY left normal]
-		Baina jakin behar zenuke,{n}{+CELESTE_MOUNTAIN} leku arraroa da.
+		Baina jakin behar huke,{n}{+CELESTE_MOUNTAIN} leku arraroa dun.
 
 		[GRANNY left creepA]
-		Gauzak ikus ditzakezu.
+		Gauzak ikus ditzaken.
 
 		[GRANNY left creepB]
-		Ikusteko prest ez zauden gauzak.
+		Ikusteko prest ez hagoen gauzak.
 
 		{trigger 6 pan to Maddy}
 
@@ -1820,9 +1820,9 @@
 		{trigger 3 zoom in}
 		
 		[GRANNY right normal]
-		Tira tira, ez nuen espero zu hemen goian aurkitzerik!
-		Pozten naiz osorik segitzen duzula ikusita.
-		Hoteletik pasa zarela ikusi dut,{n}ezagutu al duzu {+mroshiro}?
+		Tira tira, ez ninan espero hi hemen goian aurkitzerik!
+		Pozten naun osorik segitzen dunala ikusita.
+		Hoteletik pasa haizela ikusi dinat,{n}ezagutu al dun {+mroshiro}?
 
 		{trigger 4 maddy turns around}
 		
@@ -1834,14 +1834,14 @@
 		{trigger 0 Start Laughing}
 		
 		[GRANNY right laugh]
-		Oh ho ho, goiz dibertigarria izan duzu.
+		Oh ho ho, goiz dibertigarria izan dun.
 
 		{trigger 1 Stop Laughing}
 		
 		[GRANNY right normal]
-		{+oshiro} galdutako arima da, maitea.
-		Leku hori beretzat hotel soil bat baino gehiago da.
-		Ez dadila zure proiektu pertsonala izan.
+		{+oshiro} galdutako arima dun, maitea.
+		Leku hori beretzat hotel soil bat baino gehiago dun.
+		Ez dadila hire proiektu pertsonala izan.
 
 		{trigger 5 maddy approaches}
 		
@@ -1852,23 +1852,23 @@
 		{trigger 2 Wait a beat}
 		
 		[GRANNY right normal]
-		Ba'kizu, ez zara hori esan duen lehenengoa.
+		Ba'kin, ez haiz hori esan didan lehenengoa.
 
 		{trigger 0 Start Laughing}
 		
 		[GRANNY right laugh]
-		Beharbada zuzen zaude.
-		Nola jakingo dut eroturik ote nagoen?
+		Beharbada zuzen hago.
+		Nola jakingo dinat eroturik ote nagonan?
 
 		{trigger 1 Stop Laughing}
 		
 		[GRANNY right normal]
-		Nik uste dudana da, {+mountain} honek{n}ezin duela lehendik barruan ez dugunik atera.
+		Nik uste dinat {+mountain} honek{n}ezin dinala lehendik barruan ez dinagunik atera.
 
 		{trigger 0 Start Laughing}
 		
 		[GRANNY right laugh]
-		Lehenego eta behin, ezin zara burutik guztiz{n}sano egon hemen goian bizitzeko, ezta?
+		Lehenego eta behin, ezin haiz burutik guztiz{n}sano egon hemen goian bizitzeko, eztun?
 
 		{trigger 2 Wait a beat}
 		
@@ -1878,10 +1878,10 @@
 		{trigger 1 Stop Laughing}
 		
 		[GRANNY right mock]
-		Oh, atso zahar baten hitzak besterik ez dira.
+		Oh, atso zahar baten hitzak besterik ez ditun.
 
 		[GRANNY right normal]
-		Amore emateko prest al zaude?{n}Zure autorako bidezidor bat ezagutzen dut.
+		Amore emateko prest al hago?{n}Hire autorako bidezidor bat ezagutzen dinat.
 
 		{trigger 6 Maddy walks past granny}
 		 
@@ -1890,8 +1890,8 @@
 		Tontorrerantz noa.
 		
 		[GRANNY left normal flip]
-		Batzutan zaila da burugogorkeria eta{n}irmotasunaren arteko aldea ikustea, ez duzu uste?
-		Neroni gogoratzen nauzu, gaztetan.
+		Batzutan zaila dun burugogorkeria eta{n}irmotasunaren arteko aldea ikustea, ez dun uste?
+		Neroni gogoratzen naun, gaztetan.
 
 		{trigger 0 Start Laughing}
 
@@ -1913,9 +1913,9 @@
 		{+mroshiro}rekin esfortzu handia egin behar izan dut.{n}Lagundu egin nahi nion.
 
 		[GRANNY right normal]
-		{+OSHIRO}k hotel hori atzean utzi behar du.
-		Baina hori ez da zure planarekin gertatuko.
-		Eta zuk zehozer frogatu beharrak ere ez du laguntzen.
+		{+OSHIRO}k hotel hori atzean utzi behar din.
+		Baina hori ez dun hire planarekin gertatuko.
+		Eta hik zehozer frogatu beharrak ere ez din laguntzen.
 
 		[MADELINE left distracted]
 		...
@@ -1925,27 +1925,27 @@
 		Ez al zara bakarrik sentitzen txabolatxo horretan?
 
 		[GRANNY right normal]
-		Baditut lagunak, maitea.
+		Badizkinat lagunak, maitea.
 
 		[GRANNY right mock]
-		Agian erotuta nago, baina ez naiz ermitaua.
+		Agian erotuta nagon, baina ez naun ermitaua.
 
 		[MADELINE left distracted]
 		Barkatu.
 		Ez nuen hori esan nahi.
 
 		[GRANNY right normal]
-		Gazteago nintzenean ezin nuen imajinatu{n}leku berean denbora luzez egongo nintzenik.
-		Baina {+MOUNTAIN} hau aurkitu nuenean.
-		Berehala jakin nuen nire etxea izango zela.
+		Gazteagotan ezin ninan imajinatu{n}nire burua leku berean luzaro bizitzen.
+		Baina {+MOUNTAIN} hau aurkitu ninan.
+		Berehala jakin ninan nire etxea izango zunala.
 
 		[MADELINE left sad]
 		Zerk egiten du hain berezia?
 
 		[GRANNY right normal]
-		Benetan nolakoa zaren erakusten{n}dizu {+MOUNTAIN} honek.
+		Benetan nolakoa haizen erakusten{n}din {+MOUNTAIN} honek.
 		Horretarako prest egon edo ez.
-		Zintzo mantentzen nau.
+		Zintzo mantentzen nain.
 
 	CH4_GONDOLA=
 		{anchor top}
@@ -3374,11 +3374,11 @@
 		Demonio...
 
 		[BADELINE right sad]
-		urde...
+		...urde...
 
 		[BADELINE right freakA pop]
 		{silent_trigger 0 Tentacles Appear}
-		...tuntuna!
+		...ergela!
 
 		[BADELINE right freakB pop]
 		{silent_trigger 0 Tentacles Appear More}
@@ -3452,15 +3452,15 @@
 		{trigger 0 Zoom in}
 
 		[GRANNY right mock]
-		Kito gaudela dirudi.
+		Kito gaudele zirudin.
 		
 		[MADELINE left upset]
 		Ez, erori egin naiz.
 		Bukatu da.
 
 		[GRANNY right normal]
-		Hobe izango da horrela seguruenik.
-		Bere burua ezin kontrolatuz dabil {+MOUNTAIN}a.
+		Hobe izango dun horrela seguruenik.
+		Bere burua ezin kontrolatuz zebilen {+MOUNTAIN}a.
 
 		[MADELINE left upset]
 		Bai, badakit. 
@@ -3477,8 +3477,8 @@
 		{trigger 2 Stop laughing}
 		
 		[GRANNY right normal]
-		Batzuetan eskuoihala lurrera noiz bota jakin behar da.
-		Gaindituko duzu.
+		Batzuetan eskuoihala lurrera noiz bota jakin behar dun.
+		Gaindituko dun.
 
 		{trigger 3 Maddy walks right}
 		
@@ -3498,7 +3498,7 @@
 		{trigger 5 Wait a bit}
 		
 		[GRANNY right normal]
-		Argi dago ez duzula gainditu.
+		Argi zagon ez dunala gainditu.
 
 		{trigger 6 Maddy turns right}
 		
@@ -3510,19 +3510,19 @@
 		Baina ez dio axola zenbat saiatu,{n}berak pausu guztiak sabotatuko dizkit.
 		
 		[GRANNY right normal]
-		Ume asko etortzen dira {+mountain}{n}hau igotzera, amore emateko bakarrik.
-		Pena da erori izana, lortuko{n}zenuela pentsatzen hasita nengoen.
+		Ume asko etortzen ditun {+mountain}{n}hau igotzera, amore emateko bakarrik.
+		Pena dun erori izana, lortuko{n}hunala pentsatzen hasita nengonan.
 
 		[MADELINE left sad]
 		Zerk egiten nau hain berezia?
 
 		[GRANNY right normal]
-		Ez dut inoiz ezagutu bere buruarekin{n}hain haserre dagoen inor.
+		Ez dinat inoiz ezagutu bere buruarekin{n}hain haserre zegonan inor.
 
 		{trigger 1 Start lauging}
 
 		[GRANNY right laugh]
-		Egia esan, tontorrera igoko zinela{n}uste nuen, zure burua izorratzeko bazen ere.
+		Egia esan, tontorrera igoko hintzela{n}uste ninan, hire burua izorratzeko bazunan ere.
 
 		[MADELINE left upset]
 		Ene, eskerrik asko.
@@ -3530,9 +3530,9 @@
 		{trigger 2 Stop laughing}
 
 		[GRANNY right normal]
-		Aipatzen duzun neska hori, nik uste{n}zu atzeratzen ari dela.
+		Aipatzen dunan neska hori, nik uste{n}hi atzerarazten ari dunala.
 		Hitz egin berekin.
-		Hainbesteko beldurra zerk{n}eragiten dion jakin behar duzu.
+		Hainbesteko beldurra zerk{n}eragiten zionan jakin behar dun.
 		
 		[MADELINE left sad]
 		Zuk uste duzu... beldurtuta dagoela?
@@ -3541,32 +3541,32 @@
 		Ez nuen inoiz horrelakorik pentsatu.
 		
 		[GRANNY right normal]
-		Utziozu bion denbora galtzeari eta {~}galdetu berari.{/~}
-		Zer duzu galtzeko?
+		Utzion bion denbora galtzeari eta {~}galdetu berari.{/~}
+		Zer dun galtzeko?
 
 	CH6_OLDLADY_B=
 		[MADELINE left sad]
 		Ez dakit non aurki dezakedan...
 
 		[GRANNY right normal]
-		Bera {+PART_OF_YOU}a da, ezta?
-		Bere bila hasten bazara, azkar agertuko zaizu.
+		Hori {# d678db}{~}hire zati{/~}{#}a dun, eztun?
+		Bere bila hasten bahaiz, azkar agertuko zain.
 
 		[MADELINE left upset]
 		...orduan zuk ere {+MOUNTAIN}aren boterea ezagutzen duzu.
 
 		[GRANNY right normal]
-		Noski ezagutzen dudala, hemen bizi naiz.
-		Zu oharatarazten saiatu nintzen.
+		Noski ezagutzen dinadala, hemen bizi naun.
+		Hi oharatarazten saiatu nindunan.
 
 		[MADELINE left upset]
 		Komunikatzeko gaitasuna landu beharko zenuke.
 
 		[GRANNY right normal]
-		Egiaren aldera hurbiltzea ona da jendearentzako.
-		Nahiz eta gehienek ikusten dutena ezin duten onartu.
-		Ez da txarra atzera egin, autoa{n}hartu eta alde egitea.
-		Egunen batean prest egongo zara,{n}orduan itzuliko zara.
+		Egiaren aldera hurbiltzea ona dun jendearentzako.
+		Nahiz eta gehienek ikusten{n}dinaten hori ezin dinaten onartu.
+		Ez dun txarra atzera egin, autoa{n}hartu eta alde egitea.
+		Egunen batean prest egongo haiz,{n}orduan itzuliko haiz.
 
 		[MADELINE left distracted]
 		...
@@ -3577,7 +3577,7 @@
 		Ihes gehiagorik ez.
 
 		[GRANNY right normal]
-		Pentsatzen nuen, bai.
+		Pentsatzen ninan, bai.
 		Zorte on.
 
 	CH6_OLDLADY_C=
@@ -3586,18 +3586,18 @@
 		Ez al da zaila honekin bizitzea?
 
 		[GRANNY right normal]
-		Hala da, ezin da honetara inoiz ohitu.
-		Baina zorrotz mantentzen nau.
-		Hori gustuko dut.
+		Hala dun, ezin haiz inoiz honetara ohitu.
+		Baina zorrotz mantentzen naun.
+		Hori gustuko dinat.
 
 		[MADELINE left sad]
 		Baina {+MOUNTAIN}a hain da... oldarkorra.
 
 		[GRANNY right normal]
-		Hala da, ez da txantxetako kontua.
-		{+CELESTE_MOUNTAIN} sendatzeko lekua da, maitea.
-		Sendatzeko lehenengo pausua{n}arazoari aurre egitea da.
-		Inoiz ez da erraza.
+		Hala dun, ez dun txantxetako kontua.
+		{+CELESTE_MOUNTAIN} sendatzeko lekua dun, maitea.
+		Sendatzeko lehenengo pausua{n}arazoari aurre egitea dun.
+		Inoiz ez dun erraza.
 
 		[MADELINE left upset]
 		Kontaidazu gehiago.
@@ -3731,7 +3731,7 @@
 
 		[GRANNY right normal]
 		Ezta aipatu ere.
-		Pozten nau oraindik ere baliagarria naizela ikusteak.
+		Pozten naun oraindik ere lagungarria izateaz.
 
 		{portrait none}
 		{*}{+MADELINE}!!!{/*}
@@ -3815,12 +3815,12 @@
 		{trigger 5 Wait a bit}
 
 		[GRANNY right normal]
-		Ez da ideia txarra.
+		Ez dun ideia txarra.
 
 		{trigger 3 badeline turns right}
 
 		[GRANNY right normal]
-		Zaila izango da, ez ahaztu.
+		Zaila izango dun, ez ahaztu.
 		Baina harrituta naukazue zeinen{n}urrun ailegatu zareten, elkar joka ibilita ere.
 		Elkarlanean egingo duzuenaren zalantzarik ez dut.
 
@@ -3887,7 +3887,7 @@
 		Ongi nago.
 
 		[BADELINE right worried]
-		Bakarrik {0.4}oker aterako den zerbaiten zain nago.
+		Soilik... {0.4}gaizki aterako den zerbaiten zain nago.
 
 		[MADELINE left sad]
 		Horrek ez dio axola,{n}hemen zurekin egongo naiz.
@@ -3901,10 +3901,10 @@
 	# Old Site -> Celestial Resort
 	CH7_ASCEND_2=
 		[BADELINE right normal]
-		Lan ona izan da.
+		Lan ederra egin dugu.
 
 		[MADELINE left surprised]
-		Begira zaitez!
+		Begira zure buruari!
 
 		[MADELINE left normal]
 		{+ST_BAD}Baikortasun Andereñoa{+END_BAD} dugu hemen.
@@ -3936,7 +3936,7 @@
 		Hala da. Oldarkorregia izan zinen.
 
 		[BADELINE right angry]
-		Tira {~}zuk{/~} indar gehiegi erabili duzu azkenean{n}min emango zizuten pertsona txarrei laguntzen.
+		Tira, {~}zuk{/~} indar gehiegi erabili duzu azkenean{n}min emango zizuten pertsona txarrei laguntzen.
 
 		[MADELINE left distracted]
 		{+MROSHIRO} ez da pertsona txarra...
@@ -3946,14 +3946,14 @@
 		Zuri {*}min{/*} ematen saiatu zen!
 
 		[BADELINE right worriedAlt]
-		Eta orain ber defendatzen ari zara?
+		Eta orain bera defendatzen ari zara?
 
 		[MADELINE left distracted]
 		Ez naiz bera defendatzen ari...
 
 		[MADELINE left sad]
 		Honetan zure alde nago.{n}Ni ere berekin haserre nago.
-		Beharbada oraindik hotel horretan{n}nengoke, ez bazenu egoera behartu.
+		Beharbada oraindik hotel horretan{n}nengoke, ez baninduzu bultzatu.
 
 		[MADELINE left distracted]
 		...baina hala ere, bera ongi egotea espero dut.
@@ -3963,7 +3963,7 @@
 
 		[BADELINE right worriedAlt]
 		Ados...
-		...Sentitzen dut...
+		...sentitzen dut...
 
 		[BADELINE right worried]
 		...{+MROSHIRO}rekin zakar aritu izana.
@@ -4026,7 +4026,7 @@
 		Zer gertatzen da?
 
 		[BADELINE right worried]
-		...Nik, zera...
+		...nik, zera...
 		...
 
 		[BADELINE right worriedAlt]
@@ -4044,7 +4044,7 @@
 		[MADELINE left sad]
 		{~}Nik{/~} sentitzen dut.
 		Lehenago saiatu behar nuen zu ulertzen.
-		Harroegia, edo burugogorregia, edo {*}zerbait{/*} nintzen.
+		Harroegia, edo burugogorregia,{n}edo {*}biak batera{/*} izan naiz.
 
 		[BADELINE right worriedAlt]
 		Denbora eta indar gehiegi xahutu dugu.
@@ -4110,7 +4110,7 @@
 		Oh, ados.
 
 		[MADELINE right sad flip]
-		Eta {+MOUNTAIN} honetatik jaistean, ezin{n}izango dugu nirekin gehiago hitz egin...
+		Eta {+MOUNTAIN} honetatik jaistean, ezin{n}izango dugu elkarrekin gehiago hitz egin...
 		Horrela ez, behintzat.
 
 		[BADELINE left worried]
@@ -4128,10 +4128,10 @@
 
 		[BADELINE left upset]
 		Bai, badakit.
-		Baina zure esku egongo da entzungo didazun edo ez.
+		Baina zure esku egongo da entzungo didazun edo ez...
 
 		[BADELINE left worried]
-		...eta ezin izango dizudala aurrez-aurre hitz egin.
+		...eta ezin izango dizut aurrez-aurre hitz egin.
 
 		[BADELINE left worriedAlt]
 		Ni... ezin naiz nintzenera itzuli.
@@ -4139,10 +4139,10 @@
 
 		[MADELINE right sad flip]
 		Lasai, ni ere ezin naiz lehengo horretara itzuli.
-		Hemendik aurrera elkarrekin lan egin dezagun nahi dut.
+		Hemendik aurrera elkarrekin{n}lan egin dezagun nahi dut.
 
 		[BADELINE left upset]
-		Sinesten dizut.
+		Sinesten dizut...
 
 		[BADELINE left worriedAlt]
 		...baina hala ere urduri nago.
@@ -4150,7 +4150,7 @@
 		{trigger 0 Wait a bit}
 		
 		[BADELINE left upset]
-		So... now what?
+		Eta... orain zer?
 
 		[MADELINE right distracted flip]
 		...
@@ -4173,13 +4173,13 @@
 
 	CH7_CSIDE_OLDLADY=
 		[GRANNY right normal]
-		Bukatu dela sinestea ere zaila da, ezta?
+		Bukatu dunala sinestea ere zaila dun, eztun?
 
 		[GRANNY right laugh]
-		Bitxia da nola lotzen gaituzten zailtasunek.
+		Bitxia dun zailtasunek nola elkartzen gaitizten.
 
 		[GRANNY right normal]
-		Zure burua zainduko duzunaren promesa egidazu, ados?
+		Hire burua zainduko dunanaren promesa egidan, ados?
 
 	CH7_CSIDE_OLDLADY_B=
 		[GRANNY right normal]
@@ -4203,7 +4203,7 @@
 		Sinestezina izan da.
 
 		[GRANNY right normal]
-		Polita, ezta?
+		Polita, eztun?
 
 		[BADELINE left upset]
 		Ez nuen uste merezi izango zuenik...
@@ -4226,7 +4226,7 @@
 		Txoritxo batek esan dit hemen festa zegoela.
 
 		[OSHIRO left sidehappy]
-		{+thought}Txoritxo bidez bertaratzea baieztatu, positiboki magikoa!{+endthought}
+		{+thought}Txoritxo bidez bertaratzea baieztatu,{n}positiboki magikoa!{+endthought}
 
 		[OSHIRO left drama]
 		Baina ez banaiz ongi etorria, alde egingo dut.
@@ -4235,20 +4235,20 @@
 		Zaude mesedez, {+MROSHIRO}.
 
 		[MADELINE right normal]
-		Pozten nau zu ikusteak.
+		Pozten naiz zu ikusteaz.
 
 		{trigger 2 Oshiro settles in}
 
 		[GRANNY left normal]
-		Ba'kizu, hau da zure hotel horretatik{n}kanpo ikusten zaitudan lehenengo aldia, {+OSHIRO}.
-		Pozten naiz.
-		Hementxe dugu {+MADELINE} bildu dituen marrubi{n}guztiekin guretzako tarta bat egiten
+		Ba'kik, hau duk hire hotel horretatik{n}kanpo ikusten haudan lehenengo aldia, {+OSHIRO}.
+		Pozten nauk.
+		Hementxe diagu {+MADELINE} bildu dizkian marrubi{n}guztiekin guretzako tarta bat egiten
 
 		[OSHIRO left normal]
 		Oh, hori zoragarria da, {+MS_MADELINE}.
 
 		[THEO right normal]
-		Haurra nintzenetik ez dut{# F94A4A}marrubi tartarik{#} jan.
+		Haurra nintzenetik ez dut {# F94A4A}marrubi tartarik{#} jan.
 
 		[THEO right excited]
 		Hau izugarria izango da!
@@ -4267,7 +4267,7 @@
 		{trigger 3 Maddy Turns}
 
 		[MADELINE right sad]
-		Ezin dizuet esan espero duzuena bezain ona izango denik, {+THEO}.
+		Ezin dizuet esan espero duzuena{n}bezain ona izango denik, {+THEO}.
 
 		[MADELINE right normal]
 		Baina nire onena emango dut.
@@ -4285,15 +4285,15 @@
 		Hau txantxaren bat da, {+MS_MADELINE}?
 
 		[GRANNY left normal]
-		Marrubi tartek normalean{n}marrubiak izaten dituzte, maitea.
+		Marrubi tartek normalean{n}marrubiak izaten dizkinate, maitea.
 
 	EP_PIE_GROSSED_OUT=
 		[THEO left wtf]
-		{+MADELINE}, izugarri eskertzen dizut guretzat tarta egin izana...
+		{+MADELINE}, izugarri eskertzen dizut{n}guretzat tarta egin izana...
 		Baina ez dut uste hau jan dezakedanik.
 
 		[GRANNY left normal]
-		Intentzioa da balio duena.
+		Intentzioa dun balio dinana.
 
 		[BADELINE left angry]
 		Zuek ezin duzue janari ona gozatu.
@@ -4316,15 +4316,15 @@
 		Tira, oso ona dago.
 
 		[GRANNY left normal]
-		Okerragoak ere jan ditut.
+		Okerragoak ere jan dizkinat.
 
 		[THEO left normal]
 		Eskerrik asko tartagatik, {+MADELINE}.
 
 	EP_PIE_REALLY_GOOD=
 		[GRANNY left normal]
-		Harrituta naukazu!
-		Hartutako lanak merezi izan du.
+		Harrituta naukan!
+		Hartutako lanak merezi izan din.
 
 		[BADELINE left normal]
 		Ez dago txarra.
@@ -4353,8 +4353,8 @@
 		Tira. Esan egia.
 
 		[GRANNY left normal]
-		Arrazoia du, maitea.
-		Zoragarri dago.
+		Arrazoia dun, maitea.
+		Zoragarri zagon.
 
 		[OSHIRO left normal]
 		Benetan bikaina da, {+MS_MADELINE}.
@@ -4377,12 +4377,12 @@
 	APP_OLDLADY_A=
 		[GRANNY right normal]
 		Kaixo, txiki!
-		Pozten naiz zu berriz ikusteaz.
+		Pozten naun hi berriz ikusteaz.
 
 		{trigger 0}
 
 		[GRANNY right normal flip]
-		Hementxe dago telefonoz aipatu{n}nizun kobazuloa.
+		Hementxe zagon telefonoz aipatu{n}ninan kobazuloa.
 		
 		{silent_trigger 1}
 		
@@ -4393,19 +4393,19 @@
 		Zer da leku hau?
 
 		[GRANNY right normal]
-		Pasabide honek {+MOUNTAIN}aren erdiraino garamatza.
-		Hona itzuli eta sakonago{n}esploratu nahi zenuela esan zenuen...
+		Pasabide honek {+MOUNTAIN}aren erdiraino garamatzan.
+		Hona itzuli eta sakonago{n}esploratu nahi hunala esan hunan...
 
 		{trigger 0 start laughing}
 
 		[GRANNY right laugh]
-		Ezin da hau baino sakonago joan!
+		Ezin dun hau baino sakonago joan!
 
 		{trigger 1 stop laughing}
 
 		[GRANNY right normal]
 		Kontuz ibili.
-		Botereak modu desberdinean eragingo dizu{n}{+MOUNTAIN} honen bihotzera hurbildu ahala.
+		Botereak modu desberdinean eragingo din{n}{+MOUNTAIN} honen bihotzera hurbildu ahala.
 
 		[MADELINE left sad]
 		Bai, hasia naiz dagoeneko zerbait sumatzen...
@@ -4415,7 +4415,7 @@
 
 	APP_OLDLADY_C=
 		[GRANNY right normal]
-		Non dago beste {+PART_OF_YOU} hori?
+		Non zagon {# d678db}{~}hire beste zati{/~}{#} hori?
 
 		[MADELINE left sad]
 		Ez dakit... dagoeneko agertua behar zuen.
@@ -4426,24 +4426,24 @@
 		[GRANNY right normal]
 		Edo agian elkarrekin hazi zarete.
 		Agian orain ez da erraza{n}{+MOUNTAIN}arentzat zuek banatzea.
-		Moduren batean zurekin jarraitzen duela apustu egingo nuke.
+		Moduren batean hirekin jarraitzen{n}dinala apustu egingo niken.
 
 		[MADELINE left normal]
 		Gustuko dut teoria hori.
 
 		[MADELINE left distracted]
-		Baina oraindik berarekin hitz egiteko aukera izan nahi nuke.
+		Baina oraindik berarekin hitz{n}egiteko aukera izan nahi nuke.
 
 	APP_OLDLADY_D=
 		[GRANNY right normal]
-		Egoten al zara oraindik {+THEO}rekin?
+		Egoten al haiz oraindik {+THEO}rekin?
 
 		[MADELINE left normal]
 		Bai, uda Vancouver-en pasa du.
 		Elkartu eta egun ederra pasa genuen elkarrekin.
 
 		[GRANNY right normal]
-		Zertan dabil gaur egun?
+		Zertan zebilen gaur egun?
 
 		[MADELINE left normal]
 		Familiarekin Californiara itzuli da.
@@ -4453,7 +4453,7 @@
 		Gogorra dirudi, baina bertan egon{n}nahi du arrebaren sostengu gisa.
 
 		[GRANNY right normal]
-		Gazte zoragarria dirudi.
+		Gazte zoragarria zirudin.
 
 	APP_OLDLADY_E=
 		[MADELINE left normal]
@@ -4465,17 +4465,17 @@
 		{trigger 0 start laughing}
 
 		[GRANNY right laugh]
-		Nire kasuan, horiek oso zaharrak dira.
+		Nire kasuan, horiek oso zaharrak ditun.
 
 		{trigger 1 end laughing}
 
 		[GRANNY right normal]
-		Ez naiz gaztetzen ari, hori ziur.
-		Egun batzuetan, argia piztuta{n}mantentze hutsak xahutzen dit indar guztia.
-		Baina {+MOUNTAIN}ak zorrotz mantentzan nau oraindik.
+		Ez naun gaztetzen ari, hori ziur.
+		Egun batzuetan, argia piztuta{n}mantentze hutsak xahutzen zidan indar guztia.
+		Baina {+MOUNTAIN}ak zorrotz mantentzan nain oraindik.
 
 		[GRANNY right mock]
-		Ez nago mamua bakarrik uzteko prest oraindik.
+		Ez nagon mamua bakarrik uzteko prest oraindik.
 
 		[MADELINE left normal]
 		Ez nuen zugandik gutxiago espero.
@@ -4489,24 +4489,24 @@
 		Badago barrurako beste biderik?
 
 		[GRANNY right normal]
-		Ez dut uste, maitea.
+		Ez dinat uste, maitea.
 
 		[GRANNY right mock]
-		Zer uste zenuen, {+MOUNTAIN}a orain{n}gauzak errazten hasiko zela?
+		Zer uste hunan, {+MOUNTAIN}a orain{n}gauzak errazten hasiko zunala?
 
 		[GRANNY right normal]
-		Pentsatuko du oraindik ez zaudela prest.
+		Oraindik ez hagoela prest pentsatuko din.
 
 		[MADELINE left sad]
 		Ados, {+CELESTE_MOUNTAIN} {~}arraro eta magikoa{/~} izango da.
 
 		[MADELINE left upset]
-		Baina orain esaten ari zara {~}"pentsatu"{/~} ere egin dezakela?
+		Baina orain esaten ari zara{n}{~}"pentsatu"{/~} ere egin dezakela?
 
 		[GRANNY right normal]
-		Ez du zuk edo nik bezala pentsatzen.
-		Zera da... erreka batek itsasorainoko bidea pentsatzea bezala.
-		Erokeria dirudiela pentsa dezakezu.
+		Ez din hik edo nik bezala pentsatzen.
+		Zera dun... erreka batek itsasorainoko{n}bidea pentsatzea bezala.
+		Erokeria dunala pentsa dezaken.
 
 		[MADELINE left upset]
 		Badakit zuk esandakoa egia dela.
@@ -4515,9 +4515,9 @@
 		Eta nola sinetsaraziko diot prest nagoela?
 
 		[GRANNY right normal]
-		Nik jakingo banu.
-		Ibilitakoa desegin, eta benetan arreta jarriko nuke.
-		{+CELESTE_MOUNTAIN}ak gehigo izango du zuri irakasteko.
+		Nik jakingo banikenan.
+		Ibilitakoa desegin, eta arreta jarriko niken.
+		{+CELESTE_MOUNTAIN}ak gehigo izango din hiri irakasteko.
 
 	APP_ENDING=
 		...hau al da?
@@ -4996,11 +4996,11 @@
 		
 		[GRANNY right normal]
 		Eta?
-		Horrek ez zaitu gelditu honaino etortzeko bidean.
-		Aurkitu nauzu azkenean, eta {~}orain{/~}{n}kezkatzen zaitu ametsa izateak?
+		Horrek ez hau gelditu honaino etortzeko bidean.
+		Aurkitu naun azkenean, eta hau{n}ametsa izateak {~}orain{/~}{n} kezkatzen hau?
 		
 		[GRANNY right mock]
-		Utzi aitzakiak eta esadazu{n}esan behar duzuna.
+		Utzi aitzakiak eta esadan{n}esan behar dunana.
 		
 		[MADELINE left sad]
 		...
@@ -5014,7 +5014,7 @@
 		{silent_trigger 0 laugh}
 
 		[GRANNY right laugh]
-		Heh, hori ezaguna zait.
+		Heh, hori ezaguna dinat.
 		
 		[MADELINE left upset]
 		...
@@ -5022,12 +5022,12 @@
 		{silent_trigger 1 stop laughing}
 		
 		[GRANNY right normal]
-		Tira, zer inporta zait niri nor joan zen gauza hortara?
+		Tira, zer inporta zaidan niri{n}nor joan zunan gauza hortara?
 
 		{silent_trigger 0 laugh}
 
 		[GRANNY right laugh]
-		Hilda nago!
+		Hilda nagon!
 
 		{silent_trigger 1 stop laughing}
 
