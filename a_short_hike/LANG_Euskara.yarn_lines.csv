@@ -105,7 +105,7 @@ line:c4bfc9,ba al zenekien...,did you know...,,Original,KidStart
 line:89c5de,<color=red>korrika zabiltzala {{JumpButton}} eutsita</color>\n airean planeatuko duzula?!?,you can <color=red>hold {{JumpButton}} while running</color>\nto glide through the air?!?,,Original,KidStart
 line:63f4be,jakina!,of course!,,Player,KidStart
 line:bc1f77,mundu guztiak daki hori,everyone knows that,,Player,KidStart
-line:59da5d,zergatik galdetzen duzu?,why do you ask?,,Player,KidStart
+line:59da5d,zergatik galdetu didazu?,why do you ask?,,Player,KidStart
 line:11dc70,eztakit,i dunno,,Original,KidStart
 line:8d1f3a,jakin nahi zenuenaren\nsentipen bat izan dut,i just had a feeling\nyou might want to know,,Original,KidStart
 line:5f1cb6,hm,um,,Player,KidStart
@@ -258,7 +258,7 @@ line:811e78,lehentxeago <color=red>mutil bat</color> etorri da\neta gelditzen ze
 line:a6297a,osteratxo bat\negitera joango zen!,he must be going\non some hike!,,Original,BuyFeatherStart
 line:8cdf8a,"noski, hementxe duzu!","sure, here ya go!",If the player buys a feather from them.,Original,BuyFeatherStart
 line:069cfe,hauek dira ditugun\nluma guztiak,that's actually all\nthe feathers we have,After the player buys the last feather.,Original,BuyFeatherStart
-line:4e8558,lehentxeago <color=red>mutil ba</color> etorri da\neta gelditzen zen guztia\neraman du,<color=red>a boy</color> came by earlier\nand bought most our\nremaining stock,,Original,BuyFeatherStart
+line:4e8558,lehentxeago <color=red>mutil bat</color> etorri da\neta gelditzen zen guztia\neraman du,<color=red>a boy</color> came by earlier\nand bought most our\nremaining stock,,Original,BuyFeatherStart
 line:d958fc,beste nonbait bilatu\nbeharko dituzu,you'll have to find\nmore elsewhere,,Original,BuyFeatherStart
 line:5fda34,barkatu!,sorry!,,Original,BuyFeatherStart
 line:522b92,noski! 40 txanpon izango dira,sure! that'll be 40 coins,"If the player tries to buy, but doesn't have money.",Original,BuyFeatherStart
@@ -273,11 +273,11 @@ line:16706a,"<sprite name=""UpArrow"" tint=1> Bisitari Zentroa\n<sprite tint=1 n
 line:81143b,"Sid Hondartza <sprite tint=1 name=""RightArrow"">\n<sprite tint=1 name=""DownArrow""> Shirley-ren Lurmuturra","Sid Beach <sprite tint=1 name=""RightArrow"">\n<sprite tint=1 name=""DownArrow""> Shirley's Point",,Original,VistorCenterCrossroadsStart
 line:eb7a43,"<sprite name=""UpArrow"" tint=1> Basobeltz Bidea\n<sprite name=""LeftArrow"" tint=1> Belatz Tontor Bidea","<sprite name=""UpArrow"" tint=1> Blackwood Trail\n<sprite name=""LeftArrow"" tint=1> Hawk Peak Trail",,Original,KioskSignStart
 line:1024d7,"<sprite name=""DownArrow"" tint=1> Bisitari Zentroa\nHondartza Zuri Bidea <sprite name=""RightArrow"" tint=1>","<sprite name=""DownArrow"" tint=1> Visitor Center\nWhite Beach Trail <sprite name=""RightArrow"" tint=1>",,Original,KioskSignStart
-line:4957ee,"<sprite name=""UpArrow"" tint=1> Belatz Tontor Bidea\n<sprite name=""UpArrow"" tint=1> Erreka On Bidaxka","<sprite name=""UpArrow"" tint=1> Hawk Peak Trail\n<sprite name=""UpArrow"" tint=1> Good Creek Path",,Original,HawkPeakRiverSignStart
+line:4957ee,"<sprite name=""UpArrow"" tint=1> Belatz Tontor Bidea\n<sprite name=""UpArrow"" tint=1> Erreka On Bidexka","<sprite name=""UpArrow"" tint=1> Hawk Peak Trail\n<sprite name=""UpArrow"" tint=1> Good Creek Path",,Original,HawkPeakRiverSignStart
 line:628d3d,"<sprite name=""LeftArrow"" tint=1> Errege Muino\nBasobeltz Bidea <sprite name=""RightArrow"" tint=1>","<sprite name=""LeftArrow"" tint=1> Royal Ridge\nBlackwood Trail <sprite name=""RightArrow"" tint=1>",,Original,HawkPeakRiverSignStart
-line:326ae7,"<sprite name=""UpArrow"" tint=1> Belatz Tontor Bidea\n<sprite name=""UpArrow"" tint=1> Erreka On Bidaxka","<sprite name=""UpArrow"" tint=1> Hawk Peak Trail\n<sprite name=""UpArrow"" tint=1> Good Creek Path",,Original,RoyalRidgeSignStart
+line:326ae7,"<sprite name=""UpArrow"" tint=1> Belatz Tontor Bidea\n<sprite name=""UpArrow"" tint=1> Erreka On Bidexka","<sprite name=""UpArrow"" tint=1> Hawk Peak Trail\n<sprite name=""UpArrow"" tint=1> Good Creek Path",,Original,RoyalRidgeSignStart
 line:ede0b0,"<sprite name=""DownArrow"" tint=1> Basobeltz Bidea\n<sprite name=""LeftArrow"" tint=1> Errege Muino","<sprite name=""DownArrow"" tint=1> Blackwood Trail\n<sprite name=""LeftArrow"" tint=1> Royal Ridge",,Original,RoyalRidgeSignStart
-line:b2763c,"<sprite name=""UpArrow"" tint=1> Belatz Tontor Bidea\n<sprite name=""DownArrow"" tint=1> Erreka On Bidaxka\nMeteoro Lakua <sprite name=""RightArrow"" tint=1>","<sprite name=""UpArrow"" tint=1> Hawk Peak Trail\n<sprite name=""DownArrow"" tint=1> Good Creek Path\nMeteor Lake <sprite name=""RightArrow"" tint=1>",,Original,FireTowerSnowSignStart
+line:b2763c,"<sprite name=""UpArrow"" tint=1> Belatz Tontor Bidea\n<sprite name=""DownArrow"" tint=1> Erreka On Bidexka\nMeteoro Lakua <sprite name=""RightArrow"" tint=1>","<sprite name=""UpArrow"" tint=1> Hawk Peak Trail\n<sprite name=""DownArrow"" tint=1> Good Creek Path\nMeteor Lake <sprite name=""RightArrow"" tint=1>",,Original,FireTowerSnowSignStart
 line:e9a55c,"<sprite name=""UpArrow"" tint=1> Belatz Tontor Bidea","<sprite name=""UpArrow"" tint=1> Hawk Peak Trail",,Original,HawkPeakSignStart
 line:4da2e1,Bide hau osatzeko <color=yellow>7 Urrezko Luma</color>\nbehar dira gutxienez,At least <color=yellow>7 Golden Feathers</color> are\nrequired to complete this hike.,,Original,HawkPeakSignStart
 line:12ab30,Txangozale hasiberriek gehiago erabili beharko lukete,Novice hikers should consider using more.,,Original,HawkPeakSignStart
@@ -362,7 +362,7 @@ line:cd0ade,bai horixe!,"haha, i suppose so!",,Original,BuyMerchStart
 line:a2c392,utzi azaltzen nola funtzionatzen duten!,let me explain how they work!,The first time a player buys a golden feather.,Original,ExplainGoldenFeather
 line:be6485,"airean zaudela <color=red>{{JumpButton}}</color> sakatzen\nbaduzu, zure hegalak mugi ditzakezu\njauzi bikoitza eginez!","if you press <color=red>{{JumpButton}}</color> while\nin midair, you can flap your\nwings for a double jump!",,Original,ExplainGoldenFeather
 line:ef3fcb,baina hori ez da dena!,but that's not all!,,Original,ExplainGoldenFeather
-line:c6d6ba,"pareta bat eskalatzeko, bere kontra jarri eta <color=red>eutsi {{JumpButton}}</color>","to climb a wall, push against it and <color=red>hold {{JumpButton}}</color>",,Original,ExplainGoldenFeather
+line:c6d6ba,"pareta bat eskalatzeko, bere kontra jarri\neta <color=red>eutsi {{JumpButton}}</color>","to climb a wall, push against it and <color=red>hold {{JumpButton}}</color>",,Original,ExplainGoldenFeather
 line:4577c7,"zenbat eta urrezko luma gehiago\nizan, orduan eta gehiago\neskalatu eta hegan egiteko\ngai izango zara","the more golden feathers you\nhave, the more you'll be able\nto climb and fly",,Original,ExplainGoldenFeather
 line:a6796e,ongi pasa hor kanpoan!,have fun out there!,,Original,ExplainGoldenFeather
 line:bb7420,kaxo!,heyo!,This is a dog character who is hiking on the west side of the mountain.,Original,HikingUp
@@ -388,8 +388,8 @@ line:10254b,"bo, ikusiko dugu elkar!","well, see ya around!",If the player decli
 line:d68d22,dorrera itzuliko naiz,i'm heading back up to the tower,If the dog already reached the top and is heading back up.,Original,HikingUp
 line:be5ef3,ariketa egin beharrean nago,i gotta get that exercise in,,Original,HikingUp
 line:ae00f9,ikusiko dugu elkar!,see ya around!,,Original,HikingUp
-line:4f2346,Erreka On Bidaxka oso polita da,Good Creek Path is really pretty,If the player talks to the dog before they've reached the top.,Original,HikingUp
-line:632631,"aspaldi, Harbord Muinorako\nsahiesbidea egon ohi zen","a long time ago, it used to\nbranch off to Harbord Ridge",,Original,HikingUp
+line:4f2346,Erreka On Bidexka oso polita da,Good Creek Path is really pretty,If the player talks to the dog before they've reached the top.,Original,HikingUp
+line:632631,"aspaldi, Harbord Muinorako\nsaihesbidea egon ohi zen","a long time ago, it used to\nbranch off to Harbord Ridge",,Original,HikingUp
 line:0f34a2,baina bidezidorra euri-ekaitz\nbatean hondatu zen eta\nseinaleak kendu zituzten,but the path was damaged in\na rainstorm and they took\nthe signs down,,Original,HikingUp
 line:55a2ef,a zer egun polita!,what a pretty day!,If the player talks to the dog before they've reached the top again.,Original,HikingUp
 line:66b8b5,kaxo!,heyo!,If the player talks to the dog first while they're heading down.,Original,HikingDown
@@ -466,7 +466,7 @@ line:897458,begira hau guztia!,look at all this!,,Original,AtTopOfHike
 line:b7f3ce,EPIKOA da,it's EPIC,,Original,AtTopOfHike
 line:39c3b6,"ikusi dezakezu, ia","you can see like,",,Original,AtTopOfHike
 line:d3e4ae,irla osoa!,the whole island!,Jump to GetMapFromHiker.,Original,AtTopOfHike
-line:6bfe40,maiten dut hemen goian egotea!,i love it up here!,If you talk to the dog again at the top of the mountain.,Original,AtTopOfHike
+line:6bfe40,maite dut hemen goian egotea!,i love it up here!,If you talk to the dog again at the top of the mountain.,Original,AtTopOfHike
 line:9bcc69,...,...,,Original,AtTopOfHike
 line:103872,mokadutxoren bat ekarri\nbehar nuen.,i should have brought\nsome snacks though,,Original,AtTopOfHike
 line:c0fc37,mendi baten tontorrera\niristean...,when you get to the\ntop of a mountain...,,Original,AtTopOfHike
@@ -865,7 +865,7 @@ line:6022ce,"egia esan, dortokak eman dit","actually, the turtle gave it to me",
 line:b8eac1,eduki zenezakeela esan dit,they said you could have it,,Player,GiveRabbitHeadband
 line:1c787f,lasterketa egiteko irrikan\ndago eta ez du\nhuts egin nahi!,they're looking forward to\nthe race and didn't\nwant you to miss it!,,Player,GiveRabbitHeadband
 line:f89496,zer?!,what?!,,Original,GiveRabbitHeadband
-line:b09c25,EGITAN??,REALLY??,,Original,GiveRabbitHeadband
+line:b09c25,BENETAN??,REALLY??,,Original,GiveRabbitHeadband
 line:2db8e8,TAYLOR DORTOKA!?,TAYLOR THE TURTLE!?,,Original,GiveRabbitHeadband
 line:b15c5f,"zer da, eskualdeko txapelduna!?","they're like, the regional champion!?",,Original,GiveRabbitHeadband
 line:7e105f,buruko zinta honek eman behar du,this headband has to be like,,Original,GiveRabbitHeadband
@@ -1177,7 +1177,7 @@ line:15eb7a,turistak nonahitik datoz,tourists come from all over,,Original,Tough
 line:d047c2,eta horrela dabiltza,they're like,,Original,ToughBirdWhatDeal
 line:87fc49,"""belaatz tontooorrera noaa!""","""i'm goonnaa hike to hawwk peaak""",,Original,ToughBirdWhatDeal
 line:dc79a1,gero igo egiten dira,then they get up there,,Original,ToughBirdWhatDeal
-line:df37dd,eta benetazko ahalegina\ndela ikusi,and see that it actually\ntakes real effort,,Original,ToughBirdWhatDeal
+line:df37dd,eta benetako ahalegina\ndela ikusi,and see that it actually\ntakes real effort,,Original,ToughBirdWhatDeal
 line:65f61c,eta amore ematen dute,and then they give up,,Original,ToughBirdWhatDeal
 line:8e3aa9,ene bada!,geez,,Player,ToughBirdWhatDeal
 line:d4abe7,ez duzu zertan izan,you don't have to be,,Player,ToughBirdWhatDeal
@@ -1756,7 +1756,7 @@ line:6c5cfa,lehenbizi zure zure makila hartu behar duzu!,you need to equip your 
 line:e99927,ONGI PREST HASI!!!,OK READY SET GO!!!,,Original,VolleyballGameStart
 line:e7e466,MAKILA hartu behar duzu!!,you need to equip the STICK!!,If you don't have the stick equipped.,Original,VolleyballGameMain
 line:f20676,...,...,,Original,VolleyballGameMain
-line:b88e3a,ez naiz berriz jokatuko\npikotza berriro ekartzen baduzu...,i'm not gonna play if you're\ngonna use the pickaxe again...,If you break the ball with the pickaxe.,Original,VolleyballGameMain
+line:b88e3a,ez naiz berriz jokatuko\npikotxa berriro ekartzen baduzu...,i'm not gonna play if you're\ngonna use the pickaxe again...,If you break the ball with the pickaxe.,Original,VolleyballGameMain
 line:515e71,EGON PREST HASI!!!,OK READY SET GO!!!,,Original,VolleyballGameMain
 line:365ee6,ONGI GOAAZEEN!!!,OK HERE WE GO!!!,,Original,VolleyballGameMain
 line:e67793,BAI EGIN DEZAGUN!!!,OK LET'S DO THIS!!!,,Original,VolleyballGameMain
@@ -1885,7 +1885,7 @@ line:14c2f7,zer iruditzen zaizu itsasargi lasterketa hori?,so how about that lig
 line:268687,kaxo!,heyo!,,Original,LighthouseRaceIntro
 line:45f6f6,itsasargira errebantxa nahi duzu?,you wanna rematch to the lighthouse?,,Original,LighthouseRaceIntro
 line:ab370b,oh egia esan,oh actually,,Original,BeginRace
-line:a54eab,<color=red>korrikarako zapatilla</color> pare bat\nlortu beharko duzu,you might want to find\na pair of <color=red>running shoes</color>,,Original,BeginRace
+line:a54eab,<color=red>korrikarako zapatila</color> pare bat\nlortu beharko duzu,you might want to find\na pair of <color=red>running shoes</color>,,Original,BeginRace
 line:803b99,nahiko erabakigarriak\ndira korrika ongi egiteko!,they're pretty crucial to\ngood running technique!,,Original,BeginRace
 line:123690,"lasterka egingo dut, hala ere!",i'll race anyway!,Dialogue choice.,Player,BeginRace
 line:93490f,"itxaron, ez dio axola","wait, nevermind",Dialogue choice.,Player,BeginRace
@@ -2142,7 +2142,7 @@ line:4dde16,azkenean neurria\nhartuko diozu,you'll get the hang\nof it eventuall
 line:a1f06c,berezkoa duzu,yer a natural,"If you didn't, they'll say this.",Original,FisherTalk
 line:e15e41,ez dakit ba nik!,i don't feel like one!,,Player,FisherTalk
 line:f5e703,iepe!,howdy!,,Original,FishBuyerStart
-line:f86c61,ba al da arrairik?,got any fish?,,Original,FishBuyerStart
+line:f86c61,ba al da arrainik?,got any fish?,,Original,FishBuyerStart
 line:5f8ba4,orain ez!,not right now!,,Player,FishBuyerStart
 line:3272ea,iepe,howdy,,Original,FishBuyerStart
 line:1aa413,kaixo!,hi!,,Player,FishBuyerStart
@@ -2157,7 +2157,7 @@ line:f34e5d,gaurko lana bukatzeko\nirrikan nago,i can't wait to\nbe done today,,
 line:344b05,txanda amaitzen zaidanean,when my shift's over,,Original,FishBuyerStart
 line:c78884,arrain arraroren\nbaten bila egongo naiz!,i'll be out catchin'\nme some rare fish!,,Original,FishBuyerStart
 line:b1ae1b,"nire zaletasuna da, ikusten","it's my hobby, ya see",,Original,FishBuyerStart
-line:ffc7e7,zuk zeuk arrairen bat\nsareztatzen baduzu...,if you happen to net\nsome fish yourself...,,Original,FishBuyerStart
+line:ffc7e7,zuk zeuk arrainen bat\nsareztatzen baduzu...,if you happen to net\nsome fish yourself...,,Original,FishBuyerStart
 line:80b8d1,...ekarri niri eta trukean\ntxanpona emango dizut!,...bring them to me and\ni'll trade ya coin!,,Original,FishBuyerStart
 line:498ec5,arrain batzuk harrapatu ditut!,i caught some fish already!,If you already have some fish.,Player,FishBuyerStart
 line:e58d91,oh?,oh?,,Original,FishBuyerStart
@@ -2311,7 +2311,7 @@ line:f415cc,<color=red>itsasargia</color> non dagoen jakin nahi nuke...,i wonder
 line:be93a4,kaixo!,hi!,Meeting avery after seeing the sign.,Player,AveryIntroduction
 line:c41913,avery zara?,are you avery?,,Player,AveryIntroduction
 line:c5cb9e,BAI!,YES!,,Original,AveryIntroduction
-line:f330be,halaze naiz!!,that's me!!,,Original,AveryIntroduction
+line:f330be,halaxe naiz!!,that's me!!,,Original,AveryIntroduction
 line:57672b,nire iragarkia irakurri duzu?,did you read my ad?,,Original,AveryIntroduction
 line:b6a40c,kartela?,the sign?,,Player,AveryIntroduction
 line:d7faa0,bai,yeah,,Player,AveryIntroduction
@@ -2387,7 +2387,7 @@ line:cf5a2d,hmm!,hmm!,If you try to race before having enough feathers.,Original
 line:1a01ba,lasterketa hau hasi baino lehenago\nluma gehiago beharko dituzu beharbada,you might want to find more feathers\nbefore trying this race,,Original,ConsiderFeathersRace
 line:d65056,haiek gabe aurrera jarraitzea\nzaila izan liteke!,it might be hard to keep\nup without them!,,Original,ConsiderFeathersRace
 line:34ba2d,lasterka egingo dut hala ere!,i'll race anyway!,Dialogue choice.,Player,ConsiderFeathersRace
-line:dbe9d2,"itxaron, ez dio axola","wait, nevermind",Dialogue choice.,Player,ConsiderFeathersRace
+line:dbe9d2,"itxaron, beste batean hobeto","wait, nevermind",Dialogue choice.,Player,ConsiderFeathersRace
 line:270726,ados,alrighty,,Original,ConsiderFeathersRace
 line:842f68,egin dezagun!,lets do this!,,Original,ConsiderFeathersRace
 line:8023cb,gehiago aurkitu arte itxarongo dizut!,i'll wait until you find more!,,Original,ConsiderFeathersRace
@@ -3063,7 +3063,7 @@ Ezohiko arrainak modu berezian erakartzen ditu.","A fishing rod that's apparentl
 Rare fish seem to be strangely drawn to it.",Item description.,,
 IHeadband,Buruko zinta,Headband,Item name singular.,,
 ISHeadband,Buruko zinta,Headbands,Item name plural.,,
-IDHeadband,"Dordokaren buruko zinta da.
+IDHeadband,"Dortokaren buruko zinta da.
 Kirolerako dirudi.","It's the turtle's headband.
 Looks sporty.",Item description.,,
 IHighRes,Mugikorra,Cellphone,Item name singular.,,
@@ -3086,10 +3086,10 @@ ISParkHat,Probintzia Parkeko Txapela,Provincial Park Hats,Item name plural.,,
 IDParkHat,"Itxuroso eta erabilgarria!
 ""Zaindu gure Probintzia Parkeak!"" dio.","Stylish and practical!
 It says ""Support Our Provincial Parks!"" on it.",Item description.,,
-IPickaxe,Pikotza,Pickaxe,Item name singular.,,
-ISPickaxe,Pikotz,Pickaxes,Item name plural.,,
-IDPickaxe,"Pikotz sendoa.
-Gauza puskatzeko balio dezake.","A sturdy pickaxe.
+IPickaxe,Pikotxa,Pickaxe,Item name singular.,,
+ISPickaxe,Pikotx,Pickaxes,Item name plural.,,
+IDPickaxe,"Pikotx sendoa.
+Gauzak puskatzeko balio dezake.","A sturdy pickaxe.
 It might be able to break things.",Item description.,,
 IRunningShoes,Lasterketarako Zapatila parea,Running Shoes,Item name singular.,,
 ISRunningShoes,Lasterketarako Zapatila pareak,Pairs of Running Shoes,Item name plural.,,
@@ -3101,7 +3101,7 @@ ISShell,Maskor,Shells,Item name plural.,,
 IDShell,"Eguzkitan dirdira egiten du,
 gainontzekoan nahiko aspergarria da.","It sparkles in the sun,
 but is otherwise pretty boring.",Item description.,,
-IShellNecklace,Maskor Lepoko,Shell Necklace,Item name singular.,,
+IShellNecklace,Maskor Lepokoa,Shell Necklace,Item name singular.,,
 ISShellNecklace,Maskor Lepokoa,Shell Necklaces,Item name plural.,,
 IDShellNecklace,"Maskor Lepoko polita da. Izeba
 May-ri eramango diodala uste dut.","It's a pretty shell necklace. I'm
@@ -3154,7 +3154,7 @@ ISWatch,Eskumuturreko erloju,Wristwatches,Item name plural.,,
 IDWatch,"Pantaila digital eta analogia ditu, eta
 atzealdean telefono zenbaki bat du.","It's got a digital and analog display, and
 has a phone number written on the back.",Item description.,,
-FBluegillFish,Zakatzurdin,Bluegill,Fish name.,,
+FBluegillFish,Zakatzurdina,Bluegill,Fish name.,,
 FIBluegillFish,"Hauetako bat ia harrapatu nuen
 irlaren hegoaldean dagoen badia
 txiki batean.","I almost caught one of these
@@ -3187,7 +3187,7 @@ FIPumpkinSeedFish,"Lirioak dituen putzu txikian
 bakarrik ikusi izan ditut.","I've only seen them in that
 little pond with the lilies.",,,
 FRainbowTroutFish,Ortzadar Amuarraina,Rainbow Trout,,,
-FIRainbowTroutFish,"Normalean ur sakoenta
+FIRainbowTroutFish,"Normalean ur sakonetan
 ibiltzen da.","Usually found in
 deep blue waters.",,,
 FSpottedBrookTroutFish,Erreka-amuarrain orbainduna,Spotted Brook Trout,,,
