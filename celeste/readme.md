@@ -10,4 +10,4 @@ Dagokizun sistema eragileran exekutagarria deskargatu:
 
 Fitxategiak ongi kopiatu badira, jokoan hizkuntza aldatzeko aukeren artean agertuko da Euskara.
 
-![](menua.png)
+![](irudiak/menua.png)
