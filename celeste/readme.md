@@ -1,10 +1,13 @@
 # CELESTE euskaraz
 
-Ondorengo fitxategiak kopiatu:
+Dagokizun sistema eragileran exekutagarria deskargatu:
 
-* `euskara.png` fitxategia jokoaren instalazio direktorioan dagoen `/Content/Dialog/Icons` direktorio barruan.
-* `euskara.txt` fitxategia jokoaren instalazio direktorioan dagoen `/Content/Dialog/` direktorio barruan.
+* [Linux](./instalatzailea/celeste_euskaraz_linux) edo [Windows](./instalatzailea/celeste_euskaraz.exe)
+* Exekutatu eta jokoaren instalazio direktorioa bilatuko du.
+  * Aurkitzen badu, bertan instalatzeko proposatuko dizu.
+  * Ez badu aurkitzen, zuk bilatzeko eskatuko dizu.
+* Jokoa non instalatuta dagoen dakienean, programak itzulpena instalatuko du.
 
-Fitxategia ongi kopiatu bada, jokoan hizkuntza aldatzeko aukeren artean agertuko da Euskara
+Fitxategiak ongi kopiatu badira, jokoan hizkuntza aldatzeko aukeren artean agertuko da Euskara.
 
 ![](menua.png)
