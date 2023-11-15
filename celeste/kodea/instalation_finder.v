@@ -1,9 +1,12 @@
 import os
+import ui
+import gx
 import dialog
 
 [heap]
 struct App {
 mut:
+	window       &ui.Window = unsafe { nil }
 	install_path string
 	message      string
 }
@@ -16,25 +19,103 @@ fn main() {
 		app.install_path = get_gog_path(game_names())
 	}
 
+	$if linux {
+		app.window = ui.window(
+			width: 500
+			height: 300
+			title: '[${game_names()[0]}] euskaratzen'
+			children: [
+				ui.column(
+					width: 200
+					spacing: 13
+					margin: ui.Margin{10, 10, 10, 10}
+					children: [
+						ui.label(
+							text: '[${game_names()[0]}] jokoa euskaratzeko instalatzailea.'
+							justify: ui.center_left
+						),
+						ui.label(
+							text: 'Ondorengo bidean aurkitu da instalazioa, egiaztatu zuzena ote den.'
+							justify: ui.center_left
+						),
+						ui.row(
+							spacing: 13
+							children: [
+								ui.textbox(
+									width: 400
+									placeholder: 'Ez da instalaziorik aurkitu, idatzi zuk mesedez'
+									text: &app.install_path
+								),
+								ui.button(
+									text: 'Bilatu'
+									bg_color: gx.light_gray
+									radius: 5
+									border_color: gx.gray
+									on_click: app.find_click
+								),
+							]
+						),
+						ui.button(
+							text: 'Instalatu'
+							bg_color: gx.light_gray
+							radius: 5
+							border_color: gx.gray
+							on_click: app.install_click
+						),
+						ui.textbox(
+							text: &app.message
+							width: 480
+							height: 150
+							is_multiline: true
+							is_wordwrap: true
+							read_only: true
+							TextBoxStyleParams: ui.TextBoxStyleParams{
+								text_color: gx.blue
+							}
+							justify: ui.center_left
+						),
+					]
+				),
+			]
+		)
+		ui.run(app.window)
+	} $else {
+		if app.install_path == '' {
+			dialog.message('Adierazi [${game_names()[0]}] jokoaren instalazio direktorioa, faborez.')
+			app.find_path()
+		}
+		app.do_install(true)
+	}
+}
+
+fn (mut app App) find_click(btn &ui.Button) {
+	app.find_path()
+}
+
+fn (mut app App) find_path() {
+	selected_dir, _ := dialog.open_dir(path: app.install_path) or {
+		dialog.message('Ez duzu direktoriorik aukeratu, ez da itzulpena instalatuko.')
+		exit(1)
+	}
+	app.install_path = selected_dir
+}
+
+fn (mut app App) install_click(btn &ui.Button) {
+	app.do_install(false)
+}
+
+fn (mut app App) do_install(ask bool) {
 	if app.install_path == '' {
-		if !dialog.message('Ez da [${game_names()[0]}] jokoaren instalazio karpetarik aurkitu. Bilatuko duzu zuk, faborez?',
+		dialog.message('Adierazi [${game_names()[0]}] jokoaren instalazio direktorioa, faborez.')
+		return
+	}
+	if ask {
+		if !dialog.message('[${game_names()[0]}] jokoaren euskaratzea hemen instalatu nahi duzu? [${app.install_path}]',
 			buttons: .yes_no
 		) {
 			return
 		}
-		selected_dir, _ := dialog.open_dir() or {
-			dialog.message('Ez duzu direktoriorik aukeratu, ez da itzulpena instalatuko.')
-			exit(1)
-		}
-		app.install_path = selected_dir
 	}
-
-	if !dialog.message('[${game_names()[0]}] jokoaren itzulpena instalatuko da, ados? Instalazio direktorioa: ${app.install_path}',
-		buttons: .yes_no
-	) {
-		return
-	}
-
 	app.install_translation()
 }
 
