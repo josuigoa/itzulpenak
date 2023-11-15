@@ -140,8 +140,8 @@
 	PICO8_UNLOCKED=			Orain Menu Nagusitik joka dezakezu
 	PICO8_PAUSE_TITLE=		ETENDA
 	PICO8_PAUSE_CONTINUE=	Jarraitu
-	PICO8_PAUSE_RESTART=	Reset PICO-8
-	PICO8_PAUSE_QUIT=		Irten PICO-8
+	PICO8_PAUSE_RESTART=	Berriz hasi PICO-8n
+	PICO8_PAUSE_QUIT=		Irten PICO-8tik
 
 # FILE MENU
 	FILE_DEFAULT=		Madeline
@@ -463,7 +463,7 @@
 	THOUGHT=			{# 696a6a}{~}(
 	ENDTHOUGHT=			){/~}{#}
 	MOUNTAIN=			{# 96EFFF}mendi{#}
-	CELESTE_MOUNTAIN=	{# 96EFFF}Celeste Mendia{#}
+	CELESTE_MOUNTAIN=	{# 96EFFF}Celeste Mendi{#}
 	PART_OF_ME=			{# d678db}{~}nire zati{/~}{#}
 	PART_OF_YOU=		{# d678db}{~}zure zati{/~}{#}
 	ST_BAD=				{# d678db}{~}
@@ -527,7 +527,7 @@
 		{silent_trigger 5 Ominous zoom-in}
 
 		[GRANNY left normal]
-		Baina jakin behar huke,{n}{+CELESTE_MOUNTAIN} leku arraroa dun.
+		Baina jakin behar huke,{n}{+CELESTE_MOUNTAIN}a leku arraroa dun.
 
 		[GRANNY left creepA]
 		Gauzak ikus ditzaken.
@@ -842,7 +842,7 @@
 		Kontaidazu.
 		
 		[MADELINE_PHONE left sad]
-		{+celeste_mountain}n gora noa.{n}Ispilu zahar bat aurkitu dut, puskatu egin da,{n}baina nire zati batek alde egin du, eta...
+		{+celeste_mountain}an gora noa.{n}Ispilu zahar bat aurkitu dut, puskatu egin da,{n}baina nire zati batek alde egin du, eta...
 
 		[MADELINE_PHONE left upset]
 		...
@@ -3184,7 +3184,7 @@
 		Gauza asko!
 
 		[THEO left normal]
-		Berez, beregatik ezagutzen dut{n}{+CELESTE_MOUNTAIN}.
+		Berez, beregatik ezagutzen dut{n}{+CELESTE_MOUNTAIN}a.
 		Beti zioen leku honek bizitza aldatu ziola.
 
 		[THEO left thinking]
@@ -3595,7 +3595,7 @@
 
 		[GRANNY right normal]
 		Hala dun, ez dun txantxetako kontua.
-		{+CELESTE_MOUNTAIN} sendatzeko lekua dun, maitea.
+		{+CELESTE_MOUNTAIN}a sendatzeko lekua dun, maitea.
 		Sendatzeko lehenengo pausua{n}arazoari aurre egitea dun.
 		Inoiz ez dun erraza.
 
@@ -4498,7 +4498,7 @@
 		Oraindik ez hagoela prest pentsatuko din.
 
 		[MADELINE left sad]
-		Ados, {+CELESTE_MOUNTAIN} {~}arraro eta magikoa{/~} izango da.
+		Ados, {+CELESTE_MOUNTAIN}a {~}arraro eta magikoa{/~} izango da.
 
 		[MADELINE left upset]
 		Baina orain esaten ari zara{n}{~}"pentsatu"{/~} ere egin dezakela?
@@ -4530,7 +4530,7 @@
 		[MADELINE left sad]
 		{+GRANNY}...
 		[MADELINE left sadder]
-		Ezin dut sinetsi joan zarenik, atso zaharra zu.
+		Ezin dut sinetsi joan zarenik, atso zahar hori.
 
 		[MADELINE left distracted]
 		Tira,{0.2} sinetsi dezaket.
@@ -4560,7 +4560,7 @@
 		{trigger 2 Sit Down}
 
 		[MADELINE left distracted]
-		Badakit, bakarrik... ezin nuen.
+		Badakit, soilik... ezin nuen.
 
 		[MADELINE left sadder]
 		Puskatuta nengoen.
@@ -4592,7 +4592,7 @@
 		Hori baino gehiago izan {~}behar{/~} du.
 
 		[MADELINE left sad]
-		Txori hori une oro egon da ni zaintzen{n}{+MOUNTAIN}n nebilen bitartean, {+GRANNY} egin zuen bezala.
+		Txori hori une oro egon da ni zaintzen{n}{+MOUNTAIN}an nenbilen bitartean, {+GRANNY} egin zuen bezala.
 
 		[BADELINE right concerned]
 		{+MADELINE}... gorroto dut esatea, baina...
@@ -4618,7 +4618,7 @@
 		{trigger 0 Badeline turns}
 
 		[BADELINE left worried]
-		Itzuli behar zenuke.
+		Itzuli egin behar zenuke.
 
 		[MADELINE right upset]
 		Ez dugu honetaz eztabaidatzeko astirik.
@@ -4648,7 +4648,7 @@
 		Agian bueltan ekarteko moduren bat dago.
 
 		[MADELINE right sad]
-		Zerbati... egin behar dut.
+		Zerbait... egin behar dut.
 
 		[BADELINE left angryAlt]
 		...
@@ -4735,7 +4735,7 @@
 
 		[BADELINE right angry]
 		Zer da lortu nahi duzuna?
-    
+
 		{trigger 0 Madeline faces away}
 
 		[MADELINE left determined flip]
@@ -4785,7 +4785,7 @@
 		
 		[MADELINE left angry]
 		Ezin dut sinetsi betirako desagertzea nahi duzunik!
-		Beti izan zara hain {*}zeurekoia{/*}.    
+		Beti zara hain {*}zeurekoia{/*}.
 
 		[BADELINE right angry]
 		...
@@ -4849,7 +4849,7 @@
 		[MADELINE left sadder]
 		Esaidazu gutxienez...
 		Zu {+PART_OF_GRANNY}a zara, ezta?
-		Joen egin behar baduzu, ba...
+		Joan egin behar baduzu, ba...
 
 		[MADELINE left sad]
 		Eraman nazazu zurekin.
@@ -4865,7 +4865,7 @@
 		[MADELINE left angry]
 		Zaude ixilik!
 		Ezin nauzu {+MOUNTAIN}an amore ematera behartu.
-		Eta ezin nauzu {+GRANNY}ekin amore ematera behartu.
+		Eta ezin nauzu {+GRANNY}rekin amore ematera behartu.
 
 		[MADELINE left sadder]
 		{*}Alde hemendik.{/*}
@@ -4883,7 +4883,7 @@
 
 		[BADELINE right worriedAlt]
 		Nik ere {+GRANNY}ren hutsa sentizen dut.
-		Guk biok maite dugu izugarri.
+		Biok maite dugu izugarri.
 
 		[MADELINE left sad]
 		Eta orduan nola egiten zaizu hain erreza beretaz ahaztea?
@@ -4957,7 +4957,7 @@
 		Hori da! Ia kanpoan gaude.
 
 		[MADELINE left determined]
-		Egin dezagun, {+GRANNY}gatik.
+		Egin dezagun, {+GRANNY}rengatik.
 
 	CH9_LAST_ROOM_ALT=
 		[BADELINE right concerned]
@@ -5108,7 +5108,7 @@
 		Bai...
 
 		[MADELINE left distracted]
-		Azkenean onartzen hasia naiz.
+		Azkenean onartzen hasita nago.
 
 		[MADELINE left sad]
 		{+GRANNY} ezagutu nuenean,{n}zoratuta zegoela uste nuen.
@@ -5135,10 +5135,10 @@
 		Oh! Orain gogoratu dut!{n}Gauza bat erakutsi behar dizut.
 		
 		[MADELINE left normal]
-		Oh?
+		Eh?
 		
 		[WEBCAM_THEO right excited]
-		Gogoratzen nola esan nizu nire aitatxi{n}gaztetan {+CELESTE_MOUNTAIN}era joan zela?
+		Gogoratzen nola esan nizun nire aitatxi{n}gaztetan {+CELESTE_MOUNTAIN}ra joan zela?
 
 		[WEBCAM_THEO right normal]
 		Zera, {+ALEX}ekin aritu{n}nintzen bere gauza batzuk kuxkuxeatzen...
