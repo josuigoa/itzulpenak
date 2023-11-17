@@ -307,7 +307,7 @@
 
 # Postcards
 	POSTCARD_AREA_1=
-		Aukeratu etenaldi menuko {#ff1144}Gorde eta Irten{#} atsendena hartu nahi duzunean. Pantaila berera itzuliko zara batere aurrerapenik galdu gabe!
+		Aukeratu etenaldi menuko {#ff1144}Gorde eta Irten{#} atsedena hartu nahi duzunean. Pantaila berera itzuliko zara batere aurrerapenik galdu gabe!
 
 	POSTCARD_AREA_2=
 		{#ff1144}Marrubiek{#} zure lagunak harrituko dituzte, ez besterik. Jaso itzazu nahi baduzu bakarrik!
@@ -599,7 +599,7 @@
 		Tira, {+MADELINE}, leku egokira etorri zarela esango nuke!
 
 		[THEO left thinking]
-		Hotzak akabatzen ari naiz, baina ezin dut gogoeta{n}lasai baterako leku hoberik imajinatua.
+		Hotzak akabatzen ari naiz, baina ezin dut gogoeta{n}lasai baterako leku hoberik imajinatu.
 		
 		[MADELINE right sad]
 		Bai, agian zuzen zaude.
@@ -636,7 +636,7 @@
 		A zer galera, arrazoirik gabe hainbeste eraikitzea...
 
 		[THEO left normal]
-		Soberakinez goza dezkegu gutxienez.
+		Soberakinez goza dezakegu gutxienez.
 
 	CH1_THEO_D=
 		[MADELINE right normal]
