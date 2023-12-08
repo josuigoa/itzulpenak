@@ -2,7 +2,7 @@
 
 Dagokizun sistema eragileran exekutagarria deskargatu:
 
-* [Linux](./instalatzailea/celeste_euskaraz_linux), [Windows](./instalatzailea/celeste_euskaraz.exe) edo [MacOS](./instalatzailea/celeste_euskaraz_macos)
+* [Linux](./instalatzailea/celeste_euskaraz_linux), [Windows](./instalatzailea/celeste_euskaraz.exe) edo MacOS ([M1](./instalatzailea/celeste_euskaraz_macos_m1) eta [gainontzekoak](./instalatzailea/celeste_euskaraz_macos))
 * Exekutatu eta jokoaren instalazio direktorioa bilatuko du.
   * Aurkitzen badu, bertan instalatzeko proposatuko dizu.
   * Ez badu aurkitzen, zuk bilatzeko eskatuko dizu.
