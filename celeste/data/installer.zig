@@ -8,12 +8,14 @@ pub fn get_game_names() [5]utils.string {
 }
 
 pub fn install_translation(game_path: utils.string) !void {
-    const content_path = try utils.concat(&.{ game_path, "/Content/Dialog" });
-    const dialog_path = try utils.concat(&.{ content_path, "/euskara.txt" });
-    const icon_path = try utils.concat(&.{ content_path, "/Icons/euskara.png" });
+    const content_path = utils.look_for_dir(game_path, "Content") catch "";
 
-    std.debug.print("[{s}] fitxategia kopiatzen...\n", .{dialog_path});
-    const file_txt = try std.fs.cwd().createFile(dialog_path, .{});
+    const dialog_path = try utils.concat(&.{ content_path, "/Dialog" });
+    const txt_path = try utils.concat(&.{ dialog_path, "/euskara.txt" });
+    const icon_path = try utils.concat(&.{ dialog_path, "/Icons/euskara.png" });
+
+    std.debug.print("[{s}] fitxategia kopiatzen...\n", .{txt_path});
+    const file_txt = try std.fs.cwd().createFile(txt_path, .{});
     std.debug.print("[{s}] fitxategia kopiatzen...\n", .{icon_path});
     const file_png = try std.fs.cwd().createFile(icon_path, .{});
 
