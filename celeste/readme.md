@@ -8,6 +8,6 @@ Dagokizun sistema eragileran exekutagarria deskargatu:
   * Ez badu aurkitzen, zuk bilatzeko eskatuko dizu.
 * Jokoa non instalatuta dagoen dakienean, programak itzulpena instalatuko du.
 
-Fitxategiak ongi kopiatu badira, jokoan hizkuntza aldatzeko aukeren artean agertuko da Euskara.
+Instalazioa ongi joan bada, jokoan hizkuntza aldatzeko aukeren artean agertuko da Euskara.
 
 ![](irudiak/menua.png)
