@@ -1,13 +1,14 @@
 # MINIT
 
-Kopia ezazu `minit_loc.csv` fitxategia jokoaren instalazio direktorioan dagoen `assets` barruan. Lehendik dagoena gainidatzi beharko duzu.
+Dagokizun sistema eragileran exekutagarria deskargatu:
 
-Mac ordenagailuetan:
-* Exekutagarriaren gainean eskuineko botoia klikatu
-* "Paketearen edukia erakutsi" sakatu
-* "Contents/Resources" directorioan itsatsi `minit_loc.csv`
+* [Linux](./instalatzailea/minit_euskaraz_linux), [Windows](./instalatzailea/minit_euskaraz.exe) edo MacOS ([M1](./instalatzailea/minit_euskaraz_macos_m1) eta [gainontzekoak](./instalatzailea/minit_euskaraz_macos))
+* Exekutatu eta jokoaren instalazio direktorioa bilatuko du.
+  * Aurkitzen badu, bertan instalatzeko proposatuko dizu.
+  * Ez badu aurkitzen, zuk bilatzeko eskatuko dizu.
+* Jokoa non instalatuta dagoen dakienean, programak itzulpena instalatuko du.
 
-Fitxategia ongi kopiatu bada, jokoan hizkuntza aldatzeko aukeren artean agertuko da Euskara
+Instalazioa ongi joan bada, jokoan hizkuntza aldatzeko aukeren artean agertuko da Euskara.
 
 Oharra: Jokoak dakartzan hizkuntzetatik polonieraren ordez jarri dut euskara, ezin baitzen bertzerik gabe hizkuntza berri bat gehitu.
 
