@@ -20,3 +20,5 @@
   * [instalazioa](./postal/)
 * Celeste
   * [instalazioa](./celeste/)
+* Cave Story
+  * [instalazioa](./cave_story/)
