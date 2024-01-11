@@ -7,7 +7,7 @@ pub fn get_game_names() [5]utils.string {
     return [_]utils.string{ "Cave Story", "Cave Story+", "cavestory", "", "" };
 }
 
-pub fn install_translation(game_path: utils.string) !void {
+pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
     inline for (comptime_file_paths) |path| {
         const basque_path = "basque/" ++ path;
         const content = @embedFile(basque_path);
@@ -29,6 +29,8 @@ pub fn install_translation(game_path: utils.string) !void {
         _ = try w_file.write(entry.value_ptr.*);
         w_file.close();
     }
+
+    return null;
 }
 
 pub const comptime_file_paths = [_][]const u8{
