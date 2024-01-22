@@ -1,0 +1,5367 @@
+{
+	"m_GameObject": {
+		"m_FileID": 0,
+		"m_PathID": 0
+	},
+	"m_Enabled": 1,
+	"m_Script": {
+		"m_FileID": 1,
+		"m_PathID": 350
+	},
+	"m_Name": "I2Languages",
+	"mSource": {
+		"UserAgreesToHaveItOnTheScene": 0,
+		"UserAgreesToHaveItInsideThePluginsFolder": 0,
+		"GoogleLiveSyncIsUptoDate": 1,
+		"mTerms": {
+			"Array": [
+				{
+					"Term": "SIDE A",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"SIDE  A",
+							"СТОРОНА А",
+							"FACE A",
+							"A ALDEA",
+							"SEITE  A",
+							"LADO A",
+							"A面",
+							"A 사이드",
+							"A面",
+							"A面"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "SIDE B",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"SIDE  B",
+							"СТОРОНА Б",
+							"FACE B",
+							"B ALDEA",
+							"SEITE  B",
+							"LADO B",
+							"B面",
+							"B 사이드",
+							"B面",
+							"B面"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "UNLOCKED",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"UNLOCKED",
+							"ОТКРЫТО",
+							"DÉBLOQUÉ",
+							"DESBLOKEATUTA",
+							"VERFÜGBAR",
+							"DESBLOQUEADO",
+							"アンロック済み",
+							"해금됨",
+							"已解锁",
+							"已解鎖"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "COMPLETE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"COMPLETE",
+							"ПРОЙДЕНО",
+							"TERMINÉ",
+							"OSATUTA",
+							"ABSOLVIERT",
+							"CONCLUÍDO",
+							"クリア",
+							"완료",
+							"完成",
+							"完成"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "DEATHS",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"DEATHS",
+							"СМЕРТИ",
+							"MORTS",
+							"HERIOTZAK",
+							"TODE",
+							"MORTES",
+							"デス",
+							"죽은 횟수",
+							"死亡次数",
+							"死亡次數"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "TIME",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"TIME",
+							"ВРЕМЯ",
+							"TEMPS",
+							"DENBORA",
+							"ZEIT",
+							"TEMPO",
+							"タイム",
+							"소요 시간",
+							"时间",
+							"時間"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "ALBUMS",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"ALBUMS",
+							"АЛЬБОМЫ",
+							"ALBUMS",
+							"ALBUMAK",
+							"ALBEN",
+							"ÁLBUNS",
+							"アルバム",
+							"앨범",
+							"专辑",
+							"專輯"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "BREAK OUT",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Break Out",
+							"Свобода!",
+							"Exfiltration",
+							"Ihesaldia",
+							"Ausbruch",
+							"Escapar",
+							"脱出",
+							"탈출",
+							"夺门而出",
+							"奪門而出"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "BREAK IN",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Break In",
+							"Вломиться в здание",
+							"Effraction",
+							"Indarrez sartu",
+							"Einbruch",
+							"Invasão",
+							"侵入",
+							"침투",
+							"破门而入",
+							"破門而入"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "FLOOR",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Floor",
+							"Этаж",
+							"Étage",
+							"Solairua",
+							"Ebene",
+							"Andar",
+							"フロア",
+							"층",
+							"楼层",
+							"樓層"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "HIGH SCORE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"HIGH SCORE",
+							"Рекорд",
+							"Meilleur Score",
+							"Marka onena",
+							"Rekord",
+							"Recorde",
+							"ハイスコア",
+							"최고 점수",
+							"最高得分",
+							"最高得分"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "DEAD",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"DEAD",
+							"СМЕРТЬ",
+							"MORT",
+							"HILDA",
+							"TOT",
+							"MORTO",
+							"倒された",
+							"사망",
+							"死亡",
+							"死亡"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "COLLECTOR'S EDITION",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"COLLECTOR'S EDITION",
+							"КОЛЛЕКЦИОННОЕ ИЗДАНИЕ",
+							"ÉDITION COLLECTOR",
+							"BILDUMAGILE EDIZIOA",
+							"SAMMLER-EDITION",
+							"EDIÇÃO DE COLECIONADOR",
+							"コレクターズ版",
+							"콜렉터즈 에디션",
+							"典藏版",
+							"珍藏版"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "TIME LEFT",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Time Left",
+							"Осталось",
+							"Temps rest.",
+							"Bukatzeko",
+							"Restzeit",
+							"Tempo rest",
+							"残り時間",
+							"남은 시간",
+							"剩余时间",
+							"剩餘時間"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "APE OUT",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Ape Out",
+							"Ape Out",
+							"Ape Out",
+							"Ape Out",
+							"Ape Out",
+							"Ape Out",
+							"Ape Out",
+							"에이프 아웃",
+							"怒猿逃生",
+							"怒猿逃生"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "SPECIAL EDITION",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Special Edition",
+							"Специальное издание",
+							"Édition Spéciale",
+							"Edizio Berezia",
+							"Special Edition",
+							"Edição Especial",
+							"スペシャル版",
+							"스페셜 에디션",
+							"特制版",
+							"特別版"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "LOADING",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Loading",
+							"Загрузка",
+							"Chargement",
+							"Kargatzen",
+							"Laden ...",
+							"Carregando",
+							"ロード中",
+							"불러오는 중",
+							"载入中",
+							"載入中"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "LOADING SCORES",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"LOADING SCORES",
+							"ЗАГРУЗКА РЕЗУЛЬТАТОВ",
+							"CHARGEMENT DES SCORES",
+							"PUNTUAZIOAK KARGATZEN",
+							"LADE TABELLE",
+							"CARREGANDO PONTUAÇÕES",
+							"スコアをロード中",
+							"점수 불러오는 중",
+							"加载分数中",
+							"載入分數中"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "DISTANCE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Distance",
+							"Расстояние",
+							"Distance",
+							"Distantzia",
+							"Distanz",
+							"Distância",
+							"距離",
+							"거리",
+							"距离",
+							"距離"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "SCORE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Score",
+							"Результат",
+							"Marka",
+							"Puntuak",
+							"Punkte",
+							"Pontuação",
+							"スコア",
+							"점수",
+							"分数",
+							"分數"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "KILLS",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Kills",
+							"Убийства",
+							"Tués",
+							"hildakoak",
+							"Getötet",
+							"Mortos",
+							"キル",
+							"킬",
+							"击杀",
+							"擊殺"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "NAME",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Name",
+							"Имя",
+							"Nom",
+							"Izena",
+							"Name",
+							"Nome",
+							"名前",
+							"이름",
+							"姓名",
+							"姓名"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "FRIENDS",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Friends",
+							"Друзья",
+							"Amis",
+							"Lagunak",
+							"Freunde",
+							"Amigos",
+							"フレンド",
+							"친구",
+							"好友",
+							"好友"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "TODAY",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Today",
+							"За сегодня",
+							"Jour",
+							"Gaur",
+							"Heute",
+							"Hoje",
+							"今日",
+							"오늘",
+							"今日榜单",
+							"今日榜單"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "THIS WEEK",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"This Week",
+							"За неделю",
+							"Semaine",
+							"Aste honetan",
+							"Woche",
+							"Esta semana",
+							"今週",
+							"이번 주",
+							"本周榜单",
+							"本周榜單"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "ALL TIME",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"All Time",
+							"За все время",
+							"Général",
+							"Betitik",
+							"Gesamt",
+							"Geral",
+							"全期間",
+							"전체",
+							"所有榜单",
+							"所有榜單"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "GLOBAL",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Global",
+							"Весь мир",
+							"Tous",
+							"Orokorra",
+							"Weltweit",
+							"Global",
+							"グローバル",
+							"글로벌",
+							"全球榜单",
+							"全球榜單"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "ApeOutv9",
+					"TermType": 1,
+					"Languages": {
+						"Array": [
+							"ApeOutv9",
+							"ApeOutv9",
+							"ApeOutv9",
+							"ApeOutv9",
+							"ApeOutv9",
+							"ApeOutv9",
+							"ApeOutJapanese",
+							"ApeOutKorean",
+							"ApeOutChinese",
+							"ApeOutChinese"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "MyFontMat",
+					"TermType": 6,
+					"Languages": {
+						"Array": [
+							"ApeOutWigglyFontMat",
+							"ApeOutWigglyFontMat",
+							"ApeOutWigglyFontMat",
+							"ApeOutWigglyFontMat",
+							"ApeOutWigglyFontMat",
+							"ApeOutWigglyFontMat",
+							"ApeOutJapaneseWigglyFontMat",
+							"ApeOutKoreanWigglyFontMat",
+							"ApeOutChineseWigglyFontMat",
+							"ApeOutChineseWigglyFontMat"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "CLEAR",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Clear",
+							"Готово",
+							"Fini",
+							"Eginda",
+							"OK",
+							"Zerado",
+							"クリア",
+							"클리어",
+							"通关",
+							"通關"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "TypeFourWF",
+					"TermType": 1,
+					"Languages": {
+						"Array": [
+							"TypeFourWF",
+							"Type4Russian",
+							"Type4Russian",
+							"Type4Russian",
+							"Type4Russian",
+							"Type4Russian",
+							"TypeFourJapanese",
+							"TypeFourKorean",
+							"TypeFourChinese",
+							"TypeFourChinese"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "SuperClarendon",
+					"TermType": 1,
+					"Languages": {
+						"Array": [
+							"SuperClarendon",
+							"SuperClarendon",
+							"SuperClarendon",
+							"SuperClarendon",
+							"SuperClarendon",
+							"SuperClarendon",
+							"ClarendonJapanese",
+							"ClarendonKorean",
+							"ClarendonChinese",
+							"ClarendonChinese"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "ClarendonMat",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "NewsGothicStd-Bold",
+					"TermType": 1,
+					"Languages": {
+						"Array": [
+							"NewsGothicStd-Bold",
+							"NewsGothicRussianBold",
+							"NewsGothicStd-Bold",
+							"NewsGothicStd-Bold",
+							"NewsGothicStd-Bold",
+							"NewsGothicStd-Bold",
+							"NewsGothicJapanese",
+							"NewsGothicKorean",
+							"NewsGothicChinese",
+							"NewsGothicChinese"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "DISC ONE:",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Disc One:",
+							"диска 1:",
+							"ALBUM 1:",
+							"1. DISKOA:",
+							"DISC EINS:",
+							"DISCO 1:",
+							"ディスク1:",
+							"첫 번째 디스크:",
+							"碟片一 ：",
+							"光碟一："
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "ClarendonWiggle",
+					"TermType": 6,
+					"Languages": {
+						"Array": [
+							"ClarendonWiggleMat",
+							"ClarendonWiggleMat",
+							"ClarendonWiggleMat",
+							"ClarendonWiggleMat",
+							"ClarendonWiggleMat",
+							"ClarendonWiggleMat",
+							"ClarendonJapaneseWiggleMat",
+							"ClarendonKoreanWiggleMat",
+							"ClarendonChineseWiggleMat",
+							"ClarendonChineseWiggleMat"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "TypeFourWiggle",
+					"TermType": 6,
+					"Languages": {
+						"Array": [
+							"TypeFourWiggleFont",
+							"TypeFourRussianWiggleFont",
+							"TypeFourRussianWiggleFont",
+							"TypeFourRussianWiggleFont",
+							"TypeFourRussianWiggleFont",
+							"TypeFourRussianWiggleFont",
+							"TypeFourJapaneseWiggleFont",
+							"TypeFourKoreanWiggleFontMat",
+							"TypeFourChineseWiggleFontMat 1",
+							"TypeFourChineseWiggleFontMat 1"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "NewsGothicWiggle",
+					"TermType": 6,
+					"Languages": {
+						"Array": [
+							"NewsGothicWiggle",
+							"NewsGothicRussianWiggle",
+							"NewsGothicWiggle",
+							"NewsGothicWiggle",
+							"NewsGothicWiggle",
+							"NewsGothicWiggle",
+							"NewsGothicJapaneseWiggle",
+							"NewsGothicKoreanWiggle",
+							"NewsGothicChineseWiggle",
+							"NewsGothicChineseWiggle"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "DISC ONE ARCADE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"DISC ONE ARCADE",
+							"АРКАДА ДИСКА 1",
+							"ALBUM 1 ARCADE ",
+							"1. ARKADE DISKOA",
+							"DISC EINS ARKADE\n",
+							"DISCO 1 ARCADE",
+							"ディスク1 アーケード",
+							"첫 번째 디스크 아케이드 ",
+							"碟片一 街机模式",
+							"光碟一 街機模式"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "DISC TWO ARCADE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Disc Two Arcade",
+							"АРКАДА ДИСКА 2",
+							"ALBUM 2 ARCADE ",
+							"2. ARKADE DISKOA",
+							"DISC ZWEI ARKADE\n",
+							"DISCO 2 ARCADE",
+							"ディスク2 アーケード",
+							"두 번째 디스크 아케이드 ",
+							"碟片二 街机模式",
+							"光碟二 街機模式"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "DISC THREE ARCADE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Disc Three Arcade",
+							"АРКАДА ДИСКА 3",
+							"ALBUM 3 ARCADE ",
+							"3. ARKADE DISKOA",
+							"DISC DREI ARKADE\n",
+							"DISCO 3 ARCADE ",
+							"ディスク3 アーケード ",
+							"세 번째 디스크 아케이드 ",
+							"碟片三 街机模式",
+							"光碟三 街機模式"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "DISC FOUR ARCADE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Disc Four Arcade",
+							"АРКАДА ДИСКА 4",
+							"ALBUM 4 ARCADE ",
+							"4. ARKADE DISKOA",
+							"DISC VIER ARKADE\n",
+							"DISCO 4 ARCADE",
+							"ディスク4 アーケード ",
+							"네 번째 디스크 아케이드 ",
+							"碟片四 街机模式",
+							"光碟四 街機模式"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "LANGUAGE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Language",
+							"Язык",
+							"Langue",
+							"Hizkuntza",
+							"Sprache",
+							"Idioma",
+							"言語",
+							"언어",
+							"语言",
+							"語言"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "ENGLISH",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"ENGLISh",
+							"Русский",
+							"Français",
+							"Euskara",
+							"Deutsch",
+							"Português",
+							"日本語",
+							"한국어",
+							"汉语",
+							"汉语"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "SINGLE END",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Single End",
+							"Конец сингла",
+							"Single terminé",
+							"Single bukaera",
+							"Single Ende",
+							"Final do Single",
+							"シングルの終わり",
+							"싱글 끝",
+							"单曲结尾",
+							"單曲結尾"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "RIGHT STICK",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Right Stick",
+							"Правый стик",
+							"Stick droit",
+							"Eskuin Sticka",
+							"Rechter Stick",
+							"RS",
+							"右スティック",
+							"오른쪽 스틱",
+							"右摇杆",
+							"右搖桿"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "AIM",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Aim",
+							"ПРИЦЕЛ",
+							"VISER",
+							"APUNTATU",
+							"ZIELEN",
+							"MIRAR",
+							"狙う",
+							"조준",
+							"瞄准",
+							"瞄準"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "DISC 1 END",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"DISC ONE END",
+							"Конец диска 1",
+							"Fin de l'Album 1",
+							"1. Diskoa bukatuta",
+							"Disc Eins Ende",
+							"Final do Disco 1",
+							"ディスク1の終わり",
+							"첫 번째 디스크 끝",
+							"碟片一结尾",
+							"光碟一結尾"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "DISC TWO END",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Disc Two End",
+							"Конец диска 2",
+							"Fin de l'Album 2",
+							"2. Diskoa bukatuta",
+							"Disc Zwei Ende",
+							"Final do Disco 2",
+							"ディスク2の終わり",
+							"두 번째 디스크 끝",
+							"碟片二结尾",
+							"光碟二結尾"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "BEST TIME",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Best Time",
+							"Рекорд",
+							"Record",
+							"Denbo onena",
+							"Bestzeit",
+							"Menos tempo",
+							"ベストタイム",
+							"최고 기록",
+							"最佳时长",
+							"最佳時長"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "DISC 3 END",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Disc Three End",
+							"Конец диска 3",
+							"Fin de l'Album 3",
+							"3. Diskoa bukatuta",
+							"Disc Drei Ende",
+							"Final do Disco 3",
+							"ディスク3の終わり",
+							"세 번째 디스크 끝",
+							"碟片三结尾",
+							"光碟三結尾"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "DISC 4 END",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Disc Four End",
+							"Конец диска 4",
+							"Fin de l'Album 4",
+							"4. Diskoa bukatuta",
+							"Disc Vier Ende",
+							"Final do Disco 4",
+							"ディスク4の終わり",
+							"네 번째 디스크 끝",
+							"碟片四结尾",
+							"光碟四結尾"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "SCREENSHAKE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"SCREENSHAKE",
+							"Дрожание экрана",
+							"Tremblements écran",
+							"Pantaila dardara",
+							"Bildbeben",
+							"Tela tremendo",
+							"画面の揺れ",
+							"화면 흔들림",
+							"屏幕抖动",
+							""
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "REASSIGN KEYS",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"REASSIGN KEYS",
+							"Переназначить клавиши",
+							"Réassigner les touches",
+							"Teklak birdefinitu",
+							"Tasten umbelegen",
+							"Reatribuir teclas",
+							"キー割当",
+							"키 할당",
+							"重设键位",
+							""
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "UP",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"UP",
+							"Вверх",
+							"Haut",
+							"Gora",
+							"Hoch",
+							"Para cima",
+							"上",
+							"상",
+							"上",
+							"上"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "DOWN",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"DOWN",
+							"Вниз",
+							"Bas",
+							"Behera",
+							"Runter",
+							"Para baixo",
+							"下",
+							"하",
+							"下",
+							"下"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "LEFT",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"LEFT",
+							"Влево",
+							"Gauche",
+							"Ezker",
+							"Links",
+							"Para esquerda",
+							"左",
+							"좌",
+							"左",
+							"左"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "RIGHT",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"RIGHT",
+							"Вправо",
+							"Droite",
+							"Eskuin",
+							"Rechts",
+							"Para direita",
+							"右",
+							"우",
+							"右",
+							"右"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "PUSH",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"PUSH",
+							"Толкать",
+							"Pousser",
+							"Bultza",
+							"Drücke",
+							"Empurrar",
+							"押す",
+							"누르기",
+							"推",
+							"推"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "ON",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"ON",
+							"Вкл",
+							"On",
+							"On",
+							"Ein",
+							"Sim",
+							"オン",
+							"켜기",
+							"开启",
+							""
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "OFF",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"OFF",
+							"Выкл",
+							"Off",
+							"Off",
+							"Aus",
+							"Não",
+							"オフ",
+							"끄기",
+							"关闭",
+							""
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Tutorial text/GRAB",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"GRAB",
+							"СХВАТИТЬ",
+							"ATTRAPER",
+							"HELDU",
+							"GREIFEN",
+							"PEGAR",
+							"つかむ",
+							"잡기",
+							"抓握",
+							"抓握"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Tutorial text/LEFT TRIGGER",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"LEFT TRIGGER[i2s_NinSwitch]ZL Button",
+							"ЛЕВЫЙ ТРИГГЕР[i2s_NinSwitch]кнопка ZL",
+							"GÂCHETTE GAUCHE[i2s_NinSwitch]bouton ZL",
+							"Ezker Katua[i2s_NinSwitch]ZL Botoia",
+							"LINKER TRIGGER[i2s_NinSwitch]ZL-Taste",
+							"GATILHO ESQ.[i2s_NinSwitch]botão ZL",
+							"左トリガー[i2s_NinSwitch]ZLボタン",
+							"왼쪽 트리거[i2s_NinSwitch]\rZL 버튼",
+							"LT键[i2s_NinSwitch]\rZL按钮",
+							"LT鍵[i2s_NinSwitch]\rZL按钮"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Tutorial text/RIGHT CLICK",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"RIGHT CLICK",
+							"ПКМ",
+							"CLIC DROIT",
+							"ESKUIN KLIK",
+							"RECHTSKLICK",
+							"CLIQUE DIREITO",
+							"右クリック",
+							"오른쪽 클릭",
+							"右键",
+							"右鍵"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Tutorial text/RIGHT TRIGGER",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"RIGHT\nTRIGGER[i2s_NinSwitch]ZR Button",
+							"ПРАВЫЙ\nТРИГГЕР[i2s_NinSwitch]кнопка ZR",
+							"GÂCHETTE\nDROITE[i2s_NinSwitch]bouton ZR",
+							"ESKUIN\nKATUA[i2s_NinSwitch]ZR Botoia",
+							"RECHTER\nTRIGGER[i2s_NinSwitch]ZR-Taste",
+							"GATILHO\nESQUERDO[i2s_NinSwitch]botão ZR",
+							"右トリガー[i2s_NinSwitch]ZRボタン",
+							"왼쪽\n트리거[i2s_NinSwitch]\rZR 버튼",
+							"RT键[i2s_NinSwitch]\rZR按钮",
+							"RT鍵[i2s_NinSwitch]ZR按鈕"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Tutorial text/LEFT STICK",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"LEFT\nSTICK",
+							"ЛЕВЫЙ\nСТИК[i2s_NinSwitch]ЛЕВЫЙ\r\nМИНИ-ДЖОЙСТИК",
+							"STICK\nGAUCHE",
+							"EZKER\nSTICKa",
+							"LINKER\nSTICK",
+							"LS[i2s_NinSwitch]MANÍPULO\nESQUERDO",
+							"左スティック[i2s_NinSwitch]Lスティック",
+							"왼쪽\n스틱",
+							"左摇杆",
+							"左搖杆"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Tutorial text/LEFT CLICK",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"LEFT\nCLICK",
+							"ЛКМ",
+							"CLIC\nGAUCHE",
+							"EZKER\nKLIK",
+							"LINKS\nKLICK",
+							"CLIQUE\nESQ.",
+							"左クリック",
+							"왼쪽\n클릭",
+							"左键",
+							"左鍵"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Tutorial text/WASD",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"WASD",
+							"WASD",
+							"WASD",
+							"WASD",
+							"WASD",
+							"WASD",
+							"WASD",
+							"WASD",
+							"WASD",
+							"WASD"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Arcade Bonuses/UNSCATHED",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"UNSCATHED",
+							"НИ ЦАРАПИНЫ",
+							"INDEMNE",
+							"MINIK EZ",
+							"UNVERLETZT",
+							"ILESO",
+							"ノーダメージ",
+							"상처 하나 없음",
+							"毫发无损",
+							"毫髮無傷"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Arcade Bonuses/NO SURVIVORS",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"NO SURVIVORS",
+							"ВЫЖИВШИХ НЕТ",
+							"AUCUN SURVIVANT",
+							"TRISKANTZA",
+							"KEINE ZEUGEN",
+							"CHACINA",
+							"全滅",
+							"한 명도 남김없이 학살",
+							"无人生还",
+							"無人生還"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Arcade Bonuses/PACIFIST",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Pacifist",
+							"Пацифист",
+							"Pacifiste",
+							"Bakezalea",
+							"Pazifist",
+							"Pacifista",
+							"平和主義",
+							"평화주의자",
+							"慈悲为怀",
+							"慈悲為懷"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/PRESS",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"PRESS",
+							"НАЖМИТЕ",
+							"APPUYER SUR",
+							"SAKATU",
+							"DRÜCKE",
+							"APERTE",
+							"はじめる：",
+							"을(를) 누르시오",
+							"按",
+							"按"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/START",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"START",
+							"START",
+							"COMMENCER",
+							"HASI",
+							"START",
+							"INICIAR",
+							"スタート",
+							"시작",
+							"开始",
+							"開始"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/PLAY",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"PLAY",
+							"ИГРА",
+							"JOUER",
+							"JOSTATU",
+							"SPIELEN",
+							"JOGAR",
+							"プレイ",
+							"플레이",
+							"进行游戏",
+							"進行遊戲"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/QUIT",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"QUIT",
+							"ВЫЙТИ",
+							"QUITTER",
+							"IRTEN",
+							"BEENDEN",
+							"SAIR",
+							"終了",
+							"종료",
+							"退出",
+							"退出"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/OPTIONS",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"OPTIONS",
+							"НАСТРОЙКИ",
+							"OPTIONS",
+							"AUKERAK",
+							"OPTIONEN",
+							"OPÇÕES",
+							"設定",
+							"옵션",
+							"选项",
+							"選項"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/RES",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Resolution",
+							"Разрешение",
+							"Rés",
+							"Bereizmena",
+							"Auflösung",
+							"Res",
+							"解像度",
+							"해상도",
+							"分辨率",
+							"解析度"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/VOL",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Volume",
+							"Громкость",
+							"Volume",
+							"Bolumena",
+							"Lautstärke",
+							"Volume",
+							"音量",
+							"음량",
+							"音量",
+							"音量"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/RUMBLE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Rumble",
+							"Вибрация",
+							"Vibrations",
+							"Dardara",
+							"Vibration",
+							"Vibração",
+							"振動[i2s_NinSwitch]HD振動",
+							"진동",
+							"重低音",
+							"重低音"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/APPLY",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Apply",
+							"Применить",
+							"Appliquer",
+							"Onartu",
+							"Anwenden",
+							"Aplicar",
+							"適用",
+							"적용",
+							"应用",
+							"應用"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/CANCEL",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"CANCEL",
+							"ОТМЕНА",
+							"ANNULER",
+							"EZEZTATU",
+							"ABBRECHEN",
+							"CANCELAR",
+							"キャンセル",
+							"취소",
+							"取消",
+							"取消"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/FULL",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"FULLSCREEN",
+							"ПОЛНЫЙ ЭКРАН",
+							"PLEIN ÉCRAN",
+							"PANTAILA OSOA",
+							"VOLLBILD",
+							"TELA CHEIA",
+							"全画面",
+							"전체화면",
+							"全屏",
+							"全螢幕"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/CONTINUE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"CONTINUE",
+							"ПРОДОЛЖИТЬ",
+							"CONTINUER",
+							"JARRAITU",
+							"FORTSETZEN",
+							"CONTINUAR",
+							"つづける",
+							"이어하기",
+							"继续",
+							"繼續"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/ARCADE MODE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"ARCADE MODE",
+							"АРКАДНЫЙ РЕЖИМ",
+							"MODE ARCADE",
+							"ARKADE MODUA",
+							"ARKADEN-MODUS",
+							"MODO ARCADE",
+							"アーケードモード",
+							"아케이드 모드",
+							"街机模式",
+							"街機模式"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/BACK",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"BACK",
+							"НАЗАД",
+							"RETOUR",
+							"ATZERA",
+							"ZURÜCK",
+							"VOLTAR",
+							"戻る",
+							"뒤로",
+							"返回",
+							"返回"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/SELECT",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"SELECT",
+							"ВЫБРАТЬ",
+							"SÉLECTIONNER",
+							"AUKERATU",
+							"AUSWÄHLEN",
+							"SELECIONAR",
+							"選択",
+							"선택",
+							"选择",
+							"選擇"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/RESUME",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"RESUME",
+							"ВЕРНУТЬСЯ",
+							"REPRENDRE",
+							"JARRAITU",
+							"FORTSETZEN",
+							"CONTINUAR",
+							"再開",
+							"재개",
+							"继续",
+							"繼續"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/RESTART LEVEL",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"RESTART LEVEL",
+							"УРОВЕНЬ СНАЧАЛА",
+							"RECOMMENCER LE NIVEAU",
+							"MAILA BERRIRO HASI",
+							"LEVEL NEUSTARTEN",
+							"REINICIAR FASE",
+							"リスタート",
+							"레벨 재시작",
+							"重来",
+							"重來"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/MAIN MENU",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"MAIN MENU",
+							"ГЛАВНОЕ МЕНЮ",
+							"MENU PRINCIPAL",
+							"MENU NAGUSIA",
+							"HAUPTMENÜ",
+							"MENU PRINCIPAL",
+							"メインメニュー",
+							"메인 메뉴",
+							"主菜单",
+							"主選單"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/HARDER",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Harder",
+							"Труднее",
+							"Difficile",
+							"Gogorrago",
+							"Schwierig",
+							"Mais difícil",
+							"難しく",
+							"어렵게",
+							"难一点",
+							"難一點"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/SOFTER",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Softer",
+							"Легче",
+							"Normal",
+							"Leunago",
+							"Normal",
+							"Mais fácil",
+							"易しく",
+							"쉽게",
+							"简单点",
+							"簡單點"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/CREDITS",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"CREDITS",
+							"РАЗРАБОТЧИКИ",
+							"CRÉDITS",
+							"KREDITUAK",
+							"MITWIRKENDE",
+							"CRÉDITOS",
+							"スタッフ",
+							"크레딧",
+							"工作人员名单",
+							"工作人員名單"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/FX VOLUME",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Fx Volume",
+							"Громкость эффектов",
+							"Volume effets",
+							"Efektu bolumena",
+							"Effekt-Lautstärke",
+							"Volume de sons",
+							"効果音",
+							"효과음 음량",
+							"特效音量",
+							"特效音量"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/MUSIC VOLUME",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Music Volume",
+							"Громкость музыки",
+							"Volume musique",
+							"Musika bolumena",
+							"Musik-Lautstärke",
+							"Volume da música",
+							"音楽",
+							"음악 음량",
+							"音乐音量",
+							"音樂音量"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/YES",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"YES",
+							"ДА",
+							"OUI",
+							"BAI",
+							"JA",
+							"SIM",
+							"はい",
+							"예",
+							"是",
+							"是"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/NO",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"No",
+							"Нет",
+							"Non",
+							"Ez",
+							"Nein",
+							"Não",
+							"いいえ",
+							"아니오",
+							"否",
+							"否"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Menu/NEW GAME",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"NEW GAME",
+							"Новая игра",
+							"NOUVELLE PARTIE",
+							"PARTIDA BERRIA",
+							"NEUES SPIEL",
+							"NOVO JOGO",
+							"ニューゲーム",
+							"새로운 게임",
+							"新游戏",
+							"新遊戲"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/INTRO",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"INTRO",
+							"ВСТУПЛЕНИЕ",
+							"PROLOGUE",
+							"SARRERA",
+							"EINFÜHRUNG",
+							"INTRODUÇÃO",
+							"イントロ",
+							"서막",
+							"入门",
+							"入門"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/HEATING UP",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"HEATING UP",
+							"СТАНОВИТСЯ ЖАРКО",
+							"ÉCHAUFFEMENT",
+							"BEROKETA",
+							"HITZE",
+							"ESQUENTANDO",
+							"ヒートアップ",
+							"화끈한 폭발",
+							"气氛热烈",
+							"熱力四射"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/LONG SHADOWS",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"LONG SHADOWS",
+							"ДЛИННЫЕ ТЕНИ",
+							"OMBRES",
+							"ITZAL LUZEAK",
+							"LANGE SCHATTEN",
+							"SOMBRAS INIMIGAS",
+							"暗影",
+							"오랜 어둠",
+							"漫长黑影",
+							"暗黑詭影"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/DING",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"DING",
+							"ДЗИНЬ",
+							"DING",
+							"DILIN",
+							"BIM!",
+							"DING",
+							"到着",
+							"띵",
+							"叮咚",
+							"叮咚"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/OVER IT",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"OVER IT",
+							"ИДЕМ ДАЛЬШЕ",
+							"LE GRAND SAUT",
+							"HARATAGO",
+							"DANACH IST DAVOR",
+							"SALTO ARRISCADO",
+							"走破",
+							"저 너머로",
+							"过去吧",
+							"過去吧"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/DOWN AND OUT",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"DOWN AND OUT",
+							"НА ДНЕ",
+							"RAZ-DE-CHAUSSÉE",
+							"KALE GORRIRA",
+							"GANZ UNTEN",
+							"TÔ FORA",
+							"突破",
+							"저 아래로",
+							"平稳落地",
+							"落地逃生"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/KNOCK KNOCK",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"KNOCK KNOCK",
+							"ТУК-ТУК",
+							"DING DONG",
+							"DANBA-DANBA",
+							"KLOPF-KLOPF",
+							"TOC-TOC",
+							"解錠",
+							"똑똑",
+							"敲敲门",
+							"敲敲門"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/FALSE ALARM",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"FALSE ALARM",
+							"ЛОЖНАЯ ТРЕВОГА",
+							"ALARME",
+							"ALARMA FALTSUA",
+							"ALARM",
+							"ALARME FALSO",
+							"警報",
+							"경보 작동",
+							"虚假警报",
+							"假警報"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/POWER DOWN",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"POWER DOWN",
+							"ЭЛЕКТРИЧЕСТВА НЕТ",
+							"COUPURE DE COURANT",
+							"ITZALALDIA",
+							"LICHT AUS!",
+							"APAGÃO",
+							"停電",
+							"전력 차단",
+							"断电",
+							"斷電"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/CONCRETE JUNGLE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"CONCRETE JUNGLE",
+							"БЕТОННЫЕ ДЖУНГЛИ",
+							"JUNGLE DE BÉTON",
+							"PORLANEZKO OIHANA",
+							"BETONDSCHUNGEL",
+							"SELVA DE CONCRETO",
+							"コンクリートジャングル",
+							"콘크리트 정글",
+							"水泥丛林",
+							"水泥叢林"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/LOW PRESSURE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"LOW PRESSURE",
+							"НИЗКОЕ ДАВЛЕНИЕ",
+							"BASSE PRESSION",
+							"PRESIO BAXUA",
+							"ABSTIEG",
+							"SOB PRESSÃO",
+							"圧力低下",
+							"아랫바닥",
+							"超低压",
+							"極度低壓"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/TO THE TOP",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"TO THE TOP",
+							"НА САМЫЙ ВЕРХ",
+							"JUSQU'AU SOMMET",
+							"IGOERA",
+							"AUFSTIEG",
+							"PARA O TOPO",
+							"頂上",
+							"꼭대기를 향하여",
+							"成功登顶",
+							"成功登頂"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/FULL SWING",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"FULL SWING",
+							"РАСКАЧАЕМСЯ",
+							"RAPPEL",
+							"ERRITMO FINKOAN",
+							"SCHWUNGVOLL",
+							"COM A CORDA TODA",
+							"懸垂下降",
+							"풀스윙",
+							"全线进攻",
+							"全面進攻"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/FALL BACK",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"CIRCLE BACK",
+							"НЕ ЗАБЫТЬ!",
+							"ON SE REVOIT !",
+							"ITZULERA",
+							"WIEDERVORLAGE",
+							"O RETORNO",
+							"回帰",
+							"제자리로",
+							"往事重提",
+							"往事重提"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/ABANDON SHIP",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"abandon ship",
+							"покинуть корабль",
+							"Débarquement",
+							"ontzia utzi",
+							"von bord",
+							"abandonar o barco",
+							"下船",
+							"전원이함",
+							"弃船逃生",
+							"棄船逃生"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/CAUGHT UP",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"caught up",
+							"попалась",
+							"Allez zoo !",
+							"harrapatua",
+							"gefangen",
+							"capturado",
+							"捕獲",
+							"생포",
+							"恍如隔世",
+							"如夢初醒"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/CONTACT",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"contact",
+							"контакт",
+							"Contact",
+							"kontaktua",
+							"feindkontakt",
+							"contato",
+							"接触",
+							"교전",
+							"正面遇敌",
+							"正面交鋒"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/CROSSFIRE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"crossfire",
+							"перекрестный",
+							"Tirs croisés",
+							"su gurutzatua",
+							"kreuzfeuer",
+							"fogo cruzado",
+							"十字砲火",
+							"십자 포화",
+							"子弹横飞",
+							"槍林彈雨"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/AIM HIGH",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"AIM HIGH",
+							"ЦЕЛЬСЯ ВЫШЕ",
+							"LE FEU DU CIEL",
+							"SUA ZERUTIK",
+							"HOHE ZIELE",
+							"TIROS DO ALTO",
+							"照準",
+							"고층 저격",
+							"居高临下",
+							"高處瞄準"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/BLOW OUT",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"BLOWN OUT",
+							"УЙТИ В ОТРЫВ",
+							"FUITE DE CERVEAU",
+							"IRTERA",
+							"AUSGANG",
+							"LIBERDADE",
+							"大乱闘",
+							"격한 탈출",
+							"虎口脱险",
+							"成功逃脫"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/FIRE IN THE HOLE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"fire in the hole",
+							"сейчас рванет",
+							"Au feu !",
+							"su ta gar",
+							"feuer",
+							"pegando fogo",
+							"炎上注意",
+							"화염을 헤치고",
+							"火力全开",
+							"火力全開"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/FURY",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"fury",
+							"ярость",
+							"Furie",
+							"amorrua",
+							"hölle",
+							"fúria",
+							"憤激",
+							"격노",
+							"怒火",
+							"怒火"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/HIT THE DECK",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"hit the deck",
+							"всем на пол",
+							"À l'abordage",
+							"lurra jo",
+							"auf deck",
+							"na encolha",
+							"甲板",
+							"갑판을 박차고",
+							"抢上甲板",
+							"甲板掩護"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/HOLD FAST",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"hold fast",
+							"держись крепче",
+							"À la cale !",
+							"eutsi gogor",
+							"standfest",
+							"aguente firme",
+							"保持",
+							"선창에 붙잡혀",
+							"无法抑制",
+							"堅守"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/INCOMING",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"incoming",
+							"входящий",
+							"Bombardement",
+							"zalaparta",
+							"einschlag",
+							"bomba",
+							"着弾",
+							"적 포탄 낙하",
+							"炸弹来袭",
+							"炸彈來襲"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/NO MAN'S LAND",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"no man's land",
+							"ничейная земля",
+							"No man's land",
+							"jabegabeko lurra",
+							"niemandsland",
+							"terra de ninguém",
+							"戦場",
+							"버려진 지역",
+							"无人区",
+							"無人區"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/NO QUARTER",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"no quarter",
+							"пощады не будет",
+							"Pas de quartier",
+							"errukirik gabe",
+							"gnadenlos",
+							"resistência",
+							"無慈悲",
+							"선원실",
+							"寸步不让",
+							"寸步不讓"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/OUTRO",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"outro",
+							"эпилог",
+							"Épilogue",
+							"bukaera",
+							"finale",
+							"final",
+							"アウトロ",
+							"종막",
+							"终章",
+							"終章"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/RED ALERT",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"red alert",
+							"красная тревога",
+							"Alerte rouge",
+							"alerta gorria",
+							"roter alarm",
+							"alerta vermelho",
+							"警戒",
+							"레드얼럿",
+							"红色警戒",
+							"紅色警戒"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/ROUGH SEAS",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"rough seas",
+							"бурное море",
+							"Mer agitée",
+							"itsaso zakarra",
+							"raue see",
+							"maré violenta",
+							"波しぶき",
+							"거친 파도",
+							"怒海狂澜",
+							"驚濤駭浪"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/WRECK",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"wreck",
+							"катастрофа",
+							"Accidenté",
+							"ezbeharra",
+							"wrack",
+							"naufrágio",
+							"出会い頭",
+							"난파",
+							"一片残骸",
+							"一片殘骸"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/BURN OUT",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"BURN OUT",
+							"ВЗРЫВОПАСНО",
+							"EXPLOSIF",
+							"KISKALI",
+							"EXPLOSIV",
+							"BATALHA EXPLOSIVA",
+							"バーンアウト",
+							"뜨거운 폭발",
+							"燃烧殆尽",
+							"燃燒殆盡"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							"",
+							""
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/SUBJECT 4",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Subject 4",
+							"Субъект 4",
+							"Sujet 4",
+							"4 Subjektua",
+							"Subjekt 4",
+							"Cobaia 4",
+							"被検体4号",
+							"네 번째 실험체",
+							"4号样本",
+							"4號基地"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/HIGH RISE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"10",
+							"10",
+							"10",
+							"10",
+							"10",
+							"10",
+							"ハイライズ",
+							"10",
+							"摩天大楼",
+							"高樓大廈"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/FUGUE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Fugue",
+							"Побег",
+							"Fugue",
+							"Ihesa",
+							"Exodus",
+							"Fuga",
+							"遁走",
+							"푸가",
+							"神游军营",
+							"神遊軍營"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "Track Names/ADRIFT",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"Adrift",
+							"На плаву",
+							"À vau-l'eau",
+							"Noraezean",
+							"Treibgut",
+							"À deriva",
+							"漂流",
+							"탈출의 연속",
+							"漂泊不定",
+							"漂泊不定"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "EXCLUSIVE FULLSCREEN",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"EXCLUSIVE FULLSCREEN",
+							"Полноэкранный",
+							"Plein écran exclusif",
+							"Pantaila osoa esklusiboki",
+							"Nur Vollbild",
+							"Tela inteira exclusiva",
+							"フルスクリーン",
+							"전체화면",
+							"全屏模式",
+							""
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "FULLSCREEN WINDOW",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"FULLSCREEN WINDOW",
+							"Оконный-полноэкранный",
+							"Fenêtre en plein écran",
+							"Pantaila osoa leihoan",
+							"Vollbild-Fenster",
+							"Janela em tela inteira",
+							"フルスクリーン（ウィンドウ）",
+							"전체화면 (창)",
+							"窗口模式",
+							""
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "WINDOWED",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"WINDOWED",
+							"Оконный",
+							"Fenêtré",
+							"Leihoan",
+							"Fenster-Modus",
+							"Em janela",
+							"ウィンドウ",
+							"창모드",
+							"窗口模式",
+							""
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "EXTRA TIME",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"EXTRA TIME",
+							"Бонус за время",
+							"Temps supplémentaire",
+							"Denb extra",
+							"Zeitbonus",
+							"Tempo extra",
+							"ボーナスタイム",
+							"엑스트라 타임",
+							"额外加时",
+							""
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "FAILED TO CONNECT",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"FAILED TO CONNECT",
+							"Не удалось связаться",
+							"Échec de connexion",
+							"Errorea konektatzean",
+							"Verbindungsfehler",
+							"Falha ao conectar",
+							"接続に失敗",
+							"접속 실패",
+							"无法连接",
+							""
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "PRESS KEY",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"PRESS KEY",
+							"Нажмите клавишу",
+							"Appuyer sur une touche",
+							"Sakatu tekla",
+							"Taste drücken",
+							"Pressionar tecla",
+							"キーを押す",
+							"키를 누르시오",
+							"按键设置",
+							""
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "NEW HIGH SCORE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"NEW HIGH SCORE",
+							"Новый рекорд",
+							"Nouveau Meilleur Score",
+							"Marka berria",
+							"Neuer Rekord",
+							"Novo recorde",
+							"ハイスコア更新",
+							"새로운 최고 점수",
+							"新高分",
+							""
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "YOU SURE?",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"YOU SURE?",
+							"Вы уверены?",
+							"Êtes-vous certain ?",
+							"Ziur zaude?",
+							"Bist du sicher?",
+							"Você tem certeza?",
+							"よろしいですか？",
+							"확실합니까?",
+							"你确定吗？",
+							"你確定嗎？"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "LAPTOP MODE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"LAPTOP MODE",
+							"Режим ноутбука",
+							"Mode Ordi. portable",
+							"Eramangarri modua",
+							"Laptop-Modus",
+							"Modo Laptop",
+							"ノートPCモード",
+							"노트북 모드",
+							"笔记本模式",
+							"筆記本模式"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "HEADPHONE MODE",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"HEADPHONE MODE",
+							"Режим наушников",
+							"Mode Écouteurs",
+							"Aurikular modua",
+							"Kopfhörer-Modus",
+							"Modo Fone de Ouvido",
+							"ヘッドフォンモード",
+							"헤드폰 모드",
+							"耳机模式",
+							"耳機模式"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				},
+				{
+					"Term": "SFX VOLUME",
+					"TermType": 0,
+					"Languages": {
+						"Array": [
+							"SFX VOLUME",
+							"Громкость эффектов",
+							"Volume des effets",
+							"Efektu bolumena",
+							"Soundeffektlautstärke",
+							"Volume dos efeitos",
+							"SE音量 ",
+							"효과음 음량",
+							"音效音量",
+							"音效音量"
+						]
+					},
+					"Flags": {
+						"Array": [
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0,
+							0
+						]
+					},
+					"Languages_Touch": {
+						"Array": []
+					}
+				}
+			]
+		},
+		"CaseInsensitiveTerms": 0,
+		"OnMissingTranslation": 1,
+		"mTerm_AppName": "",
+		"mLanguages": {
+			"Array": [
+				{
+					"Name": "English",
+					"Code": "en",
+					"Flags": 0
+				},
+				{
+					"Name": "Russian",
+					"Code": "ru",
+					"Flags": 0
+				},
+				{
+					"Name": "French",
+					"Code": "fr",
+					"Flags": 0
+				},
+				{
+					"Name": "Euskara",
+					"Code": "es",
+					"Flags": 0
+				},
+				{
+					"Name": "German",
+					"Code": "de",
+					"Flags": 0
+				},
+				{
+					"Name": "Brazilian",
+					"Code": "pt-BR",
+					"Flags": 0
+				},
+				{
+					"Name": "Japanese",
+					"Code": "ja",
+					"Flags": 0
+				},
+				{
+					"Name": "Korean",
+					"Code": "ko",
+					"Flags": 0
+				},
+				{
+					"Name": "S Chinese",
+					"Code": "zh-CN",
+					"Flags": 0
+				},
+				{
+					"Name": "T Chinese",
+					"Code": "zh-TW",
+					"Flags": 0
+				}
+			]
+		},
+		"IgnoreDeviceLanguage": 0,
+		"_AllowUnloadingLanguages": 0,
+		"Google_WebServiceURL": "https://script.google.com/macros/s/AKfycbwwxiDNG1MDjCEznfiGVWJrh4wMtpebzsRRNmflrQ4QxXMVs9nL/exec",
+		"Google_SpreadsheetKey": "1CByC15pFee2ltnByUFVwrUYnCHK26GOtAmv7tvOM9NQ",
+		"Google_SpreadsheetName": "I2Loc APE OUT Localization2",
+		"Google_LastUpdatedVersion": "1540931469137",
+		"GoogleUpdateFrequency": 1,
+		"GoogleInEditorCheckFrequency": 2,
+		"GoogleUpdateSynchronization": 1,
+		"GoogleUpdateDelay": 5.0,
+		"Assets": {
+			"Array": [
+				{
+					"m_FileID": 3,
+					"m_PathID": 225
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2723
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2718
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2729
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2733
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2716
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2722
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2740
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2736
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2734
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2732
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2724
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2717
+				},
+				{
+					"m_FileID": 3,
+					"m_PathID": 220
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2725
+				},
+				{
+					"m_FileID": 3,
+					"m_PathID": 218
+				},
+				{
+					"m_FileID": 3,
+					"m_PathID": 219
+				},
+				{
+					"m_FileID": 3,
+					"m_PathID": 222
+				},
+				{
+					"m_FileID": 3,
+					"m_PathID": 223
+				},
+				{
+					"m_FileID": 3,
+					"m_PathID": 221
+				},
+				{
+					"m_FileID": 3,
+					"m_PathID": 224
+				},
+				{
+					"m_FileID": 3,
+					"m_PathID": 5
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 184
+				},
+				{
+					"m_FileID": 3,
+					"m_PathID": 2
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 3
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2721
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2730
+				},
+				{
+					"m_FileID": 3,
+					"m_PathID": 3
+				},
+				{
+					"m_FileID": 3,
+					"m_PathID": 4
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 74
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 75
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 76
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 77
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2731
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2727
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2726
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 84
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 87
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 85
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 83
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 82
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 81
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 78
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 79
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 80
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2739
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2738
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2737
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 2728
+				},
+				{
+					"m_FileID": 0,
+					"m_PathID": 86
+				}
+			]
+		}
+	}
+}

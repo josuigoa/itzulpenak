@@ -1,6 +1,7 @@
 const std = @import("std");
 const utils = @import("utils");
 const builtin = @import("builtin");
+const musika_content = @embedFile("./musika.txt");
 const i2Lang_eu = @embedFile("./I2Languages_eu_es.dat");
 const i2Lang_orig = @embedFile("./I2Languages_orig.dat");
 
@@ -11,10 +12,7 @@ pub fn get_game_names() [5]utils.string {
 pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
     const content_path = utils.look_for_dir(game_path, "ApeOut_Data") catch "";
 
-    // user profile location}\AppData\LocalLow\Gabe Cuzzillo\ApeOut\Save.json
-
     const resources_assets_path = try utils.concat(&.{ content_path, "/resources.assets" });
-    // const resources_assets_path = "/home/josu/git/itzulpenak/ape_out/steam/ApeOut_Data/resources.assets";
     const resources_assets_file = try std.fs.cwd().openFile(resources_assets_path, .{ .mode = .read_write });
     defer resources_assets_file.close();
 
@@ -50,8 +48,6 @@ pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
             ind += 1;
         }
 
-        // std.debug.print("ind {d}\n", .{ind});
-        // std.debug.print("start_ind {d}\n", .{i2Lang_index + i2Lang_orig.len});
         while (ind < i2Lang_index + i2Lang_orig.len - 3) {
             new_content[ind] = 0;
             ind += 1;
@@ -64,6 +60,11 @@ pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
 
         try resources_assets_file.seekTo(0);
         _ = try resources_assets_file.write(new_content);
+
+        const musika_path = try utils.concat(&.{ game_path, "/musika.txt" });
+        const musika_file = try std.fs.cwd().createFile(musika_path, .{});
+        _ = try musika_file.write(musika_content);
+        musika_file.close();
     } else {
         return utils.InstallerResponse{
             .title = "Ez da euskaratu",
