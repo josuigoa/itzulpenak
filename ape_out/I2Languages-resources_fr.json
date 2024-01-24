@@ -22,8 +22,8 @@
 						"Array": [
 							"SIDE  A",
 							"СТОРОНА А",
-							"FACE A",
 							"A ALDEA",
+							"CARA A",
 							"SEITE  A",
 							"LADO A",
 							"A面",
@@ -57,8 +57,8 @@
 						"Array": [
 							"SIDE  B",
 							"СТОРОНА Б",
-							"FACE B",
 							"B ALDEA",
+							"CARA B",
 							"SEITE  B",
 							"LADO B",
 							"B面",
@@ -92,8 +92,8 @@
 						"Array": [
 							"UNLOCKED",
 							"ОТКРЫТО",
-							"DÉBLOQUÉ",
 							"DESBLOKEATUTA",
+							"DESBLOQ.",
 							"VERFÜGBAR",
 							"DESBLOQUEADO",
 							"アンロック済み",
@@ -127,8 +127,8 @@
 						"Array": [
 							"COMPLETE",
 							"ПРОЙДЕНО",
-							"TERMINÉ",
 							"OSATUTA",
+							"COMPLETADO",
 							"ABSOLVIERT",
 							"CONCLUÍDO",
 							"クリア",
@@ -162,8 +162,8 @@
 						"Array": [
 							"DEATHS",
 							"СМЕРТИ",
-							"MORTS",
 							"HERIOTZAK",
+							"MUERTES",
 							"TODE",
 							"MORTES",
 							"デス",
@@ -197,8 +197,8 @@
 						"Array": [
 							"TIME",
 							"ВРЕМЯ",
-							"TEMPS",
 							"DENBORA",
+							"TIEMPO",
 							"ZEIT",
 							"TEMPO",
 							"タイム",
@@ -232,8 +232,8 @@
 						"Array": [
 							"ALBUMS",
 							"АЛЬБОМЫ",
-							"ALBUMS",
 							"ALBUMAK",
+							"ÁLBUMES",
 							"ALBEN",
 							"ÁLBUNS",
 							"アルバム",
@@ -267,8 +267,8 @@
 						"Array": [
 							"Break Out",
 							"Свобода!",
-							"Exfiltration",
 							"Ihesaldia",
+							"Tienes que salir",
 							"Ausbruch",
 							"Escapar",
 							"脱出",
@@ -302,8 +302,8 @@
 						"Array": [
 							"Break In",
 							"Вломиться в здание",
-							"Effraction",
 							"Indarrez sartu",
+							"Tienes que entrar",
 							"Einbruch",
 							"Invasão",
 							"侵入",
@@ -337,8 +337,8 @@
 						"Array": [
 							"Floor",
 							"Этаж",
-							"Étage",
 							"Solairua",
+							"Planta",
 							"Ebene",
 							"Andar",
 							"フロア",
@@ -372,8 +372,8 @@
 						"Array": [
 							"HIGH SCORE",
 							"Рекорд",
-							"Meilleur Score",
 							"Marka onena",
+							"Récord",
 							"Rekord",
 							"Recorde",
 							"ハイスコア",
@@ -407,8 +407,8 @@
 						"Array": [
 							"DEAD",
 							"СМЕРТЬ",
-							"MORT",
 							"HILDA",
+							"MUERTO",
 							"TOT",
 							"MORTO",
 							"倒された",
@@ -442,8 +442,8 @@
 						"Array": [
 							"COLLECTOR'S EDITION",
 							"КОЛЛЕКЦИОННОЕ ИЗДАНИЕ",
-							"ÉDITION COLLECTOR",
 							"BILDUMAGILE EDIZIOA",
+							"EDICIÓN COLECCIONISTA",
 							"SAMMLER-EDITION",
 							"EDIÇÃO DE COLECIONADOR",
 							"コレクターズ版",
@@ -477,8 +477,8 @@
 						"Array": [
 							"Time Left",
 							"Осталось",
-							"Temps rest.",
 							"Denb. soberan",
+							"Tiempo re.",
 							"Restzeit",
 							"Tempo rest",
 							"残り時間",
@@ -547,8 +547,8 @@
 						"Array": [
 							"Special Edition",
 							"Специальное издание",
-							"Édition Spéciale",
 							"Edizio Berezia",
+							"Edición especial",
 							"Special Edition",
 							"Edição Especial",
 							"スペシャル版",
@@ -582,8 +582,8 @@
 						"Array": [
 							"Loading",
 							"Загрузка",
-							"Chargement",
 							"Kargatzen",
+							"Cargando",
 							"Laden ...",
 							"Carregando",
 							"ロード中",
@@ -617,8 +617,8 @@
 						"Array": [
 							"LOADING SCORES",
 							"ЗАГРУЗКА РЕЗУЛЬТАТОВ",
-							"CHARGEMENT DES SCORES",
 							"PUNTUAZIOAK KARGATZEN",
+							"CARGANDO PUNTUACIONES",
 							"LADE TABELLE",
 							"CARREGANDO PONTUAÇÕES",
 							"スコアをロード中",
@@ -652,8 +652,8 @@
 						"Array": [
 							"Distance",
 							"Расстояние",
-							"Distance",
 							"Distantzia",
+							"Distancia",
 							"Distanz",
 							"Distância",
 							"距離",
@@ -687,8 +687,8 @@
 						"Array": [
 							"Score",
 							"Результат",
-							"Marka",
 							"Puntuak",
+							"Puntos",
 							"Punkte",
 							"Pontuação",
 							"スコア",
@@ -722,8 +722,8 @@
 						"Array": [
 							"Kills",
 							"Убийства",
-							"Tués",
 							"hildakoak",
+							"Bajas",
 							"Getötet",
 							"Mortos",
 							"キル",
@@ -757,8 +757,8 @@
 						"Array": [
 							"Name",
 							"Имя",
-							"Nom",
 							"Izena",
+							"Nombre",
 							"Name",
 							"Nome",
 							"名前",
@@ -792,8 +792,8 @@
 						"Array": [
 							"Friends",
 							"Друзья",
-							"Amis",
 							"Lagunak",
+							"Amigos",
 							"Freunde",
 							"Amigos",
 							"フレンド",
@@ -827,8 +827,8 @@
 						"Array": [
 							"Today",
 							"За сегодня",
-							"Jour",
 							"Gaur",
+							"Hoy",
 							"Heute",
 							"Hoje",
 							"今日",
@@ -862,8 +862,8 @@
 						"Array": [
 							"This Week",
 							"За неделю",
-							"Semaine",
 							"Aste honetan",
+							"Semanal",
 							"Woche",
 							"Esta semana",
 							"今週",
@@ -897,8 +897,8 @@
 						"Array": [
 							"All Time",
 							"За все время",
-							"Général",
 							"Betitik",
+							"Histórico",
 							"Gesamt",
 							"Geral",
 							"全期間",
@@ -932,8 +932,8 @@
 						"Array": [
 							"Global",
 							"Весь мир",
-							"Tous",
 							"Orokorra",
+							"Global",
 							"Weltweit",
 							"Global",
 							"グローバル",
@@ -1037,8 +1037,8 @@
 						"Array": [
 							"Clear",
 							"Готово",
-							"Fini",
 							"Eginda",
+							"Final",
 							"OK",
 							"Zerado",
 							"クリア",
@@ -1212,8 +1212,8 @@
 						"Array": [
 							"Disc One:",
 							"диска 1:",
-							"ALBUM 1:",
 							"1. DISKOA:",
+							"DISCO 1:",
 							"DISC EINS:",
 							"DISCO 1:",
 							"ディスク1:",
@@ -1352,8 +1352,8 @@
 						"Array": [
 							"DISC ONE ARCADE",
 							"АРКАДА ДИСКА 1",
-							"ALBUM 1 ARCADE ",
 							"1. ARKADE DISKOA",
+							"DISCO 1 ARCADE\n",
 							"DISC EINS ARKADE\n",
 							"DISCO 1 ARCADE",
 							"ディスク1 アーケード",
@@ -1387,8 +1387,8 @@
 						"Array": [
 							"Disc Two Arcade",
 							"АРКАДА ДИСКА 2",
-							"ALBUM 2 ARCADE ",
 							"2. ARKADE DISKOA",
+							"DISCO 2 ARCADE\n",
 							"DISC ZWEI ARKADE\n",
 							"DISCO 2 ARCADE",
 							"ディスク2 アーケード",
@@ -1422,8 +1422,8 @@
 						"Array": [
 							"Disc Three Arcade",
 							"АРКАДА ДИСКА 3",
-							"ALBUM 3 ARCADE ",
 							"3. ARKADE DISKOA",
+							"DISCO 3 ARCADE\n",
 							"DISC DREI ARKADE\n",
 							"DISCO 3 ARCADE ",
 							"ディスク3 アーケード ",
@@ -1457,8 +1457,8 @@
 						"Array": [
 							"Disc Four Arcade",
 							"АРКАДА ДИСКА 4",
-							"ALBUM 4 ARCADE ",
 							"4. ARKADE DISKOA",
+							"DISCO 4 ARCADE\n",
 							"DISC VIER ARKADE\n",
 							"DISCO 4 ARCADE",
 							"ディスク4 アーケード ",
@@ -1492,8 +1492,8 @@
 						"Array": [
 							"Language",
 							"Язык",
-							"Langue",
 							"Hizkuntza",
+							"Idioma",
 							"Sprache",
 							"Idioma",
 							"言語",
@@ -1527,8 +1527,8 @@
 						"Array": [
 							"ENGLISh",
 							"Русский",
-							"Français",
 							"Euskara",
+							"Español",
 							"Deutsch",
 							"Português",
 							"日本語",
@@ -1562,8 +1562,8 @@
 						"Array": [
 							"Single End",
 							"Конец сингла",
-							"Single terminé",
 							"Single bukaera",
+							"Fin del single",
 							"Single Ende",
 							"Final do Single",
 							"シングルの終わり",
@@ -1597,8 +1597,8 @@
 						"Array": [
 							"Right Stick",
 							"Правый стик",
-							"Stick droit",
 							"Eskuin Sticka",
+							"Stick derecho",
 							"Rechter Stick",
 							"RS",
 							"右スティック",
@@ -1632,8 +1632,8 @@
 						"Array": [
 							"Aim",
 							"ПРИЦЕЛ",
-							"VISER",
 							"APUNTATU",
+							"APUNTAR",
 							"ZIELEN",
 							"MIRAR",
 							"狙う",
@@ -1667,8 +1667,8 @@
 						"Array": [
 							"DISC ONE END",
 							"Конец диска 1",
-							"Fin de l'Album 1",
 							"1. Diskoa bukatuta",
+							"Fin del disco 1",
 							"Disc Eins Ende",
 							"Final do Disco 1",
 							"ディスク1の終わり",
@@ -1702,8 +1702,8 @@
 						"Array": [
 							"Disc Two End",
 							"Конец диска 2",
-							"Fin de l'Album 2",
 							"2. Diskoa bukatuta",
+							"Fin del disco 2",
 							"Disc Zwei Ende",
 							"Final do Disco 2",
 							"ディスク2の終わり",
@@ -1737,8 +1737,8 @@
 						"Array": [
 							"Best Time",
 							"Рекорд",
-							"Record",
 							"Denbo onena",
+							"Récord",
 							"Bestzeit",
 							"Menos tempo",
 							"ベストタイム",
@@ -1772,8 +1772,8 @@
 						"Array": [
 							"Disc Three End",
 							"Конец диска 3",
-							"Fin de l'Album 3",
 							"3. Diskoa bukatuta",
+							"Fin del disco 3",
 							"Disc Drei Ende",
 							"Final do Disco 3",
 							"ディスク3の終わり",
@@ -1807,8 +1807,8 @@
 						"Array": [
 							"Disc Four End",
 							"Конец диска 4",
-							"Fin de l'Album 4",
 							"4. Diskoa bukatuta",
+							"Fin del disco 4",
 							"Disc Vier Ende",
 							"Final do Disco 4",
 							"ディスク4の終わり",
@@ -1842,8 +1842,8 @@
 						"Array": [
 							"SCREENSHAKE",
 							"Дрожание экрана",
-							"Tremblements écran",
 							"Pantaila dardara",
+							"Temblor de pantalla",
 							"Bildbeben",
 							"Tela tremendo",
 							"画面の揺れ",
@@ -1877,8 +1877,8 @@
 						"Array": [
 							"REASSIGN KEYS",
 							"Переназначить клавиши",
-							"Réassigner les touches",
 							"Teklak birdefinitu",
+							"Reasignar teclas",
 							"Tasten umbelegen",
 							"Reatribuir teclas",
 							"キー割当",
@@ -1912,8 +1912,8 @@
 						"Array": [
 							"UP",
 							"Вверх",
-							"Haut",
 							"Gora",
+							"Arriba",
 							"Hoch",
 							"Para cima",
 							"上",
@@ -1947,8 +1947,8 @@
 						"Array": [
 							"DOWN",
 							"Вниз",
-							"Bas",
 							"Behera",
+							"Abajo",
 							"Runter",
 							"Para baixo",
 							"下",
@@ -1982,8 +1982,8 @@
 						"Array": [
 							"LEFT",
 							"Влево",
-							"Gauche",
 							"Ezker",
+							"Izquierda",
 							"Links",
 							"Para esquerda",
 							"左",
@@ -2017,8 +2017,8 @@
 						"Array": [
 							"RIGHT",
 							"Вправо",
-							"Droite",
 							"Eskuin",
+							"Derecha",
 							"Rechts",
 							"Para direita",
 							"右",
@@ -2052,8 +2052,8 @@
 						"Array": [
 							"PUSH",
 							"Толкать",
-							"Pousser",
 							"Bultza",
+							"Empujar",
 							"Drücke",
 							"Empurrar",
 							"押す",
@@ -2088,7 +2088,7 @@
 							"ON",
 							"Вкл",
 							"On",
-							"On",
+							"Activado",
 							"Ein",
 							"Sim",
 							"オン",
@@ -2123,7 +2123,7 @@
 							"OFF",
 							"Выкл",
 							"Off",
-							"Off",
+							"Desactivado",
 							"Aus",
 							"Não",
 							"オフ",
@@ -2157,8 +2157,8 @@
 						"Array": [
 							"GRAB",
 							"СХВАТИТЬ",
-							"ATTRAPER",
 							"HELDU",
+							"AGARRAR",
 							"GREIFEN",
 							"PEGAR",
 							"つかむ",
@@ -2192,8 +2192,8 @@
 						"Array": [
 							"LEFT TRIGGER[i2s_NinSwitch]ZL Button",
 							"ЛЕВЫЙ ТРИГГЕР[i2s_NinSwitch]кнопка ZL",
-							"GÂCHETTE GAUCHE[i2s_NinSwitch]bouton ZL",
 							"Ezker Katua[i2s_NinSwitch]ZL Botoia",
+							"GATILLO IZQ.[i2s_NinSwitch]botón ZL",
 							"LINKER TRIGGER[i2s_NinSwitch]ZL-Taste",
 							"GATILHO ESQ.[i2s_NinSwitch]botão ZL",
 							"左トリガー[i2s_NinSwitch]ZLボタン",
@@ -2227,8 +2227,8 @@
 						"Array": [
 							"RIGHT CLICK",
 							"ПКМ",
-							"CLIC DROIT",
 							"ESKUIN KLIK",
+							"CLIC DERECHO",
 							"RECHTSKLICK",
 							"CLIQUE DIREITO",
 							"右クリック",
@@ -2262,8 +2262,8 @@
 						"Array": [
 							"RIGHT\nTRIGGER[i2s_NinSwitch]ZR Button",
 							"ПРАВЫЙ\nТРИГГЕР[i2s_NinSwitch]кнопка ZR",
-							"GÂCHETTE\nDROITE[i2s_NinSwitch]bouton ZR",
 							"ESKUIN\nKATUA[i2s_NinSwitch]ZR Botoia",
+							"GATILLO\nDERECHO[i2s_NinSwitch]botón ZR",
 							"RECHTER\nTRIGGER[i2s_NinSwitch]ZR-Taste",
 							"GATILHO\nESQUERDO[i2s_NinSwitch]botão ZR",
 							"右トリガー[i2s_NinSwitch]ZRボタン",
@@ -2297,8 +2297,8 @@
 						"Array": [
 							"LEFT\nSTICK",
 							"ЛЕВЫЙ\nСТИК[i2s_NinSwitch]ЛЕВЫЙ\r\nМИНИ-ДЖОЙСТИК",
-							"STICK\nGAUCHE",
 							"EZKER\nSTICKa",
+							"STICK\nIZQ.[i2s_NinSwitch]PALANCA\nIZQUIERDA",
 							"LINKER\nSTICK",
 							"LS[i2s_NinSwitch]MANÍPULO\nESQUERDO",
 							"左スティック[i2s_NinSwitch]Lスティック",
@@ -2332,8 +2332,8 @@
 						"Array": [
 							"LEFT\nCLICK",
 							"ЛКМ",
-							"CLIC\nGAUCHE",
 							"EZKER\nKLIK",
+							"CLIC\nIZQ.",
 							"LINKS\nKLICK",
 							"CLIQUE\nESQ.",
 							"左クリック",
@@ -2402,8 +2402,8 @@
 						"Array": [
 							"UNSCATHED",
 							"НИ ЦАРАПИНЫ",
-							"INDEMNE",
 							"MINIK EZ",
+							"INDEMNE",
 							"UNVERLETZT",
 							"ILESO",
 							"ノーダメージ",
@@ -2437,8 +2437,8 @@
 						"Array": [
 							"NO SURVIVORS",
 							"ВЫЖИВШИХ НЕТ",
-							"AUCUN SURVIVANT",
 							"TRISKANTZA",
+							"MASACRE TOTAL",
 							"KEINE ZEUGEN",
 							"CHACINA",
 							"全滅",
@@ -2472,8 +2472,8 @@
 						"Array": [
 							"Pacifist",
 							"Пацифист",
-							"Pacifiste",
 							"Bakezalea",
+							"Pacifista",
 							"Pazifist",
 							"Pacifista",
 							"平和主義",
@@ -2507,8 +2507,8 @@
 						"Array": [
 							"PRESS",
 							"НАЖМИТЕ",
-							"APPUYER SUR",
 							"SAKATU",
+							"PULSA",
 							"DRÜCKE",
 							"APERTE",
 							"はじめる：",
@@ -2542,8 +2542,8 @@
 						"Array": [
 							"START",
 							"START",
-							"COMMENCER",
 							"HASI",
+							"EMPEZAR",
 							"START",
 							"INICIAR",
 							"スタート",
@@ -2577,8 +2577,8 @@
 						"Array": [
 							"PLAY",
 							"ИГРА",
-							"JOUER",
 							"JOSTATU",
+							"JUGAR",
 							"SPIELEN",
 							"JOGAR",
 							"プレイ",
@@ -2612,8 +2612,8 @@
 						"Array": [
 							"QUIT",
 							"ВЫЙТИ",
-							"QUITTER",
 							"IRTEN",
+							"SALIR",
 							"BEENDEN",
 							"SAIR",
 							"終了",
@@ -2647,8 +2647,8 @@
 						"Array": [
 							"OPTIONS",
 							"НАСТРОЙКИ",
-							"OPTIONS",
 							"AUKERAK",
+							"OPCIONES",
 							"OPTIONEN",
 							"OPÇÕES",
 							"設定",
@@ -2682,8 +2682,8 @@
 						"Array": [
 							"Resolution",
 							"Разрешение",
-							"Rés",
 							"Bereizmena",
+							"Resolución",
 							"Auflösung",
 							"Res",
 							"解像度",
@@ -2717,8 +2717,8 @@
 						"Array": [
 							"Volume",
 							"Громкость",
-							"Volume",
 							"Bolumena",
+							"Volumen",
 							"Lautstärke",
 							"Volume",
 							"音量",
@@ -2752,8 +2752,8 @@
 						"Array": [
 							"Rumble",
 							"Вибрация",
-							"Vibrations",
 							"Dardara",
+							"Vibración",
 							"Vibration",
 							"Vibração",
 							"振動[i2s_NinSwitch]HD振動",
@@ -2787,8 +2787,8 @@
 						"Array": [
 							"Apply",
 							"Применить",
-							"Appliquer",
 							"Onartu",
+							"Aplicar",
 							"Anwenden",
 							"Aplicar",
 							"適用",
@@ -2822,8 +2822,8 @@
 						"Array": [
 							"CANCEL",
 							"ОТМЕНА",
-							"ANNULER",
 							"EZEZTATU",
+							"CANCELAR",
 							"ABBRECHEN",
 							"CANCELAR",
 							"キャンセル",
@@ -2857,8 +2857,8 @@
 						"Array": [
 							"FULLSCREEN",
 							"ПОЛНЫЙ ЭКРАН",
-							"PLEIN ÉCRAN",
 							"PANTAILA OSOA",
+							"PANT. COMPLETA",
 							"VOLLBILD",
 							"TELA CHEIA",
 							"全画面",
@@ -2892,8 +2892,8 @@
 						"Array": [
 							"CONTINUE",
 							"ПРОДОЛЖИТЬ",
-							"CONTINUER",
 							"JARRAITU",
+							"CONTINUAR",
 							"FORTSETZEN",
 							"CONTINUAR",
 							"つづける",
@@ -2927,8 +2927,8 @@
 						"Array": [
 							"ARCADE MODE",
 							"АРКАДНЫЙ РЕЖИМ",
-							"MODE ARCADE",
 							"ARKADE MODUA",
+							"MODO ARCADE",
 							"ARKADEN-MODUS",
 							"MODO ARCADE",
 							"アーケードモード",
@@ -2962,8 +2962,8 @@
 						"Array": [
 							"BACK",
 							"НАЗАД",
-							"RETOUR",
 							"ATZERA",
+							"ATRÁS",
 							"ZURÜCK",
 							"VOLTAR",
 							"戻る",
@@ -2997,8 +2997,8 @@
 						"Array": [
 							"SELECT",
 							"ВЫБРАТЬ",
-							"SÉLECTIONNER",
 							"AUKERATU",
+							"SELECCIÓN",
 							"AUSWÄHLEN",
 							"SELECIONAR",
 							"選択",
@@ -3032,8 +3032,8 @@
 						"Array": [
 							"RESUME",
 							"ВЕРНУТЬСЯ",
-							"REPRENDRE",
 							"JARRAITU",
+							"REANUDAR",
 							"FORTSETZEN",
 							"CONTINUAR",
 							"再開",
@@ -3067,8 +3067,8 @@
 						"Array": [
 							"RESTART LEVEL",
 							"УРОВЕНЬ СНАЧАЛА",
-							"RECOMMENCER LE NIVEAU",
 							"MAILA BERRIRO HASI",
+							"REINICIAR NIVEL",
 							"LEVEL NEUSTARTEN",
 							"REINICIAR FASE",
 							"リスタート",
@@ -3102,8 +3102,8 @@
 						"Array": [
 							"MAIN MENU",
 							"ГЛАВНОЕ МЕНЮ",
-							"MENU PRINCIPAL",
 							"MENU NAGUSIA",
+							"MENÚ PRINCIPAL",
 							"HAUPTMENÜ",
 							"MENU PRINCIPAL",
 							"メインメニュー",
@@ -3137,8 +3137,8 @@
 						"Array": [
 							"Harder",
 							"Труднее",
-							"Difficile",
 							"Gogorrago",
+							"Más difícil",
 							"Schwierig",
 							"Mais difícil",
 							"難しく",
@@ -3172,8 +3172,8 @@
 						"Array": [
 							"Softer",
 							"Легче",
-							"Normal",
 							"Leunago",
+							"Más fácil",
 							"Normal",
 							"Mais fácil",
 							"易しく",
@@ -3207,8 +3207,8 @@
 						"Array": [
 							"CREDITS",
 							"РАЗРАБОТЧИКИ",
-							"CRÉDITS",
 							"KREDITUAK",
+							"CRÉDITOS",
 							"MITWIRKENDE",
 							"CRÉDITOS",
 							"スタッフ",
@@ -3242,8 +3242,8 @@
 						"Array": [
 							"Fx Volume",
 							"Громкость эффектов",
-							"Volume effets",
 							"Efektu bolumena",
+							"Volumen de efectos",
 							"Effekt-Lautstärke",
 							"Volume de sons",
 							"効果音",
@@ -3277,8 +3277,8 @@
 						"Array": [
 							"Music Volume",
 							"Громкость музыки",
-							"Volume musique",
 							"Musika bolumena",
+							"Volumen de música",
 							"Musik-Lautstärke",
 							"Volume da música",
 							"音楽",
@@ -3312,8 +3312,8 @@
 						"Array": [
 							"YES",
 							"ДА",
-							"OUI",
 							"BAI",
+							"SÍ",
 							"JA",
 							"SIM",
 							"はい",
@@ -3347,8 +3347,8 @@
 						"Array": [
 							"No",
 							"Нет",
-							"Non",
 							"Ez",
+							"No",
 							"Nein",
 							"Não",
 							"いいえ",
@@ -3382,8 +3382,8 @@
 						"Array": [
 							"NEW GAME",
 							"Новая игра",
-							"NOUVELLE PARTIE",
 							"PARTIDA BERRIA",
+							"PART. NUEVA",
 							"NEUES SPIEL",
 							"NOVO JOGO",
 							"ニューゲーム",
@@ -3417,8 +3417,8 @@
 						"Array": [
 							"INTRO",
 							"ВСТУПЛЕНИЕ",
-							"PROLOGUE",
 							"SARRERA",
+							"INTRODUCCIÓN",
 							"EINFÜHRUNG",
 							"INTRODUÇÃO",
 							"イントロ",
@@ -3452,8 +3452,8 @@
 						"Array": [
 							"HEATING UP",
 							"СТАНОВИТСЯ ЖАРКО",
-							"ÉCHAUFFEMENT",
 							"BEROTZEKO",
+							"CALENTAMIENTO",
 							"HITZE",
 							"ESQUENTANDO",
 							"ヒートアップ",
@@ -3487,8 +3487,8 @@
 						"Array": [
 							"LONG SHADOWS",
 							"ДЛИННЫЕ ТЕНИ",
-							"OMBRES",
 							"ITZAL LUZEAK",
+							"SOMBRAS LARGAS",
 							"LANGE SCHATTEN",
 							"SOMBRAS INIMIGAS",
 							"暗影",
@@ -3522,8 +3522,8 @@
 						"Array": [
 							"DING",
 							"ДЗИНЬ",
-							"DING",
 							"DILIN",
+							"DING",
 							"BIM!",
 							"DING",
 							"到着",
@@ -3557,8 +3557,8 @@
 						"Array": [
 							"OVER IT",
 							"ИДЕМ ДАЛЬШЕ",
-							"LE GRAND SAUT",
 							"HARATAGO",
+							"PASANDO",
 							"DANACH IST DAVOR",
 							"SALTO ARRISCADO",
 							"走破",
@@ -3592,8 +3592,8 @@
 						"Array": [
 							"DOWN AND OUT",
 							"НА ДНЕ",
-							"RAZ-DE-CHAUSSÉE",
 							"KALE GORRIRA",
+							"POR LA PUERTA GRANDE",
 							"GANZ UNTEN",
 							"TÔ FORA",
 							"突破",
@@ -3627,8 +3627,8 @@
 						"Array": [
 							"KNOCK KNOCK",
 							"ТУК-ТУК",
-							"DING DONG",
 							"DANBA-DANBA",
+							"TOC TOC",
 							"KLOPF-KLOPF",
 							"TOC-TOC",
 							"解錠",
@@ -3662,8 +3662,8 @@
 						"Array": [
 							"FALSE ALARM",
 							"ЛОЖНАЯ ТРЕВОГА",
-							"ALARME",
 							"ALARMA FALTSUA",
+							"FALSA ALARMA",
 							"ALARM",
 							"ALARME FALSO",
 							"警報",
@@ -3697,8 +3697,8 @@
 						"Array": [
 							"POWER DOWN",
 							"ЭЛЕКТРИЧЕСТВА НЕТ",
-							"COUPURE DE COURANT",
 							"ITZALALDIA",
+							"APAGÓN",
 							"LICHT AUS!",
 							"APAGÃO",
 							"停電",
@@ -3732,8 +3732,8 @@
 						"Array": [
 							"CONCRETE JUNGLE",
 							"БЕТОННЫЕ ДЖУНГЛИ",
-							"JUNGLE DE BÉTON",
 							"PORLANEZKO OIHANA",
+							"JUNGLA DE ASFALTO",
 							"BETONDSCHUNGEL",
 							"SELVA DE CONCRETO",
 							"コンクリートジャングル",
@@ -3767,8 +3767,8 @@
 						"Array": [
 							"LOW PRESSURE",
 							"НИЗКОЕ ДАВЛЕНИЕ",
-							"BASSE PRESSION",
 							"PRESIO BAXUA",
+							"BAJA PRESIÓN",
 							"ABSTIEG",
 							"SOB PRESSÃO",
 							"圧力低下",
@@ -3802,8 +3802,8 @@
 						"Array": [
 							"TO THE TOP",
 							"НА САМЫЙ ВЕРХ",
-							"JUSQU'AU SOMMET",
 							"IGOERA",
+							"A LA CIMA",
 							"AUFSTIEG",
 							"PARA O TOPO",
 							"頂上",
@@ -3837,8 +3837,8 @@
 						"Array": [
 							"FULL SWING",
 							"РАСКАЧАЕМСЯ",
-							"RAPPEL",
 							"ERRITMO FINKOAN",
+							"EN LA CUERDA FLOJA",
 							"SCHWUNGVOLL",
 							"COM A CORDA TODA",
 							"懸垂下降",
@@ -3872,8 +3872,8 @@
 						"Array": [
 							"CIRCLE BACK",
 							"НЕ ЗАБЫТЬ!",
-							"ON SE REVOIT !",
 							"BERRIZ ERE",
+							"SEGUNDA VISITA",
 							"WIEDERVORLAGE",
 							"O RETORNO",
 							"回帰",
@@ -3907,8 +3907,8 @@
 						"Array": [
 							"abandon ship",
 							"покинуть корабль",
-							"Débarquement",
 							"ontzia utzi",
+							"abandonad el barco",
 							"von bord",
 							"abandonar o barco",
 							"下船",
@@ -3942,8 +3942,8 @@
 						"Array": [
 							"caught up",
 							"попалась",
-							"Allez zoo !",
 							"harrapatua",
+							"atrapado",
 							"gefangen",
 							"capturado",
 							"捕獲",
@@ -3977,8 +3977,8 @@
 						"Array": [
 							"contact",
 							"контакт",
-							"Contact",
 							"kontaktua",
+							"contacto",
 							"feindkontakt",
 							"contato",
 							"接触",
@@ -4012,8 +4012,8 @@
 						"Array": [
 							"crossfire",
 							"перекрестный",
-							"Tirs croisés",
 							"su gurutzatua",
+							"fuego cruzado",
 							"kreuzfeuer",
 							"fogo cruzado",
 							"十字砲火",
@@ -4047,8 +4047,8 @@
 						"Array": [
 							"AIM HIGH",
 							"ЦЕЛЬСЯ ВЫШЕ",
-							"LE FEU DU CIEL",
 							"SUA ZERUTIK",
+							"APUNTA ALTO",
 							"HOHE ZIELE",
 							"TIROS DO ALTO",
 							"照準",
@@ -4082,8 +4082,8 @@
 						"Array": [
 							"BLOWN OUT",
 							"УЙТИ В ОТРЫВ",
-							"FUITE DE CERVEAU",
 							"IRTEERA",
+							"OPERACIÓN SALIDA",
 							"AUSGANG",
 							"LIBERDADE",
 							"大乱闘",
@@ -4117,8 +4117,8 @@
 						"Array": [
 							"fire in the hole",
 							"сейчас рванет",
-							"Au feu !",
 							"su ta gar",
+							"grabado a fuego",
 							"feuer",
 							"pegando fogo",
 							"炎上注意",
@@ -4152,8 +4152,8 @@
 						"Array": [
 							"fury",
 							"ярость",
-							"Furie",
 							"amorrua",
+							"furia",
 							"hölle",
 							"fúria",
 							"憤激",
@@ -4187,8 +4187,8 @@
 						"Array": [
 							"hit the deck",
 							"всем на пол",
-							"À l'abordage",
 							"lurra jo",
+							"a cubierta",
 							"auf deck",
 							"na encolha",
 							"甲板",
@@ -4222,8 +4222,8 @@
 						"Array": [
 							"hold fast",
 							"держись крепче",
-							"À la cale !",
 							"eutsi gogor",
+							"en la bodega",
 							"standfest",
 							"aguente firme",
 							"保持",
@@ -4257,8 +4257,8 @@
 						"Array": [
 							"incoming",
 							"входящий",
-							"Bombardement",
 							"zalaparta",
+							"bomba va",
 							"einschlag",
 							"bomba",
 							"着弾",
@@ -4292,8 +4292,8 @@
 						"Array": [
 							"no man's land",
 							"ничейная земля",
-							"No man's land",
 							"jabegabeko lurra",
+							"tierra de nadie",
 							"niemandsland",
 							"terra de ninguém",
 							"戦場",
@@ -4327,8 +4327,8 @@
 						"Array": [
 							"no quarter",
 							"пощады не будет",
-							"Pas de quartier",
 							"errukirik gabe",
+							"sin cuartel",
 							"gnadenlos",
 							"resistência",
 							"無慈悲",
@@ -4362,8 +4362,8 @@
 						"Array": [
 							"outro",
 							"эпилог",
-							"Épilogue",
 							"bukaera",
+							"cierre",
 							"finale",
 							"final",
 							"アウトロ",
@@ -4397,8 +4397,8 @@
 						"Array": [
 							"red alert",
 							"красная тревога",
-							"Alerte rouge",
 							"alerta gorria",
+							"alerta roja",
 							"roter alarm",
 							"alerta vermelho",
 							"警戒",
@@ -4432,8 +4432,8 @@
 						"Array": [
 							"rough seas",
 							"бурное море",
-							"Mer agitée",
 							"itsaso zakarra",
+							"mar gruesa",
 							"raue see",
 							"maré violenta",
 							"波しぶき",
@@ -4467,8 +4467,8 @@
 						"Array": [
 							"wreck",
 							"катастрофа",
-							"Accidenté",
 							"ezbeharra",
+							"colisión",
 							"wrack",
 							"naufrágio",
 							"出会い頭",
@@ -4502,8 +4502,8 @@
 						"Array": [
 							"BURN OUT",
 							"ВЗРЫВОПАСНО",
-							"EXPLOSIF",
 							"KISKALI",
+							"QUEMADURA",
 							"EXPLOSIV",
 							"BATALHA EXPLOSIVA",
 							"バーンアウト",
@@ -4572,8 +4572,8 @@
 						"Array": [
 							"Subject 4",
 							"Субъект 4",
-							"Sujet 4",
 							"4 Subjektua",
+							"Sujeto 4",
 							"Subjekt 4",
 							"Cobaia 4",
 							"被検体4号",
@@ -4642,8 +4642,8 @@
 						"Array": [
 							"Fugue",
 							"Побег",
-							"Fugue",
 							"Ihesa",
+							"Fuga",
 							"Exodus",
 							"Fuga",
 							"遁走",
@@ -4677,8 +4677,8 @@
 						"Array": [
 							"Adrift",
 							"На плаву",
-							"À vau-l'eau",
 							"Noraezean",
+							"Deriva",
 							"Treibgut",
 							"À deriva",
 							"漂流",
@@ -4712,8 +4712,8 @@
 						"Array": [
 							"EXCLUSIVE FULLSCREEN",
 							"Полноэкранный",
-							"Plein écran exclusif",
 							"Pantaila osoa esklusiboki",
+							"Pantalla completa exclusiva",
 							"Nur Vollbild",
 							"Tela inteira exclusiva",
 							"フルスクリーン",
@@ -4747,8 +4747,8 @@
 						"Array": [
 							"FULLSCREEN WINDOW",
 							"Оконный-полноэкранный",
-							"Fenêtre en plein écran",
 							"Pantaila osoa leihoan",
+							"Ventana en pantalla completa",
 							"Vollbild-Fenster",
 							"Janela em tela inteira",
 							"フルスクリーン（ウィンドウ）",
@@ -4782,8 +4782,8 @@
 						"Array": [
 							"WINDOWED",
 							"Оконный",
-							"Fenêtré",
 							"Leihoan",
+							"Ventana",
 							"Fenster-Modus",
 							"Em janela",
 							"ウィンドウ",
@@ -4817,8 +4817,8 @@
 						"Array": [
 							"EXTRA TIME",
 							"Бонус за время",
-							"Temps supplémentaire",
 							"Denb extra",
+							"Tiempo extra",
 							"Zeitbonus",
 							"Tempo extra",
 							"ボーナスタイム",
@@ -4852,8 +4852,8 @@
 						"Array": [
 							"FAILED TO CONNECT",
 							"Не удалось связаться",
-							"Échec de connexion",
 							"Errorea konektatzean",
+							"Error de conexión",
 							"Verbindungsfehler",
 							"Falha ao conectar",
 							"接続に失敗",
@@ -4887,8 +4887,8 @@
 						"Array": [
 							"PRESS KEY",
 							"Нажмите клавишу",
-							"Appuyer sur une touche",
 							"Sakatu tekla",
+							"Pulsa una tecla",
 							"Taste drücken",
 							"Pressionar tecla",
 							"キーを押す",
@@ -4922,8 +4922,8 @@
 						"Array": [
 							"NEW HIGH SCORE",
 							"Новый рекорд",
-							"Nouveau Meilleur Score",
 							"Marka berria",
+							"Nuevo récord",
 							"Neuer Rekord",
 							"Novo recorde",
 							"ハイスコア更新",
@@ -4957,8 +4957,8 @@
 						"Array": [
 							"YOU SURE?",
 							"Вы уверены?",
-							"Êtes-vous certain ?",
 							"Ziur zaude?",
+							"¿Estás seguro?",
 							"Bist du sicher?",
 							"Você tem certeza?",
 							"よろしいですか？",
@@ -4992,8 +4992,8 @@
 						"Array": [
 							"LAPTOP MODE",
 							"Режим ноутбука",
-							"Mode Ordi. portable",
 							"Eramangarri modua",
+							"Modo Portátil",
 							"Laptop-Modus",
 							"Modo Laptop",
 							"ノートPCモード",
@@ -5027,8 +5027,8 @@
 						"Array": [
 							"HEADPHONE MODE",
 							"Режим наушников",
-							"Mode Écouteurs",
 							"Aurikular modua",
+							"Modo Auriculares",
 							"Kopfhörer-Modus",
 							"Modo Fone de Ouvido",
 							"ヘッドフォンモード",
@@ -5062,8 +5062,8 @@
 						"Array": [
 							"SFX VOLUME",
 							"Громкость эффектов",
-							"Volume des effets",
 							"Efektu bolumena",
+							"volumen de efectos",
 							"Soundeffektlautstärke",
 							"Volume dos efeitos",
 							"SE音量 ",
@@ -5108,12 +5108,12 @@
 					"Flags": 0
 				},
 				{
-					"Name": "French",
+					"Name": "Euskara",
 					"Code": "fr",
 					"Flags": 0
 				},
 				{
-					"Name": "Euskara",
+					"Name": "Spanish",
 					"Code": "es",
 					"Flags": 0
 				},
