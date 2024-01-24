@@ -22,3 +22,5 @@
   * [instalazioa](./celeste/)
 * Cave Story
   * [instalazioa](./cave_story/)
+* Ape Out
+  * [instalazioa](./ape_out/)
