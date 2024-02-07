@@ -61,6 +61,8 @@ pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
         try resources_assets_file.seekTo(0);
         _ = try resources_assets_file.write(new_content);
 
+        try update_level2(content_path);
+
         const musika_path = try utils.concat(&.{ game_path, "/musika.txt" });
         const musika_file = try std.fs.cwd().createFile(musika_path, .{});
         _ = try musika_file.write(musika_content);
@@ -71,5 +73,36 @@ pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
             .body = "[resources.assets] fitxategian ez da [I2Languages] katerik aurkitu.",
         };
     }
+
     return null;
+}
+
+fn update_level2(content_path: utils.string) !void {
+    const level2_path = try utils.concat(&.{ content_path, "/level2" });
+    const level2_file = try std.fs.cwd().openFile(level2_path, .{ .mode = .read_write });
+    defer level2_file.close();
+
+    const metadata = try level2_file.metadata();
+    const file_size = metadata.size();
+
+    try level2_file.seekTo(0);
+    const content_orig = try level2_file.readToEndAlloc(std.heap.page_allocator, file_size);
+    const level2_backup_path = std.fmt.allocPrint(std.heap.page_allocator, "{s}_{d}", .{ level2_path, std.time.timestamp() }) catch "format failed";
+    const level2_backup_file = try std.fs.cwd().createFile(level2_backup_path, .{});
+    _ = try level2_backup_file.write(content_orig);
+    level2_backup_file.close();
+
+    var start_ind: usize = 1317484;
+    content_orig[start_ind] = 5;
+    start_ind += 4;
+    content_orig[start_ind] = 'P';
+    content_orig[start_ind + 1] = 'u';
+    content_orig[start_ind + 2] = 'n';
+    content_orig[start_ind + 3] = 't';
+    content_orig[start_ind + 4] = 'u';
+    content_orig[start_ind + 5] = 0;
+    content_orig[start_ind + 6] = 0;
+
+    try level2_file.seekTo(0);
+    _ = try level2_file.write(content_orig);
 }
