@@ -113,7 +113,7 @@ fn update_level2(content_path: utils.string) !void {
     try update_text(content_orig, "Points", "" ++ .{ 0, 0, 0, 0, 0, 0, 0 }, "Puntu", "" ++ .{ 0, 0 });
     try update_text(content_orig, "E  N  D   O F   S I DE   A", "" ++ .{ 0, 0 }, "A K A B O    A    A L DE A", "" ++ .{ 0, 0 });
     try update_text(content_orig, "S I D E    B", "" ++ .{ 0, 0 }, "B   A L DE A", "" ++ .{ 0, 0 });
-    try update_text(content_orig, "FLOOR", "" ++ .{ 0, 0, 0, 0, 0, 0 }, "ESTAIA", "");
+    try update_text(content_orig, "FLOOR", "" ++ .{ 0, 0, 0, 0, 0, 0 }, "PISUA:", "");
     try update_text(content_orig, "E  N  D   O F   S I D E   A", "" ++ .{ 0, 0 }, "A K A B O    A    A L D E A", "" ++ .{ 0, 0 });
 
     try level2_file.seekTo(0);
