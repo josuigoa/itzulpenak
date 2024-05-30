@@ -2,6 +2,7 @@
 <data>
     <GameText id="title_start">
         <TextString language="english">START</TextString>
+        <TextString language="basque">HASI</TextString>
         <TextString language="french">COMMENCER</TextString>
         <TextString language="german">START</TextString>
         <TextString language="italian">INIZIA</TextString>
@@ -11,6 +12,7 @@
     </GameText>
     <GameText id="title_options">
         <TextString language="english">OPTIONS</TextString>
+        <TextString language="basque">AUKERAK</TextString>
         <TextString language="french">OPTIONS</TextString>
         <TextString language="german">OPTIONEN</TextString>
         <TextString language="italian">OPZIONI</TextString>
@@ -20,6 +22,7 @@
     </GameText>
     <GameText id="m_quit">
         <TextString language="english">QUIT</TextString>
+        <TextString language="basque">IRTEN</TextString>
         <TextString language="french">QUITTER</TextString>
         <TextString language="german">BEENDEN</TextString>
         <TextString language="italian">ESCI</TextString>
@@ -29,6 +32,7 @@
     </GameText>
     <GameText id="sludgeheart_desc">
         <TextString language="english">HEART OF THE GUARDIAN</TextString>
+        <TextString language="basque">ZAINDARIAREN BIHOTZA</TextString>
         <TextString language="french">CŒUR DU GARDIEN</TextString>
         <TextString language="german">HERZ DES WÄCHTERS</TextString>
         <TextString language="italian">CUORE DEL GUARDIANO</TextString>
@@ -38,6 +42,7 @@
     </GameText>
     <GameText id="sludgeheart_name">
         <TextString language="english">SLUDGEHEART</TextString>
+        <TextString language="basque">LOHIBIHOTZ</TextString>
         <TextString language="french">CŒURDEFANGE</TextString>
         <TextString language="german">SCHLEIMHERZ</TextString>
         <TextString language="italian">SLUDGEHEART</TextString>
@@ -47,6 +52,7 @@
     </GameText>
     <GameText id="brainfreeze_desc">
         <TextString language="english">BRAIN OF THE GUARDIAN</TextString>
+        <TextString language="basque">ZAINDARIAREN GARUNA</TextString>
         <TextString language="french">CERVEAU DU GARDIEN</TextString>
         <TextString language="german">HIRN DES WÄCHTERS</TextString>
         <TextString language="italian">CERVELLO DEL GUARDIANO</TextString>
@@ -56,6 +62,7 @@
     </GameText>
     <GameText id="brainfreeze_name">
         <TextString language="english">BRAINFREEZE</TextString>
+        <TextString language="basque">GARUN IZOZTUA</TextString>
         <TextString language="french">CERVEAUGELÉ</TextString>
         <TextString language="german">EISHIRN</TextString>
         <TextString language="italian">BRAINFREEZE</TextString>
@@ -65,6 +72,7 @@
     </GameText>
     <GameText id="eyecube_desc">
         <TextString language="english">EYE OF THE GUARDIAN</TextString>
+        <TextString language="basque">ZAINDARIAREN BEGIA</TextString>
         <TextString language="french">ŒIL DU GARDIEN</TextString>
         <TextString language="german">AUGE DES WÄCHTERS</TextString>
         <TextString language="italian">OCCHIO DEL GUARDIANO</TextString>
@@ -74,6 +82,7 @@
     </GameText>
     <GameText id="eyecube_name">
         <TextString language="english">EYECUBE</TextString>
+        <TextString language="basque">KUBOBEGI</TextString>
         <TextString language="french">ŒILCUBE</TextString>
         <TextString language="german">AUGENWÜRFEL</TextString>
         <TextString language="italian">EYECUBE</TextString>
@@ -83,6 +92,7 @@
     </GameText>
     <GameText id="colossus_desc">
         <TextString language="english">GUARDIAN OF THE FIRST GATE</TextString>
+        <TextString language="basque">LEHENENGO ATEAREN ZAINDARIA</TextString>
         <TextString language="french">GARDIEN DE LA PREMIÈRE PORTE</TextString>
         <TextString language="german">WÄCHTER DES ERSTEN TORS</TextString>
         <TextString language="italian">GUARDIANO DEL PRIMO CANCELLO</TextString>
@@ -92,6 +102,7 @@
     </GameText>
     <GameText id="colossus_name">
         <TextString language="english">GOL-IATH</TextString>
+        <TextString language="basque">GOL-IATH</TextString>
         <TextString language="french">GOL-IATH</TextString>
         <TextString language="german">GOL-IATH</TextString>
         <TextString language="italian">GOL-IATH</TextString>
@@ -101,6 +112,7 @@
     </GameText>
     <GameText id="ironknuckle_name">
         <TextString language="english">GOL-QAYIN</TextString>
+        <TextString language="basque">GOL-QAYIN</TextString>
         <TextString language="french">GOL-QAYIN</TextString>
         <TextString language="german">GOL-QAYIN</TextString>
         <TextString language="italian">GOL-QAYIN</TextString>
@@ -110,6 +122,7 @@
     </GameText>
     <GameText id="ironknuckle_desc">
         <TextString language="english">DISGRACED GUARDIAN OF THE SECOND GATE</TextString>
+        <TextString language="basque">BIGARREN ATEAREN ZAINDARI DESOHORATUA</TextString>
         <TextString language="french">GARDIEN DÉSHONORÉ DE LA SECONDE PORTE</TextString>
         <TextString language="german">GESCHÄNDETER WÄCHTER DES ZWEITEN TORS</TextString>
         <TextString language="italian">GUARDIANO DECADUTO DEL SECONDO CANCELLO </TextString>
@@ -119,6 +132,7 @@
     </GameText>
     <GameText id="bomber_name">
         <TextString language="english">MOL-QAYIN</TextString>
+        <TextString language="basque">MOL-QAYIN</TextString>
         <TextString language="french">MOL-QAYIN</TextString>
         <TextString language="german">MOL-QAYIN</TextString>
         <TextString language="italian">MOL-QAYIN</TextString>
@@ -128,6 +142,7 @@
     </GameText>
     <GameText id="bomber_desc">
         <TextString language="english">MOLTEN CREATION OF GOL-QAYIN</TextString>
+        <TextString language="basque">GOL-QAYINEN SORKUNTZA URTUA</TextString>
         <TextString language="french">CRÉATION EN FUSION DE GOL-QAYIN</TextString>
         <TextString language="german">GESCHMOLZENE SCHÖPFUNG VON GOL-QAYIN</TextString>
         <TextString language="italian">CREAZIONE LIQUIDA DI GOL-QAYIN</TextString>
@@ -137,6 +152,7 @@
     </GameText>
     <GameText id="roller_name">
         <TextString language="english">ROL-QAYIN</TextString>
+        <TextString language="basque">ROL-QAYIN</TextString>
         <TextString language="french">ROL-QAYIN</TextString>
         <TextString language="german">ROL-QAYIN</TextString>
         <TextString language="italian">ROL-QAYIN</TextString>
@@ -146,6 +162,7 @@
     </GameText>
     <GameText id="roller_desc">
         <TextString language="english">FORGED CREATION OF GOL-QAYIN</TextString>
+        <TextString language="basque">GOL-QAYINEN SORKUNTZA FORJATUA</TextString>
         <TextString language="french">CRÉATION SCULPTÉE PAR GOL-QAYIN</TextString>
         <TextString language="german">GESCHMIEDETE SCHÖPFUNG VON GOL-QAYIN</TextString>
         <TextString language="italian">CREAZIONE FORGIATA DI GOL-QAYIN</TextString>
@@ -155,6 +172,7 @@
     </GameText>
     <GameText id="yeti_name">
         <TextString language="english">YETI</TextString>
+        <TextString language="basque">YETI</TextString>
         <TextString language="french">YÉTI</TextString>
         <TextString language="german">YETI</TextString>
         <TextString language="italian">YETI</TextString>
@@ -164,6 +182,7 @@
     </GameText>
     <GameText id="yeti_desc">
         <TextString language="english">OLD SNOW BEAST</TextString>
+        <TextString language="basque">ELURRETAKO ANTZINAKO PIZTIA</TextString>
         <TextString language="french">ANCIENNE CRÉATURE DES NEIGES</TextString>
         <TextString language="german">ALTES SCHNEEMONSTER</TextString>
         <TextString language="italian">ANTICA BESTIA DELLE NEVI</TextString>
@@ -173,6 +192,7 @@
     </GameText>
     <GameText id="onyx_name">
         <TextString language="english">ONYXIA</TextString>
+        <TextString language="basque">ONIZIA</TextString>
         <TextString language="french">ONYXIA</TextString>
         <TextString language="german">ONYXIA</TextString>
         <TextString language="italian">ONYXIA</TextString>
@@ -182,6 +202,7 @@
     </GameText>
     <GameText id="onyx_desc">
         <TextString language="english">SERPENT OF THE COLD DEPTHS</TextString>
+        <TextString language="basque">SAKONERA HOTZETAKO SUGEA</TextString>
         <TextString language="french">SERPENT DES PROFONDEURS GLACIALES</TextString>
         <TextString language="german">SCHLANGE DER KALTEN TIEFEN</TextString>
         <TextString language="italian">SERPENTE DELLE GELIDE PROFONDITÀ</TextString>
@@ -191,6 +212,7 @@
     </GameText>
     <GameText id="snowface_name">
         <TextString language="english">STRATUS</TextString>
+        <TextString language="basque">STRATUS</TextString>
         <TextString language="french">STRATUS</TextString>
         <TextString language="german">STRATUS</TextString>
         <TextString language="italian">STRATUS</TextString>
@@ -200,6 +222,7 @@
     </GameText>
     <GameText id="snowface_desc">
         <TextString language="english">CHILD OF THE MOUNTAIN AND SKY</TextString>
+        <TextString language="basque">MENDI ETA ZERUAREN SEMEA</TextString>
         <TextString language="french">ENFANT DE LA MONTAGNE ET DES CIEUX</TextString>
         <TextString language="german">KIND DES BERGES UND DES HIMMELS</TextString>
         <TextString language="italian">FIGLIO DELLA MONTAGNA E DEL CIELO</TextString>
@@ -209,6 +232,7 @@
     </GameText>
     <GameText id="mushroom_name">
         <TextString language="english">OBELLO</TextString>
+        <TextString language="basque">OBELLO</TextString>
         <TextString language="french">OBELLO</TextString>
         <TextString language="german">OBELLO</TextString>
         <TextString language="italian">OBELLO</TextString>
@@ -218,6 +242,7 @@
     </GameText>
     <GameText id="mushroom_desc">
         <TextString language="english">MALFORMED HALLUCINOGENIC FUNGUS</TextString>
+        <TextString language="basque">ONDDO HALUZINOGENO DESITXURATUA</TextString>
         <TextString language="french">CHAMPIGNON HALLUCINOGÈNE MALFORMÉ</TextString>
         <TextString language="german">MISSGEBILDETER DROGENPILZ</TextString>
         <TextString language="italian">FUNGO ALLUCINOGENO DEFORME</TextString>
@@ -227,6 +252,7 @@
     </GameText>
     <GameText id="plant_name">
         <TextString language="english">VINETHESIS</TextString>
+        <TextString language="basque">PARRATESIA</TextString>
         <TextString language="french">THÈSE GRIMPANTE</TextString>
         <TextString language="german">VINETHESIS</TextString>
         <TextString language="italian">VINETHESIS</TextString>
@@ -236,6 +262,7 @@
     </GameText>
     <GameText id="plant_desc">
         <TextString language="english">POISONOUS FLOWER</TextString>
+        <TextString language="basque">LORE POZOINTSUA</TextString>
         <TextString language="french">FLEUR VÉNÉNEUSE</TextString>
         <TextString language="german">GIFTIGE BLUME</TextString>
         <TextString language="italian">FIORE VELENOSO</TextString>
@@ -245,6 +272,7 @@
     </GameText>
     <GameText id="avarice_name">
         <TextString language="english">AVARICE</TextString>
+        <TextString language="basque">LUKURRERIA</TextString>
         <TextString language="french">AVARICE</TextString>
         <TextString language="german">HABSUCHT</TextString>
         <TextString language="italian">AVARIZIA</TextString>
@@ -254,6 +282,7 @@
     </GameText>
     <GameText id="avarice_desc">
         <TextString language="english">MANIFESTATION OF GREED</TextString>
+        <TextString language="basque">DIRUZALETASUNAREN ADIERAZPENA</TextString>
         <TextString language="french">MANIFESTATION DE CUPIDITÉ</TextString>
         <TextString language="german">MANIFESTATION DER GIER</TextString>
         <TextString language="italian">MANIFESTAZIONE DI AVIDITÀ</TextString>
@@ -263,6 +292,7 @@
     </GameText>
     <GameText id="knight_name">
         <TextString language="english">KNIGHT ELHANAN</TextString>
+        <TextString language="basque">ELHANAN ZALDUNA</TextString>
         <TextString language="french">CHEVALIER ELHANAN</TextString>
         <TextString language="german">RITTER ELHANAN</TextString>
         <TextString language="italian">IL CAVALIERE ELHANAN</TextString>
@@ -272,6 +302,7 @@
     </GameText>
     <GameText id="knight_desc">
         <TextString language="english">LEGENDARY TITAN SLAYER</TextString>
+        <TextString language="basque">ELEZAHARRETAKO TITAN-HILTZAILEA</TextString>
         <TextString language="french">LÉGENDAIRE TUEUR DE TITANS</TextString>
         <TextString language="german">LEGENDÄRER TITANEN-TÖTER</TextString>
         <TextString language="italian">AMMAZZA-TITANI LEGGENDARIO</TextString>
@@ -281,6 +312,7 @@
     </GameText>
     <GameText id="ghost_name">
         <TextString language="english">GOL-HEVEL</TextString>
+        <TextString language="basque">GOL-HEVEL</TextString>
         <TextString language="french">GOL-HEVEL</TextString>
         <TextString language="german">GOL-HEVEL</TextString>
         <TextString language="italian">GOL-HEVEL</TextString>
@@ -290,6 +322,7 @@
     </GameText>
     <GameText id="ghost_desc">
         <TextString language="english">MURDERED GUARDIAN OF THE SECOND GATE</TextString>
+        <TextString language="basque">BIGARREN ATEKO ERAILDAKO ZAINDARIA</TextString>
         <TextString language="french">GARDIEN DE LA SECONDE PORTE ASSASSINÉ</TextString>
         <TextString language="german">ERMORDETER WÄCHTER DES ZWEITEN TORS</TextString>
         <TextString language="italian">GUARDIANO ASSASSINATO DEL SECONDO CANCELLO</TextString>
@@ -299,6 +332,7 @@
     </GameText>
     <GameText id="guardian_name">
         <TextString language="english">GOL-SET</TextString>
+        <TextString language="basque">GOL-SET</TextString>
         <TextString language="french">GOL-SET</TextString>
         <TextString language="german">GOL-SET</TextString>
         <TextString language="italian">GOL-SET</TextString>
@@ -308,6 +342,7 @@
     </GameText>
     <GameText id="guardian_desc">
         <TextString language="english">GUARDIAN OF THE ETERNAL GATE</TextString>
+        <TextString language="basque">BETIEREKO ATEAREN ZAINDARIA</TextString>
         <TextString language="french">GARDIEN DE LA PORTE D'ÉTERNITÉ</TextString>
         <TextString language="german">WÄCHTER DES EWIGEN TORS</TextString>
         <TextString language="italian">GUARDIANO DEL CANCELLO ETERNO</TextString>
@@ -317,6 +352,7 @@
     </GameText>
     <GameText id="thesoul_name">
         <TextString language="english">THE SOUL</TextString>
+        <TextString language="basque">ARIMA</TextString>
         <TextString language="french">L'ÂME</TextString>
         <TextString language="german">DIE SEELE</TextString>
         <TextString language="italian">L'ANIMA</TextString>
@@ -326,6 +362,7 @@
     </GameText>
     <GameText id="thesoul_desc">
         <TextString language="english">IMAGE OF THE TITAN SOUL</TextString>
+        <TextString language="basque">TITANAREN ARIMAREN IRUDIA</TextString>
         <TextString language="french">IMAGE DE L'ÂME DE TITAN</TextString>
         <TextString language="german">ABBILD DER TITANEN-SEELE</TextString>
         <TextString language="italian">IMMAGINE DELL'ANIMA DI TITANO</TextString>
@@ -335,6 +372,7 @@
     </GameText>
     <GameText id="truth_name">
         <TextString language="english">TRUTH</TextString>
+        <TextString language="basque">EGIA</TextString>
         <TextString language="french">LA VÉRITÉ</TextString>
         <TextString language="german">WAHRHEIT</TextString>
         <TextString language="italian">VERITÀ</TextString>
@@ -344,6 +382,7 @@
     </GameText>
     <GameText id="spec_thanks">
         <TextString language="english">Special Thanks</TextString>
+        <TextString language="basque">Esker bereziak</TextString>
         <TextString language="french">Remerciements</TextString>
         <TextString language="german">Besonderer Dank</TextString>
         <TextString language="italian">Un ringraziamento speciale a</TextString>
@@ -353,6 +392,7 @@
     </GameText>
     <GameText id="elder_txt_1">
         <TextString language="english">Ah...</TextString>
+        <TextString language="basque">Ah...</TextString>
         <TextString language="french">Ah...</TextString>
         <TextString language="german">Ah...</TextString>
         <TextString language="italian">Ah...</TextString>
@@ -362,6 +402,7 @@
     </GameText>
     <GameText id="elder_txt_2">
         <TextString language="english">Another broken Soul seeking Truth</TextString>
+        <TextString language="basque">Egiaren bila dabilen beste arima puskatu bat</TextString>
         <TextString language="french">Encore une âme brisée en quête de Vérité</TextString>
         <TextString language="german">Noch eine zerbrochene Seele sucht Wahrheit</TextString>
         <TextString language="italian">Un'altra anima spezzata alla ricerca della Verità</TextString>
@@ -371,6 +412,7 @@
     </GameText>
     <GameText id="elder_txt_3">
         <TextString language="english">Less encumbered than the last...</TextString>
+        <TextString language="basque">Ez aurrekoa bezain kargatua...</TextString>
         <TextString language="french">Moins lourdement armée que la précédente...</TextString>
         <TextString language="german">Nicht so belastet wie die letzte...</TextString>
         <TextString language="italian">Meno oppressa dell'ultima...</TextString>
@@ -380,6 +422,7 @@
     </GameText>
     <GameText id="elder_txt_4">
         <TextString language="english">You have paid a high toll indeed</TextString>
+        <TextString language="basque">Prezio altua ordaindu duzu, zalantzarik gabe</TextString>
         <TextString language="french">Vous avez payé un lourd tribut, il est vrai,</TextString>
         <TextString language="german">Du hast einen hohen Preis gezahlt</TextString>
         <TextString language="italian">Hai pagato un prezzo altissimo...</TextString>
@@ -389,6 +432,7 @@
     </GameText>
     <GameText id="elder_txt_5">
         <TextString language="english">For the abomination in your quiver</TextString>
+        <TextString language="basque">Gezi-ontzi gorrotagarri horrengatik</TextString>
         <TextString language="french">Pour cette abomination dans votre carquois.</TextString>
         <TextString language="german">für die Missgeburt in deinem Köcher</TextString>
         <TextString language="italian">Per l'abominio nella tua faretra</TextString>
@@ -398,6 +442,7 @@
     </GameText>
     <GameText id="elder_txt_6">
         <TextString language="english">And for what... Knowledge? Power?</TextString>
+        <TextString language="basque">Eta zertarako...? Ezagutza? Boterea?</TextString>
         <TextString language="french">Et pour quoi... La connaissance ? Le pouvoir ?</TextString>
         <TextString language="german">Und wofür... Wissen? Macht?</TextString>
         <TextString language="italian">E per cosa? Conoscenza? Potere?</TextString>
@@ -407,6 +452,7 @@
     </GameText>
     <GameText id="elder_txt_7">
         <TextString language="english">I hope it was worth it...</TextString>
+        <TextString language="basque">Merezi izatea espero dut...</TextString>
         <TextString language="french">J'espère que ça valait la peine...</TextString>
         <TextString language="german">Ich hoffe, das war es wert...</TextString>
         <TextString language="italian">Speravo ne valesse la pena...</TextString>
@@ -416,6 +462,7 @@
     </GameText>
     <GameText id="elder_txt_8">
         <TextString language="english">Do what you must.</TextString>
+        <TextString language="basque">Egin ezazu behar duzuna.</TextString>
         <TextString language="french">Faites ce que vous avez à faire !</TextString>
         <TextString language="german">Tue das, wofür du kamst.</TextString>
         <TextString language="italian">Fa' ciò che devi.</TextString>
@@ -425,6 +472,7 @@
     </GameText>
     <GameText id="prompt_shoot">
         <TextString language="english">PRESS #shoot# TO FIRE</TextString>
+        <TextString language="basque">SAKATU #shoot# TIRO EGITEKO</TextString>
         <TextString language="french">APPUYEZ SUR #shoot# POUR TIRER</TextString>
         <TextString language="german">DRÜCKE #shoot# ZUM SCHIESSEN</TextString>
         <TextString language="italian">PREMI #shoot# PER SPARARE</TextString>
@@ -434,6 +482,7 @@
     </GameText>
     <GameText id="prompt_roll">
         <TextString language="english">TAP #roll# TO ROLL</TextString>
+        <TextString language="basque">SAKATU #roll# ITZULIPURDI EGITEKO</TextString>
         <TextString language="french">APPUYEZ SUR #roll# POUR FAIRE UNE ROULADE</TextString>
         <TextString language="german">DRÜCKE #roll# ZUM ABROLLEN</TextString>
         <TextString language="italian">TOCCA #roll# PER ROTOLARE</TextString>
@@ -443,6 +492,7 @@
     </GameText>
     <GameText id="prompt_run">
         <TextString language="english">HOLD #run# TO RUN</TextString>
+        <TextString language="basque">MANTENDU #run# KORRI EGITEKO</TextString>
         <TextString language="french">APPUYEZ SUR #run# POUR COURIR</TextString>
         <TextString language="german">HALTE #run# ZUM LAUFEN</TextString>
         <TextString language="italian">TIENI PREMUTO #run# PER CORRERE</TextString>
@@ -452,6 +502,7 @@
     </GameText>
     <GameText id="m_start">
         <TextString language="english">START</TextString>
+        <TextString language="basque">HASI</TextString>
         <TextString language="french">COMMENCER</TextString>
         <TextString language="german">START</TextString>
         <TextString language="italian">INIZIA</TextString>
@@ -461,6 +512,7 @@
     </GameText>
     <GameText id="m_options">
         <TextString language="english">OPTIONS</TextString>
+        <TextString language="basque">AUKERAK</TextString>
         <TextString language="french">OPTIONS</TextString>
         <TextString language="german">OPTIONEN</TextString>
         <TextString language="italian">OPZIONI</TextString>
@@ -470,6 +522,7 @@
     </GameText>
     <GameText id="m_quit">
         <TextString language="english">QUIT</TextString>
+        <TextString language="basque">IRTEN</TextString>
         <TextString language="french">QUITTER</TextString>
         <TextString language="german">BEENDEN</TextString>
         <TextString language="italian">ESCI</TextString>
@@ -479,6 +532,7 @@
     </GameText>
     <GameText id="m_killed">
         <TextString language="english">KILLED</TextString>
+        <TextString language="basque">HILDAKO</TextString>
         <TextString language="french">VICTIMES</TextString>
         <TextString language="german">GETÖTET</TextString>
         <TextString language="italian">UCCISIONI</TextString>
@@ -488,6 +542,7 @@
     </GameText>
     <GameText id="m_deaths">
         <TextString language="english">DEATHS</TextString>
+        <TextString language="basque">HERIOTZA</TextString>
         <TextString language="french">MORTS</TextString>
         <TextString language="german">TODE</TextString>
         <TextString language="italian">MORTI</TextString>
@@ -497,6 +552,7 @@
     </GameText>
     <GameText id="m_selectsave">
         <TextString language="english">Select a Save Slot</TextString>
+        <TextString language="basque">Aukeratu gordetzeko arteka</TextString>
         <TextString language="french">Choisissez un emplacement de sauvegarde</TextString>
         <TextString language="german">Speicherplatz wählen</TextString>
         <TextString language="italian">Seleziona uno slot di salvataggio</TextString>
@@ -506,6 +562,7 @@
     </GameText>
     <GameText id="m_select">
         <TextString language="english">SELECT</TextString>
+        <TextString language="basque">AUKERATU</TextString>
         <TextString language="french">CHOISIR</TextString>
         <TextString language="german">AUSWAHL</TextString>
         <TextString language="italian">SELEZIONA</TextString>
@@ -515,6 +572,7 @@
     </GameText>
     <GameText id="m_back">
         <TextString language="english">BACK</TextString>
+        <TextString language="basque">ITZULI</TextString>
         <TextString language="french">RETOUR</TextString>
         <TextString language="german">ZURÜCK</TextString>
         <TextString language="italian">INDIETRO</TextString>
@@ -524,6 +582,7 @@
     </GameText>
     <GameText id="m_erase">
         <TextString language="english">ERASE</TextString>
+        <TextString language="basque">EZABATU</TextString>
         <TextString language="french">EFFACER</TextString>
         <TextString language="german">LÖSCHEN</TextString>
         <TextString language="italian">ELIMINA</TextString>
@@ -533,6 +592,7 @@
     </GameText>
     <GameText id="m_sound">
         <TextString language="english">SOUND</TextString>
+        <TextString language="basque">SOINUA</TextString>
         <TextString language="french">SONS</TextString>
         <TextString language="german">SOUND</TextString>
         <TextString language="italian">AUDIO</TextString>
@@ -542,6 +602,7 @@
     </GameText>
     <GameText id="m_musicvol">
         <TextString language="english">MUSIC VOL :</TextString>
+        <TextString language="basque">MUSIKA BOL.:</TextString>
         <TextString language="french">VOL. MUSIQUE :</TextString>
         <TextString language="german">MUSIK:</TextString>
         <TextString language="italian">VOL. MUSICA:</TextString>
@@ -551,6 +612,7 @@
     </GameText>
     <GameText id="m_sfxvol">
         <TextString language="english">SFX VOL :</TextString>
+        <TextString language="basque">EFEKTU BOL.:</TextString>
         <TextString language="french">VOL. EFFETS SONORES :</TextString>
         <TextString language="german">EFFEKTE:</TextString>
         <TextString language="italian">VOL. EFFETTI:</TextString>
@@ -560,6 +622,7 @@
     </GameText>
     <GameText id="m_graphics">
         <TextString language="english">GRAPHICS</TextString>
+        <TextString language="basque">GRAFIKOAK</TextString>
         <TextString language="french">GRAPHISMES</TextString>
         <TextString language="german">GRAFIK</TextString>
         <TextString language="italian">GRAFICA</TextString>
@@ -569,6 +632,7 @@
     </GameText>
     <GameText id="m_resolution">
         <TextString language="english">RESOLUTION :</TextString>
+        <TextString language="basque">BEREIZMENA:</TextString>
         <TextString language="french">RÉSOLUTION :</TextString>
         <TextString language="german">AUFLÖSUNG:</TextString>
         <TextString language="italian">RISOLUZIONE:</TextString>
@@ -578,6 +642,7 @@
     </GameText>
     <GameText id="m_fullscreen">
         <TextString language="english">FULL SCREEN :</TextString>
+        <TextString language="basque">PANTAILA OSOA:</TextString>
         <TextString language="french">PLEIN ÉCRAN :</TextString>
         <TextString language="german">VOLLBILD:</TextString>
         <TextString language="italian">SCHERMO INTERO:</TextString>
@@ -587,6 +652,7 @@
     </GameText>
     <GameText id="m_vsync">
         <TextString language="english">VSYNC :</TextString>
+        <TextString language="basque">VSYIC:</TextString>
         <TextString language="french">SYNCHRO. VERTICALE :</TextString>
         <TextString language="german">V-SYNC:</TextString>
         <TextString language="italian">VSYNC:</TextString>
@@ -596,6 +662,7 @@
     </GameText>
     <GameText id="m_gamesettings">
         <TextString language="english">GAME SETTINGS</TextString>
+        <TextString language="basque">JOKO EZARPENAK</TextString>
         <TextString language="french">PARAMÈTRES DE JEU</TextString>
         <TextString language="german">SPIELOPTIONEN</TextString>
         <TextString language="italian">IMPOSTAZIONI DI GIOCO</TextString>
@@ -605,6 +672,7 @@
     </GameText>
     <GameText id="m_timer">
         <TextString language="english">TIMER :</TextString>
+        <TextString language="basque">DENBORA:</TextString>
         <TextString language="french">CHRONOMÈTRE :</TextString>
         <TextString language="german">ZEIT:</TextString>
         <TextString language="italian">TIMER:</TextString>
@@ -614,6 +682,7 @@
     </GameText>
     <GameText id="m_lang">
         <TextString language="english">LANGUAGE :</TextString>
+        <TextString language="basque">HIZKUNTZA:</TextString>
         <TextString language="french">LANGUE :</TextString>
         <TextString language="german">SPRACHE:</TextString>
         <TextString language="italian">LINGUA:</TextString>
@@ -623,6 +692,7 @@
     </GameText>
     <GameText id="m_control">
         <TextString language="english">CONTROLS</TextString>
+        <TextString language="basque">KONTROLAK</TextString>
         <TextString language="french">COMMANDES</TextString>
         <TextString language="german">STEUERUNG</TextString>
         <TextString language="italian">COMANDI</TextString>
@@ -632,6 +702,7 @@
     </GameText>
     <GameText id="m_on">
         <TextString language="english">ON</TextString>
+        <TextString language="basque">BAI</TextString>
         <TextString language="french">ON</TextString>
         <TextString language="german">EIN</TextString>
         <TextString language="italian">SÌ</TextString>
@@ -641,6 +712,7 @@
     </GameText>
     <GameText id="m_off">
         <TextString language="english">OFF</TextString>
+        <TextString language="basque">EZ</TextString>
         <TextString language="french">OFF</TextString>
         <TextString language="german">AUS</TextString>
         <TextString language="italian">NO</TextString>
@@ -650,6 +722,7 @@
     </GameText>
     <GameText id="m_exit">
         <TextString language="english">Exit game?</TextString>
+        <TextString language="basque">Jokotik irten?</TextString>
         <TextString language="french">Quitter le jeu ?</TextString>
         <TextString language="german">Spiel verlassen?</TextString>
         <TextString language="italian">Uscire dal gioco?</TextString>
@@ -659,6 +732,7 @@
     </GameText>
     <GameText id="m_confirm">
         <TextString language="english">Confirm Changes?</TextString>
+        <TextString language="basque">Aldaketak baieztatu?</TextString>
         <TextString language="french">Confirmer les changements ?</TextString>
         <TextString language="german">Änderungen übernehmen?</TextString>
         <TextString language="italian">Confermare le modifiche?</TextString>
@@ -668,6 +742,7 @@
     </GameText>
     <GameText id="m_ok">
         <TextString language="english">OK</TextString>
+        <TextString language="basque">OK</TextString>
         <TextString language="french">OK</TextString>
         <TextString language="german">OK</TextString>
         <TextString language="italian">OK</TextString>
@@ -677,6 +752,7 @@
     </GameText>
     <GameText id="m_cancel">
         <TextString language="english">CANCEL</TextString>
+        <TextString language="basque">EZEZTATU</TextString>
         <TextString language="french">ANNULER</TextString>
         <TextString language="german">ABBRUCH</TextString>
         <TextString language="italian">ANNULLA</TextString>
@@ -686,6 +762,7 @@
     </GameText>
     <GameText id="m_exittitle">
         <TextString language="english">Exit to Title Screen?</TextString>
+        <TextString language="basque">Hasierako pantailara irten?</TextString>
         <TextString language="french">Quitter vers l'écran-titre </TextString>
         <TextString language="german">Zurück zum Titel?</TextString>
         <TextString language="italian">Tornare alla schermata del titolo?</TextString>
@@ -695,6 +772,7 @@
     </GameText>
     <GameText id="m_erasedata">
         <TextString language="english">ERASE DATA</TextString>
+        <TextString language="basque">DATUAK EZABATU</TextString>
         <TextString language="french">EFFACER DONNÉES</TextString>
         <TextString language="german">DATEN LÖSCHEN</TextString>
         <TextString language="italian">ELIMINA DATI</TextString>
@@ -704,6 +782,7 @@
     </GameText>
     <GameText id="m_yes">
         <TextString language="english">YES</TextString>
+        <TextString language="basque">BAI</TextString>
         <TextString language="french">OUI</TextString>
         <TextString language="german">JA</TextString>
         <TextString language="italian">SÌ</TextString>
@@ -713,6 +792,7 @@
     </GameText>
     <GameText id="m_no">
         <TextString language="english">NO</TextString>
+        <TextString language="basque">EZ</TextString>
         <TextString language="french">NON</TextString>
         <TextString language="german">NEIN</TextString>
         <TextString language="italian">NO</TextString>
@@ -722,6 +802,7 @@
     </GameText>
     <GameText id="m_newgame">
         <TextString language="english">NEW GAME</TextString>
+        <TextString language="basque">PARTIDA BERRIA</TextString>
         <TextString language="french">NOUVELLE PARTIE</TextString>
         <TextString language="german">NEUES SPIEL</TextString>
         <TextString language="italian">NUOVA PARTITA</TextString>
@@ -731,6 +812,7 @@
     </GameText>
     <GameText id="m_hard">
         <TextString language="english">HARD MODE - The Real Challenge</TextString>
+        <TextString language="basque">MODU ZAILA - Benetako erronka</TextString>
         <TextString language="french">MODE DIFFICILE : le vrai défi</TextString>
         <TextString language="german">SCHWIERIG - Die wahre Herausforderung</TextString>
         <TextString language="italian">MODALITÀ DIFFICILE: la vera sfida</TextString>
@@ -740,6 +822,7 @@
     </GameText>
     <GameText id="m_iron">
         <TextString language="english">IRON MODE - You only get one life</TextString>
+        <TextString language="basque">BURDIN MODUA - Bizi bakarra duzu</TextString>
         <TextString language="french">MODE INTRÉPIDE : une seule vie</TextString>
         <TextString language="german">EISENHART - Du hast nur ein Leben</TextString>
         <TextString language="italian">MODALITÀ ACCIAIO: hai solo una vita</TextString>
@@ -749,6 +832,7 @@
     </GameText>
     <GameText id="m_truth">
         <TextString language="english">TRUTH - Translated text</TextString>
+        <TextString language="basque">EGIA - Itzulitako testua</TextString>
         <TextString language="french">VÉRITÉ : texte traduit</TextString>
         <TextString language="german">WAHRHEIT - Übersetzter Text</TextString>
         <TextString language="italian">VERITÀ: testo tradotto</TextString>
@@ -758,6 +842,7 @@
     </GameText>
     <GameText id="m_noroll">
         <TextString language="english">NO ROLLS - Cannot roll or run</TextString>
+        <TextString language="basque">ITZULIPURDIRIK EZ - Ezin da korri edo itzulipurdirik egin</TextString>
         <TextString language="french">SANS ROULADES : ni roulades, ni sprint</TextString>
         <TextString language="german">KEIN ROLLEN - Kein Rollen, kein Laufen</TextString>
         <TextString language="italian">NON ROTOLARE: non puoi né rotolare né correre</TextString>
@@ -767,6 +852,7 @@
     </GameText>
     <GameText id="soul_elder_txt_1">
         <TextString language="english">You found what you sought...</TextString>
+        <TextString language="basque">Bila zenbiltzana aurkitu duzu...</TextString>
         <TextString language="french">Vous avez trouvé ce que vous cherchiez...</TextString>
         <TextString language="german">Du hast gefunden, was du gesucht hast...</TextString>
         <TextString language="italian">Hai trovato ciò che cercavi...</TextString>
@@ -776,6 +862,7 @@
     </GameText>
     <GameText id="soul_elder_txt_2">
         <TextString language="english">You killed the Second God.</TextString>
+        <TextString language="basque">Bigarren Jainkoa hil duzu.</TextString>
         <TextString language="french">Vous avez tué le second Dieu.</TextString>
         <TextString language="german">Du hast den Zweiten Gott getötet.</TextString>
         <TextString language="italian">Hai ucciso la Seconda divinità.</TextString>
@@ -785,6 +872,7 @@
     </GameText>
     <GameText id="soul_elder_txt_3">
         <TextString language="english">The one who took my place</TextString>
+        <TextString language="basque">Nire lekua hartu</TextString>
         <TextString language="french">Celui qui avait pris ma place</TextString>
         <TextString language="german">Den, der meinen Platz genommen</TextString>
         <TextString language="italian">Quella che ha preso il mio posto</TextString>
@@ -794,6 +882,7 @@
     </GameText>
     <GameText id="soul_elder_txt_4">
         <TextString language="english">and created The Four Guardians.</TextString>
+        <TextString language="basque">eta Lau Zaindariak sortu zituen bera.</TextString>
         <TextString language="french">et créé les Quatre Gardiens.</TextString>
         <TextString language="german">und die Vier Wächter geschaffen hat.</TextString>
         <TextString language="italian">e ha creato i Quattro guardiani.</TextString>
@@ -803,6 +892,7 @@
     </GameText>
     <GameText id="soul_elder_txt_5">
         <TextString language="english">The rest of the Titans here</TextString>
+        <TextString language="basque">Gainontzeko titanak</TextString>
         <TextString language="french">Ici, les autres Titans</TextString>
         <TextString language="german">Die andere Titanen waren</TextString>
         <TextString language="italian">Gli altri Titani</TextString>
@@ -812,6 +902,7 @@
     </GameText>
     <GameText id="soul_elder_txt_6">
         <TextString language="english">grew from Lost Souls</TextString>
+        <TextString language="basque">galdutako arimetatik hazi ziren</TextString>
         <TextString language="french">sont nés d'Âmes perdues</TextString>
         <TextString language="german">einst verlorene Seelen</TextString>
         <TextString language="italian">sono nati dalle Anime perdute</TextString>
@@ -821,6 +912,7 @@
     </GameText>
     <GameText id="soul_elder_txt_7">
         <TextString language="english">Some were like you... human.</TextString>
+        <TextString language="basque">Batzuk zu bezalakoak ziren..., gizakiak.</TextString>
         <TextString language="french">Dont certaines comme vous... humaines,</TextString>
         <TextString language="german">Auch Menschen... so wie du.</TextString>
         <TextString language="italian">Alcuni erano come te... umani.</TextString>
@@ -830,6 +922,7 @@
     </GameText>
     <GameText id="soul_elder_txt_8">
         <TextString language="english">They lacked your conviction for killing...</TextString>
+        <TextString language="basque">Haiek ez zuten zuk duzun hiltzeko konbikziorik...</TextString>
         <TextString language="french"> n'égalaient certes pas votre ardeur à tuer.</TextString>
         <TextString language="german">Aber keine so überzeugten Mörder...</TextString>
         <TextString language="italian">Gli mancava la convinzione di uccidere...</TextString>
@@ -839,6 +932,7 @@
     </GameText>
     <GameText id="truth_elder_txt_1">
         <TextString language="english">I was the first Life</TextString>
+        <TextString language="basque">Ni izan nintzen lehenengo Bizitza</TextString>
         <TextString language="french">J'ai été la première Vie</TextString>
         <TextString language="german">Ich war das erste Leben</TextString>
         <TextString language="italian">Io ero la prima Vita</TextString>
@@ -848,6 +942,7 @@
     </GameText>
     <GameText id="truth_elder_txt_2">
         <TextString language="english">The first Soul born from Truth</TextString>
+        <TextString language="basque">Egiatik sortutako lehenengo Arima</TextString>
         <TextString language="french">La première Âme née de la Vérité</TextString>
         <TextString language="german">Die erste Seele, geboren aus Wahrheit</TextString>
         <TextString language="italian">La prima anima nata dalla Verità</TextString>
@@ -857,6 +952,7 @@
     </GameText>
     <GameText id="truth_elder_txt_3">
         <TextString language="english">And from I, came the first of you</TextString>
+        <TextString language="basque">Eta nigandik, zuetako lehenengoa etorri zen</TextString>
         <TextString language="french">Et de moi, émergea le premier d'entre vous</TextString>
         <TextString language="german">Aus mir kamen die ersten von Euch</TextString>
         <TextString language="italian">E da me sono venuti i primi di voi</TextString>
@@ -866,6 +962,7 @@
     </GameText>
     <GameText id="truth_elder_txt_4">
         <TextString language="english">And now we come full circle</TextString>
+        <TextString language="basque">Eta orain zirkulua itxiko dugu</TextString>
         <TextString language="french">Et maintenant la boucle se referme</TextString>
         <TextString language="german">Jetzt schließt sich der Kreis</TextString>
         <TextString language="italian">E ora il cerchio si chiude</TextString>
@@ -875,6 +972,7 @@
     </GameText>
     <GameText id="truth_elder_txt_5">
         <TextString language="english">The maker is un-made</TextString>
+        <TextString language="basque">Sortzailea deseginda dago</TextString>
         <TextString language="french">Le Créateur est anéanti</TextString>
         <TextString language="german">Der Anfang endet</TextString>
         <TextString language="italian">Il creatore è distrutto</TextString>
@@ -884,6 +982,7 @@
     </GameText>
     <GameText id="truth_elder_txt_6">
         <TextString language="english">And one day, you will fall to the same fate</TextString>
+        <TextString language="basque">Eta egunen batean, zure patua ere hori izango da</TextString>
         <TextString language="french">Et un jour, vous connaîtrez le même destin funeste</TextString>
         <TextString language="german">Eines Tages wird es auch dir so gehen</TextString>
         <TextString language="italian">E un giorno subirete la stessa sorte</TextString>
@@ -893,6 +992,7 @@
     </GameText>
     <GameText id="truth_elder_txt_7">
         <TextString language="english">Do what you must.</TextString>
+        <TextString language="basque">Egin ezazu behar duzuna.</TextString>
         <TextString language="french">Faites ce que vous avez à faire !</TextString>
         <TextString language="german">Tue das, wofür du kamst.</TextString>
         <TextString language="italian">Fate quello che dovete.</TextString>
@@ -902,6 +1002,7 @@
     </GameText>
     <GameText id="truth_elder_txt_8">
         <TextString language="english"></TextString>
+        <TextString language="basque"></TextString>
         <TextString language="french"></TextString>
         <TextString language="german"></TextString>
         <TextString language="italian"></TextString>
@@ -911,6 +1012,7 @@
     </GameText>
     <GameText id="m_newmodes">
         <TextString language="english">NEW GAME MODES UNLOCKED</TextString>
+        <TextString language="basque">JOSTATZEKO MODU BERRIAK DESBLOKEATU DIRA</TextString>
         <TextString language="french">NOUVEAUX MODES DE JEU DÉBLOQUÉS</TextString>
         <TextString language="german">NEUE SPIELMODI VERFÜGBAR</TextString>
         <TextString language="italian">NUOVE MODALITÀ DI GIOCO SBLOCCATE</TextString>
@@ -920,6 +1022,7 @@
     </GameText>
     <GameText id="m_rumble">
         <TextString language="english">PAD RUMBLE :</TextString>
+        <TextString language="basque">AGINTE DARDARA:</TextString>
         <TextString language="french">VIBRATIONS DE MANETTE :</TextString>
         <TextString language="german">PAD-VIBRATION:</TextString>
         <TextString language="italian">VIBRAZIONE CONTROLLER:</TextString>
@@ -929,6 +1032,7 @@
     </GameText>
     <GameText id="m_keyboard">
         <TextString language="english">KEYBOARD</TextString>
+        <TextString language="basque">TEKLATUA</TextString>
         <TextString language="french">CLAVIER</TextString>
         <TextString language="german">TASTATUR</TextString>
         <TextString language="italian">TASTIERA</TextString>
@@ -938,6 +1042,7 @@
     </GameText>
     <GameText id="m_joypad">
         <TextString language="english">JOYPAD</TextString>
+        <TextString language="basque">AGINTEA</TextString>
         <TextString language="french">MANETTE</TextString>
         <TextString language="german">JOYPAD</TextString>
         <TextString language="italian">CONTROLLER</TextString>
@@ -947,6 +1052,7 @@
     </GameText>
     <GameText id="m_movestick">
         <TextString language="english">MOVEMENT :</TextString>
+        <TextString language="basque">MUGIMENDUA:</TextString>
         <TextString language="french">DÉPLACEMENTS :</TextString>
         <TextString language="german">BEWEGEN:</TextString>
         <TextString language="italian">MOVIMENTO:</TextString>
@@ -956,6 +1062,7 @@
     </GameText>
     <GameText id="m_shoot">
         <TextString language="english">SHOOT :</TextString>
+        <TextString language="basque">TIRO:</TextString>
         <TextString language="french">TIR :</TextString>
         <TextString language="german">SCHIESSEN:</TextString>
         <TextString language="italian">SPARA:</TextString>
@@ -965,6 +1072,7 @@
     </GameText>
     <GameText id="m_roll">
         <TextString language="english">ROLL :</TextString>
+        <TextString language="basque">ITZULIPURDI:</TextString>
         <TextString language="french">ROULADE :</TextString>
         <TextString language="german">ABROLLEN:</TextString>
         <TextString language="italian">ROTOLA:</TextString>
@@ -974,6 +1082,7 @@
     </GameText>
     <GameText id="m_lookstick">
         <TextString language="english">LOOK :</TextString>
+        <TextString language="basque">BEGIRATU:</TextString>
         <TextString language="french">OBSERVATION :</TextString>
         <TextString language="german">UMSEHEN:</TextString>
         <TextString language="italian">GUARDA:</TextString>
@@ -983,6 +1092,7 @@
     </GameText>
     <GameText id="m_resetdefault">
         <TextString language="english">RESET TO DEFAULT</TextString>
+        <TextString language="basque">BEREZKOAK BERREZARRI</TextString>
         <TextString language="french">VALEURS D'ORIGINE</TextString>
         <TextString language="german">ZURÜCK AUF VORGABE</TextString>
         <TextString language="italian">RIPRISTINA IMPOSTAZIONI PREDEFINITE</TextString>
@@ -992,6 +1102,7 @@
     </GameText>
     <GameText id="m_up">
         <TextString language="english">UP</TextString>
+        <TextString language="basque">GORA</TextString>
         <TextString language="french">HAUT</TextString>
         <TextString language="german">RAUF</TextString>
         <TextString language="italian">SU</TextString>
@@ -1001,6 +1112,7 @@
     </GameText>
     <GameText id="m_down">
         <TextString language="english">DOWN</TextString>
+        <TextString language="basque">BEHERA</TextString>
         <TextString language="french">BAS</TextString>
         <TextString language="german">RUNTER</TextString>
         <TextString language="italian">GIÙ</TextString>
@@ -1010,6 +1122,7 @@
     </GameText>
     <GameText id="m_left">
         <TextString language="english">LEFT</TextString>
+        <TextString language="basque">EZKER</TextString>
         <TextString language="french">GAUCHE</TextString>
         <TextString language="german">LINKS</TextString>
         <TextString language="italian">SINISTRA</TextString>
@@ -1019,6 +1132,7 @@
     </GameText>
     <GameText id="m_right">
         <TextString language="english">RIGHT</TextString>
+        <TextString language="basque">ESKUIN</TextString>
         <TextString language="french">DROIT</TextString>
         <TextString language="german">RECHTS</TextString>
         <TextString language="italian">DESTRA</TextString>
@@ -1028,6 +1142,7 @@
     </GameText>
     <GameText id="FIRST_GATE_name">
         <TextString language="english">Out of the Frying Pan...</TextString>
+        <TextString language="basque">Sutatik atera...</TextString>
         <TextString language="french">De Charybde...</TextString>
         <TextString language="german">Aus dem Regen...</TextString>
         <TextString language="italian">Dalla padella...</TextString>
@@ -1037,6 +1152,7 @@
     </GameText>
     <GameText id="FIRST_GATE_desc">
         <TextString language="english">Open the first Sealed Gate</TextString>
+        <TextString language="basque">Ireki lehenengo Zigilatutako Atea.</TextString>
         <TextString language="french">Ouvrir la première Porte Scellée</TextString>
         <TextString language="german">Öffne das erste versiegelte Tor</TextString>
         <TextString language="italian">Apri il primo cancello chiuso</TextString>
@@ -1046,6 +1162,7 @@
     </GameText>
     <GameText id="SECOND_GATE_name">
         <TextString language="english">...Into the Fire</TextString>
+        <TextString language="basque">... Sutara erortzeko</TextString>
         <TextString language="french">... En Scylla</TextString>
         <TextString language="german">... in die Traufe</TextString>
         <TextString language="italian">... alla brace</TextString>
@@ -1055,6 +1172,7 @@
     </GameText>
     <GameText id="SECOND_GATE_desc">
         <TextString language="english">Open the second Sealed Gate</TextString>
+        <TextString language="basque">Ireki bigarren Zigilatutako Atea.</TextString>
         <TextString language="french">Ouvrir la seconde Porte Scellée</TextString>
         <TextString language="german">Öffne das zweite versiegelte Tor</TextString>
         <TextString language="italian">Apri il secondo cancello chiuso</TextString>
@@ -1064,6 +1182,7 @@
     </GameText>
     <GameText id="SPEED_RUN_name">
         <TextString language="english">Aerodynamics</TextString>
+        <TextString language="basque">Aerodinamika</TextString>
         <TextString language="french">Aérodynamisme</TextString>
         <TextString language="german">Aerodynamik</TextString>
         <TextString language="italian">Aerodinamica</TextString>
@@ -1073,6 +1192,7 @@
     </GameText>
     <GameText id="SPEED_RUN_desc">
         <TextString language="english">Beat the game in under 20 minutes</TextString>
+        <TextString language="basque">Bukatu jokoa 20 minutu baino gutxiagoan.</TextString>
         <TextString language="french">Finir le jeu en moins de 20 minutes</TextString>
         <TextString language="german">Schlag das Spiel in unter 20 Minuten</TextString>
         <TextString language="italian">Completa il gioco in meno di 20 minuti</TextString>
@@ -1082,6 +1202,7 @@
     </GameText>
     <GameText id="TITAN_SOUL_name">
         <TextString language="english">Titan Soul</TextString>
+        <TextString language="basque">Titanaren Arima</TextString>
         <TextString language="french">Âme de titan</TextString>
         <TextString language="german">Titanenseele</TextString>
         <TextString language="italian">Anima di Titano</TextString>
@@ -1091,6 +1212,7 @@
     </GameText>
     <GameText id="TITAN_SOUL_desc">
         <TextString language="english">Beat the Game</TextString>
+        <TextString language="basque">Bukatu jokoa</TextString>
         <TextString language="french">Finir le jeu</TextString>
         <TextString language="german">Schlag das Spiel</TextString>
         <TextString language="italian">Completa il gioco</TextString>
@@ -1100,6 +1222,7 @@
     </GameText>
     <GameText id="TRUTH_SOUL_name">
         <TextString language="english">TRUTH</TextString>
+        <TextString language="basque">EGIA</TextString>
         <TextString language="french">VÉRITÉ</TextString>
         <TextString language="german">WAHRHEIT</TextString>
         <TextString language="italian">VERITÀ</TextString>
@@ -1109,6 +1232,7 @@
     </GameText>
     <GameText id="TRUTH_SOUL_desc">
         <TextString language="english">???</TextString>
+        <TextString language="basque">???</TextString>
         <TextString language="french">???</TextString>
         <TextString language="german">???</TextString>
         <TextString language="italian">???</TextString>
@@ -1118,6 +1242,7 @@
     </GameText>
     <GameText id="IRON_NORMAL_name">
         <TextString language="english">Iron Human</TextString>
+        <TextString language="basque">Burdinezko Gizakia</TextString>
         <TextString language="french">Humain héroïque</TextString>
         <TextString language="german">Eisenmensch</TextString>
         <TextString language="italian">Umano d'acciaio</TextString>
@@ -1127,6 +1252,7 @@
     </GameText>
     <GameText id="IRON_NORMAL_desc">
         <TextString language="english">Beat the game in Iron Mode</TextString>
+        <TextString language="basque">Bukatu jokoa Burdin Moduan.</TextString>
         <TextString language="french">Finir le jeu en mode Intrépide</TextString>
         <TextString language="german">Schlag das Spiel im Eisenhart-Modus</TextString>
         <TextString language="italian">Completa il gioco in modalità Acciaio</TextString>
@@ -1136,6 +1262,7 @@
     </GameText>
     <GameText id="IRON_HARD_name">
         <TextString language="english">Iron Titan</TextString>
+        <TextString language="basque">Burdinezko Titana</TextString>
         <TextString language="french">Titan héroïque</TextString>
         <TextString language="german">Eisentitan</TextString>
         <TextString language="italian">Titano d'acciaio</TextString>
@@ -1145,6 +1272,7 @@
     </GameText>
     <GameText id="IRON_HARD_desc">
         <TextString language="english">Beat the game in Iron Mode with Hard Mode active</TextString>
+        <TextString language="basque">Bukatu jokoa Burdin Moduan, modu Zaila aktibo dagoelarik.</TextString>
         <TextString language="french">Finir le jeu en Mode Intrépide, avec le Mode Difficile actif</TextString>
         <TextString language="german">Schlag das Spiel im Eisenhart-Modus auf Schwierig</TextString>
         <TextString language="italian">Completa il gioco in modalità Acciaio con la modalità Difficile attiva</TextString>
@@ -1154,6 +1282,7 @@
     </GameText>
     <GameText id="NO_ROLLS_name">
         <TextString language="english">Hard Bizkit</TextString>
+        <TextString language="basque">Hard Bizkit</TextString>
         <TextString language="french">Raide comme un piquet</TextString>
         <TextString language="german">Hartes Brot</TextString>
         <TextString language="italian">È sempre più dura</TextString>
@@ -1163,6 +1292,7 @@
     </GameText>
     <GameText id="NO_ROLLS_desc">
         <TextString language="english">Beat the game without rolling rolling rolling (in No Roll mode)</TextString>
+        <TextString language="basque">Bukatu jokoa itzulipurdirik egin gabe (Itzulipurdirik Ez moduan)</TextString>
         <TextString language="french">Finir le jeu sans roulades (en mode Sans Roulades)</TextString>
         <TextString language="german">Schlag das Spiel ohne Abrollen (im Kein Rollen-Modus)</TextString>
         <TextString language="italian">Completa il gioco senza rotolare (Modalità Non rotolare)</TextString>
@@ -1172,6 +1302,7 @@
     </GameText>
     <GameText id="SLIMEBALL_name">
         <TextString language="english">Slimeball</TextString>
+        <TextString language="basque">Lohibola</TextString>
         <TextString language="french">Boule visqueuse</TextString>
         <TextString language="german">Schleimball</TextString>
         <TextString language="italian">Palla di melma</TextString>
@@ -1181,6 +1312,7 @@
     </GameText>
     <GameText id="SLIMEBALL_desc">
         <TextString language="english">Kill the Sludge titan with no more possible divisions</TextString>
+        <TextString language="basque">Hil ezazu Lohi titana zatiketa posible gehiago gabe.</TextString>
         <TextString language="french">Tuer le Titan informe sans plus de divisions possibles</TextString>
         <TextString language="german">Vernichte den Schleim-Titan nach allen möglichen Teilungen</TextString>
         <TextString language="italian">Uccidi il Titano melma senza altre divisioni</TextString>
@@ -1190,6 +1322,7 @@
     </GameText>
     <GameText id="HARD_MODE_name">
         <TextString language="english">New Game+</TextString>
+        <TextString language="basque">Partida berria+</TextString>
         <TextString language="french">Nouvelle partie+</TextString>
         <TextString language="german">Neues Spiel+</TextString>
         <TextString language="italian">Nuova partita+</TextString>
@@ -1199,6 +1332,7 @@
     </GameText>
     <GameText id="HARD_MODE_desc">
         <TextString language="english">Beat Hard Mode</TextString>
+        <TextString language="basque">Bukatu jokoa modu Zailean.</TextString>
         <TextString language="french">Finir le jeu en mode Difficile</TextString>
         <TextString language="german">Schlag den Schwierig-Modus</TextString>
         <TextString language="italian">Completa la modalità Difficile</TextString>
@@ -1208,6 +1342,7 @@
     </GameText>
     <GameText id="EYECUBE_name">
         <TextString language="english">Laser Eye Surgery</TextString>
+        <TextString language="basque">Begi Kirurgia Laserrarekin</TextString>
         <TextString language="french">Chirurgie de l'œil au laser</TextString>
         <TextString language="german">Laser-Augenkorrektur</TextString>
         <TextString language="italian">Chirurgia oculistica al laser</TextString>
@@ -1217,6 +1352,7 @@
     </GameText>
     <GameText id="EYECUBE_desc">
         <TextString language="english">Kill the Eye Cube while pulling back the arrow</TextString>
+        <TextString language="basque">Hil ezazu Kubo Begi gezia atzerantz dakarzula</TextString>
         <TextString language="french">Tuer l'Œilcube en ramenant la flèche à vous </TextString>
         <TextString language="german">Vernichte den Augenwürfel beim Zurückholen des Pfeils</TextString>
         <TextString language="italian">Uccidi l'occhio cubico tirando indietro la freccia</TextString>
@@ -1226,6 +1362,7 @@
     </GameText>
     <GameText id="BRAIN_name">
         <TextString language="english">Brain Freeze</TextString>
+        <TextString language="basque">Garun izoztua</TextString>
         <TextString language="french">Rhume de cerveau</TextString>
         <TextString language="german">Hirn auf Eis</TextString>
         <TextString language="italian">Brainfreeze</TextString>
@@ -1235,6 +1372,7 @@
     </GameText>
     <GameText id="BRAIN_desc">
         <TextString language="english">Kill the Brain with a flaming arrow</TextString>
+        <TextString language="basque">Hil ezazu Garuna sutan dagoen geziarekin</TextString>
         <TextString language="french">Tuer le Cerveau d'une flèche enflammée</TextString>
         <TextString language="german">Vernichte das Hirn mit einem flammenden Pfeil</TextString>
         <TextString language="italian">Uccidi il cervello con una freccia infuocata</TextString>
@@ -1244,6 +1382,7 @@
     </GameText>
     <GameText id="PLANT_VINES_name">
         <TextString language="english">Short Back and Sides</TextString>
+        <TextString language="basque">Alde guztietatik moztu</TextString>
         <TextString language="french">La nuque rasée et court sur les côtés</TextString>
         <TextString language="german">Landschaftspflege</TextString>
         <TextString language="italian">Una spuntatina qua e là</TextString>
@@ -1253,6 +1392,7 @@
     </GameText>
     <GameText id="PLANT_VINES_desc">
         <TextString language="english">Cut all the vines off the Plant Titan</TextString>
+        <TextString language="basque">Moztu Landare Titanaren parra guztiak</TextString>
         <TextString language="french">Couper toutes les tiges du Titan Végétal</TextString>
         <TextString language="german">Schneide alle Ranken des Pflanzen-Titan ab</TextString>
         <TextString language="italian">Taglia tutti i rami del Titano-pianta </TextString>
@@ -1262,6 +1402,7 @@
     </GameText>
     <GameText id="BLAZEIT_name">
         <TextString language="english">Drug Trial</TextString>
+        <TextString language="basque">Droga probatzea</TextString>
         <TextString language="french">Épreuve stupéfiante</TextString>
         <TextString language="german">Drogentest</TextString>
         <TextString language="italian">Test allucinogeno</TextString>
@@ -1271,6 +1412,7 @@
     </GameText>
     <GameText id="BLAZEIT_desc">
         <TextString language="english">Succumb to the effect of spores for 30 seconds total</TextString>
+        <TextString language="basque">Bizi itzazu esporen ondorioak guztiak 30 segundoz</TextString>
         <TextString language="french">Résister aux effets des spores pendant un total de 30 secondes</TextString>
         <TextString language="german">Unterliege dem Effekt der Sporen 30 Sekunden lang</TextString>
         <TextString language="italian">Subisci l'effetto delle spore per 30 secondi</TextString>
@@ -1280,6 +1422,7 @@
     </GameText>
     <GameText id="ROCKY_name">
         <TextString language="english">Demo Man</TextString>
+        <TextString language="basque">Suntsitzaile</TextString>
         <TextString language="french">Vandale</TextString>
         <TextString language="german">Prachtkerl</TextString>
         <TextString language="italian">Uomo demo</TextString>
@@ -1289,6 +1432,7 @@
     </GameText>
     <GameText id="ROCKY_desc">
         <TextString language="english">Kill the Knight after destroying all pillars</TextString>
+        <TextString language="basque">Hil ezazu Zalduna zutabe guztiak txikitu eta gero</TextString>
         <TextString language="french">Tuer le Chevalier après avoir détruit tous les piliers.</TextString>
         <TextString language="german">Vernichte den Ritter, nachdem du alle Säulen zerstört hast</TextString>
         <TextString language="italian">Uccidi il cavaliere dopo aver distrutto tutte le colonne</TextString>
@@ -1298,6 +1442,7 @@
     </GameText>
     <GameText id="AVARICE_name">
         <TextString language="english">Ca$h Mon£y</TextString>
+        <TextString language="basque">€$ku dirutan</TextString>
         <TextString language="french">Grand argentier</TextString>
         <TextString language="german">Onk£l Da$ob€rt</TextString>
         <TextString language="italian">Tanti $o£di </TextString>
@@ -1307,6 +1452,7 @@
     </GameText>
     <GameText id="AVARICE_desc">
         <TextString language="english">Produce 50 coins in the Chest fight</TextString>
+        <TextString language="basque">Lortu 50 txanpon Kutxaren aurkako borrokan.</TextString>
         <TextString language="french">Produire 50 pièces dans le combat du coffre</TextString>
         <TextString language="german">Hol 50 Münzen im Truhen-Kampf</TextString>
         <TextString language="italian">Produci 50 monete con il combattimento del forziere</TextString>
@@ -1316,6 +1462,7 @@
     </GameText>
     <GameText id="ROLLER_name">
         <TextString language="english">COME AT ME BRO</TextString>
+        <TextString language="basque">ZATOZ NIGANA, TXO</TextString>
         <TextString language="french">VIENS PAR ICI, PETIT !</TextString>
         <TextString language="german">ZEIG ES MIR, MANN</TextString>
         <TextString language="italian">VIENI, PICCOLINO</TextString>
@@ -1325,6 +1472,7 @@
     </GameText>
     <GameText id="ROLLER_desc">
         <TextString language="english">Kill the Rolling Titan in under 5 seconds</TextString>
+        <TextString language="basque">Hil ezazu Kroketa Titana 5 segundo baino gutxigoan.</TextString>
         <TextString language="french">Tuer le Titan qui fait des roulades en moins de 5 secondes</TextString>
         <TextString language="german">Vernichte den rollenden Titan in unter 5 Sekunden</TextString>
         <TextString language="italian">Uccidi il Titano rotolante in meno di 5 secondi</TextString>
@@ -1334,6 +1482,7 @@
     </GameText>
     <GameText id="BOMBER_name">
         <TextString language="english">Bomberman</TextString>
+        <TextString language="basque">Bonbagilea</TextString>
         <TextString language="french">Bomberman</TextString>
         <TextString language="german">Alles Bombe</TextString>
         <TextString language="italian">Bombarolo</TextString>
@@ -1343,6 +1492,7 @@
     </GameText>
     <GameText id="BOMBER_desc">
         <TextString language="english">Drop a bomb on the Lava Blob Titan's head</TextString>
+        <TextString language="basque">Bota bonba bat Laba Titanaren burura</TextString>
         <TextString language="french">Lâcher une bombe sur la tête du Titan informe en lave</TextString>
         <TextString language="german">Platziere eine Bombe auf den Kopf des Lavablob-Titanen</TextString>
         <TextString language="italian">Fai scoppiare una bomba sulla testa del Titano di lava</TextString>
@@ -1352,6 +1502,7 @@
     </GameText>
     <GameText id="IK_SPIN_name">
         <TextString language="english">Leak Spin</TextString>
+        <TextString language="basque">Biratze hilkorra</TextString>
         <TextString language="french">Empêcheur de tourner en rond</TextString>
         <TextString language="german">Todeswirbel</TextString>
         <TextString language="italian">Gira gira gira</TextString>
@@ -1361,6 +1512,7 @@
     </GameText>
     <GameText id="IK_SPIN_desc">
         <TextString language="english">Kill the Skull Titan as it spins</TextString>
+        <TextString language="basque">Hil ezazu Kaskezur Titana biratzen dabilen bitartean</TextString>
         <TextString language="french">Tuer le Titan-Crâne pendant qu'il tourne sur lui-même</TextString>
         <TextString language="german">Vernichte den Schädel-Titan, während er sich dreht</TextString>
         <TextString language="italian">Uccidi il Titano-teschio mentre gira</TextString>
@@ -1370,6 +1522,7 @@
     </GameText>
     <GameText id="BEAT_YETI_name">
         <TextString language="english">Beating the Yeti</TextString>
+        <TextString language="basque">Garaitu Yetia</TextString>
         <TextString language="french">Qui a peur du grand méchant Yéti ?</TextString>
         <TextString language="german">Yeti jetzt, tot zuletzt</TextString>
         <TextString language="italian">Batti lo Yeti</TextString>
@@ -1379,6 +1532,7 @@
     </GameText>
     <GameText id="BEAT_YETI_desc">
         <TextString language="english">Finish in under 10 seconds...</TextString>
+        <TextString language="basque">Akabatu 10 segundo baino gutxiagoan...</TextString>
         <TextString language="french">Le tuer en moins de 10 secondes...</TextString>
         <TextString language="german">Abschluss in unter 10 Sekunden...</TextString>
         <TextString language="italian">Distruggilo in meno di 10 secondi...</TextString>
@@ -1388,6 +1542,7 @@
     </GameText>
     <GameText id="DENTIST_name">
         <TextString language="english">Dental Plan</TextString>
+        <TextString language="basque">Hortz Asegurua</TextString>
         <TextString language="french">Dentiste de garde</TextString>
         <TextString language="german">Grundversorgung</TextString>
         <TextString language="italian">Piano dentale</TextString>
@@ -1397,6 +1552,7 @@
     </GameText>
     <GameText id="DENTIST_desc">
         <TextString language="english">Remove all teeth from the Mountain Titan then kill it</TextString>
+        <TextString language="basque">Kendu Mendi Titanari hortz guztiak eta gero hil ezazu</TextString>
         <TextString language="french">Extraire toutes les dents du Titan des Montagnes puis le tuer</TextString>
         <TextString language="german">Nimm dem Berg-Titan alle Zähne, dann vernichte ihn</TextString>
         <TextString language="italian">Togli tutti i denti dal Titano montagna e uccidilo</TextString>
@@ -1406,6 +1562,7 @@
     </GameText>
     <GameText id="SNAKE_name">
         <TextString language="english">Titanic</TextString>
+        <TextString language="basque">Titanic</TextString>
         <TextString language="french">Titanic</TextString>
         <TextString language="german">Titanic</TextString>
         <TextString language="italian">Titanic</TextString>
@@ -1415,6 +1572,7 @@
     </GameText>
     <GameText id="SNAKE_desc">
         <TextString language="english">Destroy all icebergs</TextString>
+        <TextString language="basque">Suntsitu iceberg guztiak</TextString>
         <TextString language="french">Détruire tous les icebergs</TextString>
         <TextString language="german">Vernichte alle Eisberge</TextString>
         <TextString language="italian">Distruggi tutti gli iceberg</TextString>
@@ -1424,6 +1582,7 @@
     </GameText>
     <GameText id="KING_name">
         <TextString language="english">A Collision of Souls</TextString>
+        <TextString language="basque">Arima Talka</TextString>
         <TextString language="french">Collision d'âmes</TextString>
         <TextString language="german">Seelenkollision</TextString>
         <TextString language="italian">Una collisione di anime</TextString>
@@ -1433,6 +1592,7 @@
     </GameText>
     <GameText id="KING_desc">
         <TextString language="english">Knock yourself out in the battle for the Titan Soul</TextString>
+        <TextString language="basque">Galdu konortea Titanaren Arimaren aurkako borrokan</TextString>
         <TextString language="french">S'assommer tout seul dans la bataille contre l'Âme</TextString>
         <TextString language="german">Schlag dich im Kampf um die Titan-Seele selbst k.o.</TextString>
         <TextString language="italian">Esci dal combattimento per l'Anima del Titano</TextString>
@@ -1442,6 +1602,7 @@
     </GameText>
     <GameText id="SHAD_COLOS_name">
         <TextString language="english">Shadow of the Colossus</TextString>
+        <TextString language="basque">Kolosoaren itzala</TextString>
         <TextString language="french">Shadow of the Colossus</TextString>
         <TextString language="german">Im Schatten des Koloss</TextString>
         <TextString language="italian">Ombra del Colosso</TextString>
@@ -1451,6 +1612,7 @@
     </GameText>
     <GameText id="SHAD_COLOS_desc">
         <TextString language="english">Kill the Broken Statue Titan while pulling back the arrow</TextString>
+        <TextString language="basque">Hil ezazu Pustatutako Estatuaren Titana gezia atzerantz datorrela</TextString>
         <TextString language="french">Tuer le Titan de la Statue Brisée en ramenant la flèche à vous</TextString>
         <TextString language="german">Vernichte den Statuen-Titan beim Zurückholen des Pfeils</TextString>
         <TextString language="italian">Uccidi il Titano statua rotta tirando indietro la freccia</TextString>
@@ -1460,6 +1622,7 @@
     </GameText>
     <GameText id="FIRST_BLOOD_name">
         <TextString language="english">First Blood</TextString>
+        <TextString language="basque">Lehenengo Odola</TextString>
         <TextString language="french">Baptême du feu</TextString>
         <TextString language="german">Erstes Blut</TextString>
         <TextString language="italian">Primo sangue</TextString>
@@ -1469,6 +1632,7 @@
     </GameText>
     <GameText id="FIRST_BLOOD_desc">
         <TextString language="english">Slay a Titan</TextString>
+        <TextString language="basque">Hil ezazu Titan bat</TextString>
         <TextString language="french">Tuer un Titan</TextString>
         <TextString language="german">Vernichte einen Titan</TextString>
         <TextString language="italian">Uccidi un Titano</TextString>
@@ -1478,6 +1642,7 @@
     </GameText>
     <GameText id="GUARDIAN_name">
         <TextString language="english">The Switch</TextString>
+        <TextString language="basque">Etengailua</TextString>
         <TextString language="french">L'interrupteur</TextString>
         <TextString language="german">Schalten und Walten</TextString>
         <TextString language="italian">L'interruttore</TextString>
@@ -1487,6 +1652,7 @@
     </GameText>
     <GameText id="GUARDIAN_desc">
         <TextString language="english">Trigger the Guardian's switches with the wrong hands and kill it</TextString>
+        <TextString language="basque">Aktibatu Zaindariaren etengailuak esku okerrez eta hil ezazu</TextString>
         <TextString language="french">Activer les interrupteurs du Gardien en inversant les mains et le tuer</TextString>
         <TextString language="german">Betätige die Schalter des Wächters mit den falschen Händen und vernichte ihn</TextString>
         <TextString language="italian">Attiva gli interruttori del guardiano premendo l'interruttore di sinistra con la mano destra e quello di destra con la mano sinistra e uccidilo</TextString>
@@ -1496,6 +1662,7 @@
     </GameText>
     <GameText id="IRON_TRUTH_name">
         <TextString language="english">Iron God</TextString>
+        <TextString language="basque">Burdin Jainkoa</TextString>
         <TextString language="french">Dieu de l'Intrépidité</TextString>
         <TextString language="german">Eisengott</TextString>
         <TextString language="italian">Divinità d'acciaio</TextString>
@@ -1505,6 +1672,7 @@
     </GameText>
     <GameText id="IRON_TRUTH_desc">
         <TextString language="english">Slay all Titans in Iron Mode</TextString>
+        <TextString language="basque">Hil Titan guztiak Burdin Moduan.</TextString>
         <TextString language="french">Tuer tous les Titans en Mode Intrépide</TextString>
         <TextString language="german">Vernichte alle Titanen im Eisenhart-Modus</TextString>
         <TextString language="italian">Uccidi tutti i Titani in modalità Acciaio</TextString>
@@ -1514,6 +1682,7 @@
     </GameText>
     <GameText id="Manual_LanguageName">
         <TextString language="english">ENGLISH</TextString>
+        <TextString language="basque">EUSKARA</TextString>
         <TextString language="french">Français</TextString>
         <TextString language="german">DEUTSCH</TextString>
         <TextString language="italian">Italiano</TextString>
@@ -1523,6 +1692,7 @@
     </GameText>
     <GameText id="Manual_Controls">
         <TextString language="english">CONTROLS</TextString>
+        <TextString language="basque">KONTROLAK</TextString>
         <TextString language="french">COMMANDES</TextString>
         <TextString language="german">STEUERUNG</TextString>
         <TextString language="italian">COMANDI</TextString>
@@ -1532,6 +1702,7 @@
     </GameText>
     <GameText id="Manual_Move">
         <TextString language="english">Move</TextString>
+        <TextString language="basque">Mugitu</TextString>
         <TextString language="french">Se déplacer</TextString>
         <TextString language="german">Bewegen</TextString>
         <TextString language="italian">Spostati</TextString>
@@ -1541,6 +1712,7 @@
     </GameText>
     <GameText id="Manual_Fire">
         <TextString language="english">Fire</TextString>
+        <TextString language="basque">Tiro</TextString>
         <TextString language="french">Tirer</TextString>
         <TextString language="german">Feuer</TextString>
         <TextString language="italian">Spara</TextString>
@@ -1550,6 +1722,7 @@
     </GameText>
     <GameText id="Manual_Run">
         <TextString language="english">Run (hold)</TextString>
+        <TextString language="basque">Korri (mantendu)</TextString>
         <TextString language="french">Courir (maintenir)</TextString>
         <TextString language="german">Laufen (Halten)</TextString>
         <TextString language="italian">Corri (tieni premuto)</TextString>
@@ -1559,6 +1732,7 @@
     </GameText>
     <GameText id="Manual_Roll">
         <TextString language="english">Roll</TextString>
+        <TextString language="basque">Itzulipurdi</TextString>
         <TextString language="french">Faire une roulade</TextString>
         <TextString language="german">Abrollen</TextString>
         <TextString language="italian">Rotola</TextString>
@@ -1568,6 +1742,7 @@
     </GameText>
     <GameText id="Manual_License">
         <TextString language="english">SOFTWARE LICENSED FOR PLAY ON PLAYSTATION®VITA SYSTEMS IN THE AMERICAS. USE OF PSN℠ IS SUBJECT TO APPLICABLE USER AGREEMENTS AND PRIVACY POLICIES FOUND AT: WWW.US.PLAYSTATION.COM/SUPPORT/USERAGREEMENTS</TextString>
+        <TextString language="basque">SOFTWARE LICENSED FOR PLAY ON PLAYSTATION®VITA SYSTEMS IN THE AMERICAS. USE OF PSN℠ IS SUBJECT TO APPLICABLE USER AGREEMENTS AND PRIVACY POLICIES FOUND AT: WWW.US.PLAYSTATION.COM/SUPPORT/USERAGREEMENTS</TextString>
         <TextString language="french">LOGICIEL SOUS LICENCE POUR JOUER SUR LES SYSTÈMES PLAYSTATION®VITA EN AMÉRIQUE. L'UTILISATION DE PSN℠ EST SOUMISE AUX CONDITIONS D'UTILISATION ET AUX POLITIQUES DE CONFIDENTIALITÉ APPLICABLES QUE VOUS POUVEZ TROUVER À L'ADRESSE : WWW.US.PLAYSTATION.COM/SUPPORT/USERAGREEMENTS</TextString>
         <TextString language="german">SOFTWARE LIZENZIERT ZUM SPIELEN AUF PLAYSTATION®VITA-SYSTEMEN IN DEN AMERIKAS. DIE NUTZUNG VON PSN℠ UNTERLIEGT DEN ENTSPRECHENDEN NUTZUNGSVEREINBARUNGEN UND DATENSCHUTZRICHTLINIEN UNTER: WWW.US.PLAYSTATION.COM/SUPPORT/USERAGREEMENTS</TextString>
         <TextString language="italian">SOFTWARE CONCESSO IN LICENZA PER GIOCARE SUI SISTEMI PLAYSTATION®VITA IN AMERICA. L'UTILIZZO DI PSN℠ È SOGGETTO AI CONTRATTI DI LICENZA E ALLE NORME SULLA PRIVACY APPLICABILI DISPONIBILI ALL'INDIRIZZO: WWW.US.PLAYSTATION.COM/SUPPORT/USERAGREEMENTS.</TextString>
@@ -1577,6 +1752,7 @@
     </GameText>
     <GameText id="Manual_MoreInfo">
         <TextString language="english">FOR MORE INFORMATION ON THIS GAME, PLEASE VISIT WWW.DEVOLVERDIGITAL.COM</TextString>
+        <TextString language="basque">JOKOARI BURUZKO INFORMAZIO GEHIAGO LORTZEKO, JOAN WWW.DEVOLVERDIGITAL.COM WEBGUNERA</TextString>
         <TextString language="french">POUR PLUS D'INFORMATIONS SUR CE JEU, VEUILLEZ CONSULTER WWW.DEVOLVERDIGITAL.COM</TextString>
         <TextString language="german">WEITERE INFORMATIONEN ZU DIESEM SPIEL SIND UNTER WWW.DEVOLVERDIGITAL.COM ABRUFBAR</TextString>
         <TextString language="italian">PER ULTERIORI INFORMAZIONI SUL GIOCO, VISITA IL SITO WWW.DEVOLVERDIGITAL.COM</TextString>
@@ -1586,6 +1762,7 @@
     </GameText>
     <GameText id="Manual_PlayStation">
         <TextString language="english">THE SONY COMPUTER ENTERTAINMENT LOGO IS A TRADEMARK OF SONY CORPORATION. “PLAYSTATION”, THE “PS” FAMILY LOGOS AND THE PS VITA LOGO ARE TRADEMARKS OF SONY COMPUTER ENTERTAINMENT INC.</TextString>
+        <TextString language="basque">EL LOGOTIPO DE SONY COMPUTER ENTERTAINMENT ES UNA MARCA REGISTRADA DE SONY CORPORATION. “PLAYSTATION”, LOS LOGOTIPOS DE LA FAMILIA “PS” Y EL LOGOTIPO DE PS VITA SON MARCAS REGISTRADAS DE SONY COMPUTER ENTERTAINMENT INC.</TextString>
         <TextString language="french">LE LOGO DE SONY COMPUTER ENTERTAINMENT EST UNE MARQUE DÉPOSÉE DE SONY CORPORATION. "PLAYSTATION", LES LOGOS DE LA FAMILLE "PS" ET LE LOGO DE LA PS VITA SONT DES MARQUES DÉPOSÉES DE SONY COMPUTER ENTERTAINMENT INC.</TextString>
         <TextString language="german">DAS SONY COMPUTER ENTERTAINMENT-LOGO IST EIN WARENZEICHEN DER SONY CORPORATION. “PLAYSTATION”, DAS “PS”-FAMILIENLOGO UND DAS PS VITA-LOGO SIND WARENZEICHEN VON SONY COMPUTER ENTERTAINMENT INC.</TextString>
         <TextString language="italian">IL LOGO DI SONY COMPUTER ENTERTAINMENT È UN MARCHIO DI SONY CORPORATION. "PLAYSTATION", I LOGHI DELLA FAMIGLIA "PS" E IL LOGO DI PS VITA SONO MARCHI DI SONY COMPUTER ENTERTAINMENT INC.</TextString>
@@ -1595,6 +1772,7 @@
     </GameText>
     <GameText id="SafeNotification_PSVita">
         <TextString language="english">Please do not turn off your PlayStation®Vita system while the following icon is on screen</TextString>
+        <TextString language="basque">Please do not turn off your PlayStation®Vita system while the following icon is on screen</TextString>
         <TextString language="french">Veuilez ne pas éteindre votre système PlayStation®Vita lorsque l'icone suivant s'affiche à l'écran.</TextString>
         <TextString language="german">Wenn das folgende Symbol auf dem Bildschirm zu sehen ist, sollte Ihr PlayStation®Vita-System nicht abgeschaltet werden</TextString>
         <TextString language="italian">Non spegnere il sistema PlayStation®Vita quando sullo schermo viene visualizzata l'icona seguente</TextString>
@@ -1604,6 +1782,7 @@
     </GameText>
     <GameText id="SafeNotification_PSVita">
         <TextString language="english">Please do not turn off your PlayStation®4 while the following icon is on screen</TextString>
+        <TextString language="basque">Please do not turn off your PlayStation®4 while the following icon is on screen</TextString>
         <TextString language="french">Veuilez ne pas éteindre votre système PlayStation®4 lorsque l'icone suivant s'affiche à l'écran.</TextString>
         <TextString language="german">Wenn das folgende Symbol auf dem Bildschirm zu sehen ist, sollte Ihre PlayStation®4 nicht abgeschaltet werden</TextString>
         <TextString language="italian">Non spegnere il sistema PlayStation®4 quando sullo schermo viene visualizzata l'icona seguente</TextString>
@@ -1613,6 +1792,7 @@
     </GameText>
     <GameText id="TRP_desc">
         <TextString language="english">Trophy pack for Titan Souls</TextString>
+        <TextString language="basque">Paquete de trofeos para Titan Souls</TextString>
         <TextString language="french">Pack de trophées pour Titan Souls</TextString>
         <TextString language="german">Trophäenpaket für Titan Souls</TextString>
         <TextString language="italian">Pacchetto di trofei per Titan Souls</TextString>
@@ -1622,6 +1802,7 @@
     </GameText>
     <GameText id="psn_slain_sludge">
         <TextString language="english">has just slain a ball of sludge</TextString>
+        <TextString language="basque">has just slain a ball of sludge</TextString>
         <TextString language="french">vient de tuer une boule de fange</TextString>
         <TextString language="german">hat soeben einen Schleimball erschlagen</TextString>
         <TextString language="italian">ha appena ucciso una palla di melma</TextString>
@@ -1631,6 +1812,7 @@
     </GameText>
     <GameText id="psn_killedby_sludge">
         <TextString language="english">just got killed by a ball of sludge</TextString>
+        <TextString language="basque">just got killed by a ball of sludge</TextString>
         <TextString language="french">s'est fait tuer par une boule de fange</TextString>
         <TextString language="german">wurde soeben von einem Schleimball umgebracht</TextString>
         <TextString language="italian">è appena stato ucciso da una palla di melma</TextString>
@@ -1640,6 +1822,7 @@
     </GameText>
     <GameText id="psn_slain_colossus">
         <TextString language="english">has just slain a colossal statue</TextString>
+        <TextString language="basque">has just slain a colossal statue</TextString>
         <TextString language="french">vient de tuer une statue colossale</TextString>
         <TextString language="german">hat soeben eine gewaltige Statue bezwungen</TextString>
         <TextString language="italian">ha appena ucciso una statua colossale</TextString>
@@ -1649,6 +1832,7 @@
     </GameText>
     <GameText id="psn_killedby_colossus">
         <TextString language="english">just got killed by a colossal statue</TextString>
+        <TextString language="basque">just got killed by a colossal statue</TextString>
         <TextString language="french">s'est fait tuer par une statue colossale</TextString>
         <TextString language="german">wurde soeben von einer gewaltigen Statue besiegt</TextString>
         <TextString language="italian">è appena stato ucciso da una statua colossale</TextString>
@@ -1658,6 +1842,7 @@
     </GameText>
     <GameText id="psn_slain_eyecube">
         <TextString language="english">has just slain a giant eye cube</TextString>
+        <TextString language="basque">has just slain a giant eye cube</TextString>
         <TextString language="french">vient de tuer un œil cube géant </TextString>
         <TextString language="german">hat gerade einen riesigen Augenwürfel besiegt</TextString>
         <TextString language="italian">ha appena ucciso un occhio cubico gigante</TextString>
@@ -1667,6 +1852,7 @@
     </GameText>
     <GameText id="psn_killedby_eyecube">
         <TextString language="english">just got killed by a giant eye cube</TextString>
+        <TextString language="basque">just got killed by a giant eye cube</TextString>
         <TextString language="french">s'est fait tuer par un œil cube géant </TextString>
         <TextString language="german">wurde soeben von einem riesigen Augenwürfel zerschmettert</TextString>
         <TextString language="italian">è appena stato ucciso da un occhio cubico gigante</TextString>
@@ -1676,6 +1862,7 @@
     </GameText>
     <GameText id="psn_slain_brain">
         <TextString language="english">has just slain an icy brain</TextString>
+        <TextString language="basque">has just slain an icy brain</TextString>
         <TextString language="french">vient de tuer un cerveau glacé</TextString>
         <TextString language="german">hat ein eisiges Hirn getötet</TextString>
         <TextString language="italian">ha appena ucciso un cervello congelato</TextString>
@@ -1685,6 +1872,7 @@
     </GameText>
     <GameText id="psn_killedby_brain">
         <TextString language="english">just got killed by an icy brain</TextString>
+        <TextString language="basque">just got killed by an icy brain</TextString>
         <TextString language="french">s'est fait tuer par un cerveau glacé</TextString>
         <TextString language="german">wurde von einem eisigen Hirn umgebracht</TextString>
         <TextString language="italian">è appena stato ucciso da un cervello congelato</TextString>
@@ -1694,6 +1882,7 @@
     </GameText>
     <GameText id="psn_slain_bomber">
         <TextString language="english">has just slain a lava monster</TextString>
+        <TextString language="basque">has just slain a lava monster</TextString>
         <TextString language="french">vient de tuer un monstre de lave</TextString>
         <TextString language="german">hat soeben ein Lavamonster erledigt</TextString>
         <TextString language="italian">ha appena ucciso un mostro di lava</TextString>
@@ -1703,6 +1892,7 @@
     </GameText>
     <GameText id="psn_killedby_bomber">
         <TextString language="english">just got killed by a lava monster</TextString>
+        <TextString language="basque">just got killed by a lava monster</TextString>
         <TextString language="french">s'est fait tuer par un monstre de lave</TextString>
         <TextString language="german">wurde soeben von einem Lavamonster besiegt</TextString>
         <TextString language="italian">è appena stato ucciso da un mostro di lava</TextString>
@@ -1712,6 +1902,7 @@
     </GameText>
     <GameText id="psn_slain_knuckle">
         <TextString language="english">has just slain an angry skull</TextString>
+        <TextString language="basque">has just slain an angry skull</TextString>
         <TextString language="french">vient de tuer un crâne furieux</TextString>
         <TextString language="german">hat einen wütenden Schädel besiegt</TextString>
         <TextString language="italian">ha appena ucciso un teschio arrabbiato</TextString>
@@ -1721,6 +1912,7 @@
     </GameText>
     <GameText id="psn_killedby_knuckle">
         <TextString language="english">just got killed by an angry skull</TextString>
+        <TextString language="basque">just got killed by an angry skull</TextString>
         <TextString language="french">s'est fait tuer par un crâne furieux</TextString>
         <TextString language="german">wurde von einem wütenden Schädel erledigt</TextString>
         <TextString language="italian">è appena stato ucciso da un teschio arrabbiato</TextString>
@@ -1730,6 +1922,7 @@
     </GameText>
     <GameText id="psn_slain_roller">
         <TextString language="english">has just slain a hot rock</TextString>
+        <TextString language="basque">has just slain a hot rock</TextString>
         <TextString language="french">vient de tuer une roche chaude</TextString>
         <TextString language="german">hat einen heißen Felsen ausgeschaltet</TextString>
         <TextString language="italian">ha appena ucciso una roccia bollente</TextString>
@@ -1739,6 +1932,7 @@
     </GameText>
     <GameText id="psn_killedby_roller">
         <TextString language="english">just got killed by a hot rock</TextString>
+        <TextString language="basque">just got killed by a hot rock</TextString>
         <TextString language="french">s'est fait tuer par une roche chaude</TextString>
         <TextString language="german">wurde von einem heißen Felsen kaltgemacht</TextString>
         <TextString language="italian">è appena stato ucciso da una roccia bollente</TextString>
@@ -1748,6 +1942,7 @@
     </GameText>
     <GameText id="psn_slain_yeti">
         <TextString language="english">has just slain an angry yeti</TextString>
+        <TextString language="basque">has just slain an angry yeti</TextString>
         <TextString language="french">vient de tuer un yéti furieux</TextString>
         <TextString language="german">hat einen wütenden Yeti zur Strecke gebracht</TextString>
         <TextString language="italian">ha appena ucciso uno yeti arrabbiato</TextString>
@@ -1757,6 +1952,7 @@
     </GameText>
     <GameText id="psn_killedby_yeti">
         <TextString language="english">just got killed by an angry yeti</TextString>
+        <TextString language="basque">just got killed by an angry yeti</TextString>
         <TextString language="french">s'est fait tuer par un yéti furieux</TextString>
         <TextString language="german">wurde von einem wütenden Yeti erbeutet</TextString>
         <TextString language="italian">è appena stato ucciso da uno yeti arrabbiato</TextString>
@@ -1766,6 +1962,7 @@
     </GameText>
     <GameText id="psn_slain_snowface">
         <TextString language="english">has just slain a toothy grin</TextString>
+        <TextString language="basque">has just slain a toothy grin</TextString>
         <TextString language="french">vient de tuer un sourire tout en dents </TextString>
         <TextString language="german">hat gerade ein zahniges Grinsen bezwungen</TextString>
         <TextString language="italian">ha appena ucciso un sorriso a 32 denti</TextString>
@@ -1775,6 +1972,7 @@
     </GameText>
     <GameText id="psn_killedby_snowface">
         <TextString language="english">just got killed by a toothy grin</TextString>
+        <TextString language="basque">just got killed by a toothy grin</TextString>
         <TextString language="french">s'est fait tuer par un sourire tout en dents </TextString>
         <TextString language="german">wurde von einem zahnigen Grinsen kaltgemacht</TextString>
         <TextString language="italian">è appena stato ucciso da un sorriso a 32 denti</TextString>
@@ -1784,6 +1982,7 @@
     </GameText>
     <GameText id="psn_slain_onyx">
         <TextString language="english">has just slain an icy serpent</TextString>
+        <TextString language="basque">has just slain an icy serpent</TextString>
         <TextString language="french">vient de tuer un serpent glacé</TextString>
         <TextString language="german">hat eine eisige Schlange besiegt</TextString>
         <TextString language="italian">ha appena ucciso un serpente congelato</TextString>
@@ -1793,6 +1992,7 @@
     </GameText>
     <GameText id="psn_killedby_onyx">
         <TextString language="english">just got killed by an icy serpent</TextString>
+        <TextString language="basque">just got killed by an icy serpent</TextString>
         <TextString language="french">s'est fait tuer par un serpent glacé</TextString>
         <TextString language="german">wurde von einer eisigen Schlange erbeutet</TextString>
         <TextString language="italian">è appena stato ucciso da un serpente congelato</TextString>
@@ -1802,6 +2002,7 @@
     </GameText>
     <GameText id="psn_slain_knight">
         <TextString language="english">has just slain a heavily armored dude</TextString>
+        <TextString language="basque">has just slain a heavily armored dude</TextString>
         <TextString language="french">vient de tuer un gaillard lourdement armé</TextString>
         <TextString language="german">hat einen gut gepanzerten Kerl bezwungen</TextString>
         <TextString language="italian">ha appena ucciso un tizio armato fino a denti</TextString>
@@ -1811,6 +2012,7 @@
     </GameText>
     <GameText id="psn_killedby_knight">
         <TextString language="english">just got killed by a heavily armored dude</TextString>
+        <TextString language="basque">just got killed by a heavily armored dude</TextString>
         <TextString language="french">s'est fait tuer par un gaillard lourdement armé</TextString>
         <TextString language="german">wurde von einem gut gepanzerten Kerl platt gemacht</TextString>
         <TextString language="italian">è appena stato ucciso da un tizio armato fino a denti</TextString>
@@ -1820,6 +2022,7 @@
     </GameText>
     <GameText id="psn_slain_avarice">
         <TextString language="english">has just slain an imposter</TextString>
+        <TextString language="basque">has just slain an imposter</TextString>
         <TextString language="french">vient de tuer un imposteur</TextString>
         <TextString language="german">hat einen Betrüger erledigt</TextString>
         <TextString language="italian">ha appena ucciso un impostore</TextString>
@@ -1829,6 +2032,7 @@
     </GameText>
     <GameText id="psn_killedby_avarice">
         <TextString language="english">just got killed by an imposter</TextString>
+        <TextString language="basque">just got killed by an imposter</TextString>
         <TextString language="french">s'est fait tuer par un imposteur</TextString>
         <TextString language="german">wurde von einem Betrüger besiegt</TextString>
         <TextString language="italian">è appena stato ucciso da un impostore</TextString>
@@ -1838,6 +2042,7 @@
     </GameText>
     <GameText id="psn_slain_mask">
         <TextString language="english">has just slain a mask</TextString>
+        <TextString language="basque">has just slain a mask</TextString>
         <TextString language="french">vient de tuer un masque</TextString>
         <TextString language="german">hat gerade eine Maske bezwungen</TextString>
         <TextString language="italian">ha appena ucciso una maschera</TextString>
@@ -1847,6 +2052,7 @@
     </GameText>
     <GameText id="psn_killedby_mask">
         <TextString language="english">just got killed by a mask</TextString>
+        <TextString language="basque">just got killed by a mask</TextString>
         <TextString language="french">s'est fait tuer par un masque</TextString>
         <TextString language="german">wurde gerade von einer Maske besiegt</TextString>
         <TextString language="italian">è appena stato ucciso da una maschera</TextString>
@@ -1856,6 +2062,7 @@
     </GameText>
     <GameText id="psn_slain_plant">
         <TextString language="english">has just slain a poisonous plant</TextString>
+        <TextString language="basque">has just slain a poisonous plant</TextString>
         <TextString language="french">vient de tuer une plante vénéneuse</TextString>
         <TextString language="german">hat gerade eine giftige Blume erledigt</TextString>
         <TextString language="italian">ha appena ucciso una pianta velenosa</TextString>
@@ -1865,6 +2072,7 @@
     </GameText>
     <GameText id="psn_killedby_plant">
         <TextString language="english">just got killed by a poisonous plant</TextString>
+        <TextString language="basque">just got killed by a poisonous plant</TextString>
         <TextString language="french">s'est fait tuer par une plante vénéneuse</TextString>
         <TextString language="german">wurde gerade von einer giftigen Blume getötet</TextString>
         <TextString language="italian">è appena stato ucciso da una pianta velenosa</TextString>
@@ -1874,6 +2082,7 @@
     </GameText>
     <GameText id="psn_slain_mushroom">
         <TextString language="english">has just slain a bad mushroom</TextString>
+        <TextString language="basque">has just slain a bad mushroom</TextString>
         <TextString language="french">vient de tuer un mauvais champignon</TextString>
         <TextString language="german">hat einen Drogenpilz erschlagen</TextString>
         <TextString language="italian">ha appena ucciso un fungo cattivo</TextString>
@@ -1883,6 +2092,7 @@
     </GameText>
     <GameText id="psn_killedby_mushroom">
         <TextString language="english">just got killed by a bad mushroom</TextString>
+        <TextString language="basque">just got killed by a bad mushroom</TextString>
         <TextString language="french">s'est fait tuer par un mauvais champignon</TextString>
         <TextString language="german">wurde von einem Drogenpilz besiegt</TextString>
         <TextString language="italian">è appena stato ucciso da un fungo cattivo</TextString>
@@ -1892,6 +2102,7 @@
     </GameText>
     <GameText id="psn_slain_guardian">
         <TextString language="english">has just slain another colossal statue</TextString>
+        <TextString language="basque">has just slain another colossal statue</TextString>
         <TextString language="french">vient de tuer une autre statue colossale</TextString>
         <TextString language="german">hat noch eine gewaltige Statue bezwungen</TextString>
         <TextString language="italian">ha appena ucciso un'altra statua colossale</TextString>
@@ -1901,6 +2112,7 @@
     </GameText>
     <GameText id="psn_killedby_guardian">
         <TextString language="english">just got killed by another colossal statue</TextString>
+        <TextString language="basque">just got killed by another colossal statue</TextString>
         <TextString language="french">s'est fait tuer par une autre statue colossale</TextString>
         <TextString language="german">wurde von einer gewaltigen Statue zerschmettert</TextString>
         <TextString language="italian">è appena stato ucciso da un'altra statua colossale</TextString>
@@ -1910,6 +2122,7 @@
     </GameText>
     <GameText id="psn_slain_king">
         <TextString language="english">has just slain a mirror image</TextString>
+        <TextString language="basque">has just slain a mirror image</TextString>
         <TextString language="french">vient de tuer une image inversée</TextString>
         <TextString language="german">hat gerade ein Spiegelbild bezwungen</TextString>
         <TextString language="italian">ha appena ucciso un'immagine riflessa</TextString>
@@ -1919,6 +2132,7 @@
     </GameText>
     <GameText id="psn_killedby_king">
         <TextString language="english">just got killed by a mirror image</TextString>
+        <TextString language="basque">just got killed by a mirror image</TextString>
         <TextString language="french">s'est fait tuer par une image inversée</TextString>
         <TextString language="german">wurde gerade von einem Spiegelbild umgebracht</TextString>
         <TextString language="italian">è appena stato ucciso da un'immagine riflessa</TextString>
@@ -1928,6 +2142,7 @@
     </GameText>
     <GameText id="psn_slain_truth">
         <TextString language="english">has just slain something strange...</TextString>
+        <TextString language="basque">has just slain something strange...</TextString>
         <TextString language="french">vient de tuer quelque chose d'étrange...</TextString>
         <TextString language="german">hat gerade etwas Seltsames erschlagen...</TextString>
         <TextString language="italian">ha appena ucciso qualcosa di strano...</TextString>
@@ -1937,6 +2152,7 @@
     </GameText>
     <GameText id="psn_killedby_truth">
         <TextString language="english">just got killed by something strange...</TextString>
+        <TextString language="basque">just got killed by something strange...</TextString>
         <TextString language="french">s'est fait tuer par quelque chose d'étrange...</TextString>
         <TextString language="german">wurde gerade von etwas Seltsamem besiegt...</TextString>
         <TextString language="italian">è appena stato ucciso da qualcosa di strano...</TextString>
@@ -1946,6 +2162,7 @@
     </GameText>
     <GameText id="psn_slain_elder">
         <TextString language="english">has just slain a wise old creature...</TextString>
+        <TextString language="basque">has just slain a wise old creature...</TextString>
         <TextString language="french">vient de tuer une vieille créature pleine de sagesse...</TextString>
         <TextString language="german">hat gerade ein weises, altes Wesen erschlagen...</TextString>
         <TextString language="italian">ha appena ucciso una creatura vecchia e saggia...</TextString>
@@ -1955,6 +2172,7 @@
     </GameText>
     <GameText id="psn_killedby_elder">
         <TextString language="english">just got killed by a wise old creature...</TextString>
+        <TextString language="basque">just got killed by a wise old creature...</TextString>
         <TextString language="french">s'est fait tuer par une vieille créature pleine de sagesse...</TextString>
         <TextString language="german">wurde gerade von einem weisen, alten Wesen niedergestreckt...</TextString>
         <TextString language="italian">è appena stato ucciso da una creatura vecchia e saggia...</TextString>
@@ -1964,6 +2182,7 @@
     </GameText>
     <GameText id="psn_isfighting_sludge">
         <TextString language="english">is fighting a ball of sludge</TextString>
+        <TextString language="basque">is fighting a ball of sludge</TextString>
         <TextString language="french">se bat contre une boule de fange</TextString>
         <TextString language="german">kämpft gegen einen Schleimball</TextString>
         <TextString language="italian">sta combattendo una palla di melma</TextString>
@@ -1973,6 +2192,7 @@
     </GameText>
     <GameText id="psn_explore_sludge">
         <TextString language="english">is exploring a ball of sludge</TextString>
+        <TextString language="basque">is exploring a ball of sludge</TextString>
         <TextString language="french">explore une boule de fange</TextString>
         <TextString language="german">erforscht einen Schleimball</TextString>
         <TextString language="italian">sta esplorando una palla di melma</TextString>
@@ -1982,6 +2202,7 @@
     </GameText>
     <GameText id="psn_isfighting_colossus">
         <TextString language="english">is fighting a colossal statue</TextString>
+        <TextString language="basque">is fighting a colossal statue</TextString>
         <TextString language="french">se bat contre une statue colossale</TextString>
         <TextString language="german">kämpft gegen eine gewaltige Statue</TextString>
         <TextString language="italian">sta combattendo una statua colossale</TextString>
@@ -1991,6 +2212,7 @@
     </GameText>
     <GameText id="psn_explore_colossus">
         <TextString language="english">is exploring a colossal statue</TextString>
+        <TextString language="basque">is exploring a colossal statue</TextString>
         <TextString language="french">explore une statue colossale</TextString>
         <TextString language="german">erforscht eine gewaltige Statue</TextString>
         <TextString language="italian">sta esplorando una statua colossale</TextString>
@@ -2000,6 +2222,7 @@
     </GameText>
     <GameText id="psn_isfighting_eyecube">
         <TextString language="english">is fighting a giant eye cube</TextString>
+        <TextString language="basque">is fighting a giant eye cube</TextString>
         <TextString language="french">se bat contre un œil cube géant </TextString>
         <TextString language="german">kämpft gegen einen gewaltigen Augenwürfel</TextString>
         <TextString language="italian">sta combattendo un occhio cubico gigante</TextString>
@@ -2009,6 +2232,7 @@
     </GameText>
     <GameText id="psn_explore_eyecube">
         <TextString language="english">is exploring a giant eye cube</TextString>
+        <TextString language="basque">is exploring a giant eye cube</TextString>
         <TextString language="french">explore un œil cube géant </TextString>
         <TextString language="german">erforscht einen gewaltigen Augenwürfel</TextString>
         <TextString language="italian">sta esplorando un occhio cubico gigante</TextString>
@@ -2018,6 +2242,7 @@
     </GameText>
     <GameText id="psn_isfighting_brain">
         <TextString language="english">is fighting an icy brain</TextString>
+        <TextString language="basque">is fighting an icy brain</TextString>
         <TextString language="french">se bat contre un cerveau glacé</TextString>
         <TextString language="german">kämpft gegen ein eisiges Hirn</TextString>
         <TextString language="italian">sta combattendo un cervello congelato</TextString>
@@ -2027,6 +2252,7 @@
     </GameText>
     <GameText id="psn_explore_brain">
         <TextString language="english">is exploring an icy brain</TextString>
+        <TextString language="basque">is exploring an icy brain</TextString>
         <TextString language="french">explore  un cerveau glacé</TextString>
         <TextString language="german">erforscht ein eisiges Hirn</TextString>
         <TextString language="italian">sta esplorando un cervello congelato</TextString>
@@ -2036,6 +2262,7 @@
     </GameText>
     <GameText id="psn_isfighting_bomber">
         <TextString language="english">is fighting a lava monster</TextString>
+        <TextString language="basque">is fighting a lava monster</TextString>
         <TextString language="french">se bat contre un monstre de lave</TextString>
         <TextString language="german">kämpft gegen ein Lavamonster</TextString>
         <TextString language="italian">sta combattendo un mostro di lava</TextString>
@@ -2045,6 +2272,7 @@
     </GameText>
     <GameText id="psn_explore_bomber">
         <TextString language="english">is exploring a lava monster</TextString>
+        <TextString language="basque">is exploring a lava monster</TextString>
         <TextString language="french">explore un monstre de lave</TextString>
         <TextString language="german">erforscht ein Lavamonster</TextString>
         <TextString language="italian">sta esplorando un mostro di lava</TextString>
@@ -2054,6 +2282,7 @@
     </GameText>
     <GameText id="psn_isfighting_knuckle">
         <TextString language="english">is fighting an angry skull</TextString>
+        <TextString language="basque">is fighting an angry skull</TextString>
         <TextString language="french">se bat contre un crâne furieux</TextString>
         <TextString language="german">kämpft gegen einen wütenden Schädel</TextString>
         <TextString language="italian">sta combattendo un teschio arrabbiato</TextString>
@@ -2063,6 +2292,7 @@
     </GameText>
     <GameText id="psn_explore_knuckle">
         <TextString language="english">is exploring an angry skull</TextString>
+        <TextString language="basque">is exploring an angry skull</TextString>
         <TextString language="french">explore un crâne furieux</TextString>
         <TextString language="german">erforscht einen wütenden Schädel</TextString>
         <TextString language="italian">sta esplorando un teschio arrabbiato</TextString>
@@ -2072,6 +2302,7 @@
     </GameText>
     <GameText id="psn_isfighting_roller">
         <TextString language="english">is fighting a hot rock</TextString>
+        <TextString language="basque">is fighting a hot rock</TextString>
         <TextString language="french">se bat contre une roche chaude</TextString>
         <TextString language="german">kämpft gegen ein heißen Fels</TextString>
         <TextString language="italian">sta combattendo una roccia bollente</TextString>
@@ -2081,6 +2312,7 @@
     </GameText>
     <GameText id="psn_explore_roller">
         <TextString language="english">is exploring a hot rock</TextString>
+        <TextString language="basque">is exploring a hot rock</TextString>
         <TextString language="french">explore une roche chaude</TextString>
         <TextString language="german">erforscht einen heißen Fels</TextString>
         <TextString language="italian">sta esplorando una roccia bollente</TextString>
@@ -2090,6 +2322,7 @@
     </GameText>
     <GameText id="psn_isfighting_yeti">
         <TextString language="english">is fighting an angry yeti</TextString>
+        <TextString language="basque">is fighting an angry yeti</TextString>
         <TextString language="french">se bat contre un yéti furieux</TextString>
         <TextString language="german">kämpft gegen einen wütenden Yeti</TextString>
         <TextString language="italian">sta combattendo uno yeti arrabbiato</TextString>
@@ -2099,6 +2332,7 @@
     </GameText>
     <GameText id="psn_explore_yeti">
         <TextString language="english">is exploring an angry yeti</TextString>
+        <TextString language="basque">is exploring an angry yeti</TextString>
         <TextString language="french">explore un yéti furieux</TextString>
         <TextString language="german">erforscht einen wütenden Yeti</TextString>
         <TextString language="italian">sta esplorando uno yeti arrabbiato</TextString>
@@ -2108,6 +2342,7 @@
     </GameText>
     <GameText id="psn_isfighting_snowface">
         <TextString language="english">is fighting a toothy grin</TextString>
+        <TextString language="basque">is fighting a toothy grin</TextString>
         <TextString language="french">se bat contre un sourire tout en dents </TextString>
         <TextString language="german">kämpft gegen ein zahniges Grinsen</TextString>
         <TextString language="italian">sta combattendo un sorriso a 32 denti</TextString>
@@ -2117,6 +2352,7 @@
     </GameText>
     <GameText id="psn_explore_snowface">
         <TextString language="english">is exploring a toothy grin</TextString>
+        <TextString language="basque">is exploring a toothy grin</TextString>
         <TextString language="french">explore un sourire tout en dents </TextString>
         <TextString language="german">erforscht ein zahniges Grinsen</TextString>
         <TextString language="italian">sta esplorando un sorriso a 32 denti</TextString>
@@ -2126,6 +2362,7 @@
     </GameText>
     <GameText id="psn_isfighting_onyx">
         <TextString language="english">is fighting an icy serpent</TextString>
+        <TextString language="basque">is fighting an icy serpent</TextString>
         <TextString language="french">se bat contre un serpent glacé</TextString>
         <TextString language="german">kämpft gegen eine eisige Schlange</TextString>
         <TextString language="italian">sta combattendo un serpente congelato</TextString>
@@ -2135,6 +2372,7 @@
     </GameText>
     <GameText id="psn_explore_onyx">
         <TextString language="english">is exploring an icy serpent</TextString>
+        <TextString language="basque">is exploring an icy serpent</TextString>
         <TextString language="french">explore un serpent glacé</TextString>
         <TextString language="german">erforscht eine eisige Schlange</TextString>
         <TextString language="italian">sta esplorando un serpente congelato</TextString>
@@ -2144,6 +2382,7 @@
     </GameText>
     <GameText id="psn_isfighting_knight">
         <TextString language="english">is fighting a heavily armored dude</TextString>
+        <TextString language="basque">is fighting a heavily armored dude</TextString>
         <TextString language="french">se bat contre un gaillard lourdement armé</TextString>
         <TextString language="german">kämpft gegen einen gut gepanzerten Kerl</TextString>
         <TextString language="italian">sta combattendo un tizio armato fino a denti</TextString>
@@ -2153,6 +2392,7 @@
     </GameText>
     <GameText id="psn_explore_knight">
         <TextString language="english">is exploring a heavily armored dude</TextString>
+        <TextString language="basque">is exploring a heavily armored dude</TextString>
         <TextString language="french">explore un gaillard lourdement armé</TextString>
         <TextString language="german">erforscht einen gut gepanzerten Kerl</TextString>
         <TextString language="italian">sta esplorando un tizio armato fino a denti</TextString>
@@ -2162,6 +2402,7 @@
     </GameText>
     <GameText id="psn_isfighting_avarice">
         <TextString language="english">is fighting an imposter</TextString>
+        <TextString language="basque">is fighting an imposter</TextString>
         <TextString language="french">se bat contre un imposteur</TextString>
         <TextString language="german">kämpft gegen einen Betrüger</TextString>
         <TextString language="italian">sta combattendo un impostore</TextString>
@@ -2171,6 +2412,7 @@
     </GameText>
     <GameText id="psn_explore_avarice">
         <TextString language="english">is exploring an imposter</TextString>
+        <TextString language="basque">is exploring an imposter</TextString>
         <TextString language="french">explore un imposteur</TextString>
         <TextString language="german">erforscht einen Betrüger</TextString>
         <TextString language="italian">sta esplorando un impostore</TextString>
@@ -2180,6 +2422,7 @@
     </GameText>
     <GameText id="psn_isfighting_mask">
         <TextString language="english">is fighting a mask</TextString>
+        <TextString language="basque">is fighting a mask</TextString>
         <TextString language="french">se bat contre un masque</TextString>
         <TextString language="german">kämpft gegen eine Maske</TextString>
         <TextString language="italian">sta combattendo una maschera</TextString>
@@ -2189,6 +2432,7 @@
     </GameText>
     <GameText id="psn_explore_mask">
         <TextString language="english">is exploring a mask</TextString>
+        <TextString language="basque">is exploring a mask</TextString>
         <TextString language="french">explore un masque</TextString>
         <TextString language="german">erforscht eine Maske</TextString>
         <TextString language="italian">sta esplorando una maschera</TextString>
@@ -2198,6 +2442,7 @@
     </GameText>
     <GameText id="psn_isfighting_plant">
         <TextString language="english">is fighting a poisonous plant</TextString>
+        <TextString language="basque">is fighting a poisonous plant</TextString>
         <TextString language="french">se bat contre une plante vénéneuse</TextString>
         <TextString language="german">kämpft gegen eine giftige Pflanze</TextString>
         <TextString language="italian">sta combattendo una pianta velenosa</TextString>
@@ -2207,6 +2452,7 @@
     </GameText>
     <GameText id="psn_explore_plant">
         <TextString language="english">is exploring a poisonous plant</TextString>
+        <TextString language="basque">is exploring a poisonous plant</TextString>
         <TextString language="french">explore une plante vénéneuse</TextString>
         <TextString language="german">erforscht eine giftige Pflanze</TextString>
         <TextString language="italian">sta esplorando una pianta velenosa</TextString>
@@ -2216,6 +2462,7 @@
     </GameText>
     <GameText id="psn_isfighting_mushroom">
         <TextString language="english">is fighting a bad mushroom</TextString>
+        <TextString language="basque">is fighting a bad mushroom</TextString>
         <TextString language="french">se bat contre un mauvais champignon</TextString>
         <TextString language="german">kämpft gegen einen Drogenpilz</TextString>
         <TextString language="italian">sta combattendo un fungo cattivo</TextString>
@@ -2225,6 +2472,7 @@
     </GameText>
     <GameText id="psn_explore_mushroom">
         <TextString language="english">is exploring a bad mushroom</TextString>
+        <TextString language="basque">is exploring a bad mushroom</TextString>
         <TextString language="french">explore un mauvais champignon</TextString>
         <TextString language="german">erforscht einen Drogenpilz</TextString>
         <TextString language="italian">sta esplorando un fungo cattivo</TextString>
@@ -2234,6 +2482,7 @@
     </GameText>
     <GameText id="psn_isfighting_guardian">
         <TextString language="english">is fighting another colossal statue</TextString>
+        <TextString language="basque">is fighting another colossal statue</TextString>
         <TextString language="french">se bat contre une autre statue colossale</TextString>
         <TextString language="german">kämpft gegen noch eine gewaltige Statue</TextString>
         <TextString language="italian">sta combattendo un'altra statua colossale</TextString>
@@ -2243,6 +2492,7 @@
     </GameText>
     <GameText id="psn_explore_guardian">
         <TextString language="english">is exploring another colossal statue</TextString>
+        <TextString language="basque">is exploring another colossal statue</TextString>
         <TextString language="french">explore une autre statue colossale</TextString>
         <TextString language="german">erforscht noch eine gewaltige Statue</TextString>
         <TextString language="italian">sta esplorando un'altra statua colossale</TextString>
@@ -2252,6 +2502,7 @@
     </GameText>
     <GameText id="psn_isfighting_king">
         <TextString language="english">is fighting a mirror image</TextString>
+        <TextString language="basque">is fighting a mirror image</TextString>
         <TextString language="french">se bat contre une image inversée</TextString>
         <TextString language="german">kämpft gegen ein Spiegelbild</TextString>
         <TextString language="italian">sta combattendo un'immagine riflessa</TextString>
@@ -2261,6 +2512,7 @@
     </GameText>
     <GameText id="psn_explore_king">
         <TextString language="english">is exploring a mirror image</TextString>
+        <TextString language="basque">is exploring a mirror image</TextString>
         <TextString language="french">explore une image inversée</TextString>
         <TextString language="german">erforscht ein Spiegelbild</TextString>
         <TextString language="italian">sta esplorando un'immagine riflessa</TextString>
@@ -2270,6 +2522,7 @@
     </GameText>
     <GameText id="psn_isfighting_truth">
         <TextString language="english">is fighting something strange...</TextString>
+        <TextString language="basque">is fighting something strange...</TextString>
         <TextString language="french">se bat contre quelque chose d'étrange...</TextString>
         <TextString language="german">kämpft gegen etwas Seltsames...</TextString>
         <TextString language="italian">sta combattendo qualcosa di strano...</TextString>
@@ -2279,6 +2532,7 @@
     </GameText>
     <GameText id="psn_explore_truth">
         <TextString language="english">is exploring something strange...</TextString>
+        <TextString language="basque">is exploring something strange...</TextString>
         <TextString language="french">explore quelque chose d'étrange...</TextString>
         <TextString language="german">erforscht etwas Seltsames...</TextString>
         <TextString language="italian">sta esplorando qualcosa di strano...</TextString>
@@ -2288,6 +2542,7 @@
     </GameText>
     <GameText id="psn_isfighting_elder">
         <TextString language="english">is fighting a wise old creature...</TextString>
+        <TextString language="basque">is fighting a wise old creature...</TextString>
         <TextString language="french">se bat contre une vieille créature pleine de sagesse...</TextString>
         <TextString language="german">kämpft gegen ein weises, altes Wesen...</TextString>
         <TextString language="italian">sta combattendo una creatura vecchia e saggia...</TextString>
@@ -2297,6 +2552,7 @@
     </GameText>
     <GameText id="psn_explore_elder">
         <TextString language="english">is exploring a wise old creature...</TextString>
+        <TextString language="basque">is exploring a wise old creature...</TextString>
         <TextString language="french">explore une vieille créature pleine de sagesse...</TextString>
         <TextString language="german">erforscht ein weises, altes Wesen...</TextString>
         <TextString language="italian">sta esplorando una creatura vecchia e saggia...</TextString>
@@ -2306,6 +2562,7 @@
     </GameText>
     <GameText id="SAVEDATA_SUBTITLE">
         <TextString language="english">Progress Data</TextString>
+        <TextString language="basque">Aurrerapena</TextString>
         <TextString language="french">Données de progression</TextString>
         <TextString language="german">Fortschrittsdaten</TextString>
         <TextString language="italian"></TextString>
@@ -2315,6 +2572,7 @@
     </GameText>
     <GameText id="NETWORK_SERVICES_UNAVAILABLE">
         <TextString language="english">You are currently not connected to PSN℠. Cross-Save will not be available until you reconnect.</TextString>
+        <TextString language="basque">You are currently not connected to PSN℠. Cross-Save will not be available until you reconnect.</TextString>
         <TextString language="french">Vous n'êtes pas connecté au PSN℠. Cross-Save ne sera pas disponible tant que vous ne vous reconnecterez pas.</TextString>
         <TextString language="german">Im Moment besteht keine Verbindung zum PSN℠. Cross-Save ist nur mit einer Verbindung möglich.</TextString>
         <TextString language="italian">Non sei connesso a PSN℠. La funzione Cross-Save non sarà disponibile finché non esegui di nuovo la connessione.</TextString>
@@ -2324,6 +2582,7 @@
     </GameText>
     <GameText id="NETWORK_SERVICES_DISCONNECT">
         <TextString language="english">Connection to PSN℠ lost, Cross-Save will be unavailable.</TextString>
+        <TextString language="basque">Connection to PSN℠ lost, Cross-Save will be unavailable.</TextString>
         <TextString language="french">Connexion au PSN℠ interrompue, Cross-Save est indisponible.</TextString>
         <TextString language="german">Verbindung zum PSN℠ verloren, Cross-Save ist nicht möglich.</TextString>
         <TextString language="italian">La connessione a PSN℠ è stata interrotta. La funzione Cross-Save non sarà disponibile.</TextString>
@@ -2333,6 +2592,7 @@
     </GameText>
     <GameText id="CONTENT_RESTRICTION">
         <TextString language="english">Cross-Save is disabled on your Sony Entertainment Network account due to parental control restrictions</TextString>
+        <TextString language="basque">Cross-Save is disabled on your Sony Entertainment Network account due to parental control restrictions</TextString>
         <TextString language="french">Cross-Save est désactivé sur votre compte Sony Entertainment Network en raison des restrictions liées au contrôle parental.</TextString>
         <TextString language="german">Cross-Save ist für dieses Sony Entertainment Network-Konto durch Jugendschutz-Beschränkungen gesperrt</TextString>
         <TextString language="italian">La funzione Cross-Save è disattivata per il tuo account Sony Entertainment Network a causa delle limitazioni del filtro contenuti.</TextString>
@@ -2342,6 +2602,7 @@
     </GameText>
     <GameText id="m_crossSaveDesc">
         <TextString language="english">Enable Cross-Save</TextString>
+        <TextString language="basque">Enable Cross-Save</TextString>
         <TextString language="french">Activer Cross-Save</TextString>
         <TextString language="german">Cross-Save erlauben</TextString>
         <TextString language="italian">Attiva Cross-Save</TextString>
@@ -2351,6 +2612,7 @@
     </GameText>
     <GameText id="m_crossSaveOverwrite">
         <TextString language="english">Overwrite existing Cross-Save?</TextString>
+        <TextString language="basque">Overwrite existing Cross-Save?</TextString>
         <TextString language="french">Écraser le Cross-Save existant ?</TextString>
         <TextString language="german">Bestehenden Cross-Save überschreiben?</TextString>
         <TextString language="italian">Sovrascrivere il salvataggio Cross-Save esistente?</TextString>
@@ -2360,6 +2622,7 @@
     </GameText>
     <GameText id="m_crossSaveBusy">
         <TextString language="english">Synchronizing Cross-Save</TextString>
+        <TextString language="basque">Synchronizing Cross-Save</TextString>
         <TextString language="french">Synchronisation du Cross-Save</TextString>
         <TextString language="german">Synchronisiere Cross-Save</TextString>
         <TextString language="italian">Sincronizzazione con Cross-Save</TextString>
@@ -2369,6 +2632,7 @@
     </GameText>
     <GameText id="m_crossSaveError">
         <TextString language="english">Cross-Save failed</TextString>
+        <TextString language="basque">Cross-Save failed</TextString>
         <TextString language="french">Échec du Cross-Save</TextString>
         <TextString language="german">Cross-Save fehlgeschlagen</TextString>
         <TextString language="italian">Impossibile eseguire Cross-Save</TextString>
@@ -2378,6 +2642,7 @@
     </GameText>
     <GameText id="m_crossSaveContinue">
         <TextString language="english">An error occured during Cross-Save. Do you want to continue withouth synchronizing with Cross-Save?</TextString>
+        <TextString language="basque">An error occured during Cross-Save. Do you want to continue withouth synchronizing with Cross-Save?</TextString>
         <TextString language="french">Une erreur s'est produite durant le Cross-Save. Voulez-vous poursuivre sans synchroniser avec Cross-Save ?</TextString>
         <TextString language="german">Während des Cross-Save-Vorgangs ist ein Fehler aufgetreten. Ohne Synchronisation mit Cross-Save fortfahren?</TextString>
         <TextString language="italian">Si è verificato un errore durante la sincronizzazione con Cross-Save. Continuare senza la sincronizzazione con Cross-Save?</TextString>
