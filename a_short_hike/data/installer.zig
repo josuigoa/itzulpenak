@@ -6,7 +6,7 @@ pub fn get_game_names() [5]utils.string {
     return [_]utils.string{ "A short hike", "a short hike", "A Short Hike", "", "" };
 }
 
-pub fn install_translation(game_path: utils.string) !void {
+pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
     const content_path = utils.look_for_dir(game_path, "AShortHike_Data") catch "";
 
     const txt_path = try utils.concat(&.{ content_path, "/LANG_Euskara.yarn_lines.csv" });
@@ -17,4 +17,6 @@ pub fn install_translation(game_path: utils.string) !void {
     defer file_txt.close();
 
     _ = try file_txt.write(eu_txt);
+
+    return null;
 }

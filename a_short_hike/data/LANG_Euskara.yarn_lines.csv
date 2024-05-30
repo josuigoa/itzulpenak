@@ -4120,15 +4120,15 @@ line:458ec8,Lurrezko leiho batetik begiratu\nUrrea urdinean ezkutatuta dago,Peer
 line:288113,hau aurkitu dudala uste dut!,i think i've already found this one!,,Player,TMap1
 line:e93076,Ikuspegi Ekaiztsua,A Stormy View,Dialogue choice.,Player,TreasureMapsStart
 saveData,gorde datuak,save data,,,
-saveSlotOption,gordetzeko zirrikitua,save slot,,,
-numberedSaveSlot,{0} zirrikitua,slot {0},,,
+saveSlotOption,gordetzeko arteka,save slot,,,
+numberedSaveSlot,{0} arteka,slot {0},,,
 autosave,autogordetzea,autosave,,,
 leftBumper,Ezker Bumper-a,Left Bumper,There are in the controller config menu.,,
 rightBumper,Eskin Bumper-a,Right Bumper,,,
 customController,pertsonalizatu,custom,,,
 dateFormat,yyyy/M/d H:mm,M/d/yyyy H:mm,,,
 menuItemsOrder,{0} {1},{0} {1},,,
-returnToMenuToChangeSlot,"Gordetze zirrikitua aldatzeko
+returnToMenuToChangeSlot,"Gordetze arteka aldatzeko
 hasierako menura itzuli behar duzu.","You must return to the main menu
 to change the save slot.",,,
 japanese localization,japonierazko lokalizazioa,japanese localization,,,
