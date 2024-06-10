@@ -2,9 +2,11 @@ const std = @import("std");
 const utils = @import("utils");
 const credits_txt = @embedFile("./credits.txt");
 const gametext_xml = @embedFile("./gametext.xml");
+const gamepad_png = @embedFile("./gamepad.png");
 
 const gametext_xml_name = "gametext.xml";
 const credits_txt_name = "credits.txt";
+const gamepad_png_name = "gamepad.png";
 
 pub fn get_game_names() [5]utils.string {
     return [_]utils.string{ "Titan Souls", "titan souls", "Titan souls", "", "" };
@@ -13,6 +15,7 @@ pub fn get_game_names() [5]utils.string {
 pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
     try replace_file(game_path, gametext_xml_name);
     try replace_file(game_path, credits_txt_name);
+    try replace_file(game_path, gamepad_png_name);
 
     return null;
 }
@@ -38,6 +41,6 @@ fn replace_file(game_path: utils.string, file_name: utils.string) !void {
     const updated_res_file = try std.fs.cwd().createFile(file_path, .{});
     defer updated_res_file.close();
 
-    const file_content = if (std.mem.eql(u8, file_name, gametext_xml_name)) gametext_xml else credits_txt;
+    const file_content = if (std.mem.eql(u8, file_name, gametext_xml_name)) gametext_xml else if (std.mem.eql(u8, file_name, credits_txt_name)) credits_txt else gamepad_png;
     _ = try updated_res_file.write(file_content);
 }

@@ -8,7 +8,7 @@
         <TextString language="italian">INIZIA</TextString>
         <TextString language="portuguese">INICIAR</TextString>
         <TextString language="spanish">INICIO</TextString>
-        <TextString language="titan">START</TextString>
+        <TextString language="titan">HASI</TextString>
     </GameText>
     <GameText id="title_options">
         <TextString language="english">OPTIONS</TextString>
@@ -18,7 +18,7 @@
         <TextString language="italian">OPZIONI</TextString>
         <TextString language="portuguese">OPÇÕES</TextString>
         <TextString language="spanish">OPCIONES</TextString>
-        <TextString language="titan">OPTIONS</TextString>
+        <TextString language="titan">AUKERAK</TextString>
     </GameText>
     <GameText id="m_quit">
         <TextString language="english">QUIT</TextString>
@@ -28,7 +28,7 @@
         <TextString language="italian">ESCI</TextString>
         <TextString language="portuguese">SAIR</TextString>
         <TextString language="spanish">SALIR</TextString>
-        <TextString language="titan">QUIT</TextString>
+        <TextString language="titan">IRTEN</TextString>
     </GameText>
     <GameText id="sludgeheart_desc">
         <TextString language="english">HEART OF THE GUARDIAN</TextString>
@@ -38,7 +38,7 @@
         <TextString language="italian">CUORE DEL GUARDIANO</TextString>
         <TextString language="portuguese">CORAÇÃO DO GUARDIÃO</TextString>
         <TextString language="spanish">CORAZÓN DEL GUARDIÁN</TextString>
-        <TextString language="titan">HEART OF THE GUARDIAN</TextString>
+        <TextString language="titan">ZAINDARIAREN BIHOTZA</TextString>
     </GameText>
     <GameText id="sludgeheart_name">
         <TextString language="english">SLUDGEHEART</TextString>
@@ -48,7 +48,7 @@
         <TextString language="italian">SLUDGEHEART</TextString>
         <TextString language="portuguese">CORAÇÃO DE LODO</TextString>
         <TextString language="spanish">CORAZÓN DE LODO</TextString>
-        <TextString language="titan">SLUDGEHEART</TextString>
+        <TextString language="titan">LOHIBIHOTZ</TextString>
     </GameText>
     <GameText id="brainfreeze_desc">
         <TextString language="english">BRAIN OF THE GUARDIAN</TextString>
@@ -58,7 +58,7 @@
         <TextString language="italian">CERVELLO DEL GUARDIANO</TextString>
         <TextString language="portuguese">CÉREBRO DO GUARDIÃO</TextString>
         <TextString language="spanish">CEREBRO DEL GUARDIÁN</TextString>
-        <TextString language="titan">BRAIN OF THE GUARDIAN</TextString>
+        <TextString language="titan">ZAINDARIAREN GARUNA</TextString>>
     </GameText>
     <GameText id="brainfreeze_name">
         <TextString language="english">BRAINFREEZE</TextString>
@@ -68,7 +68,7 @@
         <TextString language="italian">BRAINFREEZE</TextString>
         <TextString language="portuguese">MIOLO GELADO</TextString>
         <TextString language="spanish">CEREBRO CONGELADO</TextString>
-        <TextString language="titan">BRAINFREEZE</TextString>
+        <TextString language="titan">GARUN IZOZTUA</TextString>
     </GameText>
     <GameText id="eyecube_desc">
         <TextString language="english">EYE OF THE GUARDIAN</TextString>
@@ -78,7 +78,7 @@
         <TextString language="italian">OCCHIO DEL GUARDIANO</TextString>
         <TextString language="portuguese">OLHO DO GUARDIÃO</TextString>
         <TextString language="spanish">OJO DEL GUARDIÁN</TextString>
-        <TextString language="titan">EYE OF THE GUARDIAN</TextString>
+        <TextString language="titan">ZAINDARIAREN BEGIA</TextString>
     </GameText>
     <GameText id="eyecube_name">
         <TextString language="english">EYECUBE</TextString>
@@ -88,7 +88,7 @@
         <TextString language="italian">EYECUBE</TextString>
         <TextString language="portuguese">CUBO ÓPTICO</TextString>
         <TextString language="spanish">OJO CUBO</TextString>
-        <TextString language="titan">EYECUBE</TextString>
+        <TextString language="titan">KUBOBEGI</TextString>
     </GameText>
     <GameText id="colossus_desc">
         <TextString language="english">GUARDIAN OF THE FIRST GATE</TextString>
@@ -98,7 +98,7 @@
         <TextString language="italian">GUARDIANO DEL PRIMO CANCELLO</TextString>
         <TextString language="portuguese">GUARDIÃO DO PRIMEIRO PORTÃO</TextString>
         <TextString language="spanish">GUARDIÁN DE LA PRIMERA PUERTA</TextString>
-        <TextString language="titan">GUARDIAN OF THE FIRST GATE</TextString>
+        <TextString language="titan">LEHENENGO ATEAREN ZAINDARIA</TextString>
     </GameText>
     <GameText id="colossus_name">
         <TextString language="english">GOL-IATH</TextString>
@@ -128,7 +128,7 @@
         <TextString language="italian">GUARDIANO DECADUTO DEL SECONDO CANCELLO </TextString>
         <TextString language="portuguese">GUARDIÃO DESONRADO DO SEGUNDO PORTÃO</TextString>
         <TextString language="spanish">GUARDIÁN DESHONRADO DE LA SEGUNDA PUERTA</TextString>
-        <TextString language="titan">DISGRACED GUARDIAN OF THE SECOND GATE</TextString>
+        <TextString language="titan">BIGARREN ATEAREN ZAINDARI DESOHORATUA</TextString>
     </GameText>
     <GameText id="bomber_name">
         <TextString language="english">MOL-QAYIN</TextString>
@@ -148,7 +148,7 @@
         <TextString language="italian">CREAZIONE LIQUIDA DI GOL-QAYIN</TextString>
         <TextString language="portuguese">CRIAÇÃO DE LAVA DE GOL-QAYIN</TextString>
         <TextString language="spanish">CREACIÓN FUNDIDA DE GOL-QAYIN</TextString>
-        <TextString language="titan">MOLTEN CREATION OF GOL-QAYIN</TextString>
+        <TextString language="titan">GOL-QAYINEN SORKUNTZA URTUA</TextString>
     </GameText>
     <GameText id="roller_name">
         <TextString language="english">ROL-QAYIN</TextString>
@@ -168,7 +168,7 @@
         <TextString language="italian">CREAZIONE FORGIATA DI GOL-QAYIN</TextString>
         <TextString language="portuguese">CRIAÇÃO DE PEDRA DE GOL-QAYIN</TextString>
         <TextString language="spanish">CREACIÓN FORJADA DE GOL-QAYIN</TextString>
-        <TextString language="titan">FORGED CREATION OF GOL-QAYIN</TextString>
+        <TextString language="titan">GOL-QAYINEN SORKUNTZA FORJATUA</TextString>
     </GameText>
     <GameText id="yeti_name">
         <TextString language="english">YETI</TextString>
@@ -188,7 +188,7 @@
         <TextString language="italian">ANTICA BESTIA DELLE NEVI</TextString>
         <TextString language="portuguese">ANTIGA FERA DAS NEVES</TextString>
         <TextString language="spanish">ANTIGUA BESTIA DE LA NIEVE</TextString>
-        <TextString language="titan">OLD SNOW BEAST</TextString>
+        <TextString language="titan">ELURRETAKO ANTZINAKO PIZTIA</TextString>
     </GameText>
     <GameText id="onyx_name">
         <TextString language="english">ONYXIA</TextString>
@@ -198,7 +198,7 @@
         <TextString language="italian">ONYXIA</TextString>
         <TextString language="portuguese">ONIXIA</TextString>
         <TextString language="spanish">ONYXIA</TextString>
-        <TextString language="titan">ONYXIA</TextString>
+        <TextString language="titan">ONIZIA</TextString>
     </GameText>
     <GameText id="onyx_desc">
         <TextString language="english">SERPENT OF THE COLD DEPTHS</TextString>
@@ -208,7 +208,7 @@
         <TextString language="italian">SERPENTE DELLE GELIDE PROFONDITÀ</TextString>
         <TextString language="portuguese">SERPENTE DAS PROFUNDEZAS GELADAS</TextString>
         <TextString language="spanish">SERPIENTE DE LAS FRÍAS PROFUNDIDADES</TextString>
-        <TextString language="titan">SERPENT OF THE COLD DEPTHS</TextString>
+        <TextString language="titan">SAKONERA HOTZETAKO SUGEA</TextString>>
     </GameText>
     <GameText id="snowface_name">
         <TextString language="english">STRATUS</TextString>
@@ -228,7 +228,7 @@
         <TextString language="italian">FIGLIO DELLA MONTAGNA E DEL CIELO</TextString>
         <TextString language="portuguese">FILHO DA MONTANHA E DO CÉU</TextString>
         <TextString language="spanish">HIJO DE LA MONTAÑA Y EL CIELO</TextString>
-        <TextString language="titan">CHILD OF THE MOUNTAIN AND SKY</TextString>
+        <TextString language="titan">MENDI ETA ZERUAREN SEMEA</TextString>ing>
     </GameText>
     <GameText id="mushroom_name">
         <TextString language="english">OBELLO</TextString>
@@ -248,7 +248,7 @@
         <TextString language="italian">FUNGO ALLUCINOGENO DEFORME</TextString>
         <TextString language="portuguese">FUNGO ALUCINÓGENO DEFORMADO</TextString>
         <TextString language="spanish">HONGO ALUCINÓGENO DEFORME</TextString>
-        <TextString language="titan">MALFORMED HALLUCINOGENIC FUNGUS</TextString>
+        <TextString language="titan">ONDDO HALUZINOGENO DESITXURATUA</TextString>
     </GameText>
     <GameText id="plant_name">
         <TextString language="english">VINETHESIS</TextString>
@@ -258,7 +258,7 @@
         <TextString language="italian">VINETHESIS</TextString>
         <TextString language="portuguese">VINETESE</TextString>
         <TextString language="spanish">PARRATESIS</TextString>
-        <TextString language="titan">VINETHESIS</TextString>
+        <TextString language="titan">PARRATESIA</TextString>
     </GameText>
     <GameText id="plant_desc">
         <TextString language="english">POISONOUS FLOWER</TextString>
@@ -268,7 +268,7 @@
         <TextString language="italian">FIORE VELENOSO</TextString>
         <TextString language="portuguese">FLOR VENENOSA</TextString>
         <TextString language="spanish">FLOR VENENOSA</TextString>
-        <TextString language="titan">POISONOUS FLOWER</TextString>
+        <TextString language="titan">LORE POZOINTSUA</TextString>
     </GameText>
     <GameText id="avarice_name">
         <TextString language="english">AVARICE</TextString>
@@ -278,7 +278,7 @@
         <TextString language="italian">AVARIZIA</TextString>
         <TextString language="portuguese">AVAREZA</TextString>
         <TextString language="spanish">AVARICIA</TextString>
-        <TextString language="titan">AVARICE</TextString>
+        <TextString language="titan">LUKURRERIA</TextString>
     </GameText>
     <GameText id="avarice_desc">
         <TextString language="english">MANIFESTATION OF GREED</TextString>
@@ -288,7 +288,7 @@
         <TextString language="italian">MANIFESTAZIONE DI AVIDITÀ</TextString>
         <TextString language="portuguese">MANIFESTAÇÃO DA AMBIÇÃO</TextString>
         <TextString language="spanish">MANIFESTACIÓN DE LA CODICIA</TextString>
-        <TextString language="titan">MANIFESTATION OF GREED</TextString>
+        <TextString language="titan">DIRUZALETASUNAREN ADIERAZPENA</TextString>
     </GameText>
     <GameText id="knight_name">
         <TextString language="english">KNIGHT ELHANAN</TextString>
@@ -298,7 +298,7 @@
         <TextString language="italian">IL CAVALIERE ELHANAN</TextString>
         <TextString language="portuguese">CAVALEIRO ELHANAN</TextString>
         <TextString language="spanish">CABALLERO ELHANAN</TextString>
-        <TextString language="titan">KNIGHT ELHANAN</TextString>
+        <TextString language="titan">ELHANAN ZALDUNA</TextString>
     </GameText>
     <GameText id="knight_desc">
         <TextString language="english">LEGENDARY TITAN SLAYER</TextString>
@@ -308,7 +308,7 @@
         <TextString language="italian">AMMAZZA-TITANI LEGGENDARIO</TextString>
         <TextString language="portuguese">LENDÁRIO CAÇADOR DE TITÃS</TextString>
         <TextString language="spanish">MATATITANES LEGENDARIO</TextString>
-        <TextString language="titan">LEGENDARY TITAN SLAYER</TextString>
+        <TextString language="titan">ELEZAHARRETAKO TITAN-HILTZAILEA</TextString>
     </GameText>
     <GameText id="ghost_name">
         <TextString language="english">GOL-HEVEL</TextString>
@@ -328,7 +328,7 @@
         <TextString language="italian">GUARDIANO ASSASSINATO DEL SECONDO CANCELLO</TextString>
         <TextString language="portuguese">GUARDIÃO ASSASSINADO DO SEGUNDO PORTÃO</TextString>
         <TextString language="spanish">GUARDIÁN ASESINADO DE LA SEGUNDA PUERTA</TextString>
-        <TextString language="titan">MURDERED GUARDIAN OF THE SECOND GATE</TextString>
+        <TextString language="titan">BIGARREN ATEKO ERAILDAKO ZAINDARIA</TextString>>
     </GameText>
     <GameText id="guardian_name">
         <TextString language="english">GOL-SET</TextString>
@@ -348,7 +348,7 @@
         <TextString language="italian">GUARDIANO DEL CANCELLO ETERNO</TextString>
         <TextString language="portuguese">GUARDIÃO DO PORTÃO ETERNO</TextString>
         <TextString language="spanish">GUARDIÁN DE LA PUERTA ETERNA</TextString>
-        <TextString language="titan">GUARDIAN OF THE ETERNAL GATE</TextString>
+        <TextString language="titan">BETIEREKO ATEAREN ZAINDARIA</TextString>
     </GameText>
     <GameText id="thesoul_name">
         <TextString language="english">THE SOUL</TextString>
@@ -358,7 +358,7 @@
         <TextString language="italian">L'ANIMA</TextString>
         <TextString language="portuguese">A ALMA</TextString>
         <TextString language="spanish">EL ALMA</TextString>
-        <TextString language="titan">THE SOUL</TextString>
+        <TextString language="titan">ARIMA</TextString>g>
     </GameText>
     <GameText id="thesoul_desc">
         <TextString language="english">IMAGE OF THE TITAN SOUL</TextString>
@@ -368,7 +368,7 @@
         <TextString language="italian">IMMAGINE DELL'ANIMA DI TITANO</TextString>
         <TextString language="portuguese">IMAGEM DA ALMA DE TITÃ</TextString>
         <TextString language="spanish">IMAGEN DEL ALMA DEL TITÁN</TextString>
-        <TextString language="titan">IMAGE OF THE TITAN SOUL</TextString>
+        <TextString language="titan">TITANAREN ARIMAREN IRUDIA</TextString>
     </GameText>
     <GameText id="truth_name">
         <TextString language="english">TRUTH</TextString>
@@ -378,7 +378,7 @@
         <TextString language="italian">VERITÀ</TextString>
         <TextString language="portuguese">VERDADE</TextString>
         <TextString language="spanish">VERDAD</TextString>
-        <TextString language="titan">TRUTH</TextString>
+        <TextString language="titan">EGIA</TextString>
     </GameText>
     <GameText id="spec_thanks">
         <TextString language="english">Special Thanks</TextString>
@@ -388,7 +388,7 @@
         <TextString language="italian">Un ringraziamento speciale a</TextString>
         <TextString language="portuguese">Agradecimentos especiais</TextString>
         <TextString language="spanish">Agradecimientos especiales</TextString>
-        <TextString language="titan">Special Thanks</TextString>
+        <TextString language="titan">Esker bereziak</TextString>
     </GameText>
     <GameText id="elder_txt_1">
         <TextString language="english">Ah...</TextString>
@@ -408,7 +408,7 @@
         <TextString language="italian">Un'altra anima spezzata alla ricerca della Verità</TextString>
         <TextString language="portuguese">Outra alma perdida em busca da verdade</TextString>
         <TextString language="spanish">Otra alma rota que busca la verdad</TextString>
-        <TextString language="titan">Another broken Soul seeking Truth</TextString>
+        <TextString language="titan">Egiaren bila dabilen beste arima puskatu bat</TextString>
     </GameText>
     <GameText id="elder_txt_3">
         <TextString language="english">Less encumbered than the last...</TextString>
@@ -418,7 +418,7 @@
         <TextString language="italian">Meno oppressa dell'ultima...</TextString>
         <TextString language="portuguese">Menos sobrecarregada que a última...</TextString>
         <TextString language="spanish">Menos cargada que la anterior...</TextString>
-        <TextString language="titan">Less encumbered than the last...</TextString>
+        <TextString language="titan">Ez aurrekoa bezain kargatua...</TextString>>
     </GameText>
     <GameText id="elder_txt_4">
         <TextString language="english">You have paid a high toll indeed</TextString>
@@ -428,7 +428,7 @@
         <TextString language="italian">Hai pagato un prezzo altissimo...</TextString>
         <TextString language="portuguese">Você pagou um preço alto, de fato</TextString>
         <TextString language="spanish">Has pagado un alto precio, desde luego</TextString>
-        <TextString language="titan">You have paid a high toll indeed</TextString>
+        <TextString language="titan">Prezio altua ordaindu duzu, zalantzarik gabe</TextString>
     </GameText>
     <GameText id="elder_txt_5">
         <TextString language="english">For the abomination in your quiver</TextString>
@@ -438,7 +438,7 @@
         <TextString language="italian">Per l'abominio nella tua faretra</TextString>
         <TextString language="portuguese">Pela abominação na sua aljava</TextString>
         <TextString language="spanish">Por la abominación de tu carcaj</TextString>
-        <TextString language="titan">For the abomination in your quiver</TextString>
+        <TextString language="titan">Gezi-ontzi gorrotagarri horrengatik</TextString>
     </GameText>
     <GameText id="elder_txt_6">
         <TextString language="english">And for what... Knowledge? Power?</TextString>
@@ -448,7 +448,7 @@
         <TextString language="italian">E per cosa? Conoscenza? Potere?</TextString>
         <TextString language="portuguese">E para quê... Conhecimento? Poder?</TextString>
         <TextString language="spanish">¿Y por qué...? ¿Conocimiento? ¿Poder?</TextString>
-        <TextString language="titan">And for what... Knowledge? Power?</TextString>
+        <TextString language="titan">Eta zertarako...? Ezagutza? Boterea?</TextString>
     </GameText>
     <GameText id="elder_txt_7">
         <TextString language="english">I hope it was worth it...</TextString>
@@ -458,7 +458,7 @@
         <TextString language="italian">Speravo ne valesse la pena...</TextString>
         <TextString language="portuguese">Espero que tenha valido a pena...</TextString>
         <TextString language="spanish">Espero que valiera la pena...</TextString>
-        <TextString language="titan">I hope it was worth it...</TextString>
+        <TextString language="titan">Merezi izatea espero dut...</TextString>
     </GameText>
     <GameText id="elder_txt_8">
         <TextString language="english">Do what you must.</TextString>
@@ -468,7 +468,7 @@
         <TextString language="italian">Fa' ciò che devi.</TextString>
         <TextString language="portuguese">Faça o que for preciso.</TextString>
         <TextString language="spanish">Haz lo que debas.</TextString>
-        <TextString language="titan">Do what you must.</TextString>
+        <TextString language="titan">Egin ezazu behar duzuna.</TextString>
     </GameText>
     <GameText id="prompt_shoot">
         <TextString language="english">PRESS #shoot# TO FIRE</TextString>
@@ -478,7 +478,7 @@
         <TextString language="italian">PREMI #shoot# PER SPARARE</TextString>
         <TextString language="portuguese">PRESSIONE #shoot# PARA ATIRAR</TextString>
         <TextString language="spanish">PULSA #shoot# PARA DISPARAR</TextString>
-        <TextString language="titan">PRESS #shoot# TO FIRE</TextString>
+        <TextString language="titan">SAKATU #shoot# TIRO EGITEKO</TextString>
     </GameText>
     <GameText id="prompt_roll">
         <TextString language="english">TAP #roll# TO ROLL</TextString>
@@ -488,7 +488,7 @@
         <TextString language="italian">TOCCA #roll# PER ROTOLARE</TextString>
         <TextString language="portuguese">PRESSIONE #roll# PARA ROLAR</TextString>
         <TextString language="spanish">PULSA #roll# PARA RODAR</TextString>
-        <TextString language="titan">TAP #roll# TO ROLL</TextString>
+        <TextString language="titan">SAKATU #roll# ITZULIPURDI EGITEKO</TextString>
     </GameText>
     <GameText id="prompt_run">
         <TextString language="english">HOLD #run# TO RUN</TextString>
@@ -498,7 +498,7 @@
         <TextString language="italian">TIENI PREMUTO #run# PER CORRERE</TextString>
         <TextString language="portuguese">SEGURE #run# PARA CORRER</TextString>
         <TextString language="spanish">MANTÉN PULSADO #run# PARA CORRER</TextString>
-        <TextString language="titan">HOLD #run# TO RUN</TextString>
+        <TextString language="titan">MANTENDU #run# KORRI EGITEKO</TextString>
     </GameText>
     <GameText id="m_start">
         <TextString language="english">START</TextString>
@@ -508,7 +508,7 @@
         <TextString language="italian">INIZIA</TextString>
         <TextString language="portuguese">INICIAR</TextString>
         <TextString language="spanish">INICIO</TextString>
-        <TextString language="titan">START</TextString>
+        <TextString language="titan">HASI</TextString>
     </GameText>
     <GameText id="m_options">
         <TextString language="english">OPTIONS</TextString>
@@ -518,7 +518,7 @@
         <TextString language="italian">OPZIONI</TextString>
         <TextString language="portuguese">OPÇÕES</TextString>
         <TextString language="spanish">OPCIONES</TextString>
-        <TextString language="titan">OPTIONS</TextString>
+        <TextString language="titan">AUKERAK</TextString>
     </GameText>
     <GameText id="m_quit">
         <TextString language="english">QUIT</TextString>
@@ -528,7 +528,7 @@
         <TextString language="italian">ESCI</TextString>
         <TextString language="portuguese">SAIR</TextString>
         <TextString language="spanish">SALIR</TextString>
-        <TextString language="titan">QUIT</TextString>
+        <TextString language="titan">IRTEN</TextString>
     </GameText>
     <GameText id="m_killed">
         <TextString language="english">KILLED</TextString>
@@ -538,7 +538,7 @@
         <TextString language="italian">UCCISIONI</TextString>
         <TextString language="portuguese">MORREU</TextString>
         <TextString language="spanish">ELIMINADOS</TextString>
-        <TextString language="titan">KILLED</TextString>
+        <TextString language="titan">HILDAKO</TextString>
     </GameText>
     <GameText id="m_deaths">
         <TextString language="english">DEATHS</TextString>
@@ -548,7 +548,7 @@
         <TextString language="italian">MORTI</TextString>
         <TextString language="portuguese">MATOU</TextString>
         <TextString language="spanish">MUERTES</TextString>
-        <TextString language="titan">DEATHS</TextString>
+        <TextString language="titan">HERIOTZA</TextString>
     </GameText>
     <GameText id="m_selectsave">
         <TextString language="english">Select a Save Slot</TextString>
@@ -558,7 +558,7 @@
         <TextString language="italian">Seleziona uno slot di salvataggio</TextString>
         <TextString language="portuguese">Selecionar slot de salvamento</TextString>
         <TextString language="spanish">Selecciona un espacio para guardar</TextString>
-        <TextString language="titan">Select a Save Slot</TextString>
+        <TextString language="titan">Aukeratu gordetzeko arteka</TextString>
     </GameText>
     <GameText id="m_select">
         <TextString language="english">SELECT</TextString>
@@ -568,7 +568,7 @@
         <TextString language="italian">SELEZIONA</TextString>
         <TextString language="portuguese">SELECIONAR</TextString>
         <TextString language="spanish">SELECCIONAR</TextString>
-        <TextString language="titan">SELECT</TextString>
+        <TextString language="titan">AUKERATU</TextString>
     </GameText>
     <GameText id="m_back">
         <TextString language="english">BACK</TextString>
@@ -578,7 +578,7 @@
         <TextString language="italian">INDIETRO</TextString>
         <TextString language="portuguese">VOLTAR</TextString>
         <TextString language="spanish">VOLVER</TextString>
-        <TextString language="titan">BACK</TextString>
+        <TextString language="titan">ITZULI</TextString>
     </GameText>
     <GameText id="m_erase">
         <TextString language="english">ERASE</TextString>
@@ -588,7 +588,7 @@
         <TextString language="italian">ELIMINA</TextString>
         <TextString language="portuguese">APAGAR</TextString>
         <TextString language="spanish">BORRAR</TextString>
-        <TextString language="titan">ERASE</TextString>
+        <TextString language="titan">EZABATU</TextString>
     </GameText>
     <GameText id="m_sound">
         <TextString language="english">SOUND</TextString>
@@ -598,7 +598,7 @@
         <TextString language="italian">AUDIO</TextString>
         <TextString language="portuguese">SOM</TextString>
         <TextString language="spanish">SONIDO</TextString>
-        <TextString language="titan">SOUND</TextString>
+        <TextString language="titan">SOINUA</TextString>
     </GameText>
     <GameText id="m_musicvol">
         <TextString language="english">MUSIC VOL :</TextString>
@@ -608,7 +608,7 @@
         <TextString language="italian">VOL. MUSICA:</TextString>
         <TextString language="portuguese">VOL. MÚSICA:</TextString>
         <TextString language="spanish">VOL. DE MÚSICA:</TextString>
-        <TextString language="titan">MUSIC VOL :</TextString>
+        <TextString language="titan">MUSIKA BOL.:</TextString>
     </GameText>
     <GameText id="m_sfxvol">
         <TextString language="english">SFX VOL :</TextString>
@@ -618,7 +618,7 @@
         <TextString language="italian">VOL. EFFETTI:</TextString>
         <TextString language="portuguese">VOL. SONS:</TextString>
         <TextString language="spanish">VOL. DE EFECTOS:</TextString>
-        <TextString language="titan">SFX VOL :</TextString>
+        <TextString language="titan">EFEKTU BOL.:</TextString>
     </GameText>
     <GameText id="m_graphics">
         <TextString language="english">GRAPHICS</TextString>
@@ -628,7 +628,7 @@
         <TextString language="italian">GRAFICA</TextString>
         <TextString language="portuguese">GRÁFICOS:</TextString>
         <TextString language="spanish">GRÁFICOS</TextString>
-        <TextString language="titan">GRAPHICS</TextString>
+        <TextString language="titan">GRAFIKOAK</TextString>
     </GameText>
     <GameText id="m_resolution">
         <TextString language="english">RESOLUTION :</TextString>
@@ -638,7 +638,7 @@
         <TextString language="italian">RISOLUZIONE:</TextString>
         <TextString language="portuguese">RESOLUÇÃO:</TextString>
         <TextString language="spanish">RESOLUCIÓN:</TextString>
-        <TextString language="titan">RESOLUTION :</TextString>
+        <TextString language="titan">BEREIZMENA:</TextString>
     </GameText>
     <GameText id="m_fullscreen">
         <TextString language="english">FULL SCREEN :</TextString>
@@ -648,7 +648,7 @@
         <TextString language="italian">SCHERMO INTERO:</TextString>
         <TextString language="portuguese">TELA INTEIRA:</TextString>
         <TextString language="spanish">PANTALLA COMPLETA:</TextString>
-        <TextString language="titan">FULL SCREEN :</TextString>
+        <TextString language="titan">PANTAILA OSOA:</TextString>
     </GameText>
     <GameText id="m_vsync">
         <TextString language="english">VSYNC :</TextString>
@@ -658,7 +658,7 @@
         <TextString language="italian">VSYNC:</TextString>
         <TextString language="portuguese">SINC. VERTICAL:</TextString>
         <TextString language="spanish">SINCRONIZACIÓN VERTICAL:</TextString>
-        <TextString language="titan">VSYNC :</TextString>
+        <TextString language="titan">VSYIC:</TextString>
     </GameText>
     <GameText id="m_gamesettings">
         <TextString language="english">GAME SETTINGS</TextString>
@@ -668,7 +668,7 @@
         <TextString language="italian">IMPOSTAZIONI DI GIOCO</TextString>
         <TextString language="portuguese">CONFIG. DO JOGO:</TextString>
         <TextString language="spanish">AJUSTES DEL JUEGO</TextString>
-        <TextString language="titan">GAME SETTINGS</TextString>
+        <TextString language="titan">JOKO EZARPENAK</TextString>
     </GameText>
     <GameText id="m_timer">
         <TextString language="english">TIMER :</TextString>
@@ -678,7 +678,7 @@
         <TextString language="italian">TIMER:</TextString>
         <TextString language="portuguese">TEMPO:</TextString>
         <TextString language="spanish">TIEMPO:</TextString>
-        <TextString language="titan">TIMER :</TextString>
+        <TextString language="titan">DENBORA:</TextString>
     </GameText>
     <GameText id="m_lang">
         <TextString language="english">LANGUAGE :</TextString>
@@ -688,7 +688,7 @@
         <TextString language="italian">LINGUA:</TextString>
         <TextString language="portuguese">IDIOMA:</TextString>
         <TextString language="spanish">IDIOMA:</TextString>
-        <TextString language="titan">LANGUAGE :</TextString>
+        <TextString language="titan">HIZKUNTZA:</TextString>
     </GameText>
     <GameText id="m_control">
         <TextString language="english">CONTROLS</TextString>
@@ -698,7 +698,7 @@
         <TextString language="italian">COMANDI</TextString>
         <TextString language="portuguese">CONTROLES</TextString>
         <TextString language="spanish">CONTROLES</TextString>
-        <TextString language="titan">CONTROLS</TextString>
+        <TextString language="titan">KONTROLAK</TextString>
     </GameText>
     <GameText id="m_on">
         <TextString language="english">ON</TextString>
@@ -708,7 +708,7 @@
         <TextString language="italian">SÌ</TextString>
         <TextString language="portuguese">SIM</TextString>
         <TextString language="spanish">SÍ</TextString>
-        <TextString language="titan">ON</TextString>
+        <TextString language="titan">BAI</TextString>
     </GameText>
     <GameText id="m_off">
         <TextString language="english">OFF</TextString>
@@ -718,7 +718,7 @@
         <TextString language="italian">NO</TextString>
         <TextString language="portuguese">NÃO</TextString>
         <TextString language="spanish">NO</TextString>
-        <TextString language="titan">OFF</TextString>
+        <TextString language="titan">EZ</TextString>
     </GameText>
     <GameText id="m_exit">
         <TextString language="english">Exit game?</TextString>
@@ -728,7 +728,7 @@
         <TextString language="italian">Uscire dal gioco?</TextString>
         <TextString language="portuguese">Sair do jogo?</TextString>
         <TextString language="spanish">¿Salir del juego?</TextString>
-        <TextString language="titan">Exit game?</TextString>
+        <TextString language="titan">Jokotik irten?</TextString>
     </GameText>
     <GameText id="m_confirm">
         <TextString language="english">Confirm Changes?</TextString>
@@ -738,7 +738,7 @@
         <TextString language="italian">Confermare le modifiche?</TextString>
         <TextString language="portuguese">Confirmar alterações?</TextString>
         <TextString language="spanish">¿Confirmar cambios?</TextString>
-        <TextString language="titan">Confirm Changes?</TextString>
+        <TextString language="titan">Aldaketak baieztatu?</TextString>
     </GameText>
     <GameText id="m_ok">
         <TextString language="english">OK</TextString>
@@ -758,7 +758,7 @@
         <TextString language="italian">ANNULLA</TextString>
         <TextString language="portuguese">CANCELAR</TextString>
         <TextString language="spanish">CANCELAR</TextString>
-        <TextString language="titan">CANCEL</TextString>
+        <TextString language="titan">EZEZTATU</TextString>
     </GameText>
     <GameText id="m_exittitle">
         <TextString language="english">Exit to Title Screen?</TextString>
@@ -768,7 +768,7 @@
         <TextString language="italian">Tornare alla schermata del titolo?</TextString>
         <TextString language="portuguese">Sair para a tela inicial?</TextString>
         <TextString language="spanish">¿Salir a la pantalla de inicio?</TextString>
-        <TextString language="titan">Exit to Title Screen?</TextString>
+        <TextString language="titan">Hasierako pantailara irten?</TextString>
     </GameText>
     <GameText id="m_erasedata">
         <TextString language="english">ERASE DATA</TextString>
@@ -778,7 +778,7 @@
         <TextString language="italian">ELIMINA DATI</TextString>
         <TextString language="portuguese">APAGAR DADOS</TextString>
         <TextString language="spanish">BORRAR DATOS</TextString>
-        <TextString language="titan">ERASE DATA</TextString>
+        <TextString language="titan">DATUAK EZABATU</TextString>
     </GameText>
     <GameText id="m_yes">
         <TextString language="english">YES</TextString>
@@ -788,7 +788,7 @@
         <TextString language="italian">SÌ</TextString>
         <TextString language="portuguese">SIM</TextString>
         <TextString language="spanish">SÍ</TextString>
-        <TextString language="titan">YES</TextString>
+        <TextString language="titan">BAI</TextString>
     </GameText>
     <GameText id="m_no">
         <TextString language="english">NO</TextString>
@@ -798,7 +798,7 @@
         <TextString language="italian">NO</TextString>
         <TextString language="portuguese">NÃO</TextString>
         <TextString language="spanish">NO</TextString>
-        <TextString language="titan">NO</TextString>
+        <TextString language="titan">EZ</TextString>
     </GameText>
     <GameText id="m_newgame">
         <TextString language="english">NEW GAME</TextString>
@@ -808,7 +808,7 @@
         <TextString language="italian">NUOVA PARTITA</TextString>
         <TextString language="portuguese">NOVO JOGO</TextString>
         <TextString language="spanish">PARTIDA NUEVA</TextString>
-        <TextString language="titan">NEW GAME</TextString>
+        <TextString language="titan">PARTIDA BERRIA</TextString>
     </GameText>
     <GameText id="m_hard">
         <TextString language="english">HARD MODE - The Real Challenge</TextString>
@@ -818,7 +818,7 @@
         <TextString language="italian">MODALITÀ DIFFICILE: la vera sfida</TextString>
         <TextString language="portuguese">MODO DIFÍCIL - O verdadeiro desafio</TextString>
         <TextString language="spanish">MODO DIFÍCIL - El auténtico desafío</TextString>
-        <TextString language="titan">HARD MODE - The Real Challenge</TextString>
+        <TextString language="titan">MODU ZAILA - Benetako erronka</TextString>
     </GameText>
     <GameText id="m_iron">
         <TextString language="english">IRON MODE - You only get one life</TextString>
@@ -828,7 +828,7 @@
         <TextString language="italian">MODALITÀ ACCIAIO: hai solo una vita</TextString>
         <TextString language="portuguese">MODO DE AÇO - Você tem apenas uma vida</TextString>
         <TextString language="spanish">MODO HIERRO - Solo tienes una vida</TextString>
-        <TextString language="titan">IRON MODE - You only get one life</TextString>
+        <TextString language="titan">BURDIN MODUA - Bizi bakarra duzu</TextString>
     </GameText>
     <GameText id="m_truth">
         <TextString language="english">TRUTH - Translated text</TextString>
@@ -838,7 +838,7 @@
         <TextString language="italian">VERITÀ: testo tradotto</TextString>
         <TextString language="portuguese">VERDADE - Texto traduzido</TextString>
         <TextString language="spanish">VERDAD - Texto traducido</TextString>
-        <TextString language="titan">TRUTH - Translated text</TextString>
+        <TextString language="titan">EGIA - Itzulitako testua</TextString>
     </GameText>
     <GameText id="m_noroll">
         <TextString language="english">NO ROLLS - Cannot roll or run</TextString>
@@ -848,7 +848,7 @@
         <TextString language="italian">NON ROTOLARE: non puoi né rotolare né correre</TextString>
         <TextString language="portuguese">SEM ROLAR - Você não pode rolar nem correr</TextString>
         <TextString language="spanish">SIN RODAR - No puedes rodar ni correr</TextString>
-        <TextString language="titan">NO ROLLS - Cannot roll or run</TextString>
+        <TextString language="titan">ITZULIPURDIRIK EZ - Ezin da korri edo itzulipurdirik egin</TextString>
     </GameText>
     <GameText id="soul_elder_txt_1">
         <TextString language="english">You found what you sought...</TextString>
@@ -858,7 +858,7 @@
         <TextString language="italian">Hai trovato ciò che cercavi...</TextString>
         <TextString language="portuguese">Você encontrou o que procurava...</TextString>
         <TextString language="spanish">Has encontrado lo que buscabas...</TextString>
-        <TextString language="titan">You found what you sought...</TextString>
+        <TextString language="titan">Bila zenbiltzana aurkitu duzu...</TextString>
     </GameText>
     <GameText id="soul_elder_txt_2">
         <TextString language="english">You killed the Second God.</TextString>
@@ -868,7 +868,7 @@
         <TextString language="italian">Hai ucciso la Seconda divinità.</TextString>
         <TextString language="portuguese">Você matou o Segundo Deus.</TextString>
         <TextString language="spanish">Has matado al Segundo Dios.</TextString>
-        <TextString language="titan">You killed the Second God.</TextString>
+        <TextString language="titan">Bigarren Jainkoa hil duzu.</TextString>
     </GameText>
     <GameText id="soul_elder_txt_3">
         <TextString language="english">The one who took my place</TextString>
@@ -878,7 +878,7 @@
         <TextString language="italian">Quella che ha preso il mio posto</TextString>
         <TextString language="portuguese">Aquele que assumiu meu lugar</TextString>
         <TextString language="spanish">El que ocupó mi lugar</TextString>
-        <TextString language="titan">The one who took my place</TextString>
+        <TextString language="titan">Nire lekua hartu</TextString>tString>
     </GameText>
     <GameText id="soul_elder_txt_4">
         <TextString language="english">and created The Four Guardians.</TextString>
@@ -888,7 +888,7 @@
         <TextString language="italian">e ha creato i Quattro guardiani.</TextString>
         <TextString language="portuguese">e criou os Quatro Guardiões.</TextString>
         <TextString language="spanish">y creó a los Cuatro Guardianes.</TextString>
-        <TextString language="titan">and created The Four Guardians.</TextString>
+        <TextString language="titan">eta Lau Zaindariak sortu zituen bera.</TextString>
     </GameText>
     <GameText id="soul_elder_txt_5">
         <TextString language="english">The rest of the Titans here</TextString>
@@ -898,7 +898,7 @@
         <TextString language="italian">Gli altri Titani</TextString>
         <TextString language="portuguese">Os Titãs aqui restantes</TextString>
         <TextString language="spanish">El resto de los titanes</TextString>
-        <TextString language="titan">The rest of the Titans here</TextString>
+        <TextString language="titan">Gainontzeko titanak</TextString>String>
     </GameText>
     <GameText id="soul_elder_txt_6">
         <TextString language="english">grew from Lost Souls</TextString>
@@ -908,7 +908,7 @@
         <TextString language="italian">sono nati dalle Anime perdute</TextString>
         <TextString language="portuguese">cresceram de Almas Perdidas</TextString>
         <TextString language="spanish">crecieron a partir de las almas perdidas</TextString>
-        <TextString language="titan">grew from Lost Souls</TextString>
+        <TextString language="titan">galdutako arimetatik hazi ziren</TextString>
     </GameText>
     <GameText id="soul_elder_txt_7">
         <TextString language="english">Some were like you... human.</TextString>
@@ -918,7 +918,7 @@
         <TextString language="italian">Alcuni erano come te... umani.</TextString>
         <TextString language="portuguese">Alguns eram como você... humanos.</TextString>
         <TextString language="spanish">Algunas eran como tú..., humanas.</TextString>
-        <TextString language="titan">Some were like you... human.</TextString>
+        <TextString language="titan">Batzuk zu bezalakoak ziren..., gizakiak.</TextString>
     </GameText>
     <GameText id="soul_elder_txt_8">
         <TextString language="english">They lacked your conviction for killing...</TextString>
@@ -928,7 +928,7 @@
         <TextString language="italian">Gli mancava la convinzione di uccidere...</TextString>
         <TextString language="portuguese">Não tinham sua convicção assassina...</TextString>
         <TextString language="spanish">Carecían de tu convicción para matar...</TextString>
-        <TextString language="titan">They lacked your conviction for killing...</TextString>
+        <TextString language="titan">Haiek ez zuten zuk duzun hiltzeko konbikziorik...</TextString>
     </GameText>
     <GameText id="truth_elder_txt_1">
         <TextString language="english">I was the first Life</TextString>
@@ -938,7 +938,7 @@
         <TextString language="italian">Io ero la prima Vita</TextString>
         <TextString language="portuguese">Eu fui a primeira Vida</TextString>
         <TextString language="spanish">Yo fui la primera vida</TextString>
-        <TextString language="titan">I was the first Life</TextString>
+        <TextString language="titan">Ni izan nintzen lehenengo Bizitza</TextString>
     </GameText>
     <GameText id="truth_elder_txt_2">
         <TextString language="english">The first Soul born from Truth</TextString>
@@ -948,7 +948,7 @@
         <TextString language="italian">La prima anima nata dalla Verità</TextString>
         <TextString language="portuguese">A primeira Alma nascida da Verdade</TextString>
         <TextString language="spanish">El alma primogénita de la verdad</TextString>
-        <TextString language="titan">The first Soul born from Truth</TextString>
+        <TextString language="titan">Egiatik sortutako lehenengo Arima</TextString>
     </GameText>
     <GameText id="truth_elder_txt_3">
         <TextString language="english">And from I, came the first of you</TextString>
@@ -958,7 +958,7 @@
         <TextString language="italian">E da me sono venuti i primi di voi</TextString>
         <TextString language="portuguese">E, de mim, surgiu o primeiro de vocês</TextString>
         <TextString language="spanish">Y de mí salió el primero de vosotros</TextString>
-        <TextString language="titan">And from I, came the first of you</TextString>
+        <TextString language="titan">Eta nigandik, zuetako lehenengoa etorri zen</TextString>
     </GameText>
     <GameText id="truth_elder_txt_4">
         <TextString language="english">And now we come full circle</TextString>
@@ -968,7 +968,7 @@
         <TextString language="italian">E ora il cerchio si chiude</TextString>
         <TextString language="portuguese">E agora o ciclo se completa</TextString>
         <TextString language="spanish">Y ahora cerramos el círculo</TextString>
-        <TextString language="titan">And now we come full circle</TextString>
+        <TextString language="titan">Eta orain zirkulua itxiko dugu</TextString>
     </GameText>
     <GameText id="truth_elder_txt_5">
         <TextString language="english">The maker is un-made</TextString>
@@ -978,7 +978,7 @@
         <TextString language="italian">Il creatore è distrutto</TextString>
         <TextString language="portuguese">O feitor é desfeito</TextString>
         <TextString language="spanish">El creador está inconcluso</TextString>
-        <TextString language="titan">The maker is un-made</TextString>
+        <TextString language="titan">Sortzailea deseginda dago</TextString>
     </GameText>
     <GameText id="truth_elder_txt_6">
         <TextString language="english">And one day, you will fall to the same fate</TextString>
@@ -988,7 +988,7 @@
         <TextString language="italian">E un giorno subirete la stessa sorte</TextString>
         <TextString language="portuguese">E um dia, você terá o mesmo destino</TextString>
         <TextString language="spanish">Y un día, correrás la misma suerte</TextString>
-        <TextString language="titan">And one day, you will fall to the same fate</TextString>
+        <TextString language="titan">Eta egunen batean, zure patua ere hori izango da</TextString>
     </GameText>
     <GameText id="truth_elder_txt_7">
         <TextString language="english">Do what you must.</TextString>
@@ -998,7 +998,7 @@
         <TextString language="italian">Fate quello che dovete.</TextString>
         <TextString language="portuguese">Faça o que for preciso.</TextString>
         <TextString language="spanish">Haz lo que debas.</TextString>
-        <TextString language="titan">Do what you must.</TextString>
+        <TextString language="titan">Egin ezazu behar duzuna.</TextString>
     </GameText>
     <GameText id="truth_elder_txt_8">
         <TextString language="english"></TextString>
@@ -1018,7 +1018,7 @@
         <TextString language="italian">NUOVE MODALITÀ DI GIOCO SBLOCCATE</TextString>
         <TextString language="portuguese">NOVOS MODOS DE JOGO DESBLOQUEADOS</TextString>
         <TextString language="spanish">NUEVOS MODOS DE JUEGO DESBLOQUEADOS</TextString>
-        <TextString language="titan">NEW GAME MODES UNLOCKED</TextString>
+        <TextString language="titan">JOSTATZEKO MODU BERRIAK DESBLOKEATU DIRA</TextString>
     </GameText>
     <GameText id="m_rumble">
         <TextString language="english">PAD RUMBLE :</TextString>
@@ -1028,7 +1028,7 @@
         <TextString language="italian">VIBRAZIONE CONTROLLER:</TextString>
         <TextString language="portuguese">VIBRAÇÃO:</TextString>
         <TextString language="spanish">VIBRACIÓN DEL MANDO:</TextString>
-        <TextString language="titan">PAD RUMBLE :</TextString>
+        <TextString language="titan">AGINTE DARDARA:</TextString>
     </GameText>
     <GameText id="m_keyboard">
         <TextString language="english">KEYBOARD</TextString>
@@ -1038,7 +1038,7 @@
         <TextString language="italian">TASTIERA</TextString>
         <TextString language="portuguese">TECLADO</TextString>
         <TextString language="spanish">TECLADO</TextString>
-        <TextString language="titan">KEYBOARD</TextString>
+        <TextString language="titan">TEKLATUA</TextString>
     </GameText>
     <GameText id="m_joypad">
         <TextString language="english">JOYPAD</TextString>
@@ -1048,7 +1048,7 @@
         <TextString language="italian">CONTROLLER</TextString>
         <TextString language="portuguese">CONTROLE</TextString>
         <TextString language="spanish">MANDO</TextString>
-        <TextString language="titan">JOYPAD</TextString>
+        <TextString language="titan">AGINTEA</TextString>
     </GameText>
     <GameText id="m_movestick">
         <TextString language="english">MOVEMENT :</TextString>
@@ -1058,7 +1058,7 @@
         <TextString language="italian">MOVIMENTO:</TextString>
         <TextString language="portuguese">MOVIMENTAÇÃO:</TextString>
         <TextString language="spanish">MOVIMIENTO:</TextString>
-        <TextString language="titan">MOVEMENT :</TextString>
+        <TextString language="titan">MUGIMENDUA:</TextString>
     </GameText>
     <GameText id="m_shoot">
         <TextString language="english">SHOOT :</TextString>
@@ -1068,7 +1068,7 @@
         <TextString language="italian">SPARA:</TextString>
         <TextString language="portuguese">ATIRAR:</TextString>
         <TextString language="spanish">DISPARAR:</TextString>
-        <TextString language="titan">SHOOT :</TextString>
+        <TextString language="titan">TIRO:</TextString>>
     </GameText>
     <GameText id="m_roll">
         <TextString language="english">ROLL :</TextString>
@@ -1078,7 +1078,7 @@
         <TextString language="italian">ROTOLA:</TextString>
         <TextString language="portuguese">ROLAR:</TextString>
         <TextString language="spanish">RODAR:</TextString>
-        <TextString language="titan">ROLL :</TextString>
+        <TextString language="titan">ITZULIPURDI:</TextString>
     </GameText>
     <GameText id="m_lookstick">
         <TextString language="english">LOOK :</TextString>
@@ -1088,7 +1088,7 @@
         <TextString language="italian">GUARDA:</TextString>
         <TextString language="portuguese">OLHAR:</TextString>
         <TextString language="spanish">MIRAR:</TextString>
-        <TextString language="titan">LOOK :</TextString>
+        <TextString language="titan">BEGIRATU:</TextString>
     </GameText>
     <GameText id="m_resetdefault">
         <TextString language="english">RESET TO DEFAULT</TextString>
@@ -1098,7 +1098,7 @@
         <TextString language="italian">RIPRISTINA IMPOSTAZIONI PREDEFINITE</TextString>
         <TextString language="portuguese">REDEFINIR PADRÃO</TextString>
         <TextString language="spanish">RESTAURAR AJUSTES POR DEFECTO</TextString>
-        <TextString language="titan">RESET TO DEFAULT</TextString>
+        <TextString language="titan">BEREZKOAK BERREZARRI</TextString>
     </GameText>
     <GameText id="m_up">
         <TextString language="english">UP</TextString>
@@ -1108,7 +1108,7 @@
         <TextString language="italian">SU</TextString>
         <TextString language="portuguese">PARA CIMA</TextString>
         <TextString language="spanish">ARRIBA</TextString>
-        <TextString language="titan">UP</TextString>
+        <TextString language="titan">GORA</TextString>
     </GameText>
     <GameText id="m_down">
         <TextString language="english">DOWN</TextString>
@@ -1118,7 +1118,7 @@
         <TextString language="italian">GIÙ</TextString>
         <TextString language="portuguese">PARA BAIXO</TextString>
         <TextString language="spanish">ABAJO</TextString>
-        <TextString language="titan">DOWN</TextString>
+        <TextString language="titan">BEHERA</TextString>
     </GameText>
     <GameText id="m_left">
         <TextString language="english">LEFT</TextString>
@@ -1128,7 +1128,7 @@
         <TextString language="italian">SINISTRA</TextString>
         <TextString language="portuguese">ESQUERDA</TextString>
         <TextString language="spanish">IZQUIERDA</TextString>
-        <TextString language="titan">LEFT</TextString>
+        <TextString language="titan">EZKER</TextString>
     </GameText>
     <GameText id="m_right">
         <TextString language="english">RIGHT</TextString>
@@ -1138,7 +1138,7 @@
         <TextString language="italian">DESTRA</TextString>
         <TextString language="portuguese">DIREITA</TextString>
         <TextString language="spanish">DERECHA</TextString>
-        <TextString language="titan">RIGHT</TextString>
+        <TextString language="titan">ESKUIN</TextString>
     </GameText>
     <GameText id="FIRST_GATE_name">
         <TextString language="english">Out of the Frying Pan...</TextString>
@@ -1148,7 +1148,7 @@
         <TextString language="italian">Dalla padella...</TextString>
         <TextString language="portuguese">Fora da frigideira...</TextString>
         <TextString language="spanish">Salir del fuego...</TextString>
-        <TextString language="titan">Out of the Frying Pan...</TextString>
+        <TextString language="titan">Sutatik atera...</TextString>String>
     </GameText>
     <GameText id="FIRST_GATE_desc">
         <TextString language="english">Open the first Sealed Gate</TextString>
@@ -1158,7 +1158,7 @@
         <TextString language="italian">Apri il primo cancello chiuso</TextString>
         <TextString language="portuguese">Abra o primeiro Portão Selado.</TextString>
         <TextString language="spanish">Abre la primera puerta sellada.</TextString>
-        <TextString language="titan">Open the first Sealed Gate</TextString>
+        <TextString language="titan">Ireki lehenengo Zigilatutako Atea.</TextString>
     </GameText>
     <GameText id="SECOND_GATE_name">
         <TextString language="english">...Into the Fire</TextString>
@@ -1168,7 +1168,7 @@
         <TextString language="italian">... alla brace</TextString>
         <TextString language="portuguese">...Para o fogo</TextString>
         <TextString language="spanish">... Para caer en las brasas</TextString>
-        <TextString language="titan">...Into the Fire</TextString>
+        <TextString language="titan">... Sutara erortzeko</TextString>
     </GameText>
     <GameText id="SECOND_GATE_desc">
         <TextString language="english">Open the second Sealed Gate</TextString>
@@ -1178,7 +1178,7 @@
         <TextString language="italian">Apri il secondo cancello chiuso</TextString>
         <TextString language="portuguese">Abra o segundo Portão Selado.</TextString>
         <TextString language="spanish">Abre la segunda puerta sellada.</TextString>
-        <TextString language="titan">Open the second Sealed Gate</TextString>
+        <TextString language="titan">Ireki bigarren Zigilatutako Atea.</TextString>
     </GameText>
     <GameText id="SPEED_RUN_name">
         <TextString language="english">Aerodynamics</TextString>
@@ -1188,7 +1188,7 @@
         <TextString language="italian">Aerodinamica</TextString>
         <TextString language="portuguese">Aerodinâmica</TextString>
         <TextString language="spanish">Aerodinámica</TextString>
-        <TextString language="titan">Aerodynamics</TextString>
+        <TextString language="titan">Aerodinamika</TextString>
     </GameText>
     <GameText id="SPEED_RUN_desc">
         <TextString language="english">Beat the game in under 20 minutes</TextString>
@@ -1198,7 +1198,7 @@
         <TextString language="italian">Completa il gioco in meno di 20 minuti</TextString>
         <TextString language="portuguese">Vença o jogo em menos de 20 minutos.</TextString>
         <TextString language="spanish">Termina el juego en menos de 20 minutos.</TextString>
-        <TextString language="titan">Beat the game in under 20 minutes</TextString>
+        <TextString language="titan">Bukatu jokoa 20 minutu baino gutxiagoan.</TextString>
     </GameText>
     <GameText id="TITAN_SOUL_name">
         <TextString language="english">Titan Soul</TextString>
@@ -1208,7 +1208,7 @@
         <TextString language="italian">Anima di Titano</TextString>
         <TextString language="portuguese">Alma de Titã</TextString>
         <TextString language="spanish">Alma de titán</TextString>
-        <TextString language="titan">Titan Soul</TextString>
+        <TextString language="titan">Titanaren Arima</TextString>
     </GameText>
     <GameText id="TITAN_SOUL_desc">
         <TextString language="english">Beat the Game</TextString>
@@ -1218,7 +1218,7 @@
         <TextString language="italian">Completa il gioco</TextString>
         <TextString language="portuguese">Vença o jogo.</TextString>
         <TextString language="spanish">Termina el juego.</TextString>
-        <TextString language="titan">Beat the Game</TextString>
+        <TextString language="titan">Bukatu jokoa</TextString>
     </GameText>
     <GameText id="TRUTH_SOUL_name">
         <TextString language="english">TRUTH</TextString>
@@ -1228,7 +1228,7 @@
         <TextString language="italian">VERITÀ</TextString>
         <TextString language="portuguese">VERDADE</TextString>
         <TextString language="spanish">VERDAD</TextString>
-        <TextString language="titan">TRUTH</TextString>
+        <TextString language="titan">EGIA</TextString>
     </GameText>
     <GameText id="TRUTH_SOUL_desc">
         <TextString language="english">???</TextString>
@@ -1248,7 +1248,7 @@
         <TextString language="italian">Umano d'acciaio</TextString>
         <TextString language="portuguese">Humano de aço</TextString>
         <TextString language="spanish">Humano de hierro</TextString>
-        <TextString language="titan">Iron Human</TextString>
+        <TextString language="titan">Burdinezko Gizakia</TextString>
     </GameText>
     <GameText id="IRON_NORMAL_desc">
         <TextString language="english">Beat the game in Iron Mode</TextString>
@@ -1258,7 +1258,7 @@
         <TextString language="italian">Completa il gioco in modalità Acciaio</TextString>
         <TextString language="portuguese">Vença o jogo no Modo de Aço.</TextString>
         <TextString language="spanish">Termina el juego en modo Hierro.</TextString>
-        <TextString language="titan">Beat the game in Iron Mode</TextString>
+        <TextString language="titan">Bukatu jokoa Burdin Moduan.</TextString>
     </GameText>
     <GameText id="IRON_HARD_name">
         <TextString language="english">Iron Titan</TextString>
@@ -1268,7 +1268,7 @@
         <TextString language="italian">Titano d'acciaio</TextString>
         <TextString language="portuguese">Titã de aço</TextString>
         <TextString language="spanish">Titán de hierro</TextString>
-        <TextString language="titan">Iron Titan</TextString>
+        <TextString language="titan">Burdinezko Titana</TextString>
     </GameText>
     <GameText id="IRON_HARD_desc">
         <TextString language="english">Beat the game in Iron Mode with Hard Mode active</TextString>
@@ -1278,7 +1278,7 @@
         <TextString language="italian">Completa il gioco in modalità Acciaio con la modalità Difficile attiva</TextString>
         <TextString language="portuguese">Vença o jogo no Modo de Aço com o Modo Difícil ativo.</TextString>
         <TextString language="spanish">Termina el juego en el modo Hierro con el modo Difícil activo.</TextString>
-        <TextString language="titan">Beat the game in Iron Mode with Hard Mode active</TextString>
+        <TextString language="titan">Bukatu jokoa Burdin Moduan, modu Zaila aktibo dagoelarik.</TextString>
     </GameText>
     <GameText id="NO_ROLLS_name">
         <TextString language="english">Hard Bizkit</TextString>
@@ -1298,7 +1298,7 @@
         <TextString language="italian">Completa il gioco senza rotolare (Modalità Non rotolare)</TextString>
         <TextString language="portuguese">Vença o jogo no Modo Sem Rolar (sem rolar e sem fingir de morto).</TextString>
         <TextString language="spanish">Termina el juego sin rodar, rodar, rodar (en modo Sin rodar).</TextString>
-        <TextString language="titan">Beat the game without rolling rolling rolling (in No Roll mode)</TextString>
+        <TextString language="titan">Bukatu jokoa itzulipurdirik egin gabe (Itzulipurdirik Ez moduan)</TextString>
     </GameText>
     <GameText id="SLIMEBALL_name">
         <TextString language="english">Slimeball</TextString>
@@ -1308,7 +1308,7 @@
         <TextString language="italian">Palla di melma</TextString>
         <TextString language="portuguese">Bola gosmenta</TextString>
         <TextString language="spanish">Bola de fango</TextString>
-        <TextString language="titan">Slimeball</TextString>
+        <TextString language="titan">Lohibola</TextString>
     </GameText>
     <GameText id="SLIMEBALL_desc">
         <TextString language="english">Kill the Sludge titan with no more possible divisions</TextString>
@@ -1318,7 +1318,7 @@
         <TextString language="italian">Uccidi il Titano melma senza altre divisioni</TextString>
         <TextString language="portuguese">Mate o Titã de lodo sem possíveis divisões.</TextString>
         <TextString language="spanish">Mata al titán mancha sin más divisiones posibles.</TextString>
-        <TextString language="titan">Kill the Sludge titan with no more possible divisions</TextString>
+        <TextString language="titan">Hil ezazu Lohi titana zatiketa posible gehiago gabe.</TextString>
     </GameText>
     <GameText id="HARD_MODE_name">
         <TextString language="english">New Game+</TextString>
@@ -1328,7 +1328,7 @@
         <TextString language="italian">Nuova partita+</TextString>
         <TextString language="portuguese">Novo jogo+</TextString>
         <TextString language="spanish">Partida nueva+</TextString>
-        <TextString language="titan">New Game+</TextString>
+        <TextString language="titan">Partida berria+</TextString>
     </GameText>
     <GameText id="HARD_MODE_desc">
         <TextString language="english">Beat Hard Mode</TextString>
@@ -1338,7 +1338,7 @@
         <TextString language="italian">Completa la modalità Difficile</TextString>
         <TextString language="portuguese">Vença no Modo Difícil.</TextString>
         <TextString language="spanish">Termina el modo Difícil.</TextString>
-        <TextString language="titan">Beat Hard Mode</TextString>
+        <TextString language="titan">Bukatu jokoa modu Zailean.</TextString>
     </GameText>
     <GameText id="EYECUBE_name">
         <TextString language="english">Laser Eye Surgery</TextString>
@@ -1348,7 +1348,7 @@
         <TextString language="italian">Chirurgia oculistica al laser</TextString>
         <TextString language="portuguese">Cirurgia ocular</TextString>
         <TextString language="spanish">Cirugía ocular con láser</TextString>
-        <TextString language="titan">Laser Eye Surgery</TextString>
+        <TextString language="titan">Begi Kirurgia Laserrarekin</TextString>
     </GameText>
     <GameText id="EYECUBE_desc">
         <TextString language="english">Kill the Eye Cube while pulling back the arrow</TextString>
@@ -1358,7 +1358,7 @@
         <TextString language="italian">Uccidi l'occhio cubico tirando indietro la freccia</TextString>
         <TextString language="portuguese">Mate o Cubo Óptico puxando a flecha de volta.</TextString>
         <TextString language="spanish">Mata al ojo cubo mientras tiras de la flecha.</TextString>
-        <TextString language="titan">Kill the Eye Cube while pulling back the arrow</TextString>
+        <TextString language="titan">Hil ezazu Kubo Begi gezia atzerantz dakarzula</TextString>
     </GameText>
     <GameText id="BRAIN_name">
         <TextString language="english">Brain Freeze</TextString>
@@ -1368,7 +1368,7 @@
         <TextString language="italian">Brainfreeze</TextString>
         <TextString language="portuguese">Miolo Gelado</TextString>
         <TextString language="spanish">Cerebro congelado</TextString>
-        <TextString language="titan">Brain Freeze</TextString>
+        <TextString language="titan">Garun izoztua</TextString>
     </GameText>
     <GameText id="BRAIN_desc">
         <TextString language="english">Kill the Brain with a flaming arrow</TextString>
@@ -1378,7 +1378,7 @@
         <TextString language="italian">Uccidi il cervello con una freccia infuocata</TextString>
         <TextString language="portuguese">Mate o Miolo com uma flecha de fogo.</TextString>
         <TextString language="spanish">Mata al cerebro con una flecha en llamas.</TextString>
-        <TextString language="titan">Kill the Brain with a flaming arrow</TextString>
+        <TextString language="titan">Hil ezazu Garuna sutan dagoen geziarekin</TextString>
     </GameText>
     <GameText id="PLANT_VINES_name">
         <TextString language="english">Short Back and Sides</TextString>
@@ -1388,7 +1388,7 @@
         <TextString language="italian">Una spuntatina qua e là</TextString>
         <TextString language="portuguese">Aparando as arestas</TextString>
         <TextString language="spanish">Corto por detrás y los lados</TextString>
-        <TextString language="titan">Short Back and Sides</TextString>
+        <TextString language="titan">Alde guztietatik moztu</TextString>
     </GameText>
     <GameText id="PLANT_VINES_desc">
         <TextString language="english">Cut all the vines off the Plant Titan</TextString>
@@ -1398,7 +1398,7 @@
         <TextString language="italian">Taglia tutti i rami del Titano-pianta </TextString>
         <TextString language="portuguese">Corte todos os galhos do Titã vegetal.</TextString>
         <TextString language="spanish">Corta todas las parras del titán planta.</TextString>
-        <TextString language="titan">Cut all the vines off the Plant Titan</TextString>
+        <TextString language="titan">Moztu Landare Titanaren parra guztiak</TextString>
     </GameText>
     <GameText id="BLAZEIT_name">
         <TextString language="english">Drug Trial</TextString>
@@ -1408,7 +1408,7 @@
         <TextString language="italian">Test allucinogeno</TextString>
         <TextString language="portuguese">Experimento médico</TextString>
         <TextString language="spanish">Prueba de drogas</TextString>
-        <TextString language="titan">Drug Trial</TextString>
+        <TextString language="titan">Droga probatzea</TextString>
     </GameText>
     <GameText id="BLAZEIT_desc">
         <TextString language="english">Succumb to the effect of spores for 30 seconds total</TextString>
@@ -1418,7 +1418,7 @@
         <TextString language="italian">Subisci l'effetto delle spore per 30 secondi</TextString>
         <TextString language="portuguese">Sucumba ao efeito das esporas por um total de 30 segundos.</TextString>
         <TextString language="spanish">Sucumbe al efecto de las esporas durante 30 segundos en total.</TextString>
-        <TextString language="titan">Succumb to the effect of spores for 30 seconds total</TextString>
+        <TextString language="titan">Bizi itzazu esporen ondorioak guztiak 30 segundoz</TextString>g>
     </GameText>
     <GameText id="ROCKY_name">
         <TextString language="english">Demo Man</TextString>
@@ -1428,7 +1428,7 @@
         <TextString language="italian">Uomo demo</TextString>
         <TextString language="portuguese">Destruidor</TextString>
         <TextString language="spanish">Demoledor</TextString>
-        <TextString language="titan">Demo Man</TextString>
+        <TextString language="titan">Suntsitzaile</TextString>
     </GameText>
     <GameText id="ROCKY_desc">
         <TextString language="english">Kill the Knight after destroying all pillars</TextString>
@@ -1438,7 +1438,7 @@
         <TextString language="italian">Uccidi il cavaliere dopo aver distrutto tutte le colonne</TextString>
         <TextString language="portuguese">Mate o Cavaleiro depois de destruir todas as colunas.</TextString>
         <TextString language="spanish">Mata al caballero después de destruir todos los pilares.</TextString>
-        <TextString language="titan">Kill the Knight after destroying all pillars</TextString>
+        <TextString language="titan">Hil ezazu Zalduna zutabe guztiak txikitu eta gero</TextString>
     </GameText>
     <GameText id="AVARICE_name">
         <TextString language="english">Ca$h Mon£y</TextString>
@@ -1448,7 +1448,7 @@
         <TextString language="italian">Tanti $o£di </TextString>
         <TextString language="portuguese">Moeda$ e mais moeda$</TextString>
         <TextString language="spanish">Din€ro en ef£ctivo</TextString>
-        <TextString language="titan">Ca$h Mon£y</TextString>
+        <TextString language="titan">€$ku dirutan</TextString>
     </GameText>
     <GameText id="AVARICE_desc">
         <TextString language="english">Produce 50 coins in the Chest fight</TextString>
@@ -1458,7 +1458,7 @@
         <TextString language="italian">Produci 50 monete con il combattimento del forziere</TextString>
         <TextString language="portuguese">Gere 50 moedas na luta do Baú.</TextString>
         <TextString language="spanish">Genera 50 monedas en la lucha con el cofre.</TextString>
-        <TextString language="titan">Produce 50 coins in the Chest fight</TextString>
+        <TextString language="titan">Lortu 50 txanpon Kutxaren aurkako borrokan.</TextString>
     </GameText>
     <GameText id="ROLLER_name">
         <TextString language="english">COME AT ME BRO</TextString>
@@ -1468,7 +1468,7 @@
         <TextString language="italian">VIENI, PICCOLINO</TextString>
         <TextString language="portuguese">CHEGUE MAIS</TextString>
         <TextString language="spanish">VEN A POR MÍ, COLEGA</TextString>
-        <TextString language="titan">COME AT ME BRO</TextString>
+        <TextString language="titan">ZATOZ NIGANA, TXO</TextString>
     </GameText>
     <GameText id="ROLLER_desc">
         <TextString language="english">Kill the Rolling Titan in under 5 seconds</TextString>
@@ -1478,7 +1478,7 @@
         <TextString language="italian">Uccidi il Titano rotolante in meno di 5 secondi</TextString>
         <TextString language="portuguese">Mate o Titã rolador em menos de 5 segundos.</TextString>
         <TextString language="spanish">Mata al titán rodante en menos de 5 segundos.</TextString>
-        <TextString language="titan">Kill the Rolling Titan in under 5 seconds</TextString>
+        <TextString language="titan">Hil ezazu Kroketa Titana 5 segundo baino gutxigoan.</TextString>
     </GameText>
     <GameText id="BOMBER_name">
         <TextString language="english">Bomberman</TextString>
@@ -1488,7 +1488,7 @@
         <TextString language="italian">Bombarolo</TextString>
         <TextString language="portuguese">Homem-bomba</TextString>
         <TextString language="spanish">Bombardero</TextString>
-        <TextString language="titan">Bomberman</TextString>
+        <TextString language="titan">Bonbagilea</TextString>
     </GameText>
     <GameText id="BOMBER_desc">
         <TextString language="english">Drop a bomb on the Lava Blob Titan's head</TextString>
@@ -1498,7 +1498,7 @@
         <TextString language="italian">Fai scoppiare una bomba sulla testa del Titano di lava</TextString>
         <TextString language="portuguese">Jogue uma bomba na cabeça do Titã de lava.</TextString>
         <TextString language="spanish">Lanza una bomba sobre la cabeza del titán de lava.</TextString>
-        <TextString language="titan">Drop a bomb on the Lava Blob Titan's head</TextString>
+        <TextString language="titan">Bota bonba bat Laba Titanaren burura</TextString>ing>
     </GameText>
     <GameText id="IK_SPIN_name">
         <TextString language="english">Leak Spin</TextString>
@@ -1508,7 +1508,7 @@
         <TextString language="italian">Gira gira gira</TextString>
         <TextString language="portuguese">Morte giratória</TextString>
         <TextString language="spanish">Giro mortal</TextString>
-        <TextString language="titan">Leak Spin</TextString>
+        <TextString language="titan">Biratze hilkorra</TextString>
     </GameText>
     <GameText id="IK_SPIN_desc">
         <TextString language="english">Kill the Skull Titan as it spins</TextString>
@@ -1518,7 +1518,7 @@
         <TextString language="italian">Uccidi il Titano-teschio mentre gira</TextString>
         <TextString language="portuguese">Mate o Titã caveira enquanto ele roda.</TextString>
         <TextString language="spanish">Mata al titán calavera mientras gira.</TextString>
-        <TextString language="titan">Kill the Skull Titan as it spins</TextString>
+        <TextString language="titan">Hil ezazu Kaskezur Titana biratzen dabilen bitartean</TextString>
     </GameText>
     <GameText id="BEAT_YETI_name">
         <TextString language="english">Beating the Yeti</TextString>
@@ -1528,7 +1528,7 @@
         <TextString language="italian">Batti lo Yeti</TextString>
         <TextString language="portuguese">Abominável morte das neves</TextString>
         <TextString language="spanish">Vencer al yeti</TextString>
-        <TextString language="titan">Beating the Yeti</TextString>
+        <TextString language="titan">Garaitu Yetia</TextString>g>
     </GameText>
     <GameText id="BEAT_YETI_desc">
         <TextString language="english">Finish in under 10 seconds...</TextString>
@@ -1538,7 +1538,7 @@
         <TextString language="italian">Distruggilo in meno di 10 secondi...</TextString>
         <TextString language="portuguese">Vença em menos de 10 segundos...</TextString>
         <TextString language="spanish">Acaba con él en menos de 10 segundos...</TextString>
-        <TextString language="titan">Finish in under 10 seconds...</TextString>
+        <TextString language="titan">Akabatu 10 segundo baino gutxiagoan...</TextString>
     </GameText>
     <GameText id="DENTIST_name">
         <TextString language="english">Dental Plan</TextString>
@@ -1548,7 +1548,7 @@
         <TextString language="italian">Piano dentale</TextString>
         <TextString language="portuguese">Tiradentes</TextString>
         <TextString language="spanish">Seguro dental</TextString>
-        <TextString language="titan">Dental Plan</TextString>
+        <TextString language="titan">Hortz Asegurua</TextString>
     </GameText>
     <GameText id="DENTIST_desc">
         <TextString language="english">Remove all teeth from the Mountain Titan then kill it</TextString>
@@ -1558,7 +1558,7 @@
         <TextString language="italian">Togli tutti i denti dal Titano montagna e uccidilo</TextString>
         <TextString language="portuguese">Remova todos os dentes do Titã montanha e mate-o.</TextString>
         <TextString language="spanish">Quítale todos los dientes al titán de la montaña y luego mátalo.</TextString>
-        <TextString language="titan">Remove all teeth from the Mountain Titan then kill it</TextString>
+        <TextString language="titan">Kendu Mendi Titanari hortz guztiak eta gero hil ezazu</TextString>
     </GameText>
     <GameText id="SNAKE_name">
         <TextString language="english">Titanic</TextString>
@@ -1578,7 +1578,7 @@
         <TextString language="italian">Distruggi tutti gli iceberg</TextString>
         <TextString language="portuguese">Destrua todos os icebergs.</TextString>
         <TextString language="spanish">Destruye todos los icebergs.</TextString>
-        <TextString language="titan">Destroy all icebergs</TextString>
+        <TextString language="titan">Suntsitu iceberg guztiak</TextString>
     </GameText>
     <GameText id="KING_name">
         <TextString language="english">A Collision of Souls</TextString>
@@ -1588,7 +1588,7 @@
         <TextString language="italian">Una collisione di anime</TextString>
         <TextString language="portuguese">Colisão espiritual</TextString>
         <TextString language="spanish">Un choque de almas</TextString>
-        <TextString language="titan">A Collision of Souls</TextString>
+        <TextString language="titan">Arima Talka</TextString>tString>
     </GameText>
     <GameText id="KING_desc">
         <TextString language="english">Knock yourself out in the battle for the Titan Soul</TextString>
@@ -1598,7 +1598,7 @@
         <TextString language="italian">Esci dal combattimento per l'Anima del Titano</TextString>
         <TextString language="portuguese">Perca os sentidos na batalha pela Alma de Titã.</TextString>
         <TextString language="spanish">Pierde el conocimiento en la batalla por el alma del titán.</TextString>
-        <TextString language="titan">Knock yourself out in the battle for the Titan Soul</TextString>
+        <TextString language="titan">Galdu konortea Titanaren Arimaren aurkako borrokan</TextString>
     </GameText>
     <GameText id="SHAD_COLOS_name">
         <TextString language="english">Shadow of the Colossus</TextString>
@@ -1608,7 +1608,7 @@
         <TextString language="italian">Ombra del Colosso</TextString>
         <TextString language="portuguese">Sombra do Colosso</TextString>
         <TextString language="spanish">Sombra del coloso</TextString>
-        <TextString language="titan">Shadow of the Colossus</TextString>
+        <TextString language="titan">Kolosoaren itzala</TextString>ing>
     </GameText>
     <GameText id="SHAD_COLOS_desc">
         <TextString language="english">Kill the Broken Statue Titan while pulling back the arrow</TextString>
@@ -1618,7 +1618,7 @@
         <TextString language="italian">Uccidi il Titano statua rotta tirando indietro la freccia</TextString>
         <TextString language="portuguese">Mate o Titã da estátua quebrada enquanto puxa a flecha de volta.</TextString>
         <TextString language="spanish">Mata al titán estatua rota mientras tiras de la flecha.</TextString>
-        <TextString language="titan">Kill the Broken Statue Titan while pulling back the arrow</TextString>
+        <TextString language="titan">Hil ezazu Pustatutako Estatuaren Titana gezia atzerantz datorrela</TextString>
     </GameText>
     <GameText id="FIRST_BLOOD_name">
         <TextString language="english">First Blood</TextString>
@@ -1628,7 +1628,7 @@
         <TextString language="italian">Primo sangue</TextString>
         <TextString language="portuguese">A primeira vez</TextString>
         <TextString language="spanish">Primera sangre</TextString>
-        <TextString language="titan">First Blood</TextString>
+        <TextString language="titan">Lehenengo Odola</TextString>
     </GameText>
     <GameText id="FIRST_BLOOD_desc">
         <TextString language="english">Slay a Titan</TextString>
@@ -1638,7 +1638,7 @@
         <TextString language="italian">Uccidi un Titano</TextString>
         <TextString language="portuguese">Mate um Titã.</TextString>
         <TextString language="spanish">Mata a un titán.</TextString>
-        <TextString language="titan">Slay a Titan</TextString>
+        <TextString language="titan">Hil ezazu Titan bat</TextString>
     </GameText>
     <GameText id="GUARDIAN_name">
         <TextString language="english">The Switch</TextString>
@@ -1648,7 +1648,7 @@
         <TextString language="italian">L'interruttore</TextString>
         <TextString language="portuguese">O botão</TextString>
         <TextString language="spanish">El interruptor</TextString>
-        <TextString language="titan">The Switch</TextString>
+        <TextString language="titan">Etengailua</TextString>
     </GameText>
     <GameText id="GUARDIAN_desc">
         <TextString language="english">Trigger the Guardian's switches with the wrong hands and kill it</TextString>
@@ -1658,7 +1658,7 @@
         <TextString language="italian">Attiva gli interruttori del guardiano premendo l'interruttore di sinistra con la mano destra e quello di destra con la mano sinistra e uccidilo</TextString>
         <TextString language="portuguese">Ative os botões do Guardião com as mãos erradas e mate-o.</TextString>
         <TextString language="spanish">Activa los interruptores del guardián con las manos equivocadas y mátalo.</TextString>
-        <TextString language="titan">Trigger the Guardian's switches with the wrong hands and kill it</TextString>
+        <TextString language="titan">Aktibatu Zaindariaren etengailuak esku okerrez eta hil ezazu</TextString>ng>
     </GameText>
     <GameText id="IRON_TRUTH_name">
         <TextString language="english">Iron God</TextString>
@@ -1668,7 +1668,7 @@
         <TextString language="italian">Divinità d'acciaio</TextString>
         <TextString language="portuguese">Deus de aço</TextString>
         <TextString language="spanish">Dios de hierro</TextString>
-        <TextString language="titan">Iron God</TextString>
+        <TextString language="titan">Burdin Jainkoa</TextString>
     </GameText>
     <GameText id="IRON_TRUTH_desc">
         <TextString language="english">Slay all Titans in Iron Mode</TextString>
@@ -1678,7 +1678,7 @@
         <TextString language="italian">Uccidi tutti i Titani in modalità Acciaio</TextString>
         <TextString language="portuguese">Mate todos os Titãs no Modo de Aço.</TextString>
         <TextString language="spanish">Mata a todos los titanes en modo Hierro.</TextString>
-        <TextString language="titan">Slay all Titans in Iron Mode</TextString>
+        <TextString language="titan">Hil Titan guztiak Burdin Moduan.</TextString>
     </GameText>
     <GameText id="Manual_LanguageName">
         <TextString language="english">ENGLISH</TextString>
@@ -1688,7 +1688,7 @@
         <TextString language="italian">Italiano</TextString>
         <TextString language="portuguese">Português</TextString>
         <TextString language="spanish">Español</TextString>
-        <TextString language="titan">ENGLISH</TextString>
+        <TextString language="titan">EUSKARA</TextString>
     </GameText>
     <GameText id="Manual_Controls">
         <TextString language="english">CONTROLS</TextString>
@@ -1698,7 +1698,7 @@
         <TextString language="italian">COMANDI</TextString>
         <TextString language="portuguese">CONTROLES</TextString>
         <TextString language="spanish">CONTROLES</TextString>
-        <TextString language="titan">CONTROLS</TextString>
+        <TextString language="titan">KONTROLAK</TextString>
     </GameText>
     <GameText id="Manual_Move">
         <TextString language="english">Move</TextString>
@@ -1708,7 +1708,7 @@
         <TextString language="italian">Spostati</TextString>
         <TextString language="portuguese">Mover</TextString>
         <TextString language="spanish">Mover</TextString>
-        <TextString language="titan">Move</TextString>
+        <TextString language="titan">Mugitu</TextString>
     </GameText>
     <GameText id="Manual_Fire">
         <TextString language="english">Fire</TextString>
@@ -1718,7 +1718,7 @@
         <TextString language="italian">Spara</TextString>
         <TextString language="portuguese">Disparar</TextString>
         <TextString language="spanish">Disparar</TextString>
-        <TextString language="titan">Fire</TextString>
+        <TextString language="titan">Tiro</TextString>
     </GameText>
     <GameText id="Manual_Run">
         <TextString language="english">Run (hold)</TextString>
@@ -1728,7 +1728,7 @@
         <TextString language="italian">Corri (tieni premuto)</TextString>
         <TextString language="portuguese">Correr (segure o botão)</TextString>
         <TextString language="spanish">Correr (mantener)</TextString>
-        <TextString language="titan">Run (hold)</TextString>
+        <TextString language="titan">Korri (mantendu)</TextString>
     </GameText>
     <GameText id="Manual_Roll">
         <TextString language="english">Roll</TextString>
@@ -1738,7 +1738,7 @@
         <TextString language="italian">Rotola</TextString>
         <TextString language="portuguese">Rolar</TextString>
         <TextString language="spanish">Rodar</TextString>
-        <TextString language="titan">Roll</TextString>
+        <TextString language="titan">Itzulipurdi</TextString>
     </GameText>
     <GameText id="Manual_License">
         <TextString language="english">SOFTWARE LICENSED FOR PLAY ON PLAYSTATION®VITA SYSTEMS IN THE AMERICAS. USE OF PSN℠ IS SUBJECT TO APPLICABLE USER AGREEMENTS AND PRIVACY POLICIES FOUND AT: WWW.US.PLAYSTATION.COM/SUPPORT/USERAGREEMENTS</TextString>
@@ -1758,7 +1758,7 @@
         <TextString language="italian">PER ULTERIORI INFORMAZIONI SUL GIOCO, VISITA IL SITO WWW.DEVOLVERDIGITAL.COM</TextString>
         <TextString language="portuguese">PARA SABER MAIS SOBRE ESTE JOGO, VISITE WWW.DEVOLVERDIGITAL.COM</TextString>
         <TextString language="spanish">PARA MÁS INFORMACIÓN SOBRE ESTE JUEGO, VISITA WWW.DEVOLVERDIGITAL.COM</TextString>
-        <TextString language="titan">FOR MORE INFORMATION ON THIS GAME, PLEASE VISIT WWW.DEVOLVERDIGITAL.COM</TextString>
+        <TextString language="titan">JOKOARI BURUZKO INFORMAZIO GEHIAGO LORTZEKO, JOAN WWW.DEVOLVERDIGITAL.COM WEBGUNERA</TextString>
     </GameText>
     <GameText id="Manual_PlayStation">
         <TextString language="english">THE SONY COMPUTER ENTERTAINMENT LOGO IS A TRADEMARK OF SONY CORPORATION. “PLAYSTATION”, THE “PS” FAMILY LOGOS AND THE PS VITA LOGO ARE TRADEMARKS OF SONY COMPUTER ENTERTAINMENT INC.</TextString>
@@ -1768,7 +1768,7 @@
         <TextString language="italian">IL LOGO DI SONY COMPUTER ENTERTAINMENT È UN MARCHIO DI SONY CORPORATION. "PLAYSTATION", I LOGHI DELLA FAMIGLIA "PS" E IL LOGO DI PS VITA SONO MARCHI DI SONY COMPUTER ENTERTAINMENT INC.</TextString>
         <TextString language="portuguese">O LOGOTIPO SONY COMPUTER ENTERTAINMENT É UMA MARCA REGISTRADA DA SONY CORPORATION. “PLAYSTATION”, O LOGOTIPO DA FAMÍLIA “PS” E O LOGOTIPO PS VITA SÃO MARCAS REGISTRADAS DA SONY COMPUTER ENTERTAINMENT INC.</TextString>
         <TextString language="spanish">EL LOGOTIPO DE SONY COMPUTER ENTERTAINMENT ES UNA MARCA REGISTRADA DE SONY CORPORATION. “PLAYSTATION”, LOS LOGOTIPOS DE LA FAMILIA “PS” Y EL LOGOTIPO DE PS VITA SON MARCAS REGISTRADAS DE SONY COMPUTER ENTERTAINMENT INC.</TextString>
-        <TextString language="titan">THE SONY COMPUTER ENTERTAINMENT LOGO IS A TRADEMARK OF SONY CORPORATION. “PLAYSTATION”, THE “PS” FAMILY LOGOS AND THE PS VITA LOGO ARE TRADEMARKS OF SONY COMPUTER ENTERTAINMENT INC.</TextString>
+        <TextString language="titan">EL LOGOTIPO DE SONY COMPUTER ENTERTAINMENT ES UNA MARCA REGISTRADA DE SONY CORPORATION. “PLAYSTATION”, LOS LOGOTIPOS DE LA FAMILIA “PS” Y EL LOGOTIPO DE PS VITA SON MARCAS REGISTRADAS DE SONY COMPUTER ENTERTAINMENT INC.</TextString>
     </GameText>
     <GameText id="SafeNotification_PSVita">
         <TextString language="english">Please do not turn off your PlayStation®Vita system while the following icon is on screen</TextString>
@@ -1798,7 +1798,7 @@
         <TextString language="italian">Pacchetto di trofei per Titan Souls</TextString>
         <TextString language="portuguese">Pacote de troféus de Titan Souls</TextString>
         <TextString language="spanish">Paquete de trofeos para Titan Souls</TextString>
-        <TextString language="titan">Trophy pack for Titan Souls</TextString>
+        <TextString language="titan">Paquete de trofeos para Titan Souls</TextString>
     </GameText>
     <GameText id="psn_slain_sludge">
         <TextString language="english">has just slain a ball of sludge</TextString>
@@ -2568,7 +2568,7 @@
         <TextString language="italian"></TextString>
         <TextString language="portuguese"></TextString>
         <TextString language="spanish">Dane postępu</TextString>
-        <TextString language="titan">Progress Data</TextString>
+        <TextString language="titan">Aurrerapena</TextString>>
     </GameText>
     <GameText id="NETWORK_SERVICES_UNAVAILABLE">
         <TextString language="english">You are currently not connected to PSN℠. Cross-Save will not be available until you reconnect.</TextString>
