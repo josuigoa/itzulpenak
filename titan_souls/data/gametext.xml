@@ -58,7 +58,7 @@
         <TextString language="italian">CERVELLO DEL GUARDIANO</TextString>
         <TextString language="portuguese">CÉREBRO DO GUARDIÃO</TextString>
         <TextString language="spanish">CEREBRO DEL GUARDIÁN</TextString>
-        <TextString language="titan">ZAINDARIAREN GARUNA</TextString>>
+        <TextString language="titan">ZAINDARIAREN GARUNA</TextString>
     </GameText>
     <GameText id="brainfreeze_name">
         <TextString language="english">BRAINFREEZE</TextString>
@@ -208,7 +208,7 @@
         <TextString language="italian">SERPENTE DELLE GELIDE PROFONDITÀ</TextString>
         <TextString language="portuguese">SERPENTE DAS PROFUNDEZAS GELADAS</TextString>
         <TextString language="spanish">SERPIENTE DE LAS FRÍAS PROFUNDIDADES</TextString>
-        <TextString language="titan">SAKONERA HOTZETAKO SUGEA</TextString>>
+        <TextString language="titan">SAKONERA HOTZETAKO SUGEA</TextString>
     </GameText>
     <GameText id="snowface_name">
         <TextString language="english">STRATUS</TextString>
@@ -228,7 +228,7 @@
         <TextString language="italian">FIGLIO DELLA MONTAGNA E DEL CIELO</TextString>
         <TextString language="portuguese">FILHO DA MONTANHA E DO CÉU</TextString>
         <TextString language="spanish">HIJO DE LA MONTAÑA Y EL CIELO</TextString>
-        <TextString language="titan">MENDI ETA ZERUAREN SEMEA</TextString>ing>
+        <TextString language="titan">MENDI ETA ZERUAREN SEMEA</TextString>
     </GameText>
     <GameText id="mushroom_name">
         <TextString language="english">OBELLO</TextString>
@@ -322,13 +322,13 @@
     </GameText>
     <GameText id="ghost_desc">
         <TextString language="english">MURDERED GUARDIAN OF THE SECOND GATE</TextString>
-        <TextString language="basque">BIGARREN ATEKO ERAILDAKO ZAINDARIA</TextString>
+        <TextString language="basque">BIGARREN ATEAREN ERAILDAKO ZAINDARIA</TextString>
         <TextString language="french">GARDIEN DE LA SECONDE PORTE ASSASSINÉ</TextString>
         <TextString language="german">ERMORDETER WÄCHTER DES ZWEITEN TORS</TextString>
         <TextString language="italian">GUARDIANO ASSASSINATO DEL SECONDO CANCELLO</TextString>
         <TextString language="portuguese">GUARDIÃO ASSASSINADO DO SEGUNDO PORTÃO</TextString>
         <TextString language="spanish">GUARDIÁN ASESINADO DE LA SEGUNDA PUERTA</TextString>
-        <TextString language="titan">BIGARREN ATEKO ERAILDAKO ZAINDARIA</TextString>>
+        <TextString language="titan">BIGARREN ATEAREN ERAILDAKO ZAINDARIA</TextString>
     </GameText>
     <GameText id="guardian_name">
         <TextString language="english">GOL-SET</TextString>
@@ -402,13 +402,13 @@
     </GameText>
     <GameText id="elder_txt_2">
         <TextString language="english">Another broken Soul seeking Truth</TextString>
-        <TextString language="basque">Egiaren bila dabilen beste arima puskatu bat</TextString>
+        <TextString language="basque">Badator Egiaren bila dabilen beste Arima puskatu bat</TextString>
         <TextString language="french">Encore une âme brisée en quête de Vérité</TextString>
         <TextString language="german">Noch eine zerbrochene Seele sucht Wahrheit</TextString>
         <TextString language="italian">Un'altra anima spezzata alla ricerca della Verità</TextString>
         <TextString language="portuguese">Outra alma perdida em busca da verdade</TextString>
         <TextString language="spanish">Otra alma rota que busca la verdad</TextString>
-        <TextString language="titan">Egiaren bila dabilen beste arima puskatu bat</TextString>
+        <TextString language="titan">Badator Egiaren bila dabilen beste arima puskatu bat</TextString>
     </GameText>
     <GameText id="elder_txt_3">
         <TextString language="english">Less encumbered than the last...</TextString>
@@ -418,7 +418,7 @@
         <TextString language="italian">Meno oppressa dell'ultima...</TextString>
         <TextString language="portuguese">Menos sobrecarregada que a última...</TextString>
         <TextString language="spanish">Menos cargada que la anterior...</TextString>
-        <TextString language="titan">Ez aurrekoa bezain kargatua...</TextString>>
+        <TextString language="titan">Ez aurrekoa bezain kargatua...</TextString>
     </GameText>
     <GameText id="elder_txt_4">
         <TextString language="english">You have paid a high toll indeed</TextString>
@@ -878,7 +878,7 @@
         <TextString language="italian">Quella che ha preso il mio posto</TextString>
         <TextString language="portuguese">Aquele que assumiu meu lugar</TextString>
         <TextString language="spanish">El que ocupó mi lugar</TextString>
-        <TextString language="titan">Nire lekua hartu</TextString>tString>
+        <TextString language="titan">Nire lekua hartu</TextString>
     </GameText>
     <GameText id="soul_elder_txt_4">
         <TextString language="english">and created The Four Guardians.</TextString>
@@ -892,13 +892,13 @@
     </GameText>
     <GameText id="soul_elder_txt_5">
         <TextString language="english">The rest of the Titans here</TextString>
-        <TextString language="basque">Gainontzeko titanak</TextString>
+        <TextString language="basque">Hemengo gainontzeko titanak</TextString>
         <TextString language="french">Ici, les autres Titans</TextString>
         <TextString language="german">Die andere Titanen waren</TextString>
         <TextString language="italian">Gli altri Titani</TextString>
         <TextString language="portuguese">Os Titãs aqui restantes</TextString>
         <TextString language="spanish">El resto de los titanes</TextString>
-        <TextString language="titan">Gainontzeko titanak</TextString>String>
+        <TextString language="titan">Hemengo gainontzeko titanak</TextString>
     </GameText>
     <GameText id="soul_elder_txt_6">
         <TextString language="english">grew from Lost Souls</TextString>
@@ -912,13 +912,13 @@
     </GameText>
     <GameText id="soul_elder_txt_7">
         <TextString language="english">Some were like you... human.</TextString>
-        <TextString language="basque">Batzuk zu bezalakoak ziren..., gizakiak.</TextString>
+        <TextString language="basque">Batzuk zu bezalakoak ziren... gizakiak.</TextString>
         <TextString language="french">Dont certaines comme vous... humaines,</TextString>
         <TextString language="german">Auch Menschen... so wie du.</TextString>
         <TextString language="italian">Alcuni erano come te... umani.</TextString>
         <TextString language="portuguese">Alguns eram como você... humanos.</TextString>
         <TextString language="spanish">Algunas eran como tú..., humanas.</TextString>
-        <TextString language="titan">Batzuk zu bezalakoak ziren..., gizakiak.</TextString>
+        <TextString language="titan">Batzuk zu bezalakoak ziren... gizakiak.</TextString>
     </GameText>
     <GameText id="soul_elder_txt_8">
         <TextString language="english">They lacked your conviction for killing...</TextString>
@@ -942,13 +942,13 @@
     </GameText>
     <GameText id="truth_elder_txt_2">
         <TextString language="english">The first Soul born from Truth</TextString>
-        <TextString language="basque">Egiatik sortutako lehenengo Arima</TextString>
+        <TextString language="basque">Ni naiz Egiatik sortutako lehenengo Arima</TextString>
         <TextString language="french">La première Âme née de la Vérité</TextString>
         <TextString language="german">Die erste Seele, geboren aus Wahrheit</TextString>
         <TextString language="italian">La prima anima nata dalla Verità</TextString>
         <TextString language="portuguese">A primeira Alma nascida da Verdade</TextString>
         <TextString language="spanish">El alma primogénita de la verdad</TextString>
-        <TextString language="titan">Egiatik sortutako lehenengo Arima</TextString>
+        <TextString language="titan">Ni naiz Egiatik sortutako lehenengo Arima</TextString>
     </GameText>
     <GameText id="truth_elder_txt_3">
         <TextString language="english">And from I, came the first of you</TextString>
@@ -1068,7 +1068,7 @@
         <TextString language="italian">SPARA:</TextString>
         <TextString language="portuguese">ATIRAR:</TextString>
         <TextString language="spanish">DISPARAR:</TextString>
-        <TextString language="titan">TIRO:</TextString>>
+        <TextString language="titan">TIRO:</TextString>
     </GameText>
     <GameText id="m_roll">
         <TextString language="english">ROLL :</TextString>
@@ -1148,7 +1148,7 @@
         <TextString language="italian">Dalla padella...</TextString>
         <TextString language="portuguese">Fora da frigideira...</TextString>
         <TextString language="spanish">Salir del fuego...</TextString>
-        <TextString language="titan">Sutatik atera...</TextString>String>
+        <TextString language="titan">Sutatik atera...</TextString>
     </GameText>
     <GameText id="FIRST_GATE_desc">
         <TextString language="english">Open the first Sealed Gate</TextString>
@@ -1498,7 +1498,7 @@
         <TextString language="italian">Fai scoppiare una bomba sulla testa del Titano di lava</TextString>
         <TextString language="portuguese">Jogue uma bomba na cabeça do Titã de lava.</TextString>
         <TextString language="spanish">Lanza una bomba sobre la cabeza del titán de lava.</TextString>
-        <TextString language="titan">Bota bonba bat Laba Titanaren burura</TextString>ing>
+        <TextString language="titan">Bota bonba bat Laba Titanaren burura</TextString>
     </GameText>
     <GameText id="IK_SPIN_name">
         <TextString language="english">Leak Spin</TextString>
@@ -1588,7 +1588,7 @@
         <TextString language="italian">Una collisione di anime</TextString>
         <TextString language="portuguese">Colisão espiritual</TextString>
         <TextString language="spanish">Un choque de almas</TextString>
-        <TextString language="titan">Arima Talka</TextString>tString>
+        <TextString language="titan">Arima Talka</TextString>
     </GameText>
     <GameText id="KING_desc">
         <TextString language="english">Knock yourself out in the battle for the Titan Soul</TextString>
@@ -1608,7 +1608,7 @@
         <TextString language="italian">Ombra del Colosso</TextString>
         <TextString language="portuguese">Sombra do Colosso</TextString>
         <TextString language="spanish">Sombra del coloso</TextString>
-        <TextString language="titan">Kolosoaren itzala</TextString>ing>
+        <TextString language="titan">Kolosoaren itzala</TextString>
     </GameText>
     <GameText id="SHAD_COLOS_desc">
         <TextString language="english">Kill the Broken Statue Titan while pulling back the arrow</TextString>
@@ -1658,7 +1658,7 @@
         <TextString language="italian">Attiva gli interruttori del guardiano premendo l'interruttore di sinistra con la mano destra e quello di destra con la mano sinistra e uccidilo</TextString>
         <TextString language="portuguese">Ative os botões do Guardião com as mãos erradas e mate-o.</TextString>
         <TextString language="spanish">Activa los interruptores del guardián con las manos equivocadas y mátalo.</TextString>
-        <TextString language="titan">Aktibatu Zaindariaren etengailuak esku okerrez eta hil ezazu</TextString>ng>
+        <TextString language="titan">Aktibatu Zaindariaren etengailuak esku okerrez eta hil ezazu</TextString>
     </GameText>
     <GameText id="IRON_TRUTH_name">
         <TextString language="english">Iron God</TextString>
@@ -2568,7 +2568,7 @@
         <TextString language="italian"></TextString>
         <TextString language="portuguese"></TextString>
         <TextString language="spanish">Dane postępu</TextString>
-        <TextString language="titan">Aurrerapena</TextString>>
+        <TextString language="titan">Aurrerapena</TextString>
     </GameText>
     <GameText id="NETWORK_SERVICES_UNAVAILABLE">
         <TextString language="english">You are currently not connected to PSN℠. Cross-Save will not be available until you reconnect.</TextString>
