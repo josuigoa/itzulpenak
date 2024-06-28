@@ -29,3 +29,5 @@
   * [instalazioa](./ape_out/)
 * figment
   * [instalazioa](./figment/)
+* Titan Souls
+  * [instalazioa](./titan_souls/)
