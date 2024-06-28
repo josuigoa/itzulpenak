@@ -11,3 +11,4 @@ Dagokizun sistema eragileran exekutagarria deskargatu:
 Instalazioa ongi joan bada, jokoan hizkuntza aldatzeko aukeren artean agertuko da Euskara.
 
 ![](irudiak/menua.png)
+![](irudiak/elhanan.jpg)
