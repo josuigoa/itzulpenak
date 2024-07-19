@@ -11,7 +11,7 @@
   * [Google Play](https://play.google.com/store/apps/details?id=com.agateau.tinywheels.android)
 * Burger Party
   * [f-droid](https://f-droid.org/packages/com.agateau.burgerparty/)
-  * [Google Play](https://play.google.com/store/apps/details?id=com.agateau.burgerparty): Bertsio hau ez dago euskarazko itzulepenarekin eguneratuta oraindik.
+  * [Google Play](https://play.google.com/store/apps/details?id=com.agateau.burgerparty)
 
 ## EZ OFIZIALAK
 
