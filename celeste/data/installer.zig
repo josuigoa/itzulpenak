@@ -7,7 +7,7 @@ pub fn get_game_names() [5]utils.string {
     return [_]utils.string{ "Celeste", "celeste", "", "", "" };
 }
 
-pub fn install_translation(game_path: utils.string) !void {
+pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
     const content_path = utils.look_for_dir(game_path, "Content") catch "";
 
     const dialog_path = try utils.concat(&.{ content_path, "/Dialog" });
@@ -24,4 +24,6 @@ pub fn install_translation(game_path: utils.string) !void {
 
     _ = try file_txt.write(eu_txt);
     _ = try file_png.write(eu_png);
+
+    return null;
 }
