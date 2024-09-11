@@ -20,7 +20,7 @@ line:0c1b44,ok,ok,,Original,GoatStart
 line:55e682,eskerrik asko,thanks,,Original,GoatStart
 line:1cf998,"<sprite tint=1 name=""UpArrow""> Basozainaren Txabola","<sprite tint=1 name=""UpArrow""> Rangers Cabin",,Original,BeachHutSign
 line:6df2cf,"<sprite name=""DownArrow"" tint=1> Kosta Zuri Bidea","<sprite name=""DownArrow"" tint=1> White Coast Trail",,Original,BeachHutSign
-line:6794ce,"<sprite tint=1 name=""UpArrow""> Belatz Tontor Bidea\nKosta Zuri bidea <sprite name=""RightArrow"" tint=1>","<sprite tint=1 name=""UpArrow""> Hawk Peak Trail\nWhite Coast Trail <sprite name=""RightArrow"" tint=1>",,Original,WhiteCoastSign
+line:6794ce,"<sprite tint=1 name=""UpArrow""> Belatz Tontor Bidea\nKosta Zuri Bidea <sprite name=""RightArrow"" tint=1>","<sprite tint=1 name=""UpArrow""> Hawk Peak Trail\nWhite Coast Trail <sprite name=""RightArrow"" tint=1>",,Original,WhiteCoastSign
 line:24d728,"<sprite tint=1 name=""DownArrow""> Sid Hondartza\n<sprite tint=1 name=""DownArrow""> Bisitarien Zentroa","<sprite tint=1 name=""DownArrow""> Sid Beach\n<sprite tint=1 name=""DownArrow""> Visitor Center",,Original,WhiteCoastSign
 line:c3feb2,nora zoazela uste duzu?,hey! where do you think you're going?,Only if the player runs off without talking to the Aunt first.,Original,AuntRunOffStart
 line:660020,"oh, hm...","oh, um...",,Player,AuntRunOffStart
