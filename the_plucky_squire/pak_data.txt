@@ -1,0 +1,2 @@
+"/home/josu/git/itzulpenak/the_plucky_squire/extracted/Engine/*" "../../../Engine/"
+"/home/josu/git/itzulpenak/the_plucky_squire/extracted/Storybook/*" "../../../Storybook/"
