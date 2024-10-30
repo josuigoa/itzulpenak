@@ -1,10 +1,13 @@
-* scripts/extract_pak.sh - PAK fitxategitik lokalizazio fitxategiak ateratzen ditu *.locres fitxategietan
-* scripts/export_locres.sh - *.locres fitxategitik editatzeko moduko CSV bat exportatzen du
-* itzulpenak egin
-* scripts/import_locres.sh - *.locres-en fitxategia itzuli dugun CSVko datuekin eguneratzen du
-  * en/Game.locres eguneratzen du eta sortutako Game.locres.new berria es/Game.locres-en ordez jartzen du
-* scripts/create_pak.sh - *.locres eta horiek guztiekin PAK berria sortu
-* scripts/list_pak.sh
-  * hemen bilatu zein den es/Game.locres-en offset eta size
-  * extract_loc_from_pak/src/main.zig-en offset eta size horren bidez PAK berritik euskarazko itzulpena ateri.
-  * itzulpen hori data/eu_itzulpena.dat-en utzi
+# EZKUTARI AUSARTA (THE PLUCKY SQUIRE euskaraz)
+
+Dagokizun sistema eragileran exekutagarria deskargatu:
+
+* [Linux](./instalatzailea/the_plucky_squire_linux), [Windows](./instalatzailea/the_plucky_squire.exe) edo MacOS ([M1](./instalatzailea/the_plucky_squire_macos_m1) eta [gainontzekoak](./instalatzailea/the_plucky_squire_macos))
+* Exekutatu eta jokoaren instalazio direktorioa bilatuko du.
+  * Aurkitzen badu, bertan instalatzeko proposatuko dizu.
+  * Ez badu aurkitzen, zuk bilatzeko eskatuko dizu.
+* Jokoa non instalatuta dagoen dakienean, programak itzulpena instalatuko du.
+
+Instalazioa ongi joan bada, jokoko testuek euskaraz agertu behar lukete. Testuak ez badira euskaraz ageri, ezarpenetan hizkuntza aldatu eta 'English' aukeratu beharko da.
+
+![](irudiak/bazen_behin.png)

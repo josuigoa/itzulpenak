@@ -1,92 +1,71 @@
 const std = @import("std");
 const utils = @import("utils");
 const builtin = @import("builtin");
-const eu_itzulpena = @embedFile("./eu_itzulpena.dat");
+const en_eu_itzulpena = @embedFile("./en_eu_itzulpena.pak");
 
-const es_orig_offset = 71599426;
-const es_orig_size = 162216;
-const fr_orig_offset = 71761827;
-const fr_orig_size = 161508;
-
-const languages = [_]utils.nt_string{ "Gaztelera", "Frantsesa", "" };
-
-pub fn comptime_checks() void {
-    if (eu_itzulpena.len > es_orig_size) {
-        @compileError("Itzulpenaren fitxategia ezin da ES originala baino luzeagoa izan.");
-    }
-    if (eu_itzulpena.len > fr_orig_size) {
-        @compileError("Itzulpenaren fitxategia ezin da FR originala baino luzeagoa izan.");
-    }
-}
+pub fn comptime_checks() void {}
 
 pub fn get_game_names() [5]utils.string {
-    return [_]utils.string{ "The Plucky Squire", "", "", "", "" };
+    return [_]utils.string{ "The Plucky Squire", "Storybook", "", "", "" };
 }
 
 pub fn get_languages() ?[3]utils.nt_string {
-    return languages;
+    return null;
 }
 
-pub fn install_translation(game_path: utils.string, selected_lang_index: usize) !?utils.InstallerResponse {
+pub fn install_translation(game_path: utils.string, _: usize) !?utils.InstallerResponse {
     const content_path = utils.look_for_dir(game_path, "Paks") catch "";
 
-    const pak_file_path = try utils.concat(&.{ content_path, "/Storybook-WindowsNoEditor.pak" });
-    const pak_file = try std.fs.cwd().openFile(pak_file_path, .{ .mode = .read_write });
-    defer pak_file.close();
+    const mod_file_path = try utils.concat(&.{ content_path, "/Storybook-WindowsNoEditor_p.pak" });
+    const mod_file = try std.fs.cwd().createFile(mod_file_path, .{});
+    defer mod_file.close();
+    _ = try mod_file.write(en_eu_itzulpena);
 
-    const metadata = try pak_file.metadata();
-    const file_size = metadata.size();
+    try update_steam_emu_ini(game_path);
 
-    try pak_file.seekTo(0);
-    const content_orig = try pak_file.readToEndAlloc(std.heap.page_allocator, file_size);
-
-    if (std.mem.containsAtLeast(u8, content_orig, 1, "AZEN BEHIN")) {
-        return utils.InstallerResponse{
-            .title = "Euskaratuta",
-            .body = "Dagoeneko euskarazko partxea instalatuta dago. Ez da aldaketarik aplikatu.",
-        };
-    }
-
-    try backup_file_content(pak_file_path, content_orig);
-
-    const new_content = try std.heap.page_allocator.alloc(u8, file_size);
-
-    const orig_offset: usize = if (selected_lang_index == 0) es_orig_offset else fr_orig_offset;
-    const orig_size: usize = if (selected_lang_index == 0) es_orig_size else fr_orig_size;
-
-    var ind: usize = 0;
-    for (content_orig[0..orig_offset]) |orig_byte| {
-        new_content[ind] = orig_byte;
-        ind += 1;
-    }
-
-    for (eu_itzulpena) |eu_byte| {
-        new_content[ind] = eu_byte;
-        ind += 1;
-    }
-
-    const next_item_index = orig_offset + orig_size;
-    while (ind < next_item_index) {
-        new_content[ind] = 0;
-        ind += 1;
-    }
-
-    for (content_orig[next_item_index..]) |orig_byte| {
-        new_content[ind] = orig_byte;
-        ind += 1;
-        if (ind == content_orig.len) {
-            break;
-        }
-    }
-
-    try pak_file.seekTo(0);
-    _ = try pak_file.write(new_content);
-
-    const response_body = try utils.concat(&.{ "[", languages[selected_lang_index], "] ordezkatu da euskarazko itzulpena instalatzeko." });
     return utils.InstallerResponse{
         .title = "Euskaratuta",
-        .body = response_body[0.. :0],
+        .body = "ADI!! Jokoko ezarpenetan ez da Euskara agertuko, euskarazko testuak agertzeko English aukeratu beharko duzu.",
     };
+}
+
+fn update_steam_emu_ini(game_path: utils.string) !void {
+    const file_path = utils.look_for_file(game_path, "steam_emu.ini") catch "";
+    const file = try std.fs.cwd().openFile(file_path, .{ .mode = .read_write });
+    defer file.close();
+
+    const file_size = (try file.metadata()).size();
+
+    const content_orig = try file.readToEndAlloc(std.heap.page_allocator, file_size);
+    try backup_file_content(file_path, content_orig);
+
+    if (std.mem.indexOf(u8, content_orig, "Language=")) |found_ind| {
+        var new_content = try std.heap.page_allocator.alloc(u8, file_size + 10);
+        const en_lang = "Language=english";
+        var ind: usize = 0;
+        var lang_ind = found_ind;
+
+        for (content_orig[0..lang_ind]) |b| {
+            new_content[ind] = b;
+            ind += 1;
+        }
+        for (en_lang) |b| {
+            new_content[ind] = b;
+            ind += 1;
+        }
+
+        while (content_orig[lang_ind] != '\n') {
+            lang_ind += 1;
+        }
+
+        for (content_orig[lang_ind..content_orig.len]) |b| {
+            new_content[ind] = b;
+            ind += 1;
+        }
+
+        try file.seekTo(0);
+        _ = try file.write(new_content[0..ind]);
+    }
 }
 
 fn backup_file_content(file_path: utils.string, content_orig: []u8) !void {
