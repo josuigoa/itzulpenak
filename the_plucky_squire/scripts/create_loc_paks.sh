@@ -1,0 +1,3 @@
+wine ../UnrealPakTool/UnrealPak.exe ../loc/en_eu.pak -Create=/home/josu/git/itzulpenak/the_plucky_squire/loc/en_loc_pak_data_info.txt -compress
+wine ../UnrealPakTool/UnrealPak.exe ../loc/es_eu.pak -Create=/home/josu/git/itzulpenak/the_plucky_squire/loc/es_loc_pak_data_info.txt -compress
+wine ../UnrealPakTool/UnrealPak.exe ../loc/fr_eu.pak -Create=/home/josu/git/itzulpenak/the_plucky_squire/loc/fr_loc_pak_data_info.txt -compress

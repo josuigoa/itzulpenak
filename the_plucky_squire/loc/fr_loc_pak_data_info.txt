@@ -1,0 +1,1 @@
+"/home/josu/git/itzulpenak/the_plucky_squire/loc/fr_loc/Storybook/*" "../../../Storybook/"

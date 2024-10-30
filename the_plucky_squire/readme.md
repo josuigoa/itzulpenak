@@ -6,5 +6,14 @@
 * scripts/create_pak.sh - *.locres eta horiek guztiekin PAK berria sortu
 * scripts/list_pak.sh
   * hemen bilatu zein den es/Game.locres-en offset eta size
-  * extract_loc_from_pak/src/main.zig-en offset eta size horren bidez PAK berritik euskarazko itzulpena ateri.
-  * itzulpen hori data/eu_itzulpena.dat-en utzi
+  * extract_loc_from_pak/src/main.zig-en offset eta size horiek jarri.
+    * cd extract_loc_from_pak
+    * zig build run (honek PAK fitxategitik itzulpeneko byteak erauzi eta data/eu_itzulpena.dat-en gordeko du)
+  * (behin egin beharrekoa)
+    * bilatu zein den fr/Game.locres-en offset eta size. es_offset/fr_offset eta es_size/fr_size data/installer.zig-eko aldagaietan jarri
+
+
+* import_locres.sh
+* create_loc_paks.sh
+
+* split_loc_data
