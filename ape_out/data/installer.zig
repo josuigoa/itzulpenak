@@ -2,14 +2,23 @@ const std = @import("std");
 const utils = @import("utils");
 const builtin = @import("builtin");
 const musika_content = @embedFile("./musika.txt");
-const i2Lang_eu = @embedFile("./I2Languages_eu_es.dat");
+const i2Lang_eu_es = @embedFile("./I2Languages_eu_es.dat");
+const i2Lang_eu_fr = @embedFile("./I2Languages_eu_fr.dat");
 const i2Lang_orig = @embedFile("./I2Languages_orig.dat");
+
+const languages = [_]utils.nt_string{ "Gaztelera", "Frantsesa", "" };
+
+pub fn comptime_checks() void {}
 
 pub fn get_game_names() [5]utils.string {
     return [_]utils.string{ "Ape Out", "", "", "", "" };
 }
 
-pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
+pub fn get_languages() ?[3]utils.nt_string {
+    return languages;
+}
+
+pub fn install_translation(game_path: utils.string, selected_lang_index: usize) !?utils.InstallerResponse {
     const content_path = utils.look_for_dir(game_path, "ApeOut_Data") catch "";
 
     const resources_assets_path = try utils.concat(&.{ content_path, "/resources.assets" });
@@ -39,6 +48,11 @@ pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
             new_content[ind] = orig_byte;
             ind += 1;
         }
+
+        const i2Lang_eu = if (selected_lang_index == 0)
+            i2Lang_eu_es
+        else
+            i2Lang_eu_fr;
 
         for (i2Lang_eu) |eu_byte| {
             new_content[ind] = eu_byte;
@@ -71,8 +85,11 @@ pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
             .body = "[resources.assets] fitxategian ez da [I2Languages] katerik aurkitu.",
         };
     }
-
-    return null;
+    const response_body = try utils.concat(&.{ "[", languages[selected_lang_index], "] ordezkatu da euskarazko itzulpena instalatzeko." });
+    return utils.InstallerResponse{
+        .title = "Euskaratuta",
+        .body = response_body[0.. :0],
+    };
 }
 
 fn update_level1(content_path: utils.string) !void {
@@ -132,11 +149,9 @@ fn update_text(content_orig: []u8, comptime body: utils.string, comptime tail: u
 
     const text_bytes = header ++ body ++ tail;
     const count = std.mem.count(u8, content_orig, text_bytes);
-    std.debug.print("{s}.count {d}\n", .{ body, count });
 
     for (0..count) |_| {
         if (std.mem.indexOf(u8, content_orig, text_bytes)) |found_index| {
-            std.debug.print("{s}.ind {d}\n", .{ body, found_index });
             var orig_pos = found_index;
             const new_header = .{ new_body.len, 0, 0, 0 };
             const new_bytes = new_header ++ new_body ++ new_tail;
