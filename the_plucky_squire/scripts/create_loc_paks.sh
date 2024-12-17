@@ -1,0 +1,1 @@
+wine ../UnrealPakTool/UnrealPak.exe ../data/en_eu_itzulpena.pak -Create=/home/josu/git/itzulpenak/the_plucky_squire/loc/en_loc_pak_data_info.txt -compress

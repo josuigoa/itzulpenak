@@ -31,3 +31,5 @@
   * [instalazioa](./figment/)
 * Titan Souls
   * [instalazioa](./titan_souls/)
+* The Plucky Squire
+  * [instalazioa](./the_plucky_squire/)

@@ -8,6 +8,8 @@ https://www.youtube.com/watch?v=qRxhn3-muGg
 
 Nahiz eta probak behin eta berriz egin, hasieratik behin baino gehiagotan hasi, pertsonaiekin elkarrizketetako aukera guztiak probatu... ez nintzen jokoaz aspertzen. Alderantziz, aukera guzti horiek deskubritu nahi nituen. Adibidez, irudian ikusten den egoera segur aski jokalari gehienek ez zuten ezagutuko, horrelako detaila pila bat ditu jokoak, maitemindurik nauka.
 
+![](txaluparik_ez.png)
+
 ## Itzulpenean aurkitutako oztopoak
 
 Jostatzen ari nintzen bitartean aritu nintzen itzulpenarekin. Orokorrean nahiko elkarrizketa arruntak dira, hala ere, badaude hitz-joko, txiste eta antzeko batzuk. Horietako batzuk bakarrik egitea lortu nuen, denbora dezentez bueltak emanez, baino gustora. Bertze batzuk, ordea, ezin asmatuz ibili nintzen eta itzultzailea den lehengusinari laguntza eskatu nion. Neurri batean, itzulpen hau profesional batek egina dela erraten ahal da!
@@ -17,8 +19,6 @@ Horrez gain, fitxategiko esaldi guztiak (lau bat mila sarrera) itzuliak nituenea
 ## Itzulpen bat gehiago
 
 Jokoaren istorioak ez du misterio handirik, baina erronka nagusia osatzean emozionatu egiten du. Eta euskaraz izanda, oraindik gehiago emozionatu nau. Joko honen estiloagatik eta euskaraz egonda, nik uste gure etxeko ttikiak aritzeko hagitz egokia dela. Pausoz-pauso eta jokoz-joko sare polita osatzen ari gara gero eta barneratuagoa izan dezagun euskara bideo-jokoetan bertze edozein hizkuntzaren mailan egoten ahal dela.
-
-![](txaluparik_ez.png)
 
 Berri hau idazteko emandako aukeran eskerrak eman nahi dizkiet itzulpengintzan dabiltzan guztiei eta batez ere Game Erauntsiari, horiek koordinatu eta ezagutzera emateagatik. Niri behintzat ailegatu zait eguna: joko berri bat hasi eta hizkuntzen menua Euskara aurkituko dudan esperantzarekin irekitzen dut.
 
