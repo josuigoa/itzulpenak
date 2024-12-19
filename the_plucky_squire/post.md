@@ -1,6 +1,6 @@
 # Ezkutari Ausart euskalduna (The Plucky Squire euskaraz)
 
-The Plucky Squire-ren lehenengoz ikusi nuenean aurrerapen bideoan, izugarri itxura izugarri polita hartu nion. Jokagarritasunak itxura ona zuen, baina batez ere itxura **polita** hartu nion. Pertsonaien diseinu minimalista, haurrentzako ipuin itxurako marrazkiak zoragarriak ziren.
+The Plucky Squire lehenengoz aurrerapen bideo batean ikusi nuen eta izugarri itxura izugarri polita hartu nion. Jokagarritasunak itxura ona zuen, misterio handirik gabekoa, baina batez ere itxura **polita** hartu nion. Pertsonaien diseinu minimalista, haurrentzako ipuin itxurako marrazkiak zoragarriak ziren.
 
 Dena biltzen du ipuinen estetika horrek, izan ere, literalki ipuin bateko pertsonaiekin ipuinaren barruan arituko gara. Jokoan aitzinera egin ahala bertze dimentsio bat hartuko du horrek denak, baina hori jokoaren analisirako utziko dugu. Hau itzulpenaren albistea da eta ez dut gehiagorik kontatuko.
 
@@ -10,14 +10,14 @@ Trailerrarekin oraindik txundituta nintzelarik, analisiren batean ikusi nuen jok
 
 ## Itzulpenean aurkitutako oztopoak
 
-Orain arteko itzulpenetan gaztelera edota frantsesezko testuak aldatu izan ditut euskarazkoa sartzeko, jatorrizko hizkuntzaren aukera ere ikutu gabe utzi nahi izaten dudalako. Baina kasu honetan, ipuinean ikusten diren izenburuak (The Plucky Squire, El Escudero Valiente, Le Vaillant Petit Page) jokoaren enkriptatutako datuetan dauden irudi batzuk dira testu soilak izan beharrean. Horregatik ezin izan ditut izenburu horiek lokalizatu. Lokalizatu bi zentzutan: ezin izan ditut fitxategien artean aurkitu, eta ondorioz, ezin izan ditut itzuli. Horrela beraz, nahiago izan dut The Plucky Squire utzi eta audioak ingelesez aditzeko aukera izan euskarazko azpitituluekin.
+Orain arteko itzulpenetan gaztelera edota frantsesezko testuak aldatu izan ditut euskarazkoa sartzeko, jatorrizko hizkuntzaren aukera ikutu gabe utzi nahi izaten dudalako. Baina kasu honetan, ipuinean ikusten diren izenburuak (The Plucky Squire, El Escudero Valiente, Le Vaillant Petit Page) jokoaren enkriptatutako datuetan dauden irudi batzuk dira testu soilak izan beharrean. Horregatik ezin izan ditut izenburu horiek lokalizatu. Lokalizatu bi zentzutan: ezin izan ditut fitxategien artean aurkitu, eta ondorioz, ezin izan ditut itzuli. Horrela beraz, nahiago izan dut The Plucky Squire utzi eta audioak ingelesez aditzeko aukera izan euskarazko azpitituluekin.
 
-Horretaz gain, jokoaren mekanika garrantzitsu bat esaldietako hitzak aldatzea da. Esaldia aldatuko dugu, nahi dugun esanahia emanez ipuina manipulatu ahal izateko. Hemen kosta zitzaidana izan zen hitz __bera__ bi esaldi desberdinetan ongi gelditu ahal izatea. Garatzaileek egin duten lana zoriontzeko modukoa iduritzen zait, sistema nahikoa flexiblea egin baitute hitz bat esaldi batean, esalditik kanpo edo bertze esaldi batean dagoenean aldaera desberdinak erabili ahal izateko (atzizkiak gehituz, adibidez). Horri esker azkenean nahiko gustora gelditu naiz emaitzarekin.
+Horretaz gain, jokoaren mekanika garrantzitsu bat esaldietako hitzak aldatzea da. Esaldia aldatuko dugu, nahi dugun esanahia emanez ipuina manipulatu ahal izateko. Hemen kosta zitzaidana izan zen hitz __bera__ bi esaldi desberdinetan ongi gelditu ahal izatea. Garatzaileek egin duten lana zoriontzeko modukoa iduritzen zait, sistema nahikoa flexiblea egin baitute hitz bat esaldi batean, esalditik kanpo edo bertze esaldi batean dagoenean aldaera desberdinak erabili ahal izateko (atzizkiak gehituz, adibidez) prestatu baitute. Horri esker azkenean nahiko gustora gelditu naiz emaitzarekin.
 
 ![](irudiak/esaldia_aldatzen.png)
 
 
-## Itzulpena
+## Itzulpena instalatu
 
 Ezkutari Ausartaren ipuina irakurri eta jostatu nahi baduzu, [hementxe](./readme.md) dituzu itzulpena instalatzeko eman beharreko pausuak. Erran bezala, jokoa itzultzerakoan oinarri bezala ingelesezko testuak hartu ditut. Itzulpena instalatu eta gero testuak ez badira euskaraz ageri, ezarpenetan hizkuntza aldatu eta 'English' aukeratu beharko da.
 

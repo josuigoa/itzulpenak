@@ -12,6 +12,7 @@ the_plucky_squire/UnrealPakTool/*
 the_plucky_squire/UnrealLocres.exe
 the_plucky_squire/*.sh
 the_plucky_squire/notes.md
+the_plucky_squire/Storybook-WindowsNoEditor*
 the_plucky_squire/**/.zig-cache
 the_plucky_squire/**/zig-out
 patapon
