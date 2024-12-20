@@ -2,7 +2,7 @@
 
 Dagokizun sistema eragileran exekutagarria deskargatu:
 
-* [Linux](./instalatzailea/the_plucky_squire_linux), [Windows](./instalatzailea/the_plucky_squire.exe) edo MacOS ([M1](./instalatzailea/the_plucky_squire_macos_m1) eta [gainontzekoak](./instalatzailea/the_plucky_squire_macos))
+* [Linux](./instalatzailea/the_plucky_squire_euskaraz_linux), [Windows](./instalatzailea/the_plucky_squire_euskaraz.exe) edo MacOS ([M1](./instalatzailea/the_plucky_squire_euskaraz_macos_m1) eta [gainontzekoak](./instalatzailea/the_plucky_squire_euskaraz_macos))
 * Exekutatu eta jokoaren instalazio direktorioa bilatuko du.
   * Aurkitzen badu, bertan instalatzeko proposatuko dizu.
   * Ez badu aurkitzen, zuk bilatzeko eskatuko dizu.
