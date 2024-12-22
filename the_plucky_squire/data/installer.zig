@@ -21,7 +21,7 @@ pub fn install_translation(game_path: utils.string, _: usize) !?utils.InstallerR
     defer mod_file.close();
     _ = try mod_file.write(en_eu_itzulpena);
 
-    try update_steam_emu_ini(game_path);
+    //try update_steam_emu_ini(game_path);
 
     return utils.InstallerResponse{
         .title = "Euskaratuta",
