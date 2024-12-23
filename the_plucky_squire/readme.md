@@ -1,5 +1,16 @@
 # EZKUTARI AUSARTA (THE PLUCKY SQUIRE euskaraz)
 
+## SteamDeck erabiltzaileentzat oharra
+
+Erabiltzaile batzuk jakinarazi didaten itzulpen hau SteamDecken instalatzerakoan errore bat ematen diela ('Instalatzerakoan errorea: error.Unexpected' testua ageri da). Oraindik ez naiz gai izan errore horren jatorria aurkitzeko. Hori lortu bitartean, itzulpena eskuz instalatzea gomendatzen dizuet:
+
+* [Itzulpen fitxategia](./data/en_eu_itzulpena.pak) deskargatu
+* Storybook-WindowsNoEditor_p.pak izenarekin berrizendatu
+* Jokoaren instalazio direktorioa bilatu (Steam bertan, engranajean klik egin eta fitxategi lokalak irekitzeko aukera ematen du, normalean /home/deck/.steam/steam/steamapps/common/Storybook izan behar luke).
+* Deskargatutako fitxategia direktorio horren barruko Content/Paks/ direktorioan kopiatu, Storybook-WindowsNoEditor.pak fitxategiaren ondoan.
+
+## Gainontzeko erabiltzaileak
+
 Dagokizun sistema eragileran exekutagarria deskargatu:
 
 * [Linux](./instalatzailea/the_plucky_squire_euskaraz_linux), [Windows](./instalatzailea/the_plucky_squire_euskaraz.exe) edo MacOS ([M1](./instalatzailea/the_plucky_squire_euskaraz_macos_m1) eta [gainontzekoak](./instalatzailea/the_plucky_squire_euskaraz_macos))
