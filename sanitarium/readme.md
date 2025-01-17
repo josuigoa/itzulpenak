@@ -14,13 +14,12 @@ Jokoa martxan jarri eta menuko "Testu Ezarpenak" atalean azpitituluak aktibatu b
 
 ## ScummVM
 
-Jokoa [ScummVM](https://scummvm.org/) bidez jartzen da martxan. Joko honek duen puzzle jakin bat euskaraz erabili ahal izateko ScummVM-ko motorean bertan aldaketan egin behar izan dira eta ScummVM-ren xxxx bertsioa baino berriagoetan bakarrik dago eskuragarri.
+Jokoa [ScummVM](https://scummvm.org/) bidez jartzen da martxan. Joko honek duen puzzle jakin bat euskaraz erabili ahal izateko ScummVM-ko motorean bertan aldaketan egin behar izan dira eta ScummVM-ren 2.9.0 bertsioa baino berriagoetan bakarrik dago eskuragarri.
 
-
-Jokoa Steam edo GOG bidez erosi baduzu, bertsio horietan ScummVM motorea jokoarekin dakar eta horrela exekutatzen da. ScummVM hori bertsio zaharra denez, ezin izanen da puzzle hori euskaraz ongi ikusi. Jokoa euskaraz erabili ahal izateko:
+Jokoa Steam edo GOG bidez erosi baduzu, bertsio horietan ScummVM motorea jokoarekin dakar eta horrela exekutatzen da. ScummVM hori bertsio zaharra denez (2.6.0 bertsioa), ezin izanen da puzzle hori euskaraz ongi ikusi. Jokoa euskaraz erabili ahal izateko:
 
 * Hasteko, jokoaren datuak euskaratzeko goian aipatzen den moduan egin, instalatzailearekin.
-* ScummVM deskargatu, guttienez xxxx bertsioa
-* Abiarazi eta eskuinean dagoen "Gehitu" botoia sakatu
-* Sanitarium jokoaren fitxategiak bilatu. RES.000 fitxategia dagoen direktorioa aukeratu behar da.
+* ScummVM deskargatu, guttienez 2.9.0 bertsioa
+* ScummVM abiarazi eta eskuinean dagoen "Gehitu" botoia sakatu
+* Sanitarium jokoaren fitxategiak bilatu. RES.000 fitxategia dagoen direktorioa aukeratu behar da. Nire kasuan jokoaren erro direktorioan dagoen `Data` karpeta aukeratu behar izan dut.
 * Jokoa ScummVMko jokoen zerrendan agertuko da, "Hasi" botoia sakatu.
