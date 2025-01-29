@@ -4,11 +4,17 @@ const builtin = @import("builtin");
 const eu_locale_originalGame = @embedFile("./eu_Locale_OriginalGame-resources.assets-670.csv");
 const orig_locale_originalGame = @embedFile("./orig_Locale_OriginalGame-resources.assets-670.csv");
 
+pub fn comptime_checks() void {}
+
 pub fn get_game_names() [5]utils.string {
     return [_]utils.string{ "Figment", "", "", "", "" };
 }
 
-pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
+pub fn get_languages() ?[3]utils.nt_string {
+    return null;
+}
+
+pub fn install_translation(game_path: utils.string, _: usize) !?utils.InstallerResponse {
     const content_path = utils.look_for_dir(game_path, "Figment_Data") catch "";
 
     const resources_assets_path = try utils.concat(&.{ content_path, "/resources.assets" });
