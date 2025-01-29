@@ -8,11 +8,17 @@ const gametext_xml_name = "gametext.xml";
 const credits_txt_name = "credits.txt";
 const gamepad_png_name = "gamepad.png";
 
+pub fn comptime_checks() void {}
+
 pub fn get_game_names() [5]utils.string {
     return [_]utils.string{ "Titan Souls", "titan souls", "Titan souls", "", "" };
 }
 
-pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
+pub fn get_languages() ?[3]utils.nt_string {
+    return null;
+}
+
+pub fn install_translation(game_path: utils.string, _: usize) !?utils.InstallerResponse {
     try replace_file(game_path, gametext_xml_name);
     try replace_file(game_path, credits_txt_name);
     try replace_file(game_path, gamepad_png_name);
