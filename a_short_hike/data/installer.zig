@@ -2,11 +2,17 @@ const std = @import("std");
 const utils = @import("utils");
 const eu_txt = @embedFile("./LANG_Euskara.yarn_lines.csv");
 
+pub fn comptime_checks() void {}
+
 pub fn get_game_names() [5]utils.string {
     return [_]utils.string{ "A short hike", "a short hike", "A Short Hike", "", "" };
 }
 
-pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
+pub fn get_languages() ?[3]utils.nt_string {
+    return null;
+}
+
+pub fn install_translation(game_path: utils.string, _: usize) !?utils.InstallerResponse {
     const content_path = utils.look_for_dir(game_path, "AShortHike_Data") catch "";
 
     const txt_path = try utils.concat(&.{ content_path, "/LANG_Euskara.yarn_lines.csv" });
