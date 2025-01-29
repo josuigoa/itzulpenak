@@ -2,11 +2,17 @@ const std = @import("std");
 const utils = @import("utils");
 const eu_txt = @embedFile("./minit_loc.csv");
 
+pub fn comptime_checks() void {}
+
 pub fn get_game_names() [5]utils.string {
     return [_]utils.string{ "minit", "MINIT", "Minit", "", "" };
 }
 
-pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
+pub fn get_languages() ?[3]utils.nt_string {
+    return null;
+}
+
+pub fn install_translation(game_path: utils.string, _: usize) !?utils.InstallerResponse {
     const loc_path = utils.look_for_file(game_path, "minit_loc.csv") catch "";
 
     std.debug.print("[{s}] fitxategia kopiatzen...\n", .{loc_path});
