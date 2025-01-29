@@ -3,11 +3,17 @@ const utils = @import("utils");
 const builtin = @import("builtin");
 const euLocalization = @embedFile("./euLocalization.txt");
 
+pub fn comptime_checks() void {}
+
 pub fn get_game_names() [5]utils.string {
     return [_]utils.string{ "ibbandobb", "", "", "", "" };
 }
 
-pub fn install_translation(game_path: utils.string) !?utils.InstallerResponse {
+pub fn get_languages() ?[3]utils.nt_string {
+    return null;
+}
+
+pub fn install_translation(game_path: utils.string, _: usize) !?utils.InstallerResponse {
     const loc_path = utils.look_for_dir(game_path, "localization") catch "";
 
     if (std.mem.eql(u8, loc_path, "")) {
