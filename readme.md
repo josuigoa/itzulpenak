@@ -24,7 +24,7 @@
 * Celeste
   * [instalazioa](./celeste/)
 * Cave Story
-  * [instalazioa](./cave_story/)
+  * ez dut instalatzaile orokorrik egitea lortu. Alde batera utzia dut.
 * Ape Out
   * [instalazioa](./ape_out/)
 * figment
@@ -33,3 +33,5 @@
   * [instalazioa](./titan_souls/)
 * The Plucky Squire
   * [instalazioa](./the_plucky_squire/)
+* Lost in Play
+  * [instalazioa](./lost_in_play/)
