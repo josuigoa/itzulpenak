@@ -35,3 +35,5 @@
   * [instalazioa](./the_plucky_squire/)
 * Lost in Play
   * [instalazioa](./lost_in_play/)
+* Hidden Folks
+  * [instalazioa](./hidden_folks/)
