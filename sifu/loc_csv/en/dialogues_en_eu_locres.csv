@@ -1,0 +1,407 @@
+key,source,target
+BossSpare/NodeID_3,Spare,Barkatu
+Cutscene_H0_Boss_Sifu_P1toP2/NodeID_2,Know this... Revenge is never a straight line.,Eduki ezazu argi: mendekua ez da inoiz bide erraza izan.
+Cutscene_H0_Boss_Sifu_P1toP2/NodeID_22,"It's easy to lose your way, to be blinded by rage.","Erraza da bidean galtzea, haserreak itsutzea."
+Cutscene_H0_Boss_Sifu_P1toP2/NodeID_25,"When I look into your eyes, I see nothing but a frightened, angry child.","Begiratzen zaitudanean, beldurtuta eta haserretuta dagoen haur bat bakarrik ikusten dut."
+Cutscene_H1_360_Fajar_P1toP2/NodeID_5,Show yourself!,Ager zaitez!
+Cutscene_H1_360_Fajar_P1toP2/NodeID_7,"Show yourself, Fajar.","Irten, Fajar."
+Cutscene_H1_360_Fajar_P1toP2/NodeID_6,"I'll make you pay.",Ordainduko duzu horregatik.
+Cutscene_H1_360_Fajar_P1toP2/NodeID_8,I’ll make you pay for what you did to me.,Egin zenidanagatik ordainduko duzu.
+H0_010_EntranceTraining_A/NodeID_2,What was that!?,Zer izan da hori?
+H0_010_EntranceTraining_C/NodeID_2,What’s going on? Who are you?,Zer gertatzen da? Nor zara zu?
+H0_010_EntranceTraining_C/NodeID_22,Move.,Kendu
+H0_010_EntranceTraining_C/NodeID_35,Get out of my way.,Kendu erditik.
+H0_010_EntranceTraining_C/NodeID_23,"Who's first?",Nor da lehenengoa?
+H0_010_EntranceTraining_C/NodeID_33,Who wants to go first?,Nork izan nahi du lehenengoa?
+H0_010_EntranceTraining_C/NodeID_28,Leave him to me.,Utzidazue niri.
+H0_010_EntryGuard_C/NodeID_2,What the--?!,"Baina zer--?"
+H0_020_SeanEntrance_A/NodeID_6,I thought you said they’d put up a fight.,Borrokarako prest zegoela uste nuen.
+H0_020_SeanEntrance_A/NodeID_2,I’m barely breaking a sweat.,Izerditu ere ez naiz egingo.
+H0_020_SeanEntrance_A/NodeID_9,"Don't be arrogant.",Ez izan harroa.
+H0_020_SeanEntrance_A/NodeID_11,Don’t be so arrogant.,Ez izan hain harroa.
+H0_020_SeanEntrance_A/NodeID_10,Sweep the place.,Arakatu lekua.
+H0_020_SeanEntrance_A/NodeID_12,Sweep the place. Nobody leaves.,Arakatu lekua. Ez dezala inork alde egin.
+H0_020_SeanEntrance_A/NodeID_13,Sure.,Ados.
+H0_027_Kitchen_C/NodeID_5,Who the hell is that?,Nor demontre da hori?
+H0_027_Kitchen_C/NodeID_2,Get him now!,Harrapa ezazue!
+H0_030_LivingRoom_C/NodeID_3,Yang!,Yang!
+H0_030_LivingRoom_C/NodeID_18,How dare you set foot in here again.,Nola ausartzen zara berriz hemen agertzen.
+H0_030_LivingRoom_C/NodeID_19,You should never have come back.,Ez zenuen inoiz itzuli behar.
+H0_030_LivingRoom_C/NodeID_5,"It's been a while.",Denbora asko pasa da.
+H0_030_LivingRoom_C/NodeID_24,"Nice to see you, it’s been a while.",Pozten naiz zu ikusteaz, denbora asko pasa da.
+H0_030_LivingRoom_C/NodeID_7,Get him.,Harrapa ezazue.
+H0_030_LivingRoom_C/NodeID_6,Finish what I started.,Hasi nuena bukatu.
+H0_030_LivingRoom_C/NodeID_17,I’m here to finish what I started.,Hasi nuena bukatzeko nago hemen.
+H0_030_LivingRoom_C/NodeID_25,Get him!,Harrapa ezazue!
+H0_040_Fajar_C/NodeID_4,!,!
+H0_040_Fajar_C/NodeID_10,Where is he?,Non dago?
+H0_040_Fajar_C/NodeID_5,...,...
+H0_050_Sifu_P1toP2/NodeID_25,"When I look into your eyes, I see nothing but a frightened, angry child.","Begiratzen zaitudanean, beldurtuta eta haserretuta dagoen haur bat bakarrik ikusten dut."
+H1_000_Guardian_A/NodeID_2,Get lost! Nothin’ here for you!,Alde! Ez dago zuretzako ezer hemen!
+H1_000_Guardian_C/NodeID_3,"I warned you, asshole!","Abisatu zaitut, baboa!"
+H1_000_Guardian_MC/NodeID_7,!,!
+H1_000_Guardian_MC/NodeID_8,"They've blocked the entrance to <DialogHighlight>the warehouse</>.","<DialogHighlight>Biltegi</>rako sarrera blokeatu dute."
+H1_000_Guardian_MC/NodeID_10,Need to find another way inside.,Barrura sartzeko beste bide bat bilatu beharko dut.
+H1_030_DoorToShortcut_MC/NodeID_2,"It's locked. Let’s try upstairs first.",Itxita dago. Proba dezagun goian lehenengo.
+H1_030_Jump_MC/NodeID_4,!,!
+H1_030_Jump_MC/NodeID_2,"I can make it, just need a run at it.","Egin dezaket, abiada pixka bat behar dut"
+H1_030_Squat_C/NodeID_2,You lost or somethin’?,"Galdu egin zara, edo?"
+H1_030_Squat_C/NodeID_3,Sure as hell don’t look like you belong here.,Argi dago hau ez dela zure lekua.
+H1_030_Squat_MC/NodeID_5,!,!
+H1_030_Squat_MC/NodeID_2,"<DialogHighlight>Junkies</>. I don’t think they'll be a problem.","<DialogHighlight>Jonkiak</>. Ez dut uste arazoa izango direnik."
+H1_090_Oldboy_A/NodeID_2,Open it! Open up!,Ireki! Ireki ezazue!
+H1_090_Oldboy_A/NodeID_3,"Don't make me bust this damn door down!",Ez dut ate madarikatu hau behera bota nahi!
+H1_090_Oldboy_C/NodeID_3,"Check this fuckin' clown out.",Ea zer nahi duen pailazo honek.
+H1_090_Oldboy_C/NodeID_7,"Help you with somethin'?",Laguntzarik behar duzu?
+H1_090_Oldboy_C/NodeID_10,The Warehouse.,Biltegia
+H1_090_Oldboy_C/NodeID_19,"The warehouse, which way?","Biltegia, nondik dago?"
+H1_090_Oldboy_C/NodeID_28,The fuck you want?,Zer arraio nahi duzu?
+H1_090_Oldboy_C/NodeID_34,"You do know where you are, right?","Badakizu non hagoen, ezta?"
+H1_090_Oldboy_C/NodeID_29,"I'm looking for <DialogHighlight>Fajar</>.","<DialogHighlight>Fajar</>en bila nabil."
+H1_090_Oldboy_C/NodeID_30,"Nobody wants to see the freak, and the freak don't wanna see nobody.","Inork ez du xelebrea ikusi nahi, eta xelebreak ez du inor ikusi nahi."
+H1_090_Oldboy_C/NodeID_31,Now empty your pockets.,"Hustu {ListenerGender}|gender(itzak,itzan) patrikak."
+H1_090_Oldboy_C/NodeID_14,Move.,Mugi.
+H1_090_Oldboy_C/NodeID_25,"Yes, get out of my way.","Bai, kendu nire bidetik."
+H1_090_Oldboy_C/NodeID_32,"Looks like we've got a smartass here, guys.","Badirudi hemen azkar usteko bat dugula, mutilak."
+H1_090_Oldboy_C/NodeID_15,Leave them.,Utzi itzazu.
+H1_090_Oldboy_C/NodeID_27,Leave these people alone.,Utzi ezazu jende hau bakean.
+H1_090_Oldboy_C/NodeID_18,"Oh, we got ourselves a real life white knight here.","Hara, bizitza errealeko zapalduen babesle bat dugu hemen."
+H1_090_Oldboy_C/NodeID_33,"Let’s relieve {ListenerGender}|gender(him,her) of the contents of {ListenerGender}|gender(his,her) pockets.","Arindu diezaiogun daraman karga patrikak hustuz."
+H1_150_Rooftop_A/NodeID_2,"Almost done here... Last bag's on the way to you...","Hemen ia bukatu dugu... Azken poltsa zuregana doa..."
+H1_150_Rooftop_A/NodeID_4,Cool... Talk once we wrap this up.,Bikain... Hemen bukatzen dugunean hitz egingo dugu.
+H1_150_Rooftop_A/NodeID_6,Fat fuck calls me every two seconds to check in!,Ergel hori bi segundoro deika dut zertan gabiltzan jakiteko!
+H1_150_Rooftop_A/NodeID_7,While he’s sittin’ on his ass over there.,"Bere ipurtandi hori sofan eserita duen bitartean."
+H1_150_Rooftop_A/NodeID_8,Drives me crazy!,Erotu egingo nau!
+H1_150_Rooftop_C/NodeID_2,Guys! We got company!,Mutilak! Konpainia dugu!
+H1_150_Rooftop_MC/NodeID_5,!,!
+H1_150_Rooftop_MC/NodeID_2,"<DialogHighlight>The warehouse.</> I'm getting closer.","<DialogHighlight>Biltegia.</> Hurbiltzen ari naiz."
+H1_180_Jump_MC/NodeID_4,!,!
+H1_180_Jump_MC/NodeID_2,Another jump here... I can make it.,Beste jauzi bat... Egin dezaket.
+H1_210_BigGuy_C/NodeID_2,"Shame I'll have to throw you back through it.","Zelako pena da hortik bueltan bidali behar izatea."
+H1_270_DoorToHangar_MC/NodeID_2,Someone here must have <DialogHighlight>the keys</>.,Norbaitek izango ditu <DialogHighlight>giltzak</>.
+H1_270_Office_A/NodeID_2,"Come on, come on! Speed this up!","Tira, tira! Mugi zaitezte!"
+H1_270_Office_A/NodeID_3,I don’t wanna be late for <DialogHighlight>The Club.</>,Ez dut <DialogHighlight>klub</>era berandu iritsi nahi.
+H1_270_Office_A/NodeID_7,I plan to win big tonight.,Gaur gauean sari handia niretzat.
+H1_270_Office_C/NodeID_3,Who in the fuck are you?,Nor arraio zara zu?
+H1_270_Office_C/NodeID_4,"Don't just stand there! Get {ListenerGender}|gender(him,her)!",Ez zaitezte hor gelditu! Harrapa ezazue!
+H1_270_Skull_C/NodeID_2,How the fuck you get in here?,Nola demontre sartu zara hemen?
+H1_270_Skull_C/NodeID_65,With great difficulty.,Ez da erraza izan.
+H1_270_Skull_C/NodeID_66,And I bet <DialogHighlight>your keys</> could have made things a lot easier.,Eta apostu egingo nuke zure <DialogHighlight>giltza</>k banitu bidea errazagoa litzatekeela.
+H1_270_Skull_C/NodeID_67,"Don't even think about it, asshole.","Ezta pentsatu ere, astozakila."
+H1_270_Skull_C/NodeID_68,"This little tour you've been takin' ends here and now.",Eman duzun bueltaxka hemen bukatuko da.
+H1_270_Skull_C/NodeID_10,Workout.,Entrenamendua.
+H1_270_Skull_C/NodeID_48,I’m only here for the workout.,Entrenamenduagatik bakarrik nator hona.
+H1_270_Skull_C/NodeID_19,Wrong turn.,Norabide okerra.
+H1_270_Skull_C/NodeID_49,Must have taken a wrong turn.,Bidez nahasi naiz.
+H1_270_Skull_C/NodeID_50,"Ain't got much of a choice.",Ez dugu aukerarik.
+H1_270_Skull_C/NodeID_52,"I'm afraid we're gonna have to fuck you up.",Jipoi bat eman beharko dizugu.
+H1_270_Skull_MC/NodeID_2,"These'll be useful.",Honek balioko du.
+H1_300_Hangar_A/NodeID_2,"Come on, quicker!","Tira, azkarrago!"
+H1_300_Hangar_A/NodeID_25,We have a city to deliver to!,Hiri bat dugu hornitzeke!
+H1_300_Hangar_A/NodeID_23,Boss wants everything shipped out of here today!,Nagusiak dena gaur bidaltzea nahi du!
+H1_300_Hangar_A/NodeID_24,"Move it, move it!","Mugi, mugi!"
+H1_300_Hangar_C/NodeID_2,"Hey, this is private property!","Aizu, hau jabetza pribatua da!"
+H1_300_Hangar_C/NodeID_4,"Are you deaf or somethin', asshole?","Gorra zara edo zer, kirten hori?"
+H1_300_Hangar_Eavesdrop_A/NodeID_2,You sure about that? Kung-Fu?,Ziur zaude horretaz? Kung-Fu?
+H1_300_Hangar_Eavesdrop_A/NodeID_5,"Honestly, it amazes me how long you've lasted in this fuckin' job.","Benetan, harritu egiten nau lan puta honetan horrenbeste iraun duzula ikusiteak."
+H1_300_Hangar_MC/NodeID_5,!,!
+H1_300_Hangar_MC/NodeID_2,Almost there. Need to get through that door.,Ia lortu dut. Ate hau gurutzatu behar dut.
+H1_300_Hangar_NpcPushedFromFirstFloor_A/NodeID_2,"Spread out, find 'em!","Zabaldu eta aurki ezazue!"
+H1_300_Hangar_NpcPushedFromFirstFloor_A/NodeID_3,And somebody clean this mess up!,Eta garbi dezala nahaspila hau norbaitek!
+H1_330_DryingRoom_C/NodeID_2,Boss said nobody gets through. <DialogHighlight>Fajar</> stays alone.,Nagusiak esan du ezin dela inor pasa. Utzi <DialogHighlight>Fajar</> bakarrik.
+H1_330_DryingRoom_C/NodeID_7,Expecting me.,Nire zain.
+H1_330_DryingRoom_C/NodeID_15,"He's expecting me.",Nire zain dago.
+H1_330_DryingRoom_C/NodeID_13,"I don't think so. Only the long-haired guy visits him.",Ez dut uste. Ile luzedun tipoak bakarrik bisitatzen du.
+H1_330_DryingRoom_C/NodeID_20,<DialogHighlight>Yang.</>,<DialogHighlight>Yang</>ek.
+H1_330_DryingRoom_C/NodeID_14,"Look, I don't know when you last saw Fajar, but he's fuckin' nuts.","Begira, ez dakit noiz ikusiko zenuen Fajar azkenengoz, baina burua erabat joan zaio."
+H1_330_DryingRoom_C/NodeID_24,"You can't go in. Not today. Not ever.","Ezin zara sartu. Ez gaur. Inoiz ez."
+H1_330_DryingRoom_C/NodeID_8,"I don't care.",Ez zait axola.
+H1_330_DryingRoom_C/NodeID_21,I don’t care what your boss said.,Ez zait axola zure nagusiak esandakoa.
+H1_330_DryingRoom_C/NodeID_26,I’m going through the door.,Atetik pasako naiz.
+H1_330_DryingRoom_C/NodeID_22,"'Course you are.","Bai, hori..."
+H1_330_DryingRoom_C/NodeID_9,Move aside.,Baztertu zaitez.
+H1_330_DryingRoom_C/NodeID_23,Step aside. I don’t want to have to hurt you.,Baztertu zaitez. Ez dizut minik eman nahi.
+H1_330_DryingRoom_C/NodeID_11,You must be joking.,"Txantxetan, ala?"
+H1_360_Greenhouse_MC/NodeID_2,Locked.,Itxita.
+H2_010_EntranceBouncer_C/NodeID_24,Private party. Come back tomorrow.,Festa pribatua. Itzul zaitez bihar.
+H2_010_EntranceBouncer_C2/NodeID_2,Back off now!,Zoaz pikutara!
+H2_010_StreetGuy_A/NodeID_2,"Forget about it, If you’re not on the list, you're not getting inside.","Ahaztu ezazu, ez bazaude zerrendan, ez zara sartuko."
+H2_020_GuardTickets_C/NodeID_22,Yeah? What do you want?,Bai? Zer nahi duzu?
+H2_020_GuardTickets_C/NodeID_25,Sean?,Sean?
+H2_020_GuardTickets_C/NodeID_34,"<DialogHighlight>Sean</>, where can I find him?","<DialogHighlight>Sean</>, non aurkitu dezaket?"
+H2_020_GuardTickets_C/NodeID_28,"Guys! We've got a problem here!","Mutilak! Hemen arazo bat dugu!"
+H2_020_GuardTickets_C/NodeID_30,None of your business.,Ez da zure kontua.
+H2_020_GuardTickets_C/NodeID_35,None of your business.,Ez da zure kontua.
+H2_020_GuardTickets_G/NodeID_2,Please... Please don’t hit me!,"Mesedez... Ez nazazu jo, mesedez!"
+H2_020_GuardTickets_G/NodeID_5,!,!
+H2_020_GuardTickets_G/NodeID_6,Where is <DialogHighlight>Sean</>?,Non dago <DialogHighlight>Sean</>?
+H2_020_GuardTickets_G/NodeID_7,"H-He’s with the fighters, for <DialogHighlight>The Burning</>.","B-Borrokalariekin dago, <DialogHighlight>Erreketa</>rako."
+H2_020_GuardTickets_G/NodeID_11,Only Sean’s <DialogHighlight>Disciples</> have <DialogHighlight>passes</> to get inside.,Sean-en <DialogHighlight>Dizipulu</>ek bakarrik dituzte sartu ahal izateko <DialogHighlight>txartelak</>.
+H2_020_GuardTickets_G/NodeID_8,We’ll see about that.,Hori ikusiko dugu.
+H2_030_DoorCode_MC/NodeID_2,"Won't open without the code.",Koderik gabe ez da irekiko.
+H2_030_DoorMagneticCard_MC/NodeID_2,I need the access card.,Sarrera txartela behar dut.
+H2_031_AquariumRoom_C/NodeID_2,"Who's this?",Nor da?
+H2_031_AquariumRoom_C/NodeID_3,"How the fuck did {ListenerGender}|gender(he,she) get here?",Nola demontre sartu da {ListenerGender}|gender(mutil,neska) hau hemen?
+H2_031_AquariumRoom_C/NodeID_18,Bring it on,Pasa.
+H2_031_AquariumRoom_C/NodeID_15,Really?,Benetan?
+H2_040_LookAtSeanScreen_MC/NodeID_4,!,!
+H2_040_SideRoomIrruption_C/NodeID_2,The fuck is this mess?,Zer da nahaspila hau guztia?
+H2_040_SideRoomIrruption_C/NodeID_3,"Get {ListenerGender}|gender(him,her)!",Harrapa ezazue!
+H2_041_LightsTech_C/NodeID_3,What the--?!,Baina zer--?!
+H2_041_LightsTech_C/NodeID_47,What do you want?,Zer nahi duzu?
+H2_041_LightsTech_C/NodeID_15,"Don't worry.",Ez arduratu.
+H2_041_LightsTech_C/NodeID_38,"Don't worry.",Ez arduratu.
+H2_041_LightsTech_C/NodeID_16,I’m not looking for a fight.,Ez nabil borroka eske.
+H2_041_LightsTech_C/NodeID_19,Neither am I. I just do computers and stuff.,Ezta ni ere. Ordenagailuekin aritzen naiz.
+H2_041_LightsTech_C/NodeID_20,Computer access.,Ordenagailura sartu.
+H2_041_LightsTech_C/NodeID_31,I need to access the locked computer of someone important.,Garrantzitsua den norbaiten blokeatutako ordenagailuan sartu behar dut.
+H2_041_LightsTech_C/NodeID_23,And why should I help you?,Eta zergatik lagundu behar dizut?
+H2_041_LightsTech_C/NodeID_24,The Corporation.,Korporazioa.
+H2_041_LightsTech_C/NodeID_27,This ‘someone important’ is the head of The Corporation.,'Garrantzitsua den norbait' hori Korporazioaren burua da.
+H2_041_LightsTech_C/NodeID_28,Really? You got some nerve going after her. I like that.,Benetan? Ausarta zara bere aurka joateko. Gustatzen zait.
+H2_041_LightsTech_C/NodeID_32,"Try to use this, it’ll be fun.","Probatu hau, dibertigarria izango da."
+H2_041_LightsTech_C/NodeID_26,I can beat you up.,Jipoituko zaitut.
+H2_041_LightsTech_C/NodeID_29,Because I can beat you up?,Jipoi bat emango dizudalako?
+H2_041_LightsTech_C/NodeID_30,No need to get there.,Ez dugu horraino ailegatu beharrik.
+H2_041_LightsTech_C/NodeID_33,"You can try this key, but I can’t promise anything.","Probatu giltza honekin, baina ezin dizut ziurtatu."
+H2_041_LightsTech_C/NodeID_14,Step aside.,Baztertu zaitez.
+H2_041_LightsTech_C/NodeID_40,Step aside.,Baztertu zaitez.
+H2_041_LightsTech_C/NodeID_18,Step aside and be quiet.,Baztertu zaitez eta egon ixilik.
+H2_041_LightsTech_C/NodeID_21,"It’s cool, I don’t want any trouble.","Ongi da, ez dut arazorik nahi."
+H2_041_LightsTech_C/NodeID_39,Sean?,Sean?
+H2_041_LightsTech_C/NodeID_44,Are you a friend of Sean’s?,Sean-en laguna al zara?
+H2_041_LightsTech_C/NodeID_45,"No. And seeing how he treats others, I don't think he has any.","Ez. Eta gainontzekoak nola tratatzen dituen ikusita, ez dut uste batere duenik."
+H2_041_LightsTech_Computer_C/NodeID_3,What the--?!,Baina zer--?!
+H2_041_LightsTech_Computer_C/NodeID_47,What do you want?,Zer nahi duzu?
+H2_041_LightsTech_Computer_C/NodeID_15,"Don't worry.",Ez arduratu.
+H2_041_LightsTech_Computer_C/NodeID_16,I’m not looking for a fight.,Ez nabil borroka eske.
+H2_041_LightsTech_Computer_C/NodeID_19,Neither am I. I just do computers and stuff.,Ezta ni ere. Ordenagailuekin aritzen naiz.
+H2_041_LightsTech_Computer_C/NodeID_20,Computer access.,Ordenagailura sartu.
+H2_041_LightsTech_Computer_C/NodeID_31,I need to access the locked computer of someone important.,.
+H2_041_LightsTech_Computer_C/NodeID_23,And why should I help you?,Eta zergatik lagundu behar dizut?
+H2_041_LightsTech_Computer_C/NodeID_24,The Corporation.,Korporazioa.
+H2_041_LightsTech_Computer_C/NodeID_27,This ‘someone important’ is the head of The Corporation.,'Garrantzitsua den norbait' hori Korporazioaren burua da.
+H2_041_LightsTech_Computer_C/NodeID_28,Really? You got some nerve going after her. I like that.,Benetan? Ausarta zara bere aurka joateko. Gustatzen zait.
+H2_041_LightsTech_Computer_C/NodeID_32,"Try to use this, it’ll be fun.","Probatu hau, dibertigarria izango da."
+H2_041_LightsTech_Computer_C/NodeID_26,I can beat you up.,Jipoituko zaitut.
+H2_041_LightsTech_Computer_C/NodeID_29,Because I can beat you up?,Jipoi bat emango dizudalako?
+H2_041_LightsTech_Computer_C/NodeID_30,No need to get there.,Ez dugu horraino ailegatu beharrik.
+H2_041_LightsTech_Computer_C/NodeID_33,"You can try this key, but I can’t promise anything.","Probatu giltza honekin, baina ezin dizut ziurtatu."
+H2_041_LightsTech_Computer_C/NodeID_14,Step aside.,Baztertu zaitez.
+H2_041_LightsTech_Computer_C/NodeID_18,Step aside and be quiet.,Baztertu zaitez eta egon ixilik.
+H2_041_LightsTech_Computer_C/NodeID_21,"It’s cool, I don’t want any trouble.","Ongi da, ez dut arazorik nahi."
+H2_041_LightsTech_Sean_C/NodeID_3,What the--?!,Baina zer--?!
+H2_041_LightsTech_Sean_C/NodeID_47,What do you want?,Zer nahi duzu?
+H2_041_LightsTech_Sean_C/NodeID_15,"Don't worry.","Ez arduratu."
+H2_041_LightsTech_Sean_C/NodeID_16,I’m not looking for a fight.,Ez nabil borroka eske.
+H2_041_LightsTech_Sean_C/NodeID_19,Neither am I. I just do computers and stuff.,Ezta ni ere. Ordenagailuekin aritzen naiz.
+H2_041_LightsTech_Sean_C/NodeID_20,Sean?,Sean?
+H2_041_LightsTech_Sean_C/NodeID_31,Are you a friend of Sean’s?,Sean-en laguna al zara?
+H2_041_LightsTech_Sean_C/NodeID_23,"No. And seeing how he treats others, I don't think he has any.","Ez. Eta gainontzekoak nola tratatzen dituen ikusita, ez dut uste batere duenik."
+H2_041_LightsTech_Sean_C/NodeID_14,Step aside.,Baztertu zaitez.
+H2_041_LightsTech_Sean_C/NodeID_18,Step aside and be quiet.,Baztertu zaitez eta egon ixilik.
+H2_041_LightsTech_Sean_C/NodeID_21,"It’s cool, I don’t want any trouble.","Ongi da, ez dut arazorik nahi."
+H2_051_SideBalcony_C/NodeID_2,Did you think this was a pyjama party or somethin’?,Hau pijama festa edo horrelako zerbait zela uste zenuen?
+H2_051_SideBalcony_C/NodeID_9,"Come on, show us what you can do, Kung-Fu {ListenerGender}|gender(Guy,Girl)!","Tira, erakutsiguzu zer egin dezakezun, Kung-Fu {ListenerGender}|gender(Mutila,Neska)!"
+H2_051_SideBalcony_C/NodeID_11,"Hey, didn't you hear my friend?","Eh, ez diozu nire lagunari entzun?"
+H2_051_SideBalcony_G/NodeID_2,"Alright, alright... You made your point.","Ederki, ederki... ulertu dut."
+H2_051_SideBalcony_G/NodeID_4,The two giants.,Bi erraldoiak
+H2_051_SideBalcony_G/NodeID_5,"The two giants over there, what’s behind their door?","Hango bi erraldoi horiek, zer dago ate horren atzean?"
+H2_051_SideBalcony_G/NodeID_6,Tonight’s fights. And the Burning event!,Gaur gaueko borrokak. Eta Erreketa ikuskizuna!
+H2_051_SideBalcony_G/NodeID_7,Excellent.,Bikain.
+H2_060_FlashKickBar_C/NodeID_2,"Hey, did you hear what she just said? We’re closed for the night.","Aizu, entzun al duzu berak esandakoa? Gaurkoz itxi dugu jada."
+H2_060_FlashKickBarJoinTheFight_A/NodeID_3,Bets closed for tonight.,Apustuak bukatu dira gaurkoz.
+H2_070_PitSpectator_A/NodeID_2,"Come on, Shen, kick his ass! I got a shit-ton of money riding on you!","Tira, Shen, emaiozu egurra! Sekulako dirutza jarri dut zure alde!"
+H2_070_PitSpectator_A/NodeID_3,Take his fucking head off!,Kenduiozu burutzar hori!
+H2_070_PitSpectator_A/NodeID_9,Harder! Hit ‘em harder!,Gogorrago! Emaiozu gogorrago!
+H2_070_PitSpectator_A/NodeID_10,What the hell’s going on here?,Zer arraio gertatzen da hemen!
+H2_070_PitSpectator_A/NodeID_11,Is this part of the fight or somethin’?,Hau borrokaren parte da edo zer?
+H2_070_PitSpectator_A/NodeID_12,"Well, come on then, don’t just stand there looking at {ListenerGender}|gender(him,her).","Tira ba, ez zaitez berari begira gelditu."
+H2_070_PitSpectator_A/NodeID_13,"Kick {ListenerGender}|gender(his,her) fuckin’ ass!","Emaiozu ostikada bat ipurdi alu horretan!"
+H2_070_PitSpectatorPhone_A/NodeID_2,Why the fuck are you only calling me back now?,Zer arraiotarako deitzen didazu orain?
+H2_070_PitSpectatorPhone_A/NodeID_23,What happened!?,Zer gertatu da!?
+H2_070_PitSpectatorPhone_A/NodeID_24,"Get all the money to safety, I’ll be right there...after the fights.","Eraman diru guztia leku segurura. Oraintxe noa... borroken ondoren."
+H2_080_FireDiscipleFirst_C/NodeID_13,You are not supposed to be part of tonight’s group.,Zuk ez zenuke gaur gaueko taldearen parte izan behar.
+H2_080_FireDiscipleFirst_C/NodeID_14,Let me through.,Utzi pasatzen.
+H2_080_FireDiscipleFirst_C/NodeID_18,"Let me through, I don’t want any trouble.","Utzi pasatzen, ez dut inolako arazorik nahi."
+H2_080_FireDiscipleFirst_C/NodeID_19,You already found it.,Ba bat aurkitu duzu.
+H2_080_FireDiscipleFirst_C/NodeID_12,"Let's end this.",Buka dezagun honekin.
+H2_080_FireDiscipleFirst_C/NodeID_21,"Let's end this quickly",Buka dezagun hau azkar.
+H2_090_TrainingRoom_A/NodeID_2,"Leave me alone, I have to train.","Utzi bakean, entrenatu beharra dut."
+H2_090_TrainingRoom_A/NodeID_3,What did you reach? I hope I’ll make it to the staff fight.,Zer lortu duzu? Makilen borrokara arte ailegatzea espero dut.
+H2_090_TrainingRoom_A/NodeID_4,I can’t any more...,Ezin dut gehiago...
+H2_090_TrainingRoom_A/NodeID_5,...,...
+H2_090_TrainingRoom_A/NodeID_6,"Get {ListenerGender}|gender(him,her)!",Harrapa ezazue!
+H2_090_TrainingRoom_C/NodeID_2,Above this door are the three trials.,Ate honen atzean daude hiru probak.
+H2_090_TrainingRoom_C/NodeID_4,"I'm ready.",Prest nago.
+H2_090_TrainingRoom_C/NodeID_8,"I'm ready.",Prest nago.
+H2_090_TrainingRoom_C/NodeID_9,"Then, step through the door.","Orduan gurutzatu atea."
+H2_090_TrainingRoom_C/NodeID_6,Trials?,Probak?
+H2_090_TrainingRoom_C/NodeID_10,"The trials, what are they?","Probak, zer dira?"
+H2_090_TrainingRoom_C/NodeID_11,"Agility, Dexterity, Endurance.","Bizkortasuna, Trebezia, Erresistentzia."
+H2_090_TrainingRoom_C/NodeID_7,Fight me!,Borrokatu nirekin!
+H2_090_TrainingRoom_C/NodeID_12,"First, I want to fight all of you.","Hasteko, zuek guztion aurka borrokatu nahi dut."
+H2_090_TrainingRoom_C/NodeID_14,Arrogant pig.,Urde harroputza.
+H2_100_BlazingTrial_C/NodeID_2,"Step forward. you're about to be tested.","Eman pausu bat aurrera. Oraintxe proban jarriko zaitugu."
+H2_100_BlazingTrial_C2/NodeID_3,Let’s go into the beyond.,Goazen beste aldera.
+H2_100_BlazingTrial_C2/NodeID_4,Survival of the fittest.,Indartsuenaren biziraupena.
+H2_100_BlazingTrial_C2/NodeID_5,You shall not fear death.,Ez iezaiozu heriotzari beldurrik izan.
+H2_100_BlazingTrial_C2/NodeID_6,"Yes, that’s it, embrace it!","Bai, hori da, besarka ezazu!"
+H2_100_BlazingTrial_C3/NodeID_3,"The winner becomes the king, the loser a thief.","Garailea errege bihurtzen da. Galtzailea, berriz, lapurra."
+H2_100_BlazingTrial_C3/NodeID_13,Sean.,Sean.
+H2_100_BlazingTrial_C3/NodeID_14,Your master’s mind is broken.,Zure maisuaren gogoa puskatuta dago.
+H2_100_BlazingTrial_C3/NodeID_19,"He will drag you, and all the others, down into the abyss.","Zu eta gainontzeko guztiak amildegirantz eramango zaituzte."
+H2_100_BlazingTrial_C3/NodeID_16,Look around you. You don’t look so different to me.,Begiratu ingurua. Ez zara nire hain desberdina.
+H2_100_BlazingTrial_C3/NodeID_20,"If you didn’t want to fight, why did you come this far?","Ez baduzu borrokatu nahi, zertarako etorri zara honaino?"
+H2_100_BlazingTrial_C3/NodeID_6,Trials?,Probak?
+H2_100_BlazingTrial_C3/NodeID_7,How many trials do I still have left before meeting Sean?,Zenbat proba egin behar ditut Sean-ekin topo egiteko?
+H2_100_BlazingTrial_C3/NodeID_8,Two more challenges lay ahead: Dexterity and Endurance.,Bi erronka dituzu aurretik: Trebezia eta Erresistentzia.
+H2_100_BlazingTrial_C3/NodeID_9,But I’m afraid you’ll be too late for the final trial.,Baina azken probarako berandu zabiltzala uste dut.
+H2_100_BlazingTrial_C3/NodeID_10,Fight me!,Borrokatu nirekin!
+H2_100_BlazingTrial_C3/NodeID_11,This battle isn’t over yet.,Borroka hau oraindik ez da amaitu.
+H2_100_BlazingTrial_C3/NodeID_12,You are a fast learner.,Ikasle azkarra zara.
+H2_110_FireDiscipleRing_C/NodeID_4,Pick up your weapon.,Aukeratu arma bat.
+H2_110_FireDiscipleRing_C2/NodeID_2,As you wish.,Nahi duzun bezala.
+H2_130_BattleRoyal_C/NodeID_8,"End of the road for you, the trial is finished.","Zure bidea hemen bukatzen da, proba amaitu da."
+H2_130_BattleRoyal_C/NodeID_9,"The Burning ceremony has begun, no outsider allowed.","Erreketa zeremonia hasi da, ez da kanpotarrik onartzen."
+H2_Boss_Sean_P1toP2/NodeID_2,You’re almost as good as Yang.,Ia Yang bezain ona zara.
+H2_Boss_Sean_P1toP2/NodeID_3,I thought he was unchallenged at that old bastard’s school.,Uste nuen ez zuela zahar eroaren eskolan bere pareko aurkaririk.
+H2_Boss_Sean_P1toP2/NodeID_4,Who are you?,Nor zara zu?
+H2_Boss_Sean_P1toP2/NodeID_6,"Don't you know?",Ez dakizu?
+H2_Boss_Sean_P1toP2/NodeID_9,Have you not figured it out by now?,Oraindik ez zara ohartu?
+H2_Boss_Sean_P1toP2/NodeID_10,"Enough games, let’s put an end to this show.","Akabo jokoak, buka dezagun antzerki honekin."
+H2_Boss_Sean_P1toP2/NodeID_8,A ghost from your past.,Zure iraganeko mamu bat.
+H2_Boss_Sean_P1toP2/NodeID_11,"A ghost from your past, here to put an end to this sideshow.","Zure iraganeko mamu bat, antzerki honi amaiera emateko etorria."
+H2_Boss_Sean_P1toP2/NodeID_12,You picked the wrong person to haunt.,Okerreko pertsona aurrean agertu zara bada.
+H3_000_DetectiveElevatorFailed/NodeID_2,Need to find the key first.,Giltza aurkitu behar dut lehenengo.
+H3_000_DetectiveStairsFailed/NodeID_2,Locked. Looks like I’ll need to go through the exhibition.,Itxita. Erakusteketatik pasatu behar dudala dirudi.
+H3_010_Fight1_C/NodeID_3,Eyes on the target in the atrium. Everyone get into position.,Atarian ikusi dut jomuga. Denak zuen posizioetara.
+H3_010_Fight1_Part2_C/NodeID_2,It was foolish of you to come here.,Ergelkeria izan da hona etortzea.
+H3_010_Fight2_A/NodeID_2,Should be around here!,Hemen ingurua egon behar du!
+H3_020_Fight1_C/NodeID_6,"You’re {ListenerGender}|gender(him,her), aren’t you? You’re the one that took down Sean.","Zu zara, ezta? Zu zara Sean garaitu zuena."
+H3_020_Fight1_C/NodeID_17,You’ll suffer for dishonoring him.,Bera desohoratzeagatik sufrituko duzu!
+H3_020_Fight3_Stairs_C/NodeID_2,There! Downstairs!,Hor! Behean!
+H3_030_DetectiveDoorFailed/NodeID_2,He must have the card on him.,Txartela berak izan behar du.
+H3_030_Fight2_C/NodeID_10,I must see her.,Ikusi beharra dut.
+H3_030_Fight2_C/NodeID_11,I only wish to meet her.,Bera ikustea besterik ez dut nahi.
+H3_030_Fight2_C/NodeID_12,"I told you, Kuroki will not speak with you or anyone else.","Esan dizut, Kuroki-k ez du zurekin edo beste inorekin hitz egingo."
+H3_030_Fight2_C/NodeID_13,"For the last time, step aside.","Azkenengoz, alde hemendik."
+H3_030_Fight2_C/NodeID_15,"She can't escape.",Ezin du ihes egin.
+H3_030_Fight2_C/NodeID_16,Nobody outruns their past. Not even her.,Inork ez du bere iragana ahazten. Ezta berak ere.
+H3_030_Fight2_C/NodeID_17,Wrong. She left this path and you won’t pull her back in!,Oker zaude. Berak bide hau utzi zuen eta ez duzu berriz itzultzea egingo!
+H3_050_SpeakerTextBeforeFight_C/NodeID_3,...  believed that if we took the time to stand outside in the rain...,"...  uste nuen kanpoan zutik, euritan denbora nahikoa igaroz gero..."
+H3_050_SpeakerTextBeforeFight_C/NodeID_11,...  it would cleanse us both physically and spiritually.,...  fisikoki eta espiritualki garbituko gintuela
+H3_050_SpeakerTextBeforeFight_C/NodeID_10,Water has the power to finally set us free.,Urak gu aske egiteko boterea du.
+H3_050_SpeakerTextInterruptFight_C/NodeID_2,"But like the darkness itself, we must first embrace it.","Baina iluntasuna bera bezala, lehenengo besarkatu egin behar dugu."
+H3_050_SpeakerTextInterruptFight_C/NodeID_10,Or the shadows of the past consume us whole.,Edo iraganeko itzalek erabat kontsumituko gaituzte.
+H3_050_SpeakerTextMidFight_C/NodeID_2,... it represents birth and the cleansing of a darkened soul;,... ilundutako arimaren jaiotza eta garbitzea adierazten du;
+H3_050_SpeakerTextMidFight_C/NodeID_4,water is the key to being reborn.,ura da berriz jaiotzeko gakoa.
+H3_050_SpeakerTextMidFight_C/NodeID_3,It is considered redemptive in nature...,Berezko askatzailea da...
+H3_070_Fight_C/NodeID_2,“The mind is like an iceberg...,“Gogoa iceberg bat bezala da...
+H3_070_Fight_C/NodeID_12,"... it floats with one-seventh of its bulk above water.""","... zazpiren bat besterik ez dago uraren gainetik."""
+H3_070_Fight_C/NodeID_7,Our consciousness is merely the tip of the iceberg.,Gure kontzientzia iceberg-aren punta besterik ez da.
+H3_070_Fight_C/NodeID_11,We must dive beneath the waters to explore the subconscious.,Uretan sakon sartu behar dugu gure subkontzientea esploratzeko.
+H3_070_Fight_C/NodeID_13,To face the past.,Iraganari aurre egiteko.
+H3_Boss_Phase2_1/NodeID_2,I know a hundred ways to kill you.,Zu hiltzeko ehun modu dakizkit.
+H3_Boss_Phase2_1/NodeID_3,You should have run when she gave you the chance.,Aukera eman dizunean egin behar zenuen alde.
+H4_000_Escort_A/NodeID_2,"She's waiting for you.","Jinfeng zain duzu."
+H4_000_Lift_C/NodeID_2,Gonna enjoy this.,Honetaz gozatuko dut.
+H4_000_Welcome_To_Mc_1_A/NodeID_2,"{ListenerGender}|gender(Sir,Madam).","{ListenerGender}|gender(Jauna,Anderea)."
+H4_000_Welcome_To_Mc_2_A/NodeID_2,"Welcome, {ListenerGender}|gender(Sir,Madam).","Ongi etorri, {ListenerGender}|gender(Jauna,Anderea)."
+H4_015_Fengjie_Monologue_End_A/NodeID_2,"Unfortunately, I don't think you'll have that opportunity.","Zoritzarrez, ez dut uste aukera hori izango duzunik."
+H4_015_Fengjie_Welcomes_The_Mc_A/NodeID_2,"Don't be shy, come closer so I can get a better look at you.","Ez izan lotsatia, zatoz hurbilago zu hobeki ikusi ahal izateko."
+H4_015_Guards_Threat_A/NodeID_2,"Take {ListenerGender}|gender(him,her) out!",Bota ezazue hemendik!
+H4_015_MC_Lift_A/NodeID_2,Need to find another way down.,Beherako beste bide bat aurkitu behar dut.
+H4_031_Offices_A/NodeID_6,Everyone into position!,Denak zuen posizioetan!
+H4_031_Offices_A/NodeID_8,Shut down all entrances and exits!,Itxi sarrera eta irteera guztiak!
+H4_061_Fengjie_A/NodeID_3,I see you.,Ikusten zaitut.
+H4_061_Fengjie_A/NodeID_4,We see you.,Ikusten zaitugu.
+H4_062_Fengjie_A/NodeID_2,You cannot escape. You are trapped.,Ezin duzu ihes egin. Harrapatuta zaude.
+H4_062_MeetingRoom_A/NodeID_8,... Strike hard and fast. We must be swift and just--,... Kolpatu gogor eta azkar. Honek azkarra izan behar du eta--
+H4_062_MeetingRoom_C/NodeID_7,"Intruder! Take {ListenerGender}|gender(him,her) down!","Kanpotarra! Libratu berataz!"
+H4_062_WhereDidMcGo_A/NodeID_2,"Did you see where {ListenerGender}|gender(he,she) went?",Ikusi duzue nora joan den?
+H4_062_WhereDidMcGo_A/NodeID_3,"Stairs, maybe?",Eskaileretara?
+H4_062_WhereDidMcGo_A/NodeID_4,"Don't see anything. You?",Ez dut ezer ikusi. Zuk?
+H4_062_WhereDidMcGo_A/NodeID_5,Nothing. Keep searching.,Ezer ez. Segi bilatzen.
+H4_090_Fengjie_A/NodeID_2,Come and face your judgment.,Etorri eta egin aurre zure epaiari.
+H4_090_MC_Jump_A/NodeID_5,!,!
+H4_090_MC_Jump_A/NodeID_2,I can reach the shaft.,Igogailu-zulora iritsi naiteke.
+H4_105_Big_Guy_Jumps_On_The_Lift_A/NodeID_2,Get outta my way.,Kendu nire paretik.
+H4_105_Big_Guy_Jumps_On_The_Lift_A/NodeID_3,"I'll deal with this.",Nire kontu.
+H4_105_LiftFight_A/NodeID_2,Squad Nine on its way.,Bederatzigarren patruila bidean.
+H4_105_WhereDidMcGo_A/NodeID_2,"Squad Seven, {ListenerGender}|gender(he,she)'s in the elevator shaft.","Zazpigarren patruila, igogailu-zuloan dago."
+H4_105_WhereDidMcGo_A/NodeID_5,"Repeat, {ListenerGender}|gender(he,she)'s in the shaft.","Berriro diot, igogailu-zuloan dago."
+H4_105_WhereDidMcGo_A/NodeID_3,"Send Squad Nine, send them now!","Bidali bederatzigarren patruila, azkar!"
+H4_180_Lieutenant_A/NodeID_2,The Guardians.,Zaindariak.
+H4_180_Lieutenant_A/NodeID_3,This made-up order who kept for themselves what belongs to the people.,"Ordena inprobisatu bat besterik ez da, herriarena dena bereganatu nahi duena."
+H4_180_Lieutenant_A/NodeID_5,But truth always finds its way.,Baina egiak beti aurkitzen du bere bidea.
+H4_180_Lieutenant_A/NodeID_22,And so does justice.,Baita justiziak ere.
+H4_240_Lieutenant_A/NodeID_4,"To each crime its punishment, and to each punishment its weapon.","Krimen bakoitzari bere zigorra, eta zigor bakoitzari bere arma."
+H4_240_Lieutenant_A/NodeID_6,My father...,Nire aitak...
+H4_240_Lieutenant_A/NodeID_8,My father never did anything wrong.,Nire aitak inoiz ez zuen ezer txarrik egin.
+H4_240_Lieutenant_A/NodeID_10,He should have done better.,Hobeki egin behar zuen.
+H4_240_Lieutenant_A/NodeID_7,"You're guilty.",Erruduna zara.
+H4_240_Lieutenant_A/NodeID_9,The only person guilty of a crime is you.,Krimen baten errudun bakarra zu zara!
+H4_300_MC_Jump_A/NodeID_5,!,!
+H4_300_MC_Jump_A/NodeID_2,"There's no other way, this must be it.","Ez dago beste biderik, horrela izan bedi."
+H5_003_FirstYangDisciple_C/NodeID_3,Welcome to the Sanctuary.,Ongi etorri Santutegira
+H5_003_FirstYangDisciple_C/NodeID_18,This is a place for broken bodies and spirits.,Leku hau puskatutako gorputz eta arimentzako da.
+H5_003_FirstYangDisciple_C/NodeID_19,"Everyone is welcome,","Denak dira ongi etorriak,"
+H5_003_FirstYangDisciple_C/NodeID_20,as long as they step through our door with humility and peace.,ate hau umiltasun eta soseguz pasatzen badute.
+H5_010_HallWelcome_A/NodeID_2,"Greetings, can I help you {ListenerGender}|gender(sir,madam)?","Agur t'erdi, zertan lagun zaitzaket {ListenerGender}|gender(jauna,anderea)?"
+H5_010_HallWelcome_A/NodeID_9,No.,Ez.
+H5_010_HallWelcome_A/NodeID_14,No need.,Ez da beharrik.
+H5_010_HallWelcome_A/NodeID_4,Yang.,Yang.
+H5_010_HallWelcome_A/NodeID_6,Where is Yang?,Non dago Yang?
+H5_010_HallWelcome_A/NodeID_11,He’s in his office meditating.,Bulegoan meditatzen ari da.
+H5_010_HallWelcome_A/NodeID_13,"It's the highest building, just keep going up.","Eraikinik altuena da, igotzen jarraitzea besterik ez duzu."
+H5_020_Restaurant_C/NodeID_2,I’m afraid the restaurant’s closed.,"Jatetxea itxita dago, sentitzen dut."
+H5_030_Room_patient_A/NodeID_2,Are you here for the cure? They say this place works miracles.,Sendagaiarengatik zaude hemen? Leku honek mirariak gertatzen direla diote.
+H5_030_Room_patient_A/NodeID_29,Really?,Benetan?
+H5_030_Room_patient_A/NodeID_31,They do ?,Hala da?
+H5_030_Room_patient_A/NodeID_32,"Everyone who comes here,","Hona datorren orok,"
+H5_030_Room_patient_A/NodeID_33,leaves this place free of what they walked through those doors with.,ateak gurutzatzean zekarren zamatik aske uzten du leku hau atzean.
+H5_030_Room_patient_A/NodeID_34,Even the ones with time no longer on their side...,Baita denbora beraien alde ez dutenek ere...
+H5_030_Room_patient_A/NodeID_35,People just like you and me.,Zu eta ni bezalako jendeak.
+H5_030_Room_patient_A/NodeID_37,Good luck.,Zorte on.
+H5_030_Room_patient_A/NodeID_48,Good luck.,Zorte on.
+H5_030_Room_patient_A/NodeID_52,"I hope you find what you're looking for.","Bila zabiltzana aurkitzea epsero dut."
+H5_030_Room_patient_A/NodeID_53,Thank you.,Eskerrik asko.
+H5_030_Room_patient_A/NodeID_39,Hard to believe.,Sinesteko zaila.
+H5_030_Room_patient_A/NodeID_44,I find that hard to believe.,Hori sinestea zaila egiten zait.
+H5_030_Room_patient_A/NodeID_45,"Well, I did hear of people vanishing from here...","Tira, jendea hemendik desagertu izan dela entzun dut..."
+H5_030_Room_patient_A/NodeID_46,Maybe belief is what they lacked.,Agian sinestea falta izan zitzaien.
+H5_030_Room_patient_A/NodeID_50,I must go.,Joan egin behar dut.
+H5_030_Room_patient_A/NodeID_40,I must go.,Joan egin behar dut.
+H5_030_Room_patient_A/NodeID_30,I must go.,Joan egin behar dut.
+H5_030_Room_patient_A/NodeID_42,"Sorry, I don't have time for this.","Barkatu, ez dut honetarako astirik."
+H5_030_Room_patient_A/NodeID_43,"No time? Isn't that why we're all here?",Denborarik ez? Ez al gaude guztiok hemen horrexegatik?
+H5_031_Room_Broomer_C/NodeID_2,These rooms are for our “special” guests.,Gela hauek gure gonbidatu “berezientzat” dira.
+H5_031_Room_Broomer_C/NodeID_15,Let me show you to yours.,Utzidazu zure erakusten.
+H5_032_Room_Balcony_C/NodeID_2,Come forward please.,"Etorri, mesedez."
+H5_032_Room_Balcony_C/NodeID_3,"I never saw {ListenerGender}|gender(him,her) around.",Ez nuen inoiz hemen ikusia.
+H5_032_Room_Balcony_C/NodeID_4,"Isn’t {ListenerGender}|gender(he,she) one of the unfit?",Onartu gabeko bat ote da?
+H5_032_Room_Balcony_C/NodeID_13,"No, {ListenerGender}|gender(he,she)’s a special guest.","Ez, gonbidatu berezi bat da."
+H5_040_GymSituation_C/NodeID_2,Let’s wrap up today’s lesson.,Gaurko klasea bukatu da.
+H5_040_GymSituation_C/NodeID_4,I need to greet our guest.,Gure gonbidatua agurtu behar dut.
+H5_050_Acupuncture_C/NodeID_2,It is an honor to meet you.,Ohorea da zu ezagutzea.
+H5_050_Acupuncture_C/NodeID_6,Your treatment has been prepared.,Zure tratamendua prest dago.
+H5_060_Sauna_C/NodeID_2,You need to be purged.,Garbitu egin behar zaitugu.
+H5_060_Sauna_C/NodeID_13,Relax and enjoy your session.,Erlaxatu eta gozatu sesioaz.
+H5_070_ToWuxingHouse_C/NodeID_2,The journey of a thousand miles begins with a single step.,Milaka kilometrotako bidaia pausu bakarrarekin hasten dira.
+H5_070_ToWuxingHouse_C/NodeID_16,Your final test will begin here.,Zure azken proba hemen hasiko da.
+H5_070_ToWuxingHouse_C3/NodeID_2,To reveal the path you must truly let go.,"Bidea ikusteko, atzean utzi behar duzu."
+H5_070_ToWuxingHouse_C3/NodeID_16,Only then will the clouds begin to lift.,Orduan bakarrik hasiko dira lainoak joaten.
+H5_070_ToWuxingHouse_C3/NodeID_17,The awakening beckons.,Esnatzea deika ari da.
+H5_080_LookAtFresques/NodeID_4,!,!
+TauntMC_Old_01/NodeID_2,"I'm waiting",Zain nago
+TauntMC_Old_02/NodeID_2,Shall we?,Hasiko gara?
+TauntMC_Old_03/NodeID_2,Actions speak louder than words.,Ekintzak hitzak baino ozenago mintzatzen dira.
+TauntMC_Old_04/NodeID_2,"You're a disgrace to your art.",Zure artearentzako lotsaizuna zara.
+TauntMC_Young_01/NodeID_2,Bring it on!,Aurrera!
+TauntMC_Young_02/NodeID_2,Come on!,Goazen!
+TauntMC_Young_03/NodeID_2,Come at me!,Zatoz nigana!
+TauntMC_Young_04/NodeID_2,"Don't waste my time.",Ez niri denbora galduarazi.
+TauntMC_Young_05/NodeID_2,Think you stand a chance?,Aukerarik duzula uste duzu?
+TauntYang_01/NodeID_2,Come at me.,Zatoz nigana.
+TauntYang_02/NodeID_2,Talk is cheap.,Hitz egitea erraza da.

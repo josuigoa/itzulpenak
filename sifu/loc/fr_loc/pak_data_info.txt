@@ -1,0 +1,1 @@
+"/home/josu/git/itzulpenak/sifu/loc/fr_loc/Sifu/*" "../../../Sifu/"

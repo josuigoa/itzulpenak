@@ -21,9 +21,9 @@ extract_unity_lang/*
 hidden_folks/itzuli_js/node_modules/*
 sifu/extracted/*
 sifu/extracted_backup/*
+sifu/pakchunk*
 world_of_horror/*
 fez/*
 dead_cells/node/*
 dead_cells/orig/*
 luanti/*
-sifu/pakchunk*

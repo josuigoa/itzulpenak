@@ -1,0 +1,21 @@
+Punish -> Zigortu
+Stun -> Zorabiatu
+Daze -> Nahasi
+
+Parry -> Aldaratu
+Deflect -> Baztertu
+Takedown -> Eraitsi
+Dodge -> Saihestu
+Arena -> Lekua (entrenatzeko lekua?)????
+
+Sanctuary -> Santutegia
+Shrine -> Tenplua (ez da tenplua, biño hola utzi bilaketa erraxago itteko). Jokuan ageri diren jainkuakiri eskainitako estatua ttikiyak dire.
+            Estatuilla
+
+
+
+ERREPASATU:
+
+Shrine (tenplua)
+Arena (ARENA, maiuskulaz)
+Craving the Lion's Share (al cesar lo que es del cesar)
