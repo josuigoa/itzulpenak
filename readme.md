@@ -37,3 +37,5 @@
   * [instalazioa](./lost_in_play/)
 * Hidden Folks
   * [instalazioa](./hidden_folks/)
+* Dead Cells
+  * [instalazioa](./dead_cells/)
