@@ -12,6 +12,12 @@
 * Burger Party
   * [f-droid](https://f-droid.org/packages/com.agateau.burgerparty/)
   * [Google Play](https://play.google.com/store/apps/details?id=com.agateau.burgerparty)
+* Hurry Curry!
+  * [https://hurrycurry.metamuffin.org/](https://hurrycurry.metamuffin.org/)
+* Luanti
+  * [Tutoriala](https://content.luanti.org/packages/Wuzzy/tutorial/)
+  * [Minetest Game](https://content.luanti.org/packages/Luanti/minetest_game/)
+  * [Mineclonia](https://content.luanti.org/packages/ryvnf/mineclonia/)
 
 ## EZ OFIZIALAK
 
