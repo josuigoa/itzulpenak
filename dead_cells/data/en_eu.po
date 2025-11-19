@@ -377,7 +377,7 @@ msgstr "HITCHCOCK: Txoriak, txoriak edonon!"
 #: src/Lang.hx:731
 msgid ""
 "FOG: Warning, deadly invisible monsters may be hidden by dense fog, travel at your own risk."
-msgstr "LAINOA: Kontuz, munstro hilkor ikusezinak ezkutuan egon daitezke lainoan, kasu eman."
+msgstr "LAINOA: Kontuz, munstro hiltzaile ikusezinak ezkutuan egon daitezke lainoan, kasu eman."
 
 #. --------
 #. msgid "TIREURS : essayez de ne pas prendre un tir dans la tête."
@@ -1419,7 +1419,7 @@ msgstr "Hil gutxienez 100 zelula daramatzazula. Erre."
 #. msgid "Faire une attaque plongeante... et atterrir dans des piques mortelles !"
 #: src/Lang.hx:936
 msgid "A downward smash attack... right into some deadly spikes!"
-msgstr "Beheranzko talka erasoa... ziri hilkorretara hain justu!"
+msgstr "Beheranzko talka erasoa... ziri hilgarrietara hain justu!"
 
 #. --------
 #. msgid "Vous avez terminé le jeu avec l'épée, l'arc, ou le bouclier de départ."
@@ -4555,7 +4555,7 @@ msgstr "Hazi Txarra"
 
 #: src/tool/DLC.hx:230
 msgid "Fatal Falls"
-msgstr "Erorketa Hilkorrak"
+msgstr "Erorketa Hilgarriak"
 
 #: src/tool/DLC.hx:231
 msgid "The Queen and the Sea"
@@ -4567,7 +4567,7 @@ msgstr "Erregina eta Itsasoa"
 #. msgid "CHANGE_TITLESCREEN_DLCP"
 #: src/tool/DLC.hx:232
 msgid "Return to Castlevania"
-msgstr "Castlevaniara itzulera"
+msgstr "Castlevaniara Itzulera"
 
 #. --------
 #. msgid "Nécessite le DLC ::dlcName::"

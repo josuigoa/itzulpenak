@@ -259,7 +259,7 @@ msgstr "HITCHCOCK: Txoriak, txoriak edonon!"
 
 #: src/Lang.hx:731
 msgid "BRUMES : gare aux monstres invisibles !"
-msgstr "LAINOA: Kontuz, munstro hilkor ikusezinak ezkutuan egon daitezke lainoan, kasu eman!"
+msgstr "LAINOA: Kontuz, munstro hiltzaile ikusezinak ezkutuan egon daitezke lainoan, kasu eman!"
 
 #: src/Lang.hx:732
 msgid "TIREURS : essayez de ne pas prendre un tir dans la tête."
@@ -967,7 +967,7 @@ msgstr "Hil gutxienez 100 zelula daramatzazula. Erre."
 
 #: src/Lang.hx:936
 msgid "Faire une attaque plongeante... et atterrir dans des piques mortelles !"
-msgstr "Beheranzko talka erasoa... ziri hilkorretara hain justu!"
+msgstr "Beheranzko talka erasoa... ziri hilgarrietara hain justu!"
 
 #: src/Lang.hx:937
 msgid "Vous avez terminé le jeu avec l'épée, l'arc, ou le bouclier de départ."
@@ -3049,7 +3049,7 @@ msgstr "Hazi Txarra"
 
 #: src/tool/DLC.hx:230
 msgid "Fatal Falls"
-msgstr "Erorketa Hilkorrak"
+msgstr "Erorketa Hilgarriak"
 
 #: src/tool/DLC.hx:231
 msgid "The Queen and the Sea"
@@ -5039,7 +5039,7 @@ msgstr "Dead Cells"
 
 #: src/ui/Options.hx:700
 msgid "CHANGE_TITLESCREEN_DLCP"
-msgstr "Castlevaniara itzulera"
+msgstr "Castlevaniara Itzulera"
 
 #: src/ui/Options.hx:707
 msgid "U29_SYNERGY_FEEDBACK"
