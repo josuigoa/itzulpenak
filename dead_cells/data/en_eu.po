@@ -12437,7 +12437,7 @@ msgstr "Nagusia izatea gustatuko litzaizuke?"
 #. msgid "::user:: s'est proposé(e) en premier !"
 #: src/tool/vote/BecomeBoss.hx:27 src/tool/vote/BecomeChicken.hx:31
 msgid "::user:: was the first to put his hand up!"
-msgstr "::user:. erabiltzaileak eskua altxa du!"
+msgstr "::user:: erabiltzaileak eskua altxatu du!"
 
 #. --------
 #. msgid "::num:: personne en lice !"
@@ -16082,7 +16082,7 @@ msgstr "Dorretxo Astuna"
 #: res/data.cdb:item/#2.gameplayDesc
 msgid "Shoots at nearby enemies. You inflict +::prct::% more damage if you're near the turret."
 msgstr ""
-"Hurbileko etsaiei egiten die tiro. +:%:prct:: min handiagoa emango duzu dorretxotik hurbil "
+"Hurbileko etsaiei egiten die tiro. +%::prct:: min handiagoa emango duzu dorretxotik hurbil "
 "bazaude."
 
 #. CeilTurret (name)
@@ -17513,7 +17513,7 @@ msgid ""
 "{critical hits@CC} and accelerates sharply after passing through you."
 msgstr ""
 "Gainazaletan errebotatu eta bote bakoitzean azkarrago mugituko den harri magiko bat bota. "
-"{Kolpe kritikoa@CC} eragiten du eta zugan igaro orduko azeleratu egingo du."
+"{Kolpe kritikoak@CC} eragiten ditu eta zugan igaro orduko azeleratu egingo du."
 
 #. BouncingStone (ambiantDesc)
 #.
@@ -23125,7 +23125,7 @@ msgid ""
 "Killing an enemy with a melee attack reduces the damage you take by ::+prct::% for ::duration:: "
 "sec. Can stack up to ::prct2::%. Also makes you immune to stuns."
 msgstr ""
-"Etsai bat buruz-buruko eraso bidez hiltzen baduzu, jasoko duzun minaren %::+pcrt:: murriztuko "
+"Etsai bat buruz-buruko eraso bidez hiltzen baduzu, jasoko duzun minaren %::+prct:: murriztuko "
 "da ::duration:: segundoz. Gehienez %::prct2:: lor dezakezu. Gainera zorabioei immune izango "
 "zara."
 
@@ -23177,7 +23177,7 @@ msgstr "Hiltzen Ez Nauenak"
 #. msgid "Recupère ::+prct::% PV après avoir {paré@PA} une attaque de corps à corps."
 #: res/data.cdb:item/#397.gameplayDesc
 msgid "Recover ::+prct::% HP after {parrying@PA} a melee attack."
-msgstr "Berreskuratu %::+pcrt:: HP buruz-buruko eraso bat {aldaratu@PA} eta gero."
+msgstr "Berreskuratu %::+prct:: HP buruz-buruko eraso bat {aldaratu@PA} eta gero."
 
 #. P_HealOnKill (name)
 #.
@@ -23506,7 +23506,7 @@ msgid ""
 "Amount of kills required to remove a curse is reduced by ::prct::%, but consuming food curses "
 "you."
 msgstr ""
-"Madarikazioa kentzeko beharrezko hilketa kopurua ere %::prct2:: murrizten du, baina jateak "
+"Madarikazioa kentzeko beharrezko hilketa kopurua ere %::prct:: murrizten du, baina jateak "
 "madarikatu egiten zaitu."
 
 #. P_Traps (name)
@@ -28731,7 +28731,7 @@ msgstr "Biktimak laino {toxiko@TO} bat askatuko du kolpe bakoitzean."
 #. msgid "Attaquer juste après une {parade@PA} inflige +::prct::% dégâts."
 #: res/data.cdb:affix/#103.desc
 msgid "Attacking just after a {parry@PA} inflicts +::prct::% damage."
-msgstr "{Aldaratze@PA} bat egin orduko erasotzeak +%::pcrt:: mina emango du."
+msgstr "{Aldaratze@PA} bat egin orduko erasotzeak +%::prct:: mina emango du."
 
 #. IceArmor (desc)
 #.
@@ -40796,21 +40796,21 @@ msgstr "Huts egindako erronkak"
 #. --------
 #. msgid "+::prct::% dégâts sur objets {ROUGES@BR}."
 msgid "+::prct::% damage with {RED@BR} items."
-msgstr "+%::pcrt:: mina objektu {GORRIEKIN@BR}"
+msgstr "+%::prct:: mina objektu {GORRIEKIN@BR}"
 
 #. Deprecated
 #.
 #. --------
 #. msgid "+::prct::% dégâts sur objets {MAUVES@TA}."
 msgid "+::prct::% damage with {PURPLE@TA} items."
-msgstr "+%::pcrt:: mina objektu {MOREEKIN@TA}"
+msgstr "+%::prct:: mina objektu {MOREEKIN@TA}"
 
 #. Deprecated
 #.
 #. --------
 #. msgid "+::prct::% dégâts sur objets {VERTS@SU}."
 msgid "+::prct::% damage with {GREEN@SU} items."
-msgstr "+%::pcrt:: mina objektu {BERDEEKIN@SU}"
+msgstr "+%::prct:: mina objektu {BERDEEKIN@SU}"
 
 #. Deprecated
 #.

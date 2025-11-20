@@ -23,7 +23,7 @@ sifu/extracted/*
 sifu/extracted_backup/*
 world_of_horror/*
 fez/*
-dead_cells/node/*
-dead_cells/orig/*
+dead_cells/dc_workshop*
+dead_cells/lang/
 luanti/*
 sifu/pakchunk*
