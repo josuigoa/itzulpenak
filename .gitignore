@@ -22,7 +22,8 @@ hidden_folks/itzuli_js/node_modules/*
 sifu/extracted/*
 sifu/extracted_backup/*
 world_of_horror/*
-fez/*
+fez/jokoa
+fez/scripts/FEZRepacker.exe
 dead_cells/dc_workshop*
 dead_cells/lang/
 luanti/*

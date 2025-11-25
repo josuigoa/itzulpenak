@@ -45,3 +45,5 @@
   * [instalazioa](./hidden_folks/)
 * Dead Cells
   * [instalazioa](./dead_cells/)
+* FEZ
+  * [instalazioa](./fez/)
