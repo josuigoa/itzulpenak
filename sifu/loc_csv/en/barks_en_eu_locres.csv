@@ -1,0 +1,450 @@
+key,source,target
+BARKS_Subtitles/AttackNotWorking_Yang_YangAllPhase_03,A waste of your time.,Denbora galtzen ari zara.
+BARKS_Subtitles/Spare_Fengjie_FengjieAllPhase_02,A wasted opportunity.,Galdutako aukera bat.
+BARKS_Subtitles/FullLife_Fajar_FajarP1Only_01,ANGRY GROWL 1,MARMAR GOGORRA 1
+BARKS_Subtitles/FullLife_Fajar_FajarP2Only_01,ANGRY GROWL 2,MARMAR GOGORRA 2
+BARKS_Subtitles/MCRez_NotFirst_Bodyguard_HideoutAll_04,Again!?,Berriro?
+BARKS_Subtitles/MCRez_NotFirst_Flashkick_HideoutAll_03,Again!?,Berriro?
+BARKS_Subtitles/MCRez_NotFirst_Sean_SeanAllPhase_01,Again!?,Berriro?
+BARKS_Subtitles/Alerted_MCThreatening_Grunt_HideoutAllBut5_05,Alright then...,Ederki bada...
+BARKS_Subtitles/Alerted_MCThreatening_KungFuStudent_Hideout0_03,Alright then...,Ederki bada...
+BARKS_Subtitles/Alerted_MCThreatening_Grunt_HideoutAllBut5_03,"Alright, let's go.","Ongi da, goazen."
+BARKS_Subtitles/MCRez_NotFirst_FireDisciple_HideoutAll_04,"Alright. That one's the last time.",Oso ongi. Hau da azken aldia.
+BARKS_Subtitles/MCDominated_Grunt_HideoutAll_05,Any regrets now?,Baduzu damurik?
+BARKS_Subtitles/MCDominated_Flashkick_HideoutAll_02,Are those your best moves?,Horiek dira zure kolperik onenak?
+BARKS_Subtitles/FullLife_Kuroki_KurokiP1Only_03,Are we fighting or dancing?,Borrokan edo dantzan ari gara?
+BARKS_Subtitles/Sanctuary_FireDisciple_HideoutAll_02,Are you afraid of me?,Nire beldur zara?
+BARKS_Subtitles/Alerted_GenericIntruder_FireDisciple_Hideout2_03,Are you fast enough?,Nahikoa azkarra al zara?
+BARKS_Subtitles/FullLife_Kuroki_KurokiP2Only_02,Are you fast enough?,Nahikoa azkarra al zara?
+BARKS_Subtitles/Spare_Sean_SeanAllPhase_02,Are you kidding me?,Txantxetan ari zara?
+BARKS_Subtitles/MCDominated_Flashkick_HideoutAll_03,Are you nervous?,Urduri al zaude?
+BARKS_Subtitles/Alerted_GenericSearched_Bodyguard_HideoutAll_01,Are you ready?,Prest zaude?
+BARKS_Subtitles/ReactionTakedown_Flashkick_HideoutAll_03,Argh!,Argh!
+BARKS_Subtitles/Alerted_MCClose_Flashkick_HideoutAll_03,Argh! Shit!,Argh! Kaka!
+BARKS_Subtitles/MCRez_NotFirst_Sean_SeanP2Only_01,As stubborn as our elder masters.,Gure maisu zaharrak bezain burugogorra.
+BARKS_Subtitles/Alerted_GenericSearched_Flashkick_Hideout4_04,At last... Some action!,Azkenean... ekintza pixka bat!
+BARKS_Subtitles/MCDominating_Bodyguard_HideoutAll_02,At least one tough opponent.,Aurkari gogor bat behitzat.
+BARKS_Subtitles/Alerted_MCThreatening_BigGuy_HideoutAllBut5_02,"Back away, fool. ","Urrundu zaitez, kaikua."
+BARKS_Subtitles/Alerted_MCThreatening_Grunt_HideoutAllBut5_04,Back the fuck up! ,"Urruntzeko, ergela!"
+BARKS_Subtitles/Alerted_MCAttacking_Bodyguard_HideoutAllBut5_03,Bad idea.,Ideia txarra.
+BARKS_Subtitles/Alerted_MCThreatening_Grunt_Hideout5_01,"Be careful {ListenerGender}|gender(sir,madam).","Kasu eman, {ListenerGender}|gender(jauna,anderea)."
+BARKS_Subtitles/MCPickWeapon_Grunt_HideoutAll_04,"Be careful!{ListenerGender}|gender(He's,She's) got a weapon!",Kasu eman! Arma bat dauka!
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout5_06,Be my guest.,Gustu handiz.
+BARKS_Subtitles/Alerted_MCThreatening_Grunt_Hideout5_02,Be my guest.,Gustu handiz.
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout1_01,"Came to the wrong place, pal.","Okerreko lekura etorri zara, lagun."
+BARKS_Subtitles/FullLife_Kuroki_KurokiP2Only_01,Can you keep up?,Erritmoa jarrai dezakezu?
+BARKS_Subtitles/MCRez_NotFirst_Bodyguard_HideoutAll_01,"Can't be real...",Ezin da egia izan...
+BARKS_Subtitles/MCRez_NotFirst_FireDisciple_HideoutAll_02,"Can't be real...",Ezin da egia izan...
+BARKS_Subtitles/MCRez_NotFirst_Flashkick_HideoutAll_05,"Can't be real...",Ezin da egia izan...
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout2_07,"Can't you see there's no place for you here?","Ez al zara ohartu hemen ez dagoela zuretzako lekurik?"
+BARKS_Subtitles/MCRez_First_Kuroki_KurokiP2Only_01,Clearly not fast enough.,Argi dago ez zarela nahikoa azkarra.
+BARKS_Subtitles/LastMan_Grunt_HideoutAll_05,"Come 'ere! ",Zatoz hona!
+BARKS_Subtitles/LastMan_Grunt_HideoutAll_02,Come at me!,Zatoz nigana!
+BARKS_Subtitles/Sanctuary_Grunt_HideoutAll_02,Come at me!,Zatoz nigana!
+BARKS_Subtitles/Alerted_MCEscape_FireDisciple_HideoutAllBut5_02,Come back and fight!,Itzuli eta borrokatu!
+BARKS_Subtitles/Alerted_MCEscape_Flashkick_HideoutAllBut5_01,Come back!,Itzulia!
+BARKS_Subtitles/Sanctuary_Flashkick_HideoutAll_02,Come here!,Zatoz hona!
+BARKS_Subtitles/Sanctuary_Grunt_HideoutAll_01,Come here!,Zatoz hona!
+BARKS_Subtitles/Alerted_GenericSearched_BigGuy_Hideout4_03,Come here.,Zatoz hona.
+BARKS_Subtitles/Alerted_MCAttacking_BigGuy_HideoutAllBut5_03,Come here.,Zatoz hona.
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout1_03,Come into our place!?,Baimenik gabe zatoz!?
+BARKS_Subtitles/LastMan_Bodyguard_HideoutAll_03,Come on!,Tira!
+BARKS_Subtitles/Sanctuary_Bodyguard_HideoutAll_02,Come on!,Tira!
+BARKS_Subtitles/Sanctuary_Grunt_HideoutAll_03,Come on! Hit me!,Tira! Jo nazazu!
+BARKS_Subtitles/MCDominated_FireDisciple_HideoutAll_02,Come on! Wake up!,Tira! Esnatu!
+BARKS_Subtitles/Alerted_MCThreatening_Bodyguard_Hideout5_01,"Come on, come to me.","Tira, zatoz nigana."
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout2_03,"Come on, hit me.","Tira, jo nazazu."
+BARKS_Subtitles/FullLife_Kuroki_KurokiP2Only_04,"Come on, keep up with me.","Tira, jarraitu nire erritmoa."
+BARKS_Subtitles/Alerted_GenericIntruder_FireDisciple_Hideout2_01,"Come on, show me what you got.","Tira, ea zertarako gai zaren."
+BARKS_Subtitles/Alerted_MCEscape_FireDisciple_HideoutAllBut5_04,"Come on, stick around. ","Tira, egon hemen. "
+BARKS_Subtitles/Alerted_GenericIntruder_Flashkick_Hideout2_04,"Come on, try and hit me. ","Tira, saiatu ni jotzen."
+BARKS_Subtitles/Alerted_MCAttacking_Flashkick_HideoutAllBut5_04,"Come on, try and hit me. ","Tira, saiatu ni jotzen."
+BARKS_Subtitles/DefensePhase_Yang_YangAllPhase_03,"Come on. Try harder, you fool!","Tira. Saiatu gogorrago, urde ilupa!"
+BARKS_Subtitles/Sanctuary_BigGuy_HideoutAll_01,"Come out and face me, coward!","Zatoz eta egidazu aurre, kakati hori!"
+BARKS_Subtitles/Sanctuary_FireDisciple_HideoutAll_01,"Come over here. There's space for us to fight.","Zatoz hona. Badugu borrokatzeko lekua."
+BARKS_Subtitles/Alerted_MCClose_Flashkick_HideoutAll_06,Crap!,Putza!
+BARKS_Subtitles/MCDominating_FireDisciple_HideoutAll_03,"Damn, you're fast.","Madarikatua, azkarra zara."
+BARKS_Subtitles/MCDominating_Grunt_HideoutAll_02,"Damn, {ListenerGender}|gender(He,She)'s on fire!","Malapartatu hau geldiezina da!"
+BARKS_Subtitles/MCRez_First_Grunt_HideoutAll_06,Damn... Thought it was over.,"Kaka zaharra... bukatu zela uste nuen."
+BARKS_Subtitles/Alerted_MCClose_Grunt_HideoutAll_01,Damnit! ,Kaka zaharra! 
+BARKS_Subtitles/Alerted_MCClose_KungFuStudent_Hideout0_01,Damnit! ,Kaka zaharra! 
+BARKS_Subtitles/Alerted_MCThreatening_FireDisciple_HideoutAllBut5_02,Dare threaten me?,Ni mehatxatzen ausartzen zara?
+BARKS_Subtitles/MCDominated_BigGuy_HideoutAll_01,Did you forget how to fight?,"Borrokan ahaztu zaizu, ala?"
+BARKS_Subtitles/SpecialAttack_Kuroki_KurokiP2Only_10,Die slowly!,Hil zaitez poliki!
+BARKS_Subtitles/SpecialAttack_Kuroki_KurokiP2Only_11,Die!,Hil zaitez!
+BARKS_Subtitles/DefensePhase_Yang_YangAllPhase_01,Do better. Try harder!,Egizu hobeki. Saiatu gogorrago!
+BARKS_Subtitles/Alerted_GenericSearched_Flashkick_Hideout3_01,Do not approach Lady Kuroki.,Ez zaitez Kuroki Anderearengana hurbildu.
+BARKS_Subtitles/FullLife_Yang_YangP1Only_03,Do not play games with me.,Ez nirekin jolasean aritu.
+BARKS_Subtitles/FullLife_Yang_YangP1Only_04,Do not play these kinds of games with me.,Ez zaitez nirekin horrelako jolastean aritu.
+BARKS_Subtitles/MCRez_NotFirst_Sean_SeanAllPhase_03,Do you enjoy these beatings?,Horrelako egurrak gustuko dituzu?
+BARKS_Subtitles/FullLife_Fengjie_FengjieP1Only_01,Do you ever plan on hitting me?,Ni noizbait jotzeko planik ba al duzu?
+BARKS_Subtitles/Alerted_MCThreatening_Flashkick_HideoutAllBut5_04,"Don't be foolish. ",Ez izan ergela. 
+BARKS_Subtitles/AttackNotWorking_Yang_YangAllPhase_01,"Don't bother trying that on me.",Ez zaitez saiatu ere.
+BARKS_Subtitles/Alerted_MCThreatening_Bodyguard_HideoutAllBut5_02,"Don't do it. ",Ez ezazu hori egin. 
+BARKS_Subtitles/Alerted_MCAttacking_KungFuStudent_Hideout0_03,"Don't do this!",Ez ezazu hori egin!
+BARKS_Subtitles/ThrowCancel_Yang_YangAllPhase_02,"Don't ever try that again.",Ezta okurritu ere berriz saiatzea.
+BARKS_Subtitles/FullLife_Fengjie_FengjieP2Only_01,"Don't get too cocky.",Ez izan harroa.
+BARKS_Subtitles/Alerted_GenericSearched_Flashkick_Hideout4_01,"Don't go any further! ",Ez eman pausu bat ere gehiago!
+BARKS_Subtitles/Alerted_MCEscape_Grunt_HideoutAllBut5_05,"Don't go too far!",Ez joan urrunegi!
+BARKS_Subtitles/Spare_Yang_YangAllPhase_04,"Don't insult me by trying to spare me.",Ez nazazu iraindu errukia erakusten saiatuz.
+BARKS_Subtitles/AttackNotWorking_Yang_YangAllPhase_04,"Don't insult me with that move.",Ez nazazu mugimendu horrekin iraindu.
+BARKS_Subtitles/Alerted_GenericSearched_KungFuStudent_Hideout0_03,"Don't let him go!",Ez iezaiozue ihes egiten utzi!
+BARKS_Subtitles/Alerted_GenericSearched_BigGuy_Hideout3_02,"Don't make me run.",Ez iezadazu korri eginarazi.
+BARKS_Subtitles/Alerted_GenericSearched_BigGuy_Hideout5_02,"Don't mind me {ListenerGender}|gender(sir,lady).","Aizu, {ListenerGender}|gender(jauna,anderea)."
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout4_02,"Don't move!",Ez mugitu!
+BARKS_Subtitles/AttackNotWorking_Yang_YangAllPhase_02,"Don't waste your time.",Ez ezazu zure denbora galdu.
+BARKS_Subtitles/Alerted_GenericSearched_Bodyguard_Hideout5_03,"Don't worry, you'll feel better afterward.","Ez arduratu, gero hobeki sentituko zara."
+BARKS_Subtitles/MCRez_NotFirst_Grunt_HideoutAll_02,"Don't you ever fucking die?","Ez al zara inoiz hiltzen?"
+BARKS_Subtitles/Alerted_MCThreatening_Bodyguard_HideoutAllBut5_04,"Don't.","Ez."
+BARKS_Subtitles/MCPickWeapon_Flashkick_HideoutAll_01,Drop it!,Bota ezazu!
+BARKS_Subtitles/MCPickWeapon_Bodyguard_HideoutAll_01,"Drop the weapon {ListenerGender}|gender(sir,madam).","Bota ezazu arma {ListenerGender}|gender(jauna,anderea)."
+BARKS_Subtitles/MCPickWeapon_Grunt_HideoutAll_05,Drop your weapon!,Bota ezazu arma!
+BARKS_Subtitles/DefensePhase_Yang_YangAllPhase_02,Eight years? Come on!,Zortzi urte? Bai zera!
+BARKS_Subtitles/MCRez_NotFirst_Fengjie_FengjieAllPhase_05,Enjoying the bitter taste of death?,Heriotzaren zapore garratza gustatzen?
+BARKS_Subtitles/MCDominating_FireDisciple_HideoutAll_02,Enough with the games!,Bukatu dira jolasak!
+BARKS_Subtitles/LastMan_Bodyguard_HideoutAll_02,Fight me!,Borrokatu nire aurka!
+BARKS_Subtitles/LastMan_Grunt_HideoutAll_01,Fight me!,Borrokatu nire aurka!
+BARKS_Subtitles/MCRez_First_Flashkick_HideoutAll_03,Fine! Get up!,Ongi! Altxa zaitez!
+BARKS_Subtitles/FullLife_Yang_YangP2Only_01,"Fine, let's see how you handle my Pak Mei.","Ederki, ea nola daramazun nire Pak Mei-a."
+BARKS_Subtitles/Alerted_MCThreatening_FireDisciple_HideoutAllBut5_01,Fine.,Ongi.
+BARKS_Subtitles/Alerted_GenericIntruder_Flashkick_Hideout2_01,"First time I've seen you here.","Ikusten zaitudan lehenengo aldia da."
+BARKS_Subtitles/FullLife_Fengjie_FengjieP2Only_03,"Flashy, I'll give you that.","Ikusgarria behintzat bada."
+BARKS_Subtitles/Alerted_MCThreatening_FireDisciple_HideoutAllBut5_03,Fool.,Ergela.
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout4_05,Found the target.,Jomuga aurkituta.
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout1_06,"Fuck you doin' in here, pal?","Ze demontre zabiltza hemen, txo?"
+BARKS_Subtitles/Alerted_MCAttacking_Grunt_HideoutAllBut5_04,Fuck!,Kaka!
+BARKS_Subtitles/Alerted_MCClose_Bodyguard_HideoutAll_01,Fuck!,Kaka!
+BARKS_Subtitles/SeanBurst_Sean_SeanAllPhase_01,GROWL,MARMAR
+BARKS_Subtitles/Spare_Fajar_FajarAllPhase_01,GROWL,MARMAR
+BARKS_Subtitles/Alerted_MCEscape_Flashkick_HideoutAllBut5_03,Get back here!,Itzul zaitez hona!
+BARKS_Subtitles/Alerted_MCThreatening_KungFuStudent_Hideout0_01,Get him!,Har ezazue!
+BARKS_Subtitles/Sanctuary_Bodyguard_HideoutAll_01,Get out here and face me!,Atera zaitez eta egidazu aurre!
+BARKS_Subtitles/Sanctuary_Flashkick_HideoutAll_01,Get out of there!,Atera hortik!
+BARKS_Subtitles/Alerted_MCEscape_ArchAll_HideoutAllBut5_02,Get over here! ,Zatoz hona!
+BARKS_Subtitles/MCRez_First_FireDisciple_HideoutAll_05,"Get up. I'm ready.",Altxa zaitez. Prest nago.
+BARKS_Subtitles/Alerted_MCAttacking_Grunt_HideoutAllBut5_07,Goddamnit!,Madarikatua!
+BARKS_Subtitles/MCRez_NotFirst_Grunt_HideoutAll_06,"Goddamnit, would you just die!","Madarikatua, ez al zara hilko!"
+BARKS_Subtitles/LastMan_Grunt_HideoutAll_03,Gonna enjoy this.,Hau gozatu egingo dut.
+BARKS_Subtitles/Alerted_MCAttacking_BigGuy_HideoutAllBut5_01,Gonna pop your head like a zit. ,Burua lehertuko dizut. 
+BARKS_Subtitles/Alerted_GenericSearched_BigGuy_Hideout5_01,"Good morning {ListenerGender}|gender(sir,lady).","Egun on {ListenerGender}|gender(jauna,anderea)."
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout5_03,"Good morning {ListenerGender}|gender(sir,madam).","Egun on {ListenerGender}|gender(jauna,anderea)."
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout3_05,"Got eyes on {ListenerGender}|gender(him,her).","Ikusi dut."
+BARKS_Subtitles/MCRez_First_Flashkick_HideoutAll_02,"Haven't you had enough?",Ez al duzu nahikoa izan?
+BARKS_Subtitles/MCRez_First_Grunt_HideoutAll_02,"Haven't you had enough?",Ez al duzu nahikoa izan?
+BARKS_Subtitles/Alerted_MCEscape_BigGuy_HideoutAllBut5_02,"Heh heh... Run, little {ListenerGender}|gender(boy,girl)!","Heh heh... Egin korri, {ListenerGender}|gender(mutiko,neskato) txiki!"
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout1_05,Hey you!,Aizu!
+BARKS_Subtitles/Alerted_GenericSearched_ArchAll_HideoutAll_01,Hey!,Aizu!
+BARKS_Subtitles/Alerted_MCEscape_ArchAll_HideoutAllBut5_01,"Hey! Don't you move!",Aizu! Ez zaitez mugitu!
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout1_02,"Hey! How'd you get in here?",Aizu! Nola sartu zara hemen?
+BARKS_Subtitles/Alerted_GenericIntruder_Flashkick_Hideout2_02,"Hey, can I help you?","Aizu, lagundu zaitzaket?"
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout2_05,"Hey, this is a private party, fool.","Aizu, hau festa pribatua da, baboa."
+BARKS_Subtitles/Alerted_MCEscape_Grunt_HideoutAllBut5_04,"Hey, where are you going?","Aizu, nora zoaz?"
+BARKS_Subtitles/Alerted_GenericSearched_Flashkick_Hideout4_03,"Hey, you! Don't move!","Eh, zu! Ez mugitu!"
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout2_01,"Hey, you! Wanna fight?","Eh, zu! Borrokatu nahi?"
+BARKS_Subtitles/FullLife_Sean_SeanP1Only_03,Hit me!,Jo nazazu!
+BARKS_Subtitles/ReactionTakedown_Flashkick_HideoutAll_01,Holy fuck!,Ostia!
+BARKS_Subtitles/ReactionTakedown_Grunt_HideoutAll_01,Holy shit!,Kaka zaharra
+BARKS_Subtitles/MCRez_NotFirst_BigGuy_HideoutAll_03,How can you get up after that?,Nola altxa zaitezke horren ondoren?
+BARKS_Subtitles/MCRez_First_Kuroki_KurokiP1Only_02,How did you survive my blades?,Nola biziraun diezu nire xaflei?
+BARKS_Subtitles/Alerted_MCClose_BigGuy_HideoutAll_01,"How'd you--!?",Baina nola...!?
+BARKS_Subtitles/BreakStructure_Yang_YangAllPhase_03,Hu! This is pathetic.,Oh! Hau errukarria da.
+BARKS_Subtitles/BreakStructure_Yang_YangAllPhase_01,"Hu, pathetic.","Oh, errukarria."
+BARKS_Subtitles/BreakStructure_Yang_YangAllPhase_02,"Hu, you're pathetic.","Oh, errukarria zara."
+BARKS_Subtitles/Alerted_MCClose_Flashkick_HideoutAll_01,Huh,Eh?
+BARKS_Subtitles/LastMan_Bodyguard_HideoutAll_01,"Huh. You're not too bad.","Kar. Ez dago gaizki."
+BARKS_Subtitles/Alerted_MCClose_BigGuy_HideoutAll_04,Huh?!,Eh?!
+BARKS_Subtitles/Alerted_MCClose_FireDisciple_HideoutAll_01,Huh?!,Eh?!
+BARKS_Subtitles/SpecialAttack_Yang_YangAllPhase_01,"I bet Sifu didn't teach you this one!",Ziur Sifuk ez zizula hau irakatsi!
+BARKS_Subtitles/SpecialAttack_Yang_YangAllPhase_03,"I bet your dead father didn't think to teach you this.",Ziur zure hildako aitak ez zizula hau irakatsi!
+BARKS_Subtitles/MCRez_First_Bodyguard_HideoutAll_02,I can do this all day.,Egun guztia eman nezake horrela.
+BARKS_Subtitles/Alerted_GenericSearched_Bodyguard_Hideout5_02,I can relieve you of your pain.,Zure minari bukaera eman diezaioket.
+BARKS_Subtitles/MCRez_NotFirst_Yang_YangAllPhase_04,I can see your body giving up on you.,Zure gorputza amore ematen hasi dela ikusten dut.
+BARKS_Subtitles/Sanctuary_BigGuy_HideoutAll_02,I can wait all day long for you.,Eguna horrela eman nezake.
+BARKS_Subtitles/Alerted_GenericIntruder_BigGuy_Hideout2_01,"I can't let you go any further.",Ezin dizut urrunago joaten utzi.
+BARKS_Subtitles/ThrowCancel_Yang_YangAllPhase_04,"I don't think so, fool.","Ezetz uste dut, baboa."
+BARKS_Subtitles/ThrowCancel_Yang_YangAllPhase_03,"I don't think so.",Ezetz uste dut.
+BARKS_Subtitles/Alerted_GenericSearched_Bodyguard_HideoutAll_04,"I have a visual on {ListenerGender}|gender(him,her).",Non dagoen ikusi dut.
+BARKS_Subtitles/Alerted_GenericSearched_Bodyguard_HideoutAll_05,I have a visual! ,Ikusten dut! 
+BARKS_Subtitles/MCRez_NotFirst_Kuroki_KurokiP2Only_04,I have no issues killing you a hundred times over!,Ez dut arazorik zu mila aldiz hiltzeko!
+BARKS_Subtitles/MCDominated_Grunt_HideoutAll_03,I pity you.,Erruki zaitut.
+BARKS_Subtitles/MCRez_First_Fengjie_FengjieAllPhase_01,I suspect your immortality will be quite the problem.,Zure hilezkortasuna arazo izango dela susmatzen dut.
+BARKS_Subtitles/MCRez_NotFirst_Kuroki_KurokiP1Only_02,I will put an end to your quest for vengeance.,Zure mendeku bilaketarekin bukatuko dut.
+BARKS_Subtitles/Sanctuary_FireDisciple_HideoutAll_03,"I won't be led into your trap.",Ez nauzu zure tranpan harrapatuko.
+BARKS_Subtitles/SpecialAttack_Sifu_SifuP2Only_01,"I won't let you leave this place alive this time.",Oraingoan ez dizut hemendik bizirik joaten utziko.
+BARKS_Subtitles/Spare_Yang_YangAllPhase_03,"I wouldn't have done that for you.","Zu banintz, ez nukeen horrelakorik egingo."
+BARKS_Subtitles/MCDominating_Bodyguard_HideoutAll_03,"I'll be the one to take you down.",Ni izango naiz zurekin akabatuko duena.
+BARKS_Subtitles/Alerted_GenericSearched_BigGuy_Hideout5_03,"I'll be with you in a moment.",Oraintxe izango naiz zurekin.
+BARKS_Subtitles/Alerted_MCAttacking_BigGuy_Hideout5_01,"I'll be with you in a moment.",Oraintxe izango naiz zurekin.
+BARKS_Subtitles/Alerted_MCThreatening_BigGuy_Hideout5_01,"I'll be with you in a moment.",Oraintxe izango naiz zurekin.
+BARKS_Subtitles/SpecialAttack_Kuroki_KurokiP2Only_06,"I'll bleed you dry.",Odolustuko zaitut.
+BARKS_Subtitles/SpecialAttack_Kuroki_KurokiP2Only_09,"I'll bleed you dry...",Odolustuko zaitut...
+BARKS_Subtitles/Alerted_GenericSearched_BigGuy_Hideout3_03,"I'll crush you",Zapaldu egingo zaitut.
+BARKS_Subtitles/MCRez_NotFirst_Fengjie_FengjieAllPhase_03,"I'll crush you all over again.",Behin eta berriz zapalduko zaitut.
+BARKS_Subtitles/MCRez_First_Flashkick_HideoutAll_04,"I'll crush you!",Zapaldu egingo zaitut!
+BARKS_Subtitles/Alerted_MCAttacking_BigGuy_HideoutAllBut5_02,"I'll crush you.",Zapaldu egingo zaitut.
+BARKS_Subtitles/MCRez_NotFirst_Fengjie_FengjieP2Only_02,"I'll destroy you and your selfish quest for vengeance!",Zu eta zure mendeku gose zeurekoia deuseztatuko zaituztet!
+BARKS_Subtitles/LastMan_BigGuy_HideoutAll_02,"I'll enjoy this. ",Honekin gozatuko dut.
+BARKS_Subtitles/Alerted_MCEscape_FireDisciple_Hideout5_01,"I'll go first... If you don't mind.",Ni lehenengo... ez badizu axola.
+BARKS_Subtitles/SpecialAttack_Kuroki_KurokiP2Only_05,"I'll kill you!",Hil egingo zaitut!
+BARKS_Subtitles/Alerted_MCAttacking_KungFuStudent_Hideout0_01,"I'll make you pay for that!",Horregatik ordainduko duzu!
+BARKS_Subtitles/Alerted_MCAttacking_Grunt_HideoutAllBut5_03,"I'll make you pay.",Ordainduko duzu.
+BARKS_Subtitles/Alerted_MCAttacking_FireDisciple_HideoutAllBut5_04,"I'm always looking to test my might.",Beti nago nire indarra probatzeko gogoz.
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout4_07,"I'm engaging the target.",Jomugara hurbiltzen ari naiz.
+BARKS_Subtitles/FullLife_Sean_SeanP2Only_02,"I'm getting tired of this shit!",Kaka honekin nazkatzen hasita nago!
+BARKS_Subtitles/MCRez_First_Bodyguard_HideoutAll_04,"I'm impressed.",Harrituta naukazu.
+BARKS_Subtitles/MCDominating_BigGuy_HideoutAll_02,"I'm the one who's going to stop you.",Zu geldituko zaituena naiz.
+BARKS_Subtitles/Sanctuary_Grunt_HideoutAll_04,"I'm waiting for you!",Zure zain nago!
+BARKS_Subtitles/Sanctuary_Bodyguard_HideoutAll_03,"I'm waiting for you.",Zure zain nago.
+BARKS_Subtitles/Alerted_GenericSearched_BigGuy_Hideout4_01,"I've found the target. ",Jomuga topatu dut. 
+BARKS_Subtitles/Alerted_GenericSearched_Flashkick_Hideout4_02,"I've located the target. ",Jomuga aurkitu dut. 
+BARKS_Subtitles/MCDominating_FireDisciple_HideoutAll_01,"I've longed for a battle like this.",Aspalditik nengoen horrelako borroka baten zain.
+BARKS_Subtitles/MCRez_NotFirst_Yang_YangAllPhase_05,"I've saved so many lives since taking your father's, but you won't accept that. You are blinded by vengeance!","Bizitza asko salbatu ditut zure aitarena hartu nuenetik, baina ez duzu onartu nahi. Mendekuak erabat itsuturik zauzka!"
+BARKS_Subtitles/MCRez_NotFirst_BigGuy_HideoutAll_04,Impossible...,Ezinezkoa...
+BARKS_Subtitles/MCRez_NotFirst_FireDisciple_HideoutAll_01,Impossible...,Ezinezkoa...
+BARKS_Subtitles/ReactionTakedown_Grunt_HideoutAll_02,Insane!,Erokeria da!
+BARKS_Subtitles/MCDominating_Bodyguard_HideoutAll_01,Interesting... An actual warrior.,Interesgarria... borrokan dakien norbait.
+BARKS_Subtitles/MCRez_First_Kuroki_KurokiP1Only_01,Interesting... Have you defeated death itself?,Interesgarria... Heriotza bera ere garaitu al duzu?
+BARKS_Subtitles/LastMan_FireDisciple_HideoutAll_03,Is that all you got?,Hori da dena?
+BARKS_Subtitles/Spare_Sean_SeanAllPhase_01,Is this a joke?,Txantxa bat da?
+BARKS_Subtitles/LastMan_Flashkick_HideoutAll_03,It ends here... now.,Hemen bukatuko da... orain.
+BARKS_Subtitles/Alerted_GenericSearched_KungFuStudent_Hideout0_01,"It's Yang! ",Yang da!
+BARKS_Subtitles/Alerted_GenericSearched_FireDisciple_Hideout5_02,"It's an honor to finally meet you.","Ohorea da azkenean zu topatzea."
+BARKS_Subtitles/Alerted_GenericSearched_Flashkick_Hideout5_01,"It's an honor to have you here.",Ohorea da zu hemen izatea.
+BARKS_Subtitles/Alerted_MCThreatening_FireDisciple_Hideout5_01,"It's an honor.",Ohorea da.
+BARKS_Subtitles/LastMan_BigGuy_HideoutAll_03,"It's over for you. ",Bukatu da.
+BARKS_Subtitles/MCRez_NotFirst_Flashkick_HideoutAll_01,"It... it can't be...",Ez... ez da posible...
+BARKS_Subtitles/MCRez_NotFirst_Grunt_HideoutAll_03,Just stay down.,Geldi zaitez lurrean.
+BARKS_Subtitles/FullLife_Sean_SeanP1Only_02,Just throw a damn punch!,"Emaidazu ukabilkada bat, ostia!"
+BARKS_Subtitles/Alerted_MCThreatening_Flashkick_HideoutAllBut5_03,Keep your distance.,Mantendu distantzia.
+BARKS_Subtitles/Alerted_GenericSearched_Flashkick_Hideout3_03,"Lady Kuroki doesn't want to be disturbed.","Kuroki Andereak ez du inork eragozterik nahi."
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout3_02,"Lady Kuroki doesn't want to be disturbed.",Kuroki Andereak ez du inork eragozterik nahi.
+BARKS_Subtitles/MCDominated_Bodyguard_HideoutAll_03,Let me end this fight now.,Utzidazu honekin orain bukatzen.
+BARKS_Subtitles/Alerted_MCAttacking_Bodyguard_Hideout5_01,Let me get rid of that tension for you.,Utzidazu zure tentsio horrekin bukatzen.
+BARKS_Subtitles/Alerted_GenericSearched_FireDisciple_HideoutAll_01,Let the fire rise.,Hazi dadila sua.
+BARKS_Subtitles/MCRez_NotFirst_Sean_SeanAllPhase_02,"Let's end this.",Buka dezagun honekin.
+BARKS_Subtitles/Alerted_GenericSearched_Bodyguard_HideoutAll_02,"Let's fight.",Egin dezagun borroka.
+BARKS_Subtitles/LastMan_Flashkick_HideoutAll_02,"Let's finish this. ",Buka dezagun honekin.
+BARKS_Subtitles/Alerted_MCThreatening_Flashkick_HideoutAllBut5_02,"Let's go. ",Aurrera. 
+BARKS_Subtitles/Alerted_GenericSearched_Flashkick_Hideout5_03,"Life is hard, stressful... Please rest.","Bizitza gogorra eta estresagarria da... Mesedez, hartu atseden."
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout1_04,Look what we have. Only a fool would come here. ,Begira zer dugun hemen. Ero bat bakarrik etorriko litzateke hona.
+BARKS_Subtitles/Alerted_GenericSearched_FireDisciple_Hideout3_01,Looking for someone?,Norbaiten bila?
+BARKS_Subtitles/Alerted_GenericSearched_FireDisciple_Hideout3_03,Looking for something?,Zerbaiten bila?
+BARKS_Subtitles/Alerted_GenericSearched_FireDisciple_Hideout3_04,Looking for the exit?,Irteeraren bila?
+BARKS_Subtitles/Alerted_MCAttacking_Grunt_Hideout5_01,"May I help you {ListenerGender}|gender(sir,madam)?","Laguntzarik behar, {ListenerGender}|gender(jauna,anderea)?"
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout5_05,"May I take you to your room, {ListenerGender}|gender(sir,madam)?","Zure gelara laguntzea nahi duzu, {ListenerGender}|gender(jauna,anderea)?"
+BARKS_Subtitles/Alerted_GenericIntruder_BigGuy_Hideout2_03,"My hands'll crush you. ",Nire eskuekin txikituko zaitut. 
+BARKS_Subtitles/Spare_Kuroki_KurokiP2Only_02,My patience is wearing thin.,Nire pazientzia agortzen ari da.
+BARKS_Subtitles/MCRez_NotFirst_Kuroki_KurokiP1Only_05,My patience wears thin!,Nire pazientziak muga bat du!
+BARKS_Subtitles/MCDominated_Grunt_HideoutAll_01,Nerves get the better of you?,Urduri al zaude?
+BARKS_Subtitles/Alerted_GenericSearched_Flashkick_Hideout5_02,"Nice to see you here, {ListenerGender}|gender(sir,lady).","Plazera zu hemen ikustea, {ListenerGender}|gender(jauna,anderea)?"
+BARKS_Subtitles/ReactionTakedown_Grunt_HideoutAll_03,"No freakin' way!",Ez da posible!
+BARKS_Subtitles/MCDominating_Flashkick_HideoutAll_03,No way!,Ezta pentsatu ere!
+BARKS_Subtitles/MCDominating_Grunt_HideoutAll_04,"No way--no fuckin' way!","Ez adarrik jo, arraioa!"
+BARKS_Subtitles/ReactionTakedown_Flashkick_HideoutAll_02,No way...,Ez da izango...
+BARKS_Subtitles/ReactionTakedown_KungFuStudent_Hideout0_01,No! ,Ez! 
+BARKS_Subtitles/MCRez_NotFirst_Flashkick_HideoutAll_04,"No! No, not again! ","Ez! Ez, berriro ez! "
+BARKS_Subtitles/MCDominated_Grunt_HideoutAll_04,Not so tough after all.,Azken finean ez zara hain indartsua.
+BARKS_Subtitles/Alerted_MCEscape_BigGuy_Hideout5_01,"Not this way, {ListenerGender}|gender(sir,madam).","Hemendik ez da, {ListenerGender}|gender(jauna,anderea)."
+BARKS_Subtitles/Alerted_GenericSearched_Bodyguard_Hideout4_04,Nothing personal.,Ez da pertsonala.
+BARKS_Subtitles/MCRez_NotFirst_Sean_SeanP2Only_02,Now I understand how you were able to defeat the mute...,Orain ulertzen den dut nola menderatu ahal izan zenuen mutua...
+BARKS_Subtitles/FullLife_Yang_YangP2Only_02,"Now, let's see how you handle my Pak Mei.","Ea nola daramazun nire Pak Mei-a."
+BARKS_Subtitles/ReactionTakedown_Grunt_HideoutAll_05,Oh man...,Bai zera...
+BARKS_Subtitles/MCDominating_Grunt_HideoutAll_01,Oh shit!,Kaka zaharra!
+BARKS_Subtitles/Alerted_MCThreatening_Grunt_HideoutAllBut5_02,"Okay, let's do this. ","Tira, egin dezagun. "
+BARKS_Subtitles/Alerted_MCThreatening_Grunt_HideoutAllBut5_07,"Okay, then...","Tira, orduan..."
+BARKS_Subtitles/Alerted_GenericSearched_FireDisciple_HideoutAll_02,Only the strong survive.,Indartsuen bizirauten dute.
+BARKS_Subtitles/MCDominated_FireDisciple_HideoutAll_03,"Pathetic, you can barely keep up.","Errukarria, nekez mantentzen zara zutik."
+BARKS_Subtitles/FullLife_Sean_SeanP1Only_01,Pathetic. Have you forgotten how to hit someone?,"Errukarria. Norbait nola jo behar den ahaztu duzu, ala?"
+BARKS_Subtitles/Alerted_MCAttacking_Grunt_Hideout5_02,"Please, be my guest.","Mesedez, utzidazu."
+BARKS_Subtitles/Alerted_GenericSearched_FireDisciple_Hideout5_03,"Please, let me help you.","Mesedez, utzidazu laguntzen."
+BARKS_Subtitles/Alerted_MCAttacking_FireDisciple_Hideout5_01,"Please, let me help you.","Mesedez, utzidazu laguntzen."
+BARKS_Subtitles/Alerted_MCEscape_Bodyguard_Hideout5_01,"Please, stay with me {ListenerGender}|gender(sir,ma'am).","Mesedez, zaude nirekin {ListenerGender}|gender(jauna,anderea)."
+BARKS_Subtitles/MCPickWeapon_Bodyguard_HideoutAll_02,Put it down now!,Uztazu oraintxe!
+BARKS_Subtitles/MCPickWeapon_BigGuy_HideoutAll_01,Put that down before someone gets hurt.,Utzi ezazu hori norbaitek mina hartu baino lehen.
+BARKS_Subtitles/MCPickWeapon_Flashkick_HideoutAll_03,Put that down!,Utzi arma hori!
+BARKS_Subtitles/MCPickWeapon_Grunt_HideoutAll_01,Put that down!,Utzi arma hori!
+BARKS_Subtitles/FullLife_Fengjie_FengjieP2Only_04,"Quite the showman, aren't we?","Ikusikuzinetan aritzea gustuko duzu, ezta?"
+BARKS_Subtitles/Alerted_GenericIntruder_Flashkick_Hideout2_03,Ready to have your ass kicked?,Prest al zaude jipoia hartzeko?
+BARKS_Subtitles/MCRez_First_Sean_SeanAllPhase_01,Ready? Or do you need to catch your breath?,Prest? Edo hatsa berreskuratu behar duzu?
+BARKS_Subtitles/MCRez_First_Grunt_HideoutAll_07,Really? You want some more?,Benetan? Gehiago nahi duzu?
+BARKS_Subtitles/MCRez_First_Grunt_HideoutAll_04,Round 2?,2. Round-a?
+BARKS_Subtitles/Alerted_MCEscape_FireDisciple_HideoutAllBut5_01,"Running won't save you. ",Korri egiteak ez zaitu salbatuko. 
+BARKS_Subtitles/Alerted_GenericSearched_FireDisciple_HideoutAll_03,Sean imbued me with his strength.,Sean-ek bere indarra eman zidan.
+BARKS_Subtitles/Alerted_MCClose_Grunt_HideoutAll_02,Shit!,Kaka!
+BARKS_Subtitles/MCPickWeapon_Grunt_HideoutAll_03,"Shit,{ListenerGender}|gender(he's,she's) armed!","Kaka, arma bat dauka!"
+BARKS_Subtitles/Alerted_MCAttacking_FireDisciple_HideoutAllBut5_02,"Show me what you've got.",Erakutsidazu zer duzun.
+BARKS_Subtitles/Alerted_GenericSearched_Bodyguard_Hideout3_01,"So, you're the troublemaker?","Zu zara arazoak sortu dizkidana, beraz?"
+BARKS_Subtitles/Alerted_GenericSearched_Bodyguard_Hideout4_01,"So, you're the troublemaker?","Zu zara arazoak sortu dizkidana, beraz?"
+BARKS_Subtitles/FengjieReposition_Fengjie_FengjieAllPhase_01,Something wrong?,Zer gertatzen da?
+BARKS_Subtitles/MCRez_NotFirst_ArchAll_HideoutAll_01,Stay down!,Egon hor!
+BARKS_Subtitles/MCRez_NotFirst_Grunt_HideoutAll_04,"Stay down, damnit! ","Egon hor, arraioa!"
+BARKS_Subtitles/Alerted_MCEscape_Bodyguard_HideoutAllBut5_02,"Stay put, {ListenerGender}|gender(sir,madam)!","Geldi zaitez hor, {ListenerGender}|gender(jauna,anderea)!"
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout4_06,Stay there!,Geldi hor!
+BARKS_Subtitles/Alerted_MCEscape_KungFuStudent_Hideout0_01,Stay there!,Geldi hor!
+BARKS_Subtitles/MCRez_NotFirst_Kuroki_KurokiP2Only_02,"Step by step, you inch closer to death.","Pausuz pausu, heriotzatik hurbilago zaude."
+BARKS_Subtitles/Alerted_GenericSearched_KungFuStudent_Hideout0_02,Stop him!,Geldi ezazue!
+BARKS_Subtitles/Alerted_MCAttacking_KungFuStudent_Hideout0_02,Stop it!,Gelditu!
+BARKS_Subtitles/Sanctuary_Flashkick_HideoutAll_03,Stop trying to buy time!,Utzi denbora irabazten saiatzeari!
+BARKS_Subtitles/MCDominating_Grunt_HideoutAll_03,"Stop {ListenerGender}|gender(him,her) for fuck sake!","Geldi ezazue behingoz, arraioa!"
+BARKS_Subtitles/ReactionTakedown_KungFuStudent_Hideout0_02,Stop!,Geldi!
+BARKS_Subtitles/Alerted_MCEscape_Bodyguard_HideoutAllBut5_01,"Stop, now!","Geldi, orain!"
+BARKS_Subtitles/MCRez_First_Bodyguard_HideoutAll_01,"Surrender. You can't keep fighting.",Eman amore. Ezin duzu borrokan jarraitu.
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout4_03,Target located. ,Jomuga topatuta. 
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout3_06,"Target's here!",Jomuga hemen dago!
+BARKS_Subtitles/MCDominating_Grunt_HideoutAll_05,"That can't be possible.",Ez da posible.
+BARKS_Subtitles/MCRez_NotFirst_Bodyguard_HideoutAll_02,"That can't be...",Ezin liteke...
+BARKS_Subtitles/Spare_Yang_YangAllPhase_01,That is the beginning of your end.,Orain hasiko da zure bukaera.
+BARKS_Subtitles/Alerted_MCAttacking_Flashkick_HideoutAllBut5_01,That one you get for free.,Hori doan emango dizut.
+BARKS_Subtitles/Alerted_MCAttacking_Bodyguard_HideoutAllBut5_02,That was a mistake.,Hori akats bat izan da.
+BARKS_Subtitles/MCRez_First_Sean_SeanP1Only_01,That was just the warm up.,Hori beroketa besterik ez da izan.
+BARKS_Subtitles/ThrowCancel_Yang_YangAllPhase_01,"That won't work on me, fool.","Horrek nirekin ez du balio, ergela."
+BARKS_Subtitles/MCRez_First_Yang_YangAllPhase_01,"That's all you've got? After EIGHT years of training.","Hori al da dakizun guztia? ZORTZI urtez entrenatzen aritu eta gero."
+BARKS_Subtitles/SpecialAttack_Kuroki_KurokiP2Only_07,"That's enough...",Aski da...
+BARKS_Subtitles/MCRez_First_Grunt_HideoutAll_03,"That's it, get up!","Kito, altxa zaitez!"
+BARKS_Subtitles/MCRez_NotFirst_Kuroki_KurokiP2Only_01,The end is close for you now.,Bukaera hurbil daukazu.
+BARKS_Subtitles/FullLife_Yang_YangP1Only_01,"This is a dangerous game you're playing with me.",Joko arriskutsu batean ari zara nirekin jokatzen.
+BARKS_Subtitles/DominatingMC_Yang_YangP3Only_02,This is a fight you know you cannot win.,Badakizu borroka hau ezin duzula irabazi.
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout3_01,This is as far as you go.,Ez zara hau baino urrunago joango.
+BARKS_Subtitles/Spare_Kuroki_KurokiP2Only_03,This is starting to bore me.,Aspertzen hasia naiz dagoeneko.
+BARKS_Subtitles/DominatingMC_Yang_YangP3Only_04,This is the part where I end you.,Hau da hilko zaitudan unea.
+BARKS_Subtitles/DominatingMC_Yang_YangP3Only_03,This is where I end you.,Hau da hiltzeko unea.
+BARKS_Subtitles/SpecialAttack_Kuroki_KurokiP2Only_01,This is where I kill you.,"Eta orain, hilko zaitut."
+BARKS_Subtitles/SpecialAttack_Kuroki_KurokiP2Only_02,This is where you die.,Hau da hiltzen zaren unea.
+BARKS_Subtitles/SpecialAttack_Kuroki_KurokiP2Only_03,This is your end.,Zure bukaera da.
+BARKS_Subtitles/SpecialAttack_Kuroki_KurokiP2Only_08,This is your end...,Zure bukaera da...
+BARKS_Subtitles/Alerted_GenericIntruder_BigGuy_Hideout2_02,"This part of the club's off limits.",Klubeko eremu honek sarrera mugatua du.
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout2_06,This place will crush you.,Leku honetan xehatuko zaitugu.
+BARKS_Subtitles/MCRez_NotFirst_Kuroki_KurokiP1Only_04,This time my blades will not fail.,Oraingoan nire xaflek ez dute hutsik egingo.
+BARKS_Subtitles/Alerted_MCEscape_Flashkick_Hideout5_01,"This way, {ListenerGender}|gender(sir,madam).","Hemendik, {ListenerGender}|gender(jauna,anderea)."
+BARKS_Subtitles/Alerted_MCEscape_Grunt_Hideout5_01,"This way, {ListenerGender}|gender(sir,madam).","Hemendik, {ListenerGender}|gender(jauna,anderea)."
+BARKS_Subtitles/Alerted_MCThreatening_Grunt_HideoutAllBut5_01,Threaten us?,Gu mehatxatzen?
+BARKS_Subtitles/MCDominated_BigGuy_HideoutAll_02,Too late to back out now.,Beranduegi da atzera egiteko.
+BARKS_Subtitles/LastMan_Flashkick_HideoutAll_01,"Tough {ListenerGender}|gender(guy,girl) right?","{ListenerGender}|gender(Mutil,Neska) gogorra zara, ezta?"
+BARKS_Subtitles/MCRez_NotFirst_Yang_YangAllPhase_02,Try again. Try harder.,Saiatu berriz. Saiatu gogorrago.
+BARKS_Subtitles/FullLife_Kuroki_KurokiP2Only_03,Try and keep up.,Saiatu mantentzen.
+BARKS_Subtitles/Alerted_MCAttacking_FireDisciple_HideoutAllBut5_03,Wanna fight?,Borrokatu nahi?
+BARKS_Subtitles/MCRez_First_ArchAll_HideoutAll_01,Want some more?,Gehiago nahi?
+BARKS_Subtitles/MCRez_First_BigGuy_HideoutAll_03,Want some more?,Gehiago nahi?
+BARKS_Subtitles/MCRez_First_Grunt_HideoutAll_01,Want some more?,Gehiago nahi?
+BARKS_Subtitles/MCDominating_Flashkick_HideoutAll_01,"Watch out, {ListenerGender}|gender(He,She)'s fast!","Kontuz ibili, oso azkarra da!"
+BARKS_Subtitles/MCDominating_Flashkick_HideoutAll_02,"Watch yourself, {ListenerGender}|gender(He,She)'s tough.","Kontuz ibili, oso gogorra da."
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout5_04,"We're very pleased you chose the Sanctuary for your stay.",Ohorea da guretzat zuk Santutegian gelditzea erabaki izana.
+BARKS_Subtitles/MCDominated_Bodyguard_HideoutAll_02,Weakling.,Mengela.
+BARKS_Subtitles/Alerted_MCClose_Grunt_HideoutAll_03,Wha!,Ze!
+BARKS_Subtitles/Alerted_MCClose_ArchAll_HideoutAll_01,Wha...?,Ze...?
+BARKS_Subtitles/Alerted_GenericSearched_FireDisciple_Hideout3_02,What are you doing here?,Zertan zabiltza hemen?
+BARKS_Subtitles/Alerted_MCThreatening_Grunt_HideoutAllBut5_06,"What are you doing, fool?","Zer egiten duzu hemen, ilupa?"
+BARKS_Subtitles/Alerted_MCThreatening_Bodyguard_HideoutAllBut5_01,What are you doing?,Zertan ari zara?
+BARKS_Subtitles/Alerted_MCThreatening_KungFuStudent_Hideout0_02,What are you doing?,Zertan ari zara?
+BARKS_Subtitles/FullLife_Kuroki_KurokiP1Only_01,What are you doing?,Zertan ari zara?
+BARKS_Subtitles/Sanctuary_Grunt_HideoutAll_05,What are you waiting for?,Zeren zain zaude?
+BARKS_Subtitles/Alerted_MCClose_Grunt_HideoutAll_05,What in--!?,Baina zer...?
+BARKS_Subtitles/FullLife_Kuroki_KurokiP1Only_02,"What is this you're doing?",Zertan uste duzu ari zarela?
+BARKS_Subtitles/MCRez_NotFirst_Flashkick_HideoutAll_02,What sorcery is this!?,Zein sorginkeria mota da hau!?
+BARKS_Subtitles/Alerted_MCAttacking_Grunt_HideoutAllBut5_05,What the--!?,Baina ze...!?
+BARKS_Subtitles/Alerted_MCClose_BigGuy_HideoutAll_02,What the--!?,Baina ze...!?
+BARKS_Subtitles/Alerted_MCClose_Bodyguard_HideoutAll_03,What the--!?,Baina ze...!?
+BARKS_Subtitles/Alerted_MCClose_FireDisciple_HideoutAll_03,What the--!?,Baina ze...!?
+BARKS_Subtitles/Alerted_MCClose_Flashkick_HideoutAll_05,What the--!?,Baina ze...!?
+BARKS_Subtitles/Alerted_MCClose_Grunt_HideoutAll_04,What the--!?,Baina ze...!?
+BARKS_Subtitles/MCRez_NotFirst_Grunt_HideoutAll_01,What the--!? Again?,Baina ze...!? Berriz?
+BARKS_Subtitles/MCRez_NotFirst_BigGuy_HideoutAll_01,What the--!? No way...,Baina ze...!? Ez da posible...
+BARKS_Subtitles/Alerted_MCClose_BigGuy_HideoutAll_03,What was that!?,Zer zen hori?
+BARKS_Subtitles/MCDominated_Flashkick_HideoutAll_01,"What's the matter?",Zer gertatzen da?
+BARKS_Subtitles/Alerted_MCEscape_Grunt_HideoutAllBut5_02,Where are you going?,Nora zoaz?
+BARKS_Subtitles/Alerted_MCClose_Flashkick_HideoutAll_04,Where did--!?,Non izan...!?
+BARKS_Subtitles/Alerted_MCEscape_BigGuy_HideoutAllBut5_03,"Where you going, maggot?","Nora zoaz, zizare hori?"
+BARKS_Subtitles/Alerted_MCEscape_Grunt_HideoutAllBut5_03,Where you going?,Nora zoaz?
+BARKS_Subtitles/Alerted_MCEscape_Grunt_HideoutAllBut5_01,Where you off to?,Norantz zoaz?
+BARKS_Subtitles/Alerted_MCEscape_FireDisciple_HideoutAllBut5_03,Where you running off to?,Nora zoaz ihesi?
+BARKS_Subtitles/Alerted_MCEscape_Grunt_HideoutAllBut5_06,Where you running to?,Nora zoaz korrika?
+BARKS_Subtitles/Alerted_MCClose_BigGuy_HideoutAll_05,"Where'd you--!?",Baina non...!?
+BARKS_Subtitles/Alerted_MCClose_Grunt_HideoutAll_06,"Where'd you--!?",Baina non...!?
+BARKS_Subtitles/Alerted_MCClose_Grunt_HideoutAll_07,"Where'd--!?",Non...!?
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout2_04,Who the fuck are you?,Nor demontre zara zu?
+BARKS_Subtitles/Alerted_MCClose_Grunt_HideoutAll_08,Who the--,Nor...?
+BARKS_Subtitles/Alerted_MCClose_KungFuStudent_Hideout0_03,Who the--!?,Nor...?
+BARKS_Subtitles/ReactionTakedown_Grunt_HideoutAll_04,Whoa!,Uaah!
+BARKS_Subtitles/Alerted_MCClose_Flashkick_HideoutAll_02,"Whoa, shit!","Uah, kaka!"
+BARKS_Subtitles/MCRez_NotFirst_Grunt_HideoutAll_07,"Why won't you die!?",Zergatik ez zara hiltzen?
+BARKS_Subtitles/MCRez_NotFirst_BigGuy_HideoutAll_05,"Won't you just die?","Zergatik ez zara hiltzen, eta kito?"
+BARKS_Subtitles/MCRez_NotFirst_Bodyguard_HideoutAll_03,"Won't you just die?","Zergatik ez zara hiltzen, eta kito?"
+BARKS_Subtitles/Alerted_MCThreatening_ArchAll_HideoutAllBut5_01,Wow!,Guau!
+BARKS_Subtitles/Alerted_MCClose_FireDisciple_HideoutAll_02,Y-You!,Z-Zu!
+BARKS_Subtitles/Alerted_GenericSearched_FireDisciple_Hideout5_01,Yang is waiting for you.,Yang zure zain dago.
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout5_02,Yang is waiting. Please follow me.,Yang zain dago. Jarrai nazazu.
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout5_01,Yang requested that we take care of you.,Yang-ek zutaz arduratzeko eskatu digu.
+BARKS_Subtitles/Alerted_MCClose_KungFuStudent_Hideout0_02,Yang!?,Yang!?
+BARKS_Subtitles/Spare_Kuroki_KurokiP2Only_01,You bore me.,Aspertu egiten nauzu.
+BARKS_Subtitles/Alerted_MCClose_Bodyguard_HideoutAll_05,You came!,Etorri zara!
+BARKS_Subtitles/Alerted_MCEscape_Flashkick_HideoutAllBut5_02,"You can run, but you can't hide.","Korri egin dezakezu, baina ezin zara gorde."
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout4_04,"You can run, but you can't hide...","Korri egin dezakezu, baina ezin zara gorde..."
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout3_03,"You can't beat us all.",Ezin gaituzu guztiok garaitu.
+BARKS_Subtitles/MCDominated_FireDisciple_HideoutAll_01,You disappoint me.,Huts egin didazu.
+BARKS_Subtitles/Alerted_MCThreatening_Bodyguard_HideoutAllBut5_03,"You don't want this. ","Ez duzu hau egin nahi. "
+BARKS_Subtitles/Alerted_MCThreatening_BigGuy_HideoutAllBut5_01,You got balls.,"Badauzkazu {ListenerGender}|gender(potroak,obarioak), gero."
+BARKS_Subtitles/SpecialAttack_Sifu_SifuP2Only_02,You had such promise... Now look at you.,Etorkizun handia zenuen... begiratu orain zure buruari.
+BARKS_Subtitles/MCRez_First_BigGuy_HideoutAll_01,"You impress me little {ListenerGender}|gender(guy,girl).","Harrituta utzi nauzu {ListenerGender}|gender(mutiko,neskato) txiki."
+BARKS_Subtitles/MCRez_First_FireDisciple_HideoutAll_04,You impress me.,Harritu egin nauzu.
+BARKS_Subtitles/DominatingMC_Yang_YangP3Only_01,You know victory is impossible.,Badakizu garaipena ezinezkoa dela.
+BARKS_Subtitles/Alerted_MCAttacking_FireDisciple_HideoutAllBut5_01,You lack strength.,Indarra falta duzu.
+BARKS_Subtitles/Alerted_GenericSearched_BigGuy_Hideout3_01,You look a little small.,Herbal hutsa zara. 
+BARKS_Subtitles/Alerted_GenericSearched_Bodyguard_Hideout5_01,You look a little tense. I can fix that.,Urduri ikusten zaitut. Hori moldatu dezaket.
+BARKS_Subtitles/Alerted_GenericIntruder_FireDisciple_Hideout2_02,You look like you can fight. Show me.,Borroka egin dezakezula dirudi. Erakutsi iezadazu.
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout5_07,"You look tired {ListenerGender}|gender(sir,madam), can I help you?","Nekatuta dirudizu {ListenerGender}|gender(jauna,anderea), lagundu zaitzaket?"
+BARKS_Subtitles/Alerted_MCEscape_Grunt_Hideout5_02,"You look tired {ListenerGender}|gender(sir,madam), may I help you?","Nekatuta dirudizu {ListenerGender}|gender(jauna,anderea), laguntzarik nahi?"
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout1_07,"You lookin' to score or somethin'?","Lapurtzera etorri zara, edo zer?"
+BARKS_Subtitles/MCRez_First_FireDisciple_HideoutAll_02,You must enjoy the taste of defeat.,Porrotaren zaporea gustuko duzula dirudi.
+BARKS_Subtitles/MCRez_First_Grunt_HideoutAll_05,You must enjoy the taste of defeat.,Porrotaren zaporea gustuko duzula dirudi.
+BARKS_Subtitles/MCRez_NotFirst_Yang_YangAllPhase_01,You never worked hard enough when you were young. I can see nothing has changed.,Gaztetan ez zinen inoiz nahikoa saiatzen. Ikusten dut ez zarela aldatu.
+BARKS_Subtitles/MCRez_NotFirst_Sean_SeanAllPhase_04,You should go back to training.,Entrenatzera itzuli behar zenuke.
+BARKS_Subtitles/Spare_Fengjie_FengjieAllPhase_01,You should have finished me.,Akabatu behar ninduzu.
+BARKS_Subtitles/MCDominated_Bodyguard_HideoutAll_01,You should have stayed at home.,Hobe etxean geratu bazina.
+BARKS_Subtitles/MCRez_First_BigGuy_HideoutAll_02,You should have stayed down.,Hobe geldirik egon bazina.
+BARKS_Subtitles/MCRez_First_Bodyguard_HideoutAll_03,You should have stayed down.,Hobe geldirik egon bazina.
+BARKS_Subtitles/MCRez_First_FireDisciple_HideoutAll_03,You should have stayed down.,Hobe geldirik egon bazina.
+BARKS_Subtitles/Spare_Yang_YangAllPhase_02,"You shouldn't have done that.",Ez zenuen hori egin behar.
+BARKS_Subtitles/Alerted_MCAttacking_Bodyguard_HideoutAllBut5_01,"You shouldn't have done that. ",Ez zenuen hori egin behar.
+BARKS_Subtitles/FullLife_Yang_YangP1Only_02,"You shouldn't play these kinds of games with me.",Ez zenuke horrelako jokoetan nirekin aritu behar.
+BARKS_Subtitles/MCRez_First_FireDisciple_HideoutAll_01,You want some more?,Gehixeago nahi duzu?
+BARKS_Subtitles/MCRez_First_Flashkick_HideoutAll_01,You want some more?,Gehixeago nahi duzu?
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout4_01,You will never escape this tower.,Ez duzu inoiz dorre honetatik ihes egingo.
+BARKS_Subtitles/Alerted_MCThreatening_Flashkick_HideoutAllBut5_01,"You won't get any further.",Ez zara urrun ailegatuko.
+BARKS_Subtitles/Alerted_MCEscape_BigGuy_HideoutAllBut5_01,"You won't get far!",Ez zara urrun ailegatuko!
+BARKS_Subtitles/Alerted_GenericIntruder_ArchAll_HideoutAll_01,You!,Zu!
+BARKS_Subtitles/Alerted_MCClose_Bodyguard_HideoutAll_04,You!,Zu!
+BARKS_Subtitles/Alerted_GenericIntruder_Flashkick_Hideout2_05,"You! I really don't like your face.",Zu! Ez zait zure aurpegia gustatzen.
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout3_07,You! Stay there!,Zu! Zaude hor!
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout1_08,You! Stay there.,Zu! Zaude hor.
+BARKS_Subtitles/SpecialAttack_Kuroki_KurokiP2Only_04,"You'll die now!",Orain hil egingo zara!
+BARKS_Subtitles/Alerted_MCAttacking_Flashkick_HideoutAllBut5_03,"You'll pay for that!",Horregatik ordainduko duzu!
+BARKS_Subtitles/Alerted_MCAttacking_Grunt_HideoutAllBut5_06,"You'll pay for that.",Horregatik ordainduko duzu.
+BARKS_Subtitles/Alerted_MCAttacking_Grunt_HideoutAllBut5_02,"You'll regret that. ",Damutuko duzu hori egin izana.
+BARKS_Subtitles/LastMan_FireDisciple_HideoutAll_01,"You'll suffer now.",Sufrituko duzu.
+BARKS_Subtitles/FullLife_Fengjie_FengjieP2Only_02,"You're a little too full of yourself.",Nahiko handiustekoa zara.
+BARKS_Subtitles/LastMan_BigGuy_HideoutAll_01,"You're all mine. ",Nirea zara. 
+BARKS_Subtitles/Alerted_MCAttacking_Grunt_HideoutAllBut5_01,"You're dead!",Hilda zaude!
+BARKS_Subtitles/Alerted_MCClose_Bodyguard_HideoutAll_02,"You're here.",Hemen zaude.
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout2_02,"You're in the right place if it's a fight you're after.",Leku egokian zaude borroka baldin bada nahi duzuna.
+BARKS_Subtitles/Alerted_MCAttacking_Flashkick_HideoutAllBut5_02,"You're mine.",Nirea zara.
+BARKS_Subtitles/LastMan_FireDisciple_HideoutAll_02,"You're mine. ",Nirea zara. 
+BARKS_Subtitles/MCRez_NotFirst_Kuroki_KurokiP2Only_03,"You're not as good as you think.",Ez zara uste duzuna bezain ona.
+BARKS_Subtitles/MCDominating_BigGuy_HideoutAll_01,"You're not too bad.",Ez zara hain txarra ere.
+BARKS_Subtitles/Alerted_GenericSearched_Flashkick_Hideout3_02,"You're not welcome here.",Hemen ez zara ongi etorria.
+BARKS_Subtitles/FullLife_Sean_SeanP2Only_01,"You're starting to annoy me!",Zurekin nazkatzen hasia naiz!
+BARKS_Subtitles/MCRez_NotFirst_Kuroki_KurokiP1Only_03,"You're starting to annoy me... I wouldn't recommend it.",Zurekin nazkatzen hasia naiz... hori egitea ez da gomendagarria.
+BARKS_Subtitles/MCRez_First_BigGuy_HideoutAll_04,"You've got determination, I'll give you that.","Ausarta zara, hori onartuko dizut."
+BARKS_Subtitles/SpecialAttack_Yang_YangAllPhase_02,"Your father didn't have time to teach you this.",Zure aitak ez zuen hau irakasteko denbora nahikorik izan.
+BARKS_Subtitles/MCRez_NotFirst_Fengjie_FengjieAllPhase_04,Your father would have been proud.,Zure aita harro legoke.
+BARKS_Subtitles/MCRez_NotFirst_Kuroki_KurokiP1Only_01,Your presence disturbs the serenity of this place.,Zu egote hutsak leku honen lasaitasuna aztoratzen du.
+BARKS_Subtitles/MCRez_NotFirst_Yang_YangAllPhase_03,Your reliance on your gift will be your downfall.,Zure dohainean duzun segurantza zure hondamena izango da.
+BARKS_Subtitles/LastMan_Grunt_HideoutAll_04,Your time is up now.,Denbora bukatu da.
+BARKS_Subtitles/Alerted_GenericSearched_Grunt_Hideout3_04,"{ListenerGender}|gender(He's,She's) here!",Hemen dago!
+BARKS_Subtitles/MCDominated_Grunt_HideoutAll_02,"{ListenerGender}|gender(He,She) can't keep up.",Ezin du erritmoa jarraitu.
+BARKS_Subtitles/MCPickWeapon_Flashkick_HideoutAll_02,"{ListenerGender}|gender(He,She) has a weapon!",Arma bat dauka!
+BARKS_Subtitles/MCPickWeapon_Grunt_HideoutAll_02,"{ListenerGender}|gender(He,She) has a weapon!",Arma bat dauka!
+BARKS_Subtitles/MCRez_NotFirst_BigGuy_HideoutAll_02,"{ListenerGender}|gender(He,She)'s not human!",Ez da gizakia!
+BARKS_Subtitles/MCRez_NotFirst_FireDisciple_HideoutAll_03,"{ListenerGender}|gender(He,She)'s not human!",Ez da gizakia!
+BARKS_Subtitles/Alerted_GenericSearched_Bodyguard_Hideout4_02,"{ListenerGender}|gender(Sir,Ma'am), accept your punishment.","{ListenerGender}|gender(Jauna,Anderea), onartu zure zigorra."
+BARKS_Subtitles/Alerted_GenericSearched_Bodyguard_Hideout4_03,"{ListenerGender}|gender(Sir,Ma'am), embrace justice.","{ListenerGender}|gender(Jauna,Anderea), onartu justizia."
+BARKS_Subtitles/Alerted_MCEscape_Bodyguard_HideoutAllBut5_03,"{ListenerGender}|gender(Sir,Madam), stop!","{ListenerGender}|gender(Jauna,Anderea), geldi!"
