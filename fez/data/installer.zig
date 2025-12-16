@@ -34,7 +34,7 @@ pub fn install_translation(game_path: utils.string, selected_lang_index: usize) 
         fr_gametext;
     try patch_pak(content_path, "Other.pak", "gametext", eu_gametext);
     try patch_pak(content_path, "Updates.pak", "gametext", eu_gametext);
-
+    
     const response_body = try utils.concat(&.{ "[", languages[selected_lang_index], "] ordezkatu da euskarazko itzulpena instalatzeko." });
     return utils.InstallerResponse{
         .title = "Euskaratuta",
@@ -53,9 +53,7 @@ fn patch_pak(content_path: utils.string, pak_name: utils.string, inner_filename:
     try pak_file.seekTo(0);
     const pak_content_orig = try pak_file.readToEndAlloc(std.heap.page_allocator, file_size);
 
-    if (!try utils.backup_file(content_path, pak_name)) {
-        return;
-    }
+    _ = try utils.backup_file(content_path, pak_name);
 
     if (std.mem.indexOf(u8, pak_content_orig, inner_filename)) |statictext_index| {
         const length_index = statictext_index + inner_filename.len;
