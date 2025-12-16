@@ -12,6 +12,9 @@
 * Burger Party
   * [f-droid](https://f-droid.org/packages/com.agateau.burgerparty/)
   * [Google Play](https://play.google.com/store/apps/details?id=com.agateau.burgerparty)
+* Windowkill
+  * [itch.io](https://torcado.itch.io/windowkill)
+  * [Steam](https://store.steampowered.com/app/2726450/Windowkill/)
 * Hurry Curry!
   * [https://hurrycurry.metamuffin.org/](https://hurrycurry.metamuffin.org/)
 * Luanti
