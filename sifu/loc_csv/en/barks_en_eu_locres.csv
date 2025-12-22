@@ -137,7 +137,7 @@ BARKS_Subtitles/Alerted_GenericSearched_ArchAll_HideoutAll_01,Hey!,Aizu!
 BARKS_Subtitles/Alerted_MCEscape_ArchAll_HideoutAllBut5_01,"Hey! Don't you move!",Aizu! Ez zaitez mugitu!
 BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout1_02,"Hey! How'd you get in here?",Aizu! Nola sartu zara hemen?
 BARKS_Subtitles/Alerted_GenericIntruder_Flashkick_Hideout2_02,"Hey, can I help you?","Aizu, lagundu zaitzaket?"
-BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout2_05,"Hey, this is a private party, fool.","Aizu, hau festa pribatua da, baboa."
+BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout2_05,"Hey, this is a private party, fool.","Aizu, hau festa pribatua da, babalorea."
 BARKS_Subtitles/Alerted_MCEscape_Grunt_HideoutAllBut5_04,"Hey, where are you going?","Aizu, nora zoaz?"
 BARKS_Subtitles/Alerted_GenericSearched_Flashkick_Hideout4_03,"Hey, you! Don't move!","Eh, zu! Ez mugitu!"
 BARKS_Subtitles/Alerted_GenericIntruder_Grunt_Hideout2_01,"Hey, you! Wanna fight?","Eh, zu! Borrokatu nahi?"
@@ -161,7 +161,7 @@ BARKS_Subtitles/Alerted_GenericSearched_Bodyguard_Hideout5_02,I can relieve you 
 BARKS_Subtitles/MCRez_NotFirst_Yang_YangAllPhase_04,I can see your body giving up on you.,Zure gorputza amore ematen hasi dela ikusten dut.
 BARKS_Subtitles/Sanctuary_BigGuy_HideoutAll_02,I can wait all day long for you.,Eguna horrela eman nezake.
 BARKS_Subtitles/Alerted_GenericIntruder_BigGuy_Hideout2_01,"I can't let you go any further.",Ezin dizut urrunago joaten utzi.
-BARKS_Subtitles/ThrowCancel_Yang_YangAllPhase_04,"I don't think so, fool.","Ezetz uste dut, baboa."
+BARKS_Subtitles/ThrowCancel_Yang_YangAllPhase_04,"I don't think so, fool.","Ez dut uste, astakirtena."
 BARKS_Subtitles/ThrowCancel_Yang_YangAllPhase_03,"I don't think so.",Ezetz uste dut.
 BARKS_Subtitles/Alerted_GenericSearched_Bodyguard_HideoutAll_04,"I have a visual on {ListenerGender}|gender(him,her).",Non dagoen ikusi dut.
 BARKS_Subtitles/Alerted_GenericSearched_Bodyguard_HideoutAll_05,I have a visual! ,Ikusten dut! 
