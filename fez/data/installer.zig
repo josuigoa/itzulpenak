@@ -58,7 +58,7 @@ fn patch_pak(content_path: utils.string, pak_name: utils.string, inner_filename:
     if (std.mem.indexOf(u8, pak_content_orig, inner_filename)) |statictext_index| {
         const length_index = statictext_index + inner_filename.len;
         const orig_length = try read_u32(pak_content_orig, length_index);
-        std.debug.print("{s} aurkitu da {s} fitxategian.\n", .{inner_filename, pak_name});
+        std.debug.print("[{s}] aurkitu da [{s}] fitxategian.\n", .{inner_filename, pak_name});
 
         const new_content = try std.heap.page_allocator.alloc(u8, file_size - orig_length + eu_patch.len);
 
