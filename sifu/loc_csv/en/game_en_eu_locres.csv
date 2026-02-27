@@ -169,7 +169,7 @@ Arenas_title_description/Kitchen.CHAL03.Desc,Find the artists. Get rid of them. 
 Arenas_title_description/Park.CHAL06.Desc,Find your place at the top by skillfully battling your way upstream.,Lortu goian dagokizun lekua bidean zehar trebeki borroka eginez.
 Arenas_title_description/Pit.CHAL03.Title,Fire Trial,Saio erabakigarria
 Arenas_title_description/Kitchen.CHAL05.Title,Fly in the Ointment,Eulia zopan
-Arenas_title_description/Stairs.CHAL04.Desc,"For once, you were chosen as the target. Make them regret it.","Behingoz, zu hautatu zaituzte jomugatzat. Damutu daitezela."
+Arenas_title_description/Stairs.CHAL04.Desc,"For once, you were chosen as the target. Make them regret it.","Behingoz, zu hautatu zaituzte itu moduan. Damutu daitezela."
 Arenas_title_description/Pit.CHAL07.Desc,"Fresh recruits trained hard to reach your level. Show them why you're still the undisputed boss.",Errekruta hauek gogor entrenatu dute zure mailara ailegatzeko. Erakutsiezu zergatik zaren oraindik nagusi ukaezina.
 Arenas_title_description/SnowGarden.CHAL02.Title,Frostbite,Hotzez
 Arenas_title_description/Pit.CHAL04.Title,"Gang's Revenge",Bandaren mendekua
@@ -202,7 +202,7 @@ Arenas_title_description/Kitchen.CHAL06.Desc,Make a mess in every corner of the 
 Arenas_title_description/Hangar.CHAL05.Desc,"Make a mess, and survive too.","Sortu iskanbila, eta biziraun."
 Arenas_title_description/DanceFloor.CHAL02.Desc,Make your way to the center of the stage and claim the spotlight for yourself only!,Ireki ezazu eszenatoki erdiranzko bidea eta hartu fokua zuretzat bakarrik!
 Arenas_title_description/Park.CHAL04.Title,Maybe Not Just a Walk,Agian ez da ibilaldi bat bakarrik
-Arenas_title_description/Hangar.CHAL03.Desc,Move up and pick your targets one by one.,Mugitu eta aukeratu jomugak banaka.
+Arenas_title_description/Hangar.CHAL03.Desc,Move up and pick your targets one by one.,Mugitu eta aukeratu ituak banaka.
 Arenas_title_description/Parking.CHAL03.Title,Never Back Down,Arauak hausten
 Arenas_title_description/Rain.CHAL01.Title,Night Call,Gauaren deia
 Arenas_title_description/Rain.CHAL06.Title,Nightmare on the Streets,Amesgaiztoa kaleetan
@@ -1085,7 +1085,7 @@ PhotoMode/SavePreset,Save Preset,Gorde aurrezarpena
 PhotoMode/InputScreenshot,Screenshot,Pantaila argazkia
 PhotoMode/Split,Split,Banatu
 PhotoMode/InputUICycle,Switch Overlay,Aldatu gain kapa
-PhotoMode/Target,Target,Jomuga
+PhotoMode/Target,Target,Itua
 PhotoMode/TopLeft,Top Left,Goian ezkerrean
 PhotoMode/TopRight,Top Right,Goian eskuinean
 PhotoMode/CameraFading,Transparency,Gardentasuna
@@ -1457,13 +1457,13 @@ ST_ObjectiveTypes/Objective.Types.IT01,Capture,Konkista
 ST_ObjectiveTypes/Objective.Types.IT01.TipsTitle,Capture Tips,Konkista aholkuak
 ST_ObjectiveTypes/Objective.Types.IT01.Desc,Capture the {0} designated zones,Konkistatu esleitutako {0} eremuak
 ST_ObjectiveTypes/Objective.Types.IT03.Tip01,Chain various actions without inactivity or getting hit to increase the multiplier.,Lotu hainbat ekintza gelditu gabe edo inork zu jo gabe biderkatzailea handitzeko.
-ST_ObjectiveTypes/Objective.Types.IT02.Tip01,Choose wisely which target to prioritize to gain time.,Aukeratu zein jomuga lehenetsi denbora irabazteko.
+ST_ObjectiveTypes/Objective.Types.IT02.Tip01,Choose wisely which target to prioritize to gain time.,Aukeratu zein itu lehenetsi denbora irabazteko.
 ST_ObjectiveTypes/Objective.Types.IT05.Desc,Clear the {0} {1} as fast as possible,Gainditu {0} {1} ahalik eta azkarren.
 ST_ObjectiveTypes/Objective.Types.IT01.Tip04,"Climb walls, jump gaps and vault to reduce your travel time.","Eskalatu paretak, gainditu zuloak eta egin jauzi zure bidaia denbora murrizteko."
-ST_ObjectiveTypes/Objective.Types.IT02.Desc,Eliminate the {0} targets,Deuseztatu {0} jomugak
+ST_ObjectiveTypes/Objective.Types.IT02.Desc,Eliminate the {0} targets,Deuseztatu {0} ituak
 ST_ObjectiveTypes/Objective.Types.IT03.Desc,Get the highest score in {0} {1},Lortu puntuazio altuena {0} {1}en
 ST_ObjectiveTypes/Objective.Types.IT01.Tip02,Having no enemies in the zone greatly boosts your capture rate.,Eremuan etsairik ez izateak zure konkista erritmoa izugarri handitzen du.
-ST_ObjectiveTypes/Objective.Types.IT02.Tip02,"If available, keep your Focus to maximize your damage on targets.","Eskuragarri badago, mantendu Fokatzea jomugetan mina maximizatzeko."
+ST_ObjectiveTypes/Objective.Types.IT02.Tip02,"If available, keep your Focus to maximize your damage on targets.","Eskuragarri badago, mantendu Fokatzea ituetan mina maximizatzeko."
 ST_ObjectiveTypes/Objective.Types.IT05.Tip03,"If available, keep your Focus to quickly deal with strong enemies.","Eskuragarri badago, mantendu Fokatzea etsai indartsuekin azkar bukatzeko."
 ST_ObjectiveTypes/Objective.Types.IT01.Tip03,"If available, use your Focus moves to increase your capture rate.","Eskuragarri badago, erabili Fokatze mugimenduak zure konkista erritmoa handitzeko."
 ST_ObjectiveTypes/Objective.Types.IT03.Tip03,"If available, use your Focus moves to increase your multiplier.","Eskuragarri badago, erabili Fokatze mugimenduak zure biderkatzailea handitzeko."
@@ -1480,7 +1480,7 @@ ST_ObjectiveTypes/Objective.Types.IT04.TipsTitle,Survival Tips,Biziraute aholkua
 ST_ObjectiveTypes/Objective.Types.IT05,Time Attack,Erlojupekoa
 ST_ObjectiveTypes/Objective.Types.IT05.TipsTitle,Time Attack Tips,Erlojupeko aholkuak
 ST_ObjectiveTypes/Objective.Types.IT04.Tip03,"Use Focus attacks (if available), pushes and knockdowns to keep enemies under control.","Erabili Fokatze erasoak (eskuragarri badaude), bultzadak eta eraisteak etsaiak kontrolpean edukitzeko."
-ST_ObjectiveTypes/Objective.Types.IT02.Tip03,Use the environment to eliminate targets quickly.,Erabili ingurunea jomugak azkar deuseztatzeko.
+ST_ObjectiveTypes/Objective.Types.IT02.Tip03,Use the environment to eliminate targets quickly.,Erabili ingurunea ituak azkar deuseztatzeko.
 ST_ObjectiveTypes/Objective.Types.IT05.Tip02,Use weapons and the environment to maximize damage.,Erabili armak eta ingurunea mina maximizatzeko.
 ST_Tutorial_HUD/Counter_Block,Block attacks,Blokeatu erasoak
 ST_Tutorial_HUD/Counter_Dodges,Dodge,Saihestu
@@ -1645,7 +1645,7 @@ ST_UIArena/Tips_Hide,Hide Tips,Gorde aholkuak
 ST_UIArena/Description_Infos,Infos,Informazioa
 ST_UIArena/LastArea,Last Area,Azken eremua
 ST_UIArena/LastSection,Last Section,Azken atala
-ST_UIArena/LastTarget,Last Target,Azken jomuga
+ST_UIArena/LastTarget,Last Target,Azken itua
 ST_UIArena/LastWave,Last Wave,Azken olatua
 ST_UIArena/Batch_Lock,Locked,Blokeatuta
 ST_UIArena/ModifiersAndOutfit,Modifiers & Outfit,Aldagarriak eta Janzkera
@@ -1659,7 +1659,7 @@ ST_UIArena/ArenaPauseMenu_Scoring,Scoring,Puntuazioa
 ST_UIArena/Sections,Sections,Atalak
 ST_UIArena/Tips_Show,Show Tips,Erakutsi aholkuak
 ST_UIArena/CustomModifiers_Info3,Some other Modifiers can only be unlocked and used in Story Mode.,Beste Aldagarri batzuk Istorio moduan bakarrik desblokeatu daitezke.
-ST_UIArena/Targets,Targets,Jomuga
+ST_UIArena/Targets,Targets,Ituak
 ST_UIArena/UnavailableModifier_Popup,This Modifier cannot be used in Arenas Custom Mode.,Aldagarri hau ezin da ARENA modu pertsonalizatuan erabili.
 ST_UIArena/Descrption_Tips,Tips,Aholkuak
 ST_UIArena/Nav_ToggleCheats,Toggle Cheats,Gaitu tranpak

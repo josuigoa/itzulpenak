@@ -275,7 +275,7 @@ H2_Boss_Sean_P1toP2/NodeID_11,"A ghost from your past, here to put an end to thi
 H2_Boss_Sean_P1toP2/NodeID_12,You picked the wrong person to haunt.,Okerreko pertsona aurrean agertu zara bada.
 H3_000_DetectiveElevatorFailed/NodeID_2,Need to find the key first.,Giltza aurkitu behar dut lehenengo.
 H3_000_DetectiveStairsFailed/NodeID_2,Locked. Looks like I’ll need to go through the exhibition.,Itxita. Erakusteketatik pasatu behar dudala dirudi.
-H3_010_Fight1_C/NodeID_3,Eyes on the target in the atrium. Everyone get into position.,Atarian ikusi dut jomuga. Denak zuen posizioetara.
+H3_010_Fight1_C/NodeID_3,Eyes on the target in the atrium. Everyone get into position.,Atarian ikusi dut itua. Denak zuen posizioetara.
 H3_010_Fight1_Part2_C/NodeID_2,It was foolish of you to come here.,Ergelkeria izan da hona etortzea.
 H3_010_Fight2_A/NodeID_2,Should be around here!,Hemen ingurua egon behar du!
 H3_020_Fight1_C/NodeID_6,"You’re {ListenerGender}|gender(him,her), aren’t you? You’re the one that took down Sean.","Zu zara, ezta? Zu zara Sean garaitu zuena."
