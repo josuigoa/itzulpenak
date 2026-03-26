@@ -9,3 +9,7 @@ Dagokizun sistema eragileran exekutagarria deskargatu:
 * Jokoa non instalatuta dagoen dakienean, programak itzulpena instalatuko du.
 
 Instalazioa ongi joan bada, jokoan hizkuntza aldatzeko aukeren artean agertuko da Euskara.
+
+![](./irudiak/okupa_eremua.png)
+![](./irudiak/zortzi_urte.png)
+![](./irudiak/heriotz_menua.png)
