@@ -18,7 +18,7 @@ pub fn get_languages() ?[3]utils.nt_string {
 }
 
 pub fn install_translation(game_path: utils.string, selected_lang_index: usize) !?utils.InstallerResponse {
-    const content_path = utils.look_for_dir(game_path, "Paks") catch "";
+    const content_path = utils.look_for_dir(try utils.concat(&.{ game_path, "/Sifu" }), "Paks") catch "";
     const itzulpena = if (selected_lang_index == 0)
         es_eu
     else
